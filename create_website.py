@@ -13,7 +13,8 @@ class Entity:
 
 class Paper(Entity):
     def add_coauthors(self, coauthors, people):
-        self.coauthors = [people[coauthor.people_id] for coauthor in list(coauthors.values()) if coauthor.paper_id == self.id]
+        self.coauthors = [people[coauthor.people_id] for coauthor in coauthors if coauthor.paper_id == self.id]
+        self.solo = True if self.coauthors == [] else False
 
     def add_media(self, media):
         self.media = ";".join([m.display for m in media if m.paper_id == self.id])
@@ -73,7 +74,8 @@ class Media(Entity):
     
 people = {p['id'] : Person(p) for p in  GetCSV("people.csv")}
 papers = {p['id'] : Paper(p) for p in  GetCSV("papers.csv")}
-coauthors = {p['people_id'] : Entity(p) for p in GetCSV("coauthors.csv")}
+
+coauthors = [Entity(p) for p in GetCSV("coauthors.csv")]
 
 awards = [Entity(p) for p in GetCSV("awards.csv")]
 jobs = [Entity(p) for p in GetCSV("jobs.csv")]

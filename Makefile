@@ -12,10 +12,9 @@ media = 746656087
 
 inputs =
 
-# inputs += media.csv
-# media.csv:
-# 	wget --output-file="logs.csv" "https://docs.google.com/spreadsheets/d/$(key)/export?format=csv&gid=$(media)" -O "media.csv"
-
+inputs += media.csv
+media.csv:
+	wget --output-file="logs.csv" "https://docs.google.com/spreadsheets/d/$(key)/export?format=csv&gid=$(media)" -O "media.csv"
 
 inputs += awards.csv
 awards.csv:
