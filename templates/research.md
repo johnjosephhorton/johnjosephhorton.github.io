@@ -6,14 +6,13 @@
    {{ job.title }}, {{ job.institution }}, {{ job.start}}---{{ job.end }} 
 {% endfor %} 
 
-
 # Research
 
 ## Working papers
 
 {% for paper in papers %}
 
-``{{ paper.title }}''
+{{ paper.title }}
 
 {% if paper.coauthored %}
 

@@ -10,14 +10,23 @@
    Assistant Professor of Information Systems, Stern School of Business, New York University, 2013---2019 
  
 
-
 # Research
 
 ## Working papers
 
 
 
-``The Death of a Technical Skill''
+Large langauge models as economic agents: What can we learn from Homo Silicus?
+
+
+
+* Working paper
+
+
+
+
+
+The Death of a Technical Skill
 
 
 
@@ -25,13 +34,13 @@
 
 
 
-* R&R at Mangement Science
+* Working paper
 
 
 
 
 
-``Pricing Efficiently in Designed Markets''
+Pricing Efficiently in Designed Markets
 
 
 
@@ -49,7 +58,7 @@
 
 
 
-``Price Floors and Employer Preferences''
+Price Floors and Employer Preferences
 
 
 
@@ -63,7 +72,7 @@
 
 
 
-``The Tragedy of Your Upstairs Neighbors''
+The Tragedy of Your Upstairs Neighbors
 
 
 
@@ -81,7 +90,7 @@
 
 
 
-``Buyer Signaling Improves Matching: Evidence from a Field Experiment''
+Buyer Signaling Improves Matching: Evidence from a Field Experiment
 
 
 
@@ -95,7 +104,7 @@
 
 
 
-``How Do Employers Use Compensation History: Evidence from a Field Experiment''
+How do employers use compensation history: Evidence from a field experiment
 
 
 
@@ -103,7 +112,7 @@
 
 
 
-* Journal of Labor Economics
+* 
 
 
 
@@ -113,8 +122,8 @@
 
 
 
-``The Effects of Search Advertising on Competitors:
-An Experiment Before a Merger''
+The Effects of Search Advertising on Competitors:
+An Experiment Before a Merger
 
 
 
@@ -122,13 +131,13 @@ An Experiment Before a Merger''
 
 
 
-* Mangement Science
+* 
 
 
 
 
 
-``Reputation Inflation''
+Reputation Inflation
 
 
 
@@ -136,7 +145,7 @@ An Experiment Before a Merger''
 
 
 
-* Marketing Science
+* 
 
 
 
@@ -146,7 +155,7 @@ An Experiment Before a Merger''
 
 
 
-``Steering in Online Markets: The Role of Platform Incentives and Credibility''
+Steering in Online Markets: The Role of Platform Incentives and Credibility
 
 
 
@@ -154,24 +163,24 @@ An Experiment Before a Merger''
 
 
 
-* Management Science
+* 
 
 
 
 
 
-``Buyer Uncertainty about Seller Capacity:
-Causes, Consequences, and a Partial Solution''
+Buyer Uncertainty about Seller Capacity:
+Causes, Consequences, and a Partial Solution
 
 
 
-* Management Science
+* 
 
 
 
 
 
-``The online laboratory: conducting experiments in a real labor market''
+The online laboratory: conducting experiments in a real labor market
 
 
 
@@ -179,23 +188,23 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-* Experimental Economics
+* 
 
 
 
 
 
-``The future of crowd work''
+The future of crowd work
 
 
 
-* ACM-CSCW
+* 
 
 
 
 
 
-``Are onling labor markets spot markets for tasks''
+Are online labor markets spot markets for tasks
 
 
 
@@ -203,13 +212,13 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-* ISR
+* 
 
 
 
 
 
-``Owning, Using and Renting: Some Simple Economics of the Sharing Economy''
+Owning, Using and Renting: Some Simple Economics of the Sharing Economy
 
 
 
@@ -217,7 +226,7 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-* Management Science
+* 
 
 
 
@@ -227,7 +236,7 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-``Digital labor markets and global talent flows''
+Digital labor markets and global talent flows
 
 
 
@@ -235,13 +244,13 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-* Book chapter
+* 
 
 
 
 
 
-``Labor economists get their microscope: Big data and labor market analysis''
+Labor economists get their microscope: Big data and labor market analysis
 
 
 
@@ -249,13 +258,13 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-* Big Data
+* 
 
 
 
 
 
-``COVID-19 and remote work: An early look at US data''
+COVID-19 and remote work: An early look at US data
 
 
 
@@ -269,141 +278,7 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-``The condition of the Turking class: Are online employers fair and honest?''
-
-
-
-* Economic Letters
-
-
-
-
-
-``Task search in a human computation market''
-
-
-
-* Lydia Chilton and Shiri Azenkot
-
-
-
-* HCOMP KDD
-
-
-
-
-
-``The labor economics of paid crowdsourcing''
-
-
-
-* ACM-EC
-
-
-
-
-
-``Designing incentives for inexpert raters''
-
-
-
-* ACM-CSCW
-
-
-
-
-
-``Online labor markets''
-
-
-
-* WINE
-
-
-
-
-
-``The effects of algorithmic labor market recommendations: Evidence from a field experiment''
-
-
-
-* Journal of Labor Economics
-
-
-
-
-
-``The Ruble Collapse in an Online Marketplace: Some Lessons for Market Designers''
-
-
-
-* Working paper
-
-
-
-
-
-``Algorithmic Resume Assistance''
-
-
-
-* Project
-
-
-
-
-
-``Information about vacancy congestion redirects job search''
-
-
-
-* Working paper
-
-
-
-
-
-``The dot-guessing game: A ‘fruit fly’for human computation research''
-
-
-
-* Working paper
-
-
-
-
-
-``Head in the clouds: Challenges and opportunities in crowdsourcing''
-
-
-
-* ACM Crossroads 
-
-
-
-
-
-``The Need for Standardization in Crowdsourcing''
-
-
-
-* Proceedings of the workshop on crowdsourcing and human computation at CHI
-
-
-
-
-
-``Wielding Peer Effects in Online Production: Evidence from a Series of Field Experiments''
-
-
-
-* Working paper
-
-
-
-
-
-``Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges and prices''
+The condition of the Turking class: Are online employers fair and honest?
 
 
 
@@ -413,7 +288,141 @@ Causes, Consequences, and a Partial Solution''
 
 
 
-``''
+Task search in a human computation market
+
+
+
+* Lydia Chilton and Shiri Azenkot
+
+
+
+* 
+
+
+
+
+
+The labor economics of paid crowdsourcing
+
+
+
+* 
+
+
+
+
+
+Designing incentives for inexpert raters
+
+
+
+* 
+
+
+
+
+
+Online labor markets
+
+
+
+* WINE
+
+
+
+
+
+The effects of algorithmic labor market recommendations: Evidence from a field experiment
+
+
+
+* Journal of Labor Economics
+
+
+
+
+
+The Ruble Collapse in an Online Marketplace: Some Lessons for Market Designers
+
+
+
+* Working paper
+
+
+
+
+
+Algorithmic Resume Assistance
+
+
+
+* Project
+
+
+
+
+
+Information about vacancy congestion redirects job search
+
+
+
+* Working paper
+
+
+
+
+
+The dot-guessing game: A ‘fruit fly’for human computation research
+
+
+
+* Working paper
+
+
+
+
+
+Head in the clouds: Challenges and opportunities in crowdsourcing
+
+
+
+* ACM Crossroads 
+
+
+
+
+
+The Need for Standardization in Crowdsourcing
+
+
+
+* Proceedings of the workshop on crowdsourcing and human computation at CHI
+
+
+
+
+
+Wielding Peer Effects in Online Production: Evidence from a Series of Field Experiments
+
+
+
+* Working paper
+
+
+
+
+
+Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges and prices
+
+
+
+* 
+
+
+
+
+
+
 
 
 

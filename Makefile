@@ -70,7 +70,10 @@ index.html: research.md
 	pandoc research.md -o index.html
 	firefox index.html
 
-website: 
+website: index.html
+	firefox index.html
+
+update:
 	git add . 
 	git commit -m "Updates"
 	git push origin master
