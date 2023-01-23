@@ -66,7 +66,11 @@ research.pdf: research.md
 	pandoc research.md -o research.pdf
 	evince research.pdf
 
-website:
+index.html: research.md
+	pandoc research.md -o index.html
+	firefox index.html
+
+website: 
 	git add . 
 	git commit -m "Updates"
 	git push origin master
