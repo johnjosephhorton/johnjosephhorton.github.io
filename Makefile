@@ -9,8 +9,29 @@ service = 206986886
 reviewing = 1182607084
 awards = 1383290929
 media = 746656087
+versions = 1168415698
+video=271310994
+slides=948566042
+twitter_thread=2079299800
+BASE_URL="https://docs.google.com/spreadsheets/d/$(key)/export?format=csv&gid="
 
 inputs =
+
+inputs += twitter_thread.csv
+twitter_thread.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(twitter_thread) -O $@
+
+inputs += slides.csv
+slides.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(slides) -O $@
+
+inputs += video.csv
+video.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(video) -O $@
+
+inputs += versions.csv
+versions.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(versions) -O $@
 
 inputs += media.csv
 media.csv:

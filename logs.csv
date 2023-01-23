@@ -1,17 +1,17 @@
---2023-01-23 07:38:42--  https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=csv&gid=0
+--2023-01-23 11:56:19--  https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=csv&gid=2079299800
 Resolving docs.google.com (docs.google.com)... 2607:f8b0:4006:81c::200e, 142.250.65.206
 Connecting to docs.google.com (docs.google.com)|2607:f8b0:4006:81c::200e|:443... connected.
 HTTP request sent, awaiting response... 307 Temporary Redirect
-Location: https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/142kdlmit9q5ts9u28pbfqh73c/1674477520000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=0 [following]
+Location: https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/gmkaat34nqa3035ftf4tmsf6qs/1674492975000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=2079299800 [following]
 Warning: wildcards not supported in HTTP.
---2023-01-23 07:38:42--  https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/142kdlmit9q5ts9u28pbfqh73c/1674477520000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=0
-Resolving doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)... 2607:f8b0:4006:822::2001, 142.250.80.65
-Connecting to doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)|2607:f8b0:4006:822::2001|:443... connected.
+--2023-01-23 11:56:19--  https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/gmkaat34nqa3035ftf4tmsf6qs/1674492975000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=2079299800
+Resolving doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)... 2607:f8b0:4006:80c::2001, 142.251.40.161
+Connecting to doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)|2607:f8b0:4006:80c::2001|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/csv]
-Saving to: ‘papers.csv’
+Saving to: ‘twitter_thread.csv’
 
-     0K ........                                               51.3M=0s
+     0K                                                        10.0M=0s
 
-2023-01-23 07:38:43 (51.3 MB/s) - ‘papers.csv’ saved [8633]
+2023-01-23 11:56:19 (10.0 MB/s) - ‘twitter_thread.csv’ saved [304]
 

@@ -7,8 +7,8 @@ Prasanna,Tambe,sonny,https://oid.wharton.upenn.edu/profile/tambe/
 David,Rand,daverand,https://mitsloan.mit.edu/faculty/directory/david-g-rand
 Ramesh,Johari,rj,http://web.stanford.edu/~rjohari/
 Philipp ,Kircher,pk,https://philippkircher.com/
-Elliot ,Lipnowski,el,https://elliotlipnowski.com/
-Andrey,Fradkin,af,https://andreyfradkin.com/
+Elliot ,Lipnowski,elliot,https://elliotlipnowski.com/
+Andrey,Fradkin,andrey,https://andreyfradkin.com/
 Chiara,Farronato,cf,https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022
 El Hadi,Caoui,ehc,https://elhadicaoui.github.io/
 Daniel,Chen,dlc,https://www.tse-fr.eu/people/daniel-l-chen
@@ -18,7 +18,7 @@ Aniket,Kittur,ak,
 Jeffrey,Nickerson,jn,
 Michael,Bernstein,mb,
 Elizabeth,Gerber,eg,
-Aaron ,Shaw,as,
+Aaron ,Shaw,aaron,
 John ,Zimmerman,jz,
 Matt,Lease,ml,
 Erik ,Brynjolfsson,eb,
@@ -38,5 +38,8 @@ Nicola,Lacetera,nl,
 Ajay ,Agrawal,aa,
 Emma,van Inwegen,ev,
 Shiri,Azenkot,sa,
-Dana,Chandler,dc,
+Dana,Chandler,dana,
 Zanele,Munyikwa,zm,
+William,Kerr,bill_kerr,
+Monica,Bhole,monica,
+Panos,Ipeirotis,panos,
