@@ -14,7 +14,7 @@
 
 ## Papers
 
-Algorithmic Writing Assistance on Jobseekers Resumes Increases Hires  (with Emma van Inwegen and Zanele Munyikwa)
+Algorithmic writing assistance on jobseekers resumes increases hires  (with Emma van Inwegen and Zanele Munyikwa)
 
    * Versions: ([jjh](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf))([arxiv](https://arxiv.org/abs/2301.08083))
 
@@ -73,7 +73,7 @@ Price Floors and Employer Preferences: Evidence from a Minimum Wage Experiment
    * Versions: ([jjh](https://www.john-joseph-horton.com/papers/minimum_wage.pdf))
 
 
-* Status: R&R at AER
+* Status: Conditional Accept, American Economic Review
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC))   Media: ([The New York Times](https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0))([Bloomberg View](https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity))([Wall Street Journal](http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj))   Videos: ([1](https://www.youtube.com/watch?v=Bkxobfkrfps))   Slides: ([1](https://www.youtube.com/watch?v=Bkxobfkrfps))  
 
