@@ -1,0 +1,17 @@
+--2022-09-19 10:40:34--  https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=csv&gid=1092188089
+Resolving docs.google.com (docs.google.com)... 2607:f8b0:4006:81d::200e, 142.250.80.14
+Connecting to docs.google.com (docs.google.com)|2607:f8b0:4006:81d::200e|:443... connected.
+HTTP request sent, awaiting response... 307 Temporary Redirect
+Location: https://doc-10-bs-sheets.googleusercontent.com/export/3sm34aofsvmt5ehut1q6bddr3o/ts3vll6lku34basjr7j200rhd8/1663598430000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=1092188089 [following]
+Warning: wildcards not supported in HTTP.
+--2022-09-19 10:40:34--  https://doc-10-bs-sheets.googleusercontent.com/export/3sm34aofsvmt5ehut1q6bddr3o/ts3vll6lku34basjr7j200rhd8/1663598430000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=1092188089
+Resolving doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)... 2607:f8b0:4006:81e::2001, 142.250.80.97
+Connecting to doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)|2607:f8b0:4006:81e::2001|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: unspecified [text/csv]
+Saving to: ‘coauthors.csv’
+
+     0K                                                        16.7M=0s
+
+2022-09-19 10:40:34 (16.7 MB/s) - ‘coauthors.csv’ saved [468]
+

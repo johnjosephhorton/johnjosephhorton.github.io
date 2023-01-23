@@ -1,6 +1,7 @@
 import jinja2
 import csv
 from jinja2 import FileSystemLoader
+import collections 
 
 def googleScholarURL(key):
     return "https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=" + key
@@ -10,14 +11,13 @@ class Entity:
     def __init__(self, dictionary):
         for k, v in dictionary.items():
             setattr(self, k, v)
-
+            
 class Paper(Entity):
     def add_coauthors(self, coauthors, people):
         self.coauthors = [people[coauthor.people_id] for coauthor in coauthors if coauthor.paper_id == self.id]
-        self.solo = True if self.coauthors == [] else False
-
+        
     def add_media(self, media):
-        self.media = ";".join([m.display for m in media if m.paper_id == self.id])
+        self.media = "; ".join([m.display for m in media if m.paper_id == self.id])
 
     @property
     def media_line(self):
@@ -36,6 +36,14 @@ class Paper(Entity):
     def __repr__(self):
         return "<" + self.title + ">"
 
+    @property
+    def coauthored(self):
+        return len(self.coauthors) > 0
+
+    @property
+    def has_media(self):
+        return len(self.media) > 0
+
     @property 
     def with_line(self):
         """Create a 'with' line for coauthored papers"""
@@ -49,14 +57,14 @@ class Paper(Entity):
             return names[0]
 
 
-def GetCSV(name):
+def get_csv(name):
     outcome = [] 
     with open(name, "r") as f:
         raw = csv.reader(f)
         header = next(raw)
         [outcome.append(dict(zip(header, row))) for row in raw]
     return outcome
-         
+
     
 class Person(Entity):
     def __repr__(self):
@@ -69,27 +77,35 @@ class Person(Entity):
 
 class Media(Entity):
     @property
-    def display(self):
+    def display_full(self):
         return f"[\"{self.story_name}\"]({self.url}), {self.publication}, {self.date}"
+    @property
+    def display(self):
+        return f"[ {self.publication}, {self.date}]({self.url})"
+
+
+class Collection:
+
+    def __init__(self, ObjectType, filename):
+        self.items = collections.deque()
+        [self.items.append(ObjectType(p)) for p in get_csv(filename)]
+
+    def add_item(self, item):
+        self.items.append(item)
     
-people = {p['id'] : Person(p) for p in  GetCSV("people.csv")}
-papers = {p['id'] : Paper(p) for p in  GetCSV("papers.csv")}
+    def __iter__(self):
+        return iter(self.items)
 
-coauthors = [Entity(p) for p in GetCSV("coauthors.csv")]
+                                            
+coauthors = Collection(Entity, "coauthors.csv")
+awards = Collection(Entity, "awards.csv")
+jobs = Collection(Entity, "jobs.csv")
+media = Collection(Media, "media.csv")
+education = Collection(Entity, "education.csv")
+talks = Collection(Entity, "talks.csv")
 
-awards = [Entity(p) for p in GetCSV("awards.csv")]
-jobs = [Entity(p) for p in GetCSV("jobs.csv")]
-
-media = [Media(p) for p in GetCSV("media.csv")]
-
-
-education = [Entity(p) for p in GetCSV("education.csv")]
-
-talks = [Entity(p) for p in GetCSV("talks.csv")]
-
-awards = [Entity(p) for p in GetCSV("awards.csv")]
-
-#keys = [m.paper_id for m in media]
+people = {p['id'] : Person(p) for p in  get_csv("people.csv")}
+papers = {p['id'] : Paper(p) for p in  get_csv("papers.csv")}
 
 for id, paper in papers.items():
     paper.add_coauthors(coauthors, people)
@@ -97,7 +113,6 @@ for id, paper in papers.items():
 
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("research.md")
-
            
 with open("research.md", "w") as f:
      f.write(template.render(
@@ -105,7 +120,8 @@ with open("research.md", "w") as f:
          talks = talks,
          awards = awards, 
          education = education, 
-         papers = list(papers.values())))
+         papers = list(papers.values()))
+     )
 
 
     

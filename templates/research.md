@@ -15,11 +15,19 @@
 
 ``{{ paper.title }}''
 
+{% if paper.coauthored %}
+
 * {{ paper.with_line }}
+
+{% endif %}
 
 * {{ paper.status }}
 
+{% if paper.has_media %}
+
 * {{ paper.media }} 
+
+{% endif %}
 
 {% endfor %}
 
