@@ -30,6 +30,9 @@ class Paper(Entity):
     def add_twitter_thread(self, twitter_thread):
         self._twitter_thread = [t for t in twitter_thread if t.paper_id == self.id]
 
+    def add_code(self, code):
+        self._code = [c for c in code if c.paper_id == self.id]
+
     def add_versions(self, versions):
         versions = [v for v in versions if v.paper_id == self.id]
         self._versions = collections.deque()
@@ -66,7 +69,14 @@ class Paper(Entity):
             return "".join(["(" + make_link(index + 1, obj.url) + ")" for index, obj in enumerate(self._twitter_thread)])
         else:
             return None
-      
+
+    @property
+    def code_line(self):
+        if self._code:
+            return "".join(["(" + make_link(index + 1, obj.url) + ")" for index, obj in enumerate(self._code)])
+        else:
+            return None
+        
     @property
     def version_line(self):
         if self._versions:
@@ -110,7 +120,7 @@ class Paper(Entity):
         if number_coauthors == 2:
             return names[0] + " and " + names[1]
         if number_coauthors > 2:
-            return ", ".join(names[0:(number_coauthors-2)]) + " and " +  names[number_coauthors-1]
+            return ", ".join(names[0:(number_coauthors-1)]) + " and " +  names[number_coauthors-1]
         if number_coauthors == 1:
             return names[0]
 
@@ -130,7 +140,8 @@ class Person(Entity):
 
     @property
     def full_name(self):
-        return self.first + " " + self.last
+        name = self.first + " " + self.last
+        return make_link(name, self.url) if self.url else name
 
 
 class Media(Entity):
@@ -166,11 +177,14 @@ talks = Collection(Entity, "talks.csv")
 versions = Collection(Entity, "versions.csv")
 slides = Collection(Entity, "slides.csv")
 twitter_thread = Collection(Entity, "twitter_thread.csv")
+code = Collection(Entity, "code.csv")
 
 video = Collection(Entity, "video.csv")
 
 people = {p['id'] : Person(p) for p in  get_csv("people.csv")}
 papers = {p['id'] : Paper(p) for p in  get_csv("papers.csv")}
+
+basic_info = Entity(get_csv("basic_info.csv")[0])
 
 for id, paper in papers.items():
     paper.add_coauthors(coauthors, people)
@@ -179,6 +193,7 @@ for id, paper in papers.items():
     paper.add_video(video)
     paper.add_slides(slides)
     paper.add_twitter_thread(twitter_thread)
+    paper.add_code(code)
 
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("research.md")
@@ -186,6 +201,7 @@ template = environment.get_template("research.md")
 with open("research.md", "w") as f:
      f.write(template.render(
          jobs = jobs,
+         basic_info = basic_info, 
          talks = talks,
          awards = awards, 
          education = education, 

@@ -13,13 +13,30 @@ versions = 1168415698
 video=271310994
 slides=948566042
 twitter_thread=2079299800
+code=803104615
+citations=930144785
+basic_info=447736295
+
 BASE_URL="https://docs.google.com/spreadsheets/d/$(key)/export?format=csv&gid="
 
 inputs =
 
+
+inputs += citations.csv
+citations.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(citations) -O $@
+
+inputs += basic_info.csv
+basic_info.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(basic_info) -O $@
+
 inputs += twitter_thread.csv
 twitter_thread.csv:
 	wget --output-file="logs.csv" $(BASE_URL)$(twitter_thread) -O $@
+
+inputs += code.csv
+code.csv:
+	wget --output-file="logs.csv" $(BASE_URL)$(code) -O $@
 
 inputs += slides.csv
 slides.csv:

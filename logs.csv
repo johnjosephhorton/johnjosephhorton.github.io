@@ -1,17 +1,17 @@
---2023-01-23 12:46:42--  https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=csv&gid=2079299800
-Resolving docs.google.com (docs.google.com)... 2607:f8b0:4006:80e::200e, 142.250.65.238
-Connecting to docs.google.com (docs.google.com)|2607:f8b0:4006:80e::200e|:443... connected.
+--2023-01-23 19:41:03--  https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=csv&gid=447736295
+Resolving docs.google.com (docs.google.com)... 2607:f8b0:4006:809::200e, 142.251.40.238
+Connecting to docs.google.com (docs.google.com)|2607:f8b0:4006:809::200e|:443... connected.
 HTTP request sent, awaiting response... 307 Temporary Redirect
-Location: https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/4jerrh2s2sndn2a57uq19vs4ao/1674496000000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=2079299800 [following]
+Location: https://doc-10-bs-sheets.googleusercontent.com/export/mq6he3r7ig44qobar1fsg51390/6t6j47bqinmq5e229sph5u9cqk/1674520860000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=447736295 [following]
 Warning: wildcards not supported in HTTP.
---2023-01-23 12:46:42--  https://doc-10-bs-sheets.googleusercontent.com/export/8hg3b1ek8ops3o87ml9dh1hpus/4jerrh2s2sndn2a57uq19vs4ao/1674496000000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=2079299800
-Resolving doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)... 2607:f8b0:4006:809::2001, 142.251.40.161
-Connecting to doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)|2607:f8b0:4006:809::2001|:443... connected.
+--2023-01-23 19:41:03--  https://doc-10-bs-sheets.googleusercontent.com/export/mq6he3r7ig44qobar1fsg51390/6t6j47bqinmq5e229sph5u9cqk/1674520860000/110229662068715782547/*/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU?format=csv&gid=447736295
+Resolving doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)... 2607:f8b0:4006:816::2001, 142.251.40.193
+Connecting to doc-10-bs-sheets.googleusercontent.com (doc-10-bs-sheets.googleusercontent.com)|2607:f8b0:4006:816::2001|:443... connected.
 HTTP request sent, awaiting response... 200 OK
 Length: unspecified [text/csv]
-Saving to: ‘twitter_thread.csv’
+Saving to: ‘basic_info.csv’
 
-     0K                                                        11.0M=0s
+     0K                                                        20.9M=0s
 
-2023-01-23 12:46:42 (11.0 MB/s) - ‘twitter_thread.csv’ saved [304]
+2023-01-23 19:41:03 (20.9 MB/s) - ‘basic_info.csv’ saved [550]
 
