@@ -15,7 +15,6 @@ Twitter: {{ basic_info.twitter_handle }}
 
 # Research
 
-## Papers
 {% for paper in papers %}
 {{ paper.title }} {%if paper.with_line %} (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line %}
@@ -33,7 +32,6 @@ Twitter: {{ basic_info.twitter_handle }}
    {{ award.award }},    {{ award.year }}
 {% endfor %}
 
-
 # Talks
 {% for talk in talks %}
    {{ talk.event }},    {{ talk.year }}
@@ -44,8 +42,3 @@ Twitter: {{ basic_info.twitter_handle }}
 {% for school in education %}
 {{ school.degree}}, {{ school.institution }} 
 {% endfor %}
-
-# Other Employment
-
-
-## Published 
