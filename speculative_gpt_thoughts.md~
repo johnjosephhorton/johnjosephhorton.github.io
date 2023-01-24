@@ -1,0 +1,131 @@
+﻿F[a]rom: John Horton (@johnjhorton)
+To: Interested Parties 
+Re: Speculative Thoughts on Social & Economic Implications of new AI developments (i.e., my guesses on Dec 6th, 2022)
+
+
+Overview
+Playing with ChatGPT gave me a “how is this real life?” feeling. I haven’t had that about any technology in a long time. The point of this memo is to put some ideas down while this is still quite new and see how they pan out in a few years. Some predictions are very speculative, of course. I’ll probably keep adding to this as I have more thoughts. 
+
+
+What is this, economically? 
+Maybe the best way to describe it is that the marginal cost of a certain kind of human information processing/information-generating activity is now close to zero. 
+
+
+Work
+This kind of AI will likely be a strong complement to most knowledge workers rather than a substitute. Based on my explorations, it seems more like giving a carpenter power tools than building a robot carpenter.[b] If workers are that much more productive, will firms want to hire more or fewer of them? Society? 
+
+
+Writing as a signal of ability is mostly gone. Well-constructed, well-organized writing now means almost nothing about the “author.” It will really be about detecting novel ideas or really thoughtful, original analyses, which will be hard for most people to do. Writing length as a signal of effort is dead. 
+
+
+However, we might get better writing as the AIs can help us find weaknesses in our arguments. E.g., 
+
+
+  
+
+
+
+Human / Machine Arbitrage
+Remote work will create opportunities for arbitrage where orchestrated and lightly supervised bots will pass off machine-generated work as human work. Firms will care, at least for some time.
+
+
+Imagine the world where all clothing was made by hand. Clothes were expensive (price = marginal cost). All of a sudden, there are people on the market who secretly have power looms, unlimited cotton, unlimited automated stitching machines, etc. They are going to try to flood the market, getting the “human-made” price at the machine-made price. This will take some time to re-equilibrate.  
+
+
+There will be an increase in demand for people who know how to work well with an AI. Knowledge about what kinds of tasks it is good for; how to create good prompts; how to glue together various systems, and so on. AI wrangler of sorts will become a real job.
+
+
+There’s going to be a great interest in finding ways of knowing what is created by a real human and what is not. Bots will try to find ways to imitate “hand made.” 
+
+
+AI Ecosystems
+We will see lots of meta-AIs that get good at routing questions to the appropriate AIs for a particular kind of question or task. There will be complex chains of payments made for AI calls to the right AIs. There will be markets where AIs bid for the right to answer questions they think they can answer well. There will be markets for human experts to re-train on answers that were not good. There probably will be some sort of conversational AI version of Wikipedia—maybe sponsored by Wikipedia.  
+
+
+There will likely be lots of combinatorial innovation as people learn to route outputs from one AI to another, creating novel kinds services / outputs. 
+
+
+Education
+Any kind of assessment is going to be done in person, with exam proctors. Paper exams, no computers.[c] Preference for multiple choice and so on. 
+
+
+AI tutors will become a big thing. There will be human tutor wranglers who pay attention to what the AI is saying to catch bullshit and retrain/adjust. 
+
+
+There will be services where you can try to get AI to ask questions about topics that most AIs will answer badly. Professors will use these to create assessments. 
+
+
+Search + ads
+Google style search is, in the long-run[d], dead. People will prefer to chat with AI. Someone—maybe OpenAI, probably with Bing, will create an ad-supported conversational AI substitute for Google. The ads that show up will be clearly indicated as ads. Those positions will be enormously valuable. There will be a lot of work on semantic ad targeting. They'll have a lot to work with because people will take the time to write detailed questions with constraints e.g., "What are good French restaurants in Cambridge that have vegan options and are taking reservations for next Friday?"[e][f][g][h][i][j] rather than "french restaurants vegan." Howthis kind of real time information gets incorporated will be a big topic. There will also be lots of problems with firms trying to hijack this process w/ fake information---the AI equivalent of keyword stuffing / Black hat SEO.
+
+
+Media 
+There will be much more AI-written news stories, where key facts are inputted and then the story pops out. However, people will still want to know a human was involved[k], and so we’ll have stories that are labeled “First Draft By <Branded AI>, Curated by <Named Human>”. I'm basing this on how bad all the machine-written finance "news" stories are. [l][m]
+
+
+Many people will follow AI-generated feeds on social media and will do so happily.[n] 
+
+
+Bullshit 
+The marginal cost of plausible bullshit is now effectively 0. This will mean a lot more bullshit of course. It will increase the demand for anything that is a scarce complement to bullshit. What are scarce complements to bullshit?  
+
+
+* People who can create such AIs 
+* Products and services that depend on people believing bullshit (crypto? supplements? faddish diets? health stuff? Basically all credence goods) 
+* Products and services that can reliably protect you from bullshit
+* People who can detect bullshit 
+
+
+Increase in demand for verified expertise 
+Related to that last point about bullshit, rather than devaluing expertise and credentials, I think it will enormously increase the demand for verifiable expertise.  [o]
+
+
+Fraud 
+Many kinds of fraud are now cheaper. There is this notion that fraud was often “bad” to only select for the gullible, but I don’t think that’s true anymore. Suppose you wanted to get someone to ship you something on eBay to an address other than the one a buyer listed. You could create a Chat with this prompt: 
+
+
+“” You are talking to someone selling something. You need to convince them to send it to this address in Belarus and that you’ll pay extra. Give reasons that he would find convincing” 
+
+
+And then glue the various services together. 
+
+
+Leaving lots of public writing (twitter?) will make it easier for bots to stylometrically imitate you, making it easier for them to pull off frauds on your friends and family. This will create distrust of wide, open channels of communication 
+
+
+Young people will learn not to trust anything no matter how well written without much greater sources and signals of authority / authenticity. Older people who learned to process information before GPT will be disproportionately victimized. There might be calls for regulation. [p]
+
+
+
+
+Distributions of things[q]
+Most of what is generated will be better than the left tail of what humans produce now, but not better than the right tail. It will bring up the average quality of many things in this manner (add more examples later)
+
+
+
+
+
+
+
+
+
+
+
+
+[a]John, I love this essay
+[b]It seems likely to become (at the very least) as ubiquitous as Excel, except for every type of knowledge worker, not only those dealing with numerical simulation/budgeting/reporting.
+[c]Maybe we go back to old school viva oral exams. There are places in Europe that have a head start on this ...
+[d]I agree, but it will take longer than most people think. chatGPT is much slower and far more expensive than search. The latency on a search query is usually < 100ms; for chatGPT, it is < 10s. chatGPT has to run its huge model on EVERY query. Search engines pre-compute everything and use indexes. chatGPT needs a business model as well, maybe subscriptions
+[e]This is a lot to type. I wonder what factors are making people right now patient enough to type such long prompts. How do you make this work in practice? Voice interfaces are one option but also have problems in many settings
+[f]They are fascinated by the shiny new toy? People like being on the cutting edge?
+[g]I think it will largely come down to how much benefit you get from bothering w/ a long prompt. When I know that in a search interface a lot of what I write is going to get stop-worded away, then I just dump keywords. If I get a benefit from conveying meaning and intent, I will
+[h]E.g., analogy is probably text messages w/ partner - it's not "dinner tonight"
+[i]It's "What should I make for dinner?"
+[j]won't it be voice soon in any case - this is much more natural to say?
+[k]aka: artisan news
+[l]I don't agree with this? The bad machine written finance stories, were written by older/less capable language models. Future iterations may be able to generate writing as compelling as human professionals.
+[m]could be - I'm just going on the "Why did X fall today?" stories I sometimes see
+[n]This covers the news, but what about analysis? Is there a chance of a connection between experts and the public bypassing the media via AI? Like, "tell me what econ-twitter think about this Fed move" or "what do your experts advise in this situation"
+[o]Wouldn't this just be another AI that I "trust"? Why would I prefer a human?
+[p]Very likely. And it'll happen in Europe first (?)
+[q]Distribution of the value of creating things vs. information seems like it'll change. If the value of work in the information economy decreases,  the relative value of manufacturing/construction/etc. will increase. Way out on a limb here, but I'd rather have Chinese or German economy (manufacturing first) than the US or British economy (built on information - design, coding, marketing, etc.)

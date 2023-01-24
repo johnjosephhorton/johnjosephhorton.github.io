@@ -16,7 +16,8 @@ Twitter: {{ basic_info.twitter_handle }}
 # Research
 
 {% for paper in papers %}
-{{ paper.title }} {%if paper.with_line %} (with {{ paper.with_line }}){% endif %}
+## {{ paper.title }} {%if paper.with_line %}
+(with {{ paper.with_line }}){% endif %}
 {% if paper.version_line %}
    * Versions: {{ paper.version_line }}
 {% endif %}

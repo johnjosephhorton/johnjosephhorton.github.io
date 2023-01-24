@@ -52,7 +52,7 @@ class Paper(Entity):
     @property
     def slides_line(self):
         if self._slides:
-            return "".join(["(" + make_link(index + 1, obj.url) + ")" for index, obj in enumerate(self._videos)])
+            return "".join(["(" + make_link(index + 1, obj.url) + ")" for index, obj in enumerate(self._slides)])
         else:
             return None
 
