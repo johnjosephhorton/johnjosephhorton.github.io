@@ -19,7 +19,6 @@ Twitter: @johnjhoron
 
 # Research
 
-## Papers
 
 Algorithmic writing assistance on jobseekers resumes increases hires  (with [Emma van Inwegen](https://sites.google.com/view/emmavaninwegen/home) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
@@ -353,7 +352,6 @@ Labor allocation in paid crowdsourcing: experimental evidence on positioning, nu
    National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008,    2008
 
 
-
 # Talks
 
    Toronto Rotman Strategy Seminar,    2022
@@ -549,9 +547,3 @@ Labor allocation in paid crowdsourcing: experimental evidence on positioning, nu
 PhD, Harvard University 
 
 BS, United States Military Academy at West Point 
-
-
-# Other Employment
-
-
-## Published 
