@@ -1,6 +1,6 @@
 # {{ basic_info.name }}
 
-![me](images/me.jpeg)
+<img src="images/me.jpeg" alt="me" width="200" />  <!-- Adjust '200' to your preferred width -->
 
 ## Bio
 
@@ -31,6 +31,11 @@ Twitter: {{ basic_info.twitter_handle }}
 # Awards
 {% for award in awards %}
    {{ award.award }},    {{ award.year }}
+{% endfor %}
+
+# Grants
+{% for grant in grants %}
+{{ grant }}
 {% endfor %}
 
 # Talks

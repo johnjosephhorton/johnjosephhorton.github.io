@@ -1,0 +1,62 @@
+/* Import Bootstrap from CDN */
+@import url('https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css');
+
+/* Custom styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin-left: 20px; /* Adjust the size as needed */
+}
+
+p {
+    margin-top: 5px;    /* Adjust the top margin as needed */
+    margin-bottom: 5px; /* Adjust the bottom margin as needed */
+}
+
+img.profile-img {
+    width: 200px; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+}
+
+h1, h2 {
+    color: #333;
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+figcaption {
+    font-style: italic;
+    text-align: center;
+}
+
+ul {
+    padding-left: 20px;
+}
+
+a {
+    color: #007bff;
+}
+
+a:hover {
+    color: #0056b3;
+    text-decoration: none;
+}
+
+/* Bootstrap overrides */
+.container {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}

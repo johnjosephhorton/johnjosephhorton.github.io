@@ -1,10 +1,10 @@
 # John Joseph Horton
 
-![me](images/me.jpeg)
+<img src="images/me.jpeg" alt="me" width="200" />  <!-- Adjust '200' to your preferred width -->
 
 ## Bio
 
-I am an economist and the Richard S. Leghorn (1939) Career Development Professor at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER.  My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets.
+I am an economist and the Richard S. Leghorn (1939) Career Development Professor at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER.  My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
 Twitter: @johnjhoron
 
 # Academic Employment
@@ -137,7 +137,7 @@ Twitter: @johnjhoron
 
 * Status: Working paper
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=TBD))   Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    Slides: ([1](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p))   
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC))   Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    Slides: ([1](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p))   
 
 ## Head in the clouds: challenges and opportunities in crowdsourcing 
 
@@ -387,6 +387,21 @@ Twitter: @johnjhoron
    Combat Action Badge,    2004
 
    Basic Parachutist Badge,    1999
+
+
+# Grants
+
+['grant: Schwartzman College of Computing Grant - “Using AI Agents to Simulate Social Scenarios”', 'year: 2023']
+
+['grant: Upjohn Institute, Early Career Award Grant, 2016', 'year: 2016']
+
+['grant: Lab for Economic Applications and Policy, Harvard University, Research Grant, 2010', 'year: 2010']
+
+['grant: Institute for Quantitative Social Science, Harvard University, Travel Grant, 2010', 'year: 2010']
+
+['grant: Amazon Research Grant, Web Services, 2010', 'year: 2010']
+
+['grant: Berkman Center for Internet and Society, Harvard Law School, Research Grant, 2009', 'year: 2009']
 
 
 # Talks

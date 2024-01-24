@@ -23,6 +23,10 @@ class Entity:
         for k, v in dictionary.items():
             setattr(self, k, v)
 
+    def __str__(self):
+        pairs = [f"{k}: {v}" for k, v in self.__dict__.items()]
+        return f"{pairs}"
+
 
 class Paper(Entity):
     def add_coauthors(self, coauthors, people):
@@ -44,6 +48,9 @@ class Paper(Entity):
     def add_code(self, code):
         self._code = [c for c in code if c.paper_id == self.id]
 
+    def add_video(self, videos):
+        self._videos = [v for v in videos if v.paper_id == self.id]
+
     def add_versions(self, versions):
         versions = [v for v in versions if v.paper_id == self.id]
         self._versions = collections.deque()
@@ -56,9 +63,6 @@ class Paper(Entity):
                 self._versions.append(v)
         if has_preferred_version:
             self._versions.appendleft(preferred_version)
-
-    def add_video(self, videos):
-        self._videos = [v for v in videos if v.paper_id == self.id]
 
     @property
     def slides_line(self):
@@ -181,23 +185,10 @@ def get_table_data(table_name, db_file="data/my_database.db"):
     return result
 
 
-# def get_csv(name):
-#     outcome = []
-#     with open(name, "r") as f:
-#         raw = csv.reader(f)
-#         header = next(raw)
-#         [outcome.append(dict(zip(header, row))) for row in raw]
-#     return outcome
-
-
 def get_csv(name):
-    return get_table_data(name.replace(".csv", ""))
-    # outcome = []
-    # with open(name, "r") as f:
-    #     raw = csv.reader(f)
-    #     header = next(raw)
-    #     [outcome.append(dict(zip(header, row))) for row in raw]
-    # return outcome
+    if name.endswith(".csv"):
+        name = name.replace(".csv", "")
+    return get_table_data(name)
 
 
 class Person(Entity):
@@ -236,23 +227,40 @@ class Collection:
         return iter(self.items)
 
 
-coauthors = Collection(Entity, "coauthors.csv")
-awards = Collection(Entity, "awards.csv")
-jobs = Collection(Entity, "jobs.csv")
-media = Collection(Media, "media.csv")
-education = Collection(Entity, "education.csv")
-talks = Collection(Entity, "talks.csv")
-versions = Collection(Entity, "versions.csv")
-slides = Collection(Entity, "slides.csv")
-twitter_thread = Collection(Entity, "twitter_thread.csv")
-code = Collection(Entity, "code.csv")
+fields = [
+    "coauthors",
+    "awards",
+    "jobs",
+    "media",
+    "education",
+    "talks",
+    "versions",
+    "slides",
+    "twitter_thread",
+    "code",
+    "video",
+    "grants",
+]
 
-video = Collection(Entity, "video.csv")
+# entities = {field: Collection(Entity, field) for field in fields}
+
+coauthors = Collection(Entity, "coauthors")
+awards = Collection(Entity, "awards")
+jobs = Collection(Entity, "jobs")
+media = Collection(Media, "media")
+education = Collection(Entity, "education")
+talks = Collection(Entity, "talks")
+versions = Collection(Entity, "versions")
+slides = Collection(Entity, "slides")
+twitter_thread = Collection(Entity, "twitter_thread")
+code = Collection(Entity, "code")
+video = Collection(Entity, "video")
+grants = Collection(Entity, "grants")
 
 people = {p["id"]: Person(p) for p in get_csv("people.csv")}
 papers = {p["id"]: Paper(p) for p in get_csv("papers.csv")}
-
 basic_info = Entity(get_csv("basic_info.csv")[0])
+
 
 for id, paper in papers.items():
     paper.add_coauthors(coauthors, people)
@@ -266,14 +274,28 @@ for id, paper in papers.items():
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("research.md")
 
+d = {
+    "jobs": jobs,
+    "basic_info": basic_info,
+    "talks": talks,
+    "awards": awards,
+    "education": education,
+    "papers": list(papers.values()),
+    "grants": grants,
+}
+
+# with open("research.md", "w") as f:
+#     f.write(
+#         template.render(
+#             jobs=jobs,
+#             basic_info=basic_info,
+#             talks=talks,
+#             awards=awards,
+#             education=education,
+#             papers=list(papers.values()),
+#             grants=grants,
+#         )
+#     )
+
 with open("research.md", "w") as f:
-    f.write(
-        template.render(
-            jobs=jobs,
-            basic_info=basic_info,
-            talks=talks,
-            awards=awards,
-            education=education,
-            papers=list(papers.values()),
-        )
-    )
+    f.write(template.render(**d))
