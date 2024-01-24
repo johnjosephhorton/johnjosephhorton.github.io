@@ -23,7 +23,7 @@ website: index.html
 	firefox index.html
 
 update:
-	git add . 
+	git add -u
 	git commit -m "Updates"
 	git push origin master
 

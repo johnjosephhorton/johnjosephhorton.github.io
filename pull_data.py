@@ -1,17 +1,12 @@
 import pandas as pd
 import sqlite3
 import requests
-
-from dotenv import load_dotenv
 import os
+from dotenv import load_dotenv
 
-# Load environment variables from .env file
 load_dotenv()
 
-excel_url = os.getenv("EXCEL_URL")
-
-# URL of the Excel file
-# excel_url = "https://docs.google.com/spreadsheets/d/1EqL3ArudCVWcmJZd2NgC8rK_diIk7dyH4Ws2TRKRBnU/export?format=xlsx"
+excel_url = os.getenv("GOOGLE_SHEETS_URL")
 
 # Download the Excel file
 r = requests.get(excel_url)
@@ -34,7 +29,5 @@ for sheet_name in xls.sheet_names:
 # Close the database connection
 conn.close()
 
-# Optionally, remove the downloaded Excel file if it's no longer needed
-import os
 
 os.remove("temp_excel_file.xlsx")
