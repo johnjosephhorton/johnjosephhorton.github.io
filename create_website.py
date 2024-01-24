@@ -1,5 +1,4 @@
 import jinja2
-import csv
 from jinja2 import FileSystemLoader
 import collections
 import sqlite3
