@@ -15,9 +15,7 @@ research.pdf: research.md
 	evince research.pdf
 
 index.html: research.md style.css
-	#pandoc research.md -o index.html
 	pandoc research.md --metadata pagetitle="John Horton Academic Website" -s --css style.css -o index.html
-	firefox index.html
 
 website: index.html
 	firefox index.html
