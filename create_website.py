@@ -252,7 +252,7 @@ education = Collection(Entity, "education")
 talks = Collection(Entity, "talks")
 versions = Collection(Entity, "versions")
 slides = Collection(Entity, "slides")
-twitter_thread = Collection(Entity, "twitter_thread")
+twitter_threads = Collection(Entity, "twitter_threads")
 code = Collection(Entity, "code")
 video = Collection(Entity, "video")
 grants = Collection(Entity, "grants")
@@ -268,11 +268,11 @@ for id, paper in papers.items():
     paper.add_versions(versions)
     paper.add_video(video)
     paper.add_slides(slides)
-    paper.add_twitter_thread(twitter_thread)
+    paper.add_twitter_thread(twitter_threads)
     paper.add_code(code)
 
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
-template = environment.get_template("research.md")
+template = environment.get_template("website.md")
 
 d = {
     "jobs": jobs,
@@ -284,18 +284,5 @@ d = {
     "grants": grants,
 }
 
-# with open("research.md", "w") as f:
-#     f.write(
-#         template.render(
-#             jobs=jobs,
-#             basic_info=basic_info,
-#             talks=talks,
-#             awards=awards,
-#             education=education,
-#             papers=list(papers.values()),
-#             grants=grants,
-#         )
-#     )
-
-with open("research.md", "w") as f:
+with open("website.md", "w") as f:
     f.write(template.render(**d))

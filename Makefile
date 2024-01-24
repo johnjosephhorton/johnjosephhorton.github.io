@@ -7,15 +7,11 @@ refresh:
 data/my_database.db: pull_data.py
 	python3 pull_data.py
 
-research.md: templates/research.md create_website.py data/my_database.db
+website.md: templates/website.md create_website.py data/my_database.db
 	python3.9 create_website.py
 
-research.pdf: research.md
-	pandoc research.md -o research.pdf
-	evince research.pdf
-
-index.html: research.md style.css
-	pandoc research.md --metadata pagetitle="John Horton Academic Website" -s --css style.css -o index.html
+index.html: website.md style.css
+	pandoc website.md --metadata pagetitle="John Horton's Academic Website" -s --css style.css -o index.html
 
 website: index.html
 	firefox index.html
