@@ -3,25 +3,30 @@
 
 /* Custom styles */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #343a40;
     line-height: 1.6;
-    margin-left: 20px; /* Adjust the size as needed */
+    margin: 0;
+    padding: 20px;
 }
 
 p {
-    margin-top: 5px;    /* Adjust the top margin as needed */
-    margin-bottom: 5px; /* Adjust the bottom margin as needed */
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 img.profile-img {
-    width: 200px; /* Adjust as needed */
-    height: auto; /* Maintains aspect ratio */
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    border: 2px solid #343a40;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 h1, h2 {
-    color: #333;
+    color: #343a40;
+    font-weight: 700;
 }
 
 figure img {
@@ -30,30 +35,38 @@ figure img {
     border: 1px solid #ddd;
     border-radius: 4px;
     padding: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 figcaption {
     font-style: italic;
     text-align: center;
+    color: #6c757d;
 }
 
 ul {
-    padding-left: 20px;
+    padding-left: 40px;
+    list-style-type: disc;
 }
 
 a {
     color: #007bff;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 a:hover {
     color: #0056b3;
-    text-decoration: none;
+    text-decoration: underline;
 }
 
 /* Bootstrap overrides */
 .container {
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .img-fluid {

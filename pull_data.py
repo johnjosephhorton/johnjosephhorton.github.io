@@ -2,12 +2,19 @@ import pandas as pd
 import sqlite3
 import requests
 import os
-from dotenv import load_dotenv
+import os
 
-load_dotenv()
+def load_env_file(file_path):
+    with open(file_path) as file:
+        for line in file:
+            if line.startswith('#') or not line.strip():
+                continue  # Skip comments and empty lines
+            key, value = line.strip().split('=', 1)
+            os.environ[key] = value
+
+load_env_file('.env')
 
 excel_url = os.getenv("GOOGLE_SHEETS_URL")
-
 # Download the Excel file
 r = requests.get(excel_url)
 with open("temp_excel_file.xlsx", "wb") as f:

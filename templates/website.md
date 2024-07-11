@@ -2,7 +2,8 @@
 
 <img src="images/me.jpeg" alt="me" width="200" />  <!-- Adjust '200' to your preferred width -->
 
-## Bio
+## Bio {.bio-class}
+
 
 {{ basic_info.bio }}
 Twitter: {{ basic_info.twitter_handle }}
@@ -13,10 +14,10 @@ Twitter: {{ basic_info.twitter_handle }}
    {{ job.title }}, {{ job.institution }}, {{ job.start}}---{{ job.end }} 
 {% endfor %} 
 
-# Research
+# Research {.paper-class}
 
 {% for paper in papers %}
-## {{ paper.title }} {%if paper.with_line %}
+### {{ paper.title }} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line %}
    * Versions: {{ paper.version_line }}
