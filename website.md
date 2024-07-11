@@ -53,7 +53,7 @@ Twitter: @johnjhoron
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))  
 
 ### Algorithmic writing assistance on jobseekers resumes increases hires  {.paper-class}
-(with [Emma van Inwegen](https://sites.google.com/view/emmavaninwegen/home) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
+(with [Emma Wiles](https://sites.google.com/view/emmavaninwegen/home) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
    * Versions: ([jjh](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf))([nber](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf))([arxiv](https://arxiv.org/abs/2301.08083))
 
@@ -402,6 +402,8 @@ Twitter: @johnjhoron
 
 # Grants
 
+['grant: Microsoft Research', 'year: 2023']
+
 ['grant: Schwartzman College of Computing Grant - “Using AI Agents to Simulate Social Scenarios”', 'year: 2023']
 
 ['grant: Upjohn Institute, Early Career Award Grant, 2016', 'year: 2016']
@@ -416,6 +418,12 @@ Twitter: @johnjhoron
 
 
 # Talks
+
+   ACM-EC 2024,    2024
+
+   NBER Summer Institute, Economics of IT and Digitization,    2024
+
+   Strategy Group, Harvard Business School ,    2024
 
    Paris Economics of Digitization seminar (remote),    2024
 
