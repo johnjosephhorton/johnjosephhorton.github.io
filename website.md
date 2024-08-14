@@ -48,7 +48,7 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://john-joseph-horton.com/papers/schumpeter.pdf))
 
 
-* Status: Working paper
+* Status: R&R at Information Systems Research
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))  
 
@@ -97,7 +97,7 @@ Twitter: @johnjhoron
    * Versions: ([nber](https://www.nber.org/papers/w30351))
 
 
-* Status: Working paper
+* Status: R&R at Management Science
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC))   Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))     
 
@@ -107,7 +107,7 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://andreyfradkin.com/assets/fb_congestion.pdf))
 
 
-* Status: R&R at Management Science
+* Status: Conditional Accept, Management Science
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC))      
 
@@ -418,6 +418,14 @@ Twitter: @johnjhoron
 
 
 # Talks
+
+   CMU Workforce and Technology Mini-Conference (scheduled),    2024
+
+   HBS Technology, Operations and Management Seminar (scheduled),    2024
+
+   Behavioral Approaches to Financial Decision Making Conference (scheduled),    2024
+
+   UC Berkeley - Econ Seminar (scheduled),    2024
 
    ACM-EC 2024,    2024
 
