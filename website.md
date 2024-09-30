@@ -104,7 +104,7 @@ Twitter: @johnjhoron
 ### Information about vacancy congestion redirects job search  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/))
 
-   * Versions: ([jjh](https://andreyfradkin.com/assets/fb_congestion.pdf))
+   * Versions: ([jjh](https://andreyfradkin.com/assets/jobs_authors.pdf))
 
 
 * Status: Conditional Accept, Management Science
@@ -423,7 +423,7 @@ Twitter: @johnjhoron
 
    HBS Technology, Operations and Management Seminar (scheduled),    2024
 
-   Behavioral Approaches to Financial Decision Making Conference (scheduled),    2024
+   Behavioral Approaches to Financial Decision Making Conference,    2024
 
    UC Berkeley - Econ Seminar (scheduled),    2024
 
