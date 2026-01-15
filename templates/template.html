@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$pagetitle$</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content h1 {
+        @apply text-3xl font-bold text-gray-900 mt-12 mb-6 pb-2 border-b border-gray-200;
+      }
+      .content h1:first-child {
+        @apply mt-0 text-4xl border-none pb-0 mb-2;
+      }
+      .content h2 {
+        @apply text-2xl font-semibold text-gray-800 mt-10 mb-4;
+      }
+      .content h3 {
+        @apply text-lg font-semibold text-gray-800 mt-6 mb-2;
+      }
+      .content p {
+        @apply text-gray-700 leading-relaxed mb-4;
+      }
+      .content ul {
+        @apply list-disc pl-6 mb-4 space-y-1;
+      }
+      .content li {
+        @apply text-gray-700;
+      }
+      .content li p {
+        @apply mb-1;
+      }
+      .content a {
+        @apply text-blue-600 hover:text-blue-800 hover:underline transition-colors;
+      }
+      .content img {
+        @apply rounded-full shadow-lg border-4 border-white ring-1 ring-gray-200;
+      }
+      .scrollable-section {
+        @apply max-h-96 overflow-y-auto pr-4 border-l-4 border-gray-100 pl-4 -ml-4;
+      }
+      .scrollable-section::-webkit-scrollbar {
+        width: 6px;
+      }
+      .scrollable-section::-webkit-scrollbar-track {
+        @apply bg-gray-100 rounded;
+      }
+      .scrollable-section::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 rounded hover:bg-gray-400;
+      }
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
+</head>
+<body class="bg-gray-50 min-h-screen font-sans">
+  <div class="max-w-3xl mx-auto px-6 py-12 sm:py-16">
+    <main class="bg-white rounded-2xl shadow-sm border border-gray-100 px-8 py-10 sm:px-12 sm:py-12">
+      <article class="content">
+$body$
+      </article>
+    </main>
+    <footer class="mt-8 text-center text-sm text-gray-500">
+      <p>&copy; $pagetitle$</p>
+    </footer>
+  </div>
+  <script>
+    // Wrap section content in scrollable containers
+    document.addEventListener('DOMContentLoaded', function() {
+      const scrollableSections = ['research', 'awards', 'grants', 'talks', 'education'];
+
+      scrollableSections.forEach(function(sectionId) {
+        const heading = document.getElementById(sectionId);
+        if (!heading) return;
+
+        // Collect all elements until the next h1
+        const elements = [];
+        let sibling = heading.nextElementSibling;
+        while (sibling && sibling.tagName !== 'H1') {
+          elements.push(sibling);
+          sibling = sibling.nextElementSibling;
+        }
+
+        if (elements.length === 0) return;
+
+        // Create scrollable wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'scrollable-section';
+
+        // Insert wrapper after heading
+        heading.parentNode.insertBefore(wrapper, elements[0]);
+
+        // Move elements into wrapper
+        elements.forEach(function(el) {
+          wrapper.appendChild(el);
+        });
+      });
+    });
+  </script>
+</body>
+</html>
