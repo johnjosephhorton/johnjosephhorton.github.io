@@ -129,7 +129,7 @@ class Paper(Entity):
 
     def __init__(self, dictionary):
         super(Paper, self).__init__(dictionary)
-        if self.google_scholar != "":
+        if self.google_scholar:
             self.gs_url = googleScholarURL(self.google_scholar)
         else:
             self.gs_url = None

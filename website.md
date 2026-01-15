@@ -5,8 +5,8 @@
 ## Bio {.bio-class}
 
 
-I am an economist and the Richard S. Leghorn (1939) Career Development Professor at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER.  My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
-Twitter: @johnjhoron
+I am an economist and the Chrysler Associate Professor at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER.  My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
+Twitter: @johnjhorton
 
 # Academic Employment
 
@@ -48,7 +48,7 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://john-joseph-horton.com/papers/schumpeter.pdf))
 
 
-* Status: R&R at Information Systems Research
+* Status: Forthcoming at Information Systems Research
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))  
 
@@ -58,7 +58,7 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf))([nber](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf))([arxiv](https://arxiv.org/abs/2301.08083))
 
 
-* Status: R&R at Management Science
+* Status: Forthcoming at Management Science
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC))   Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    Slides: ([1](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p))   
 
@@ -67,17 +67,17 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://www.john-joseph-horton.com/papers/minimum_wage.pdf))
 
 
-* Status: Conditional Accept, American Economic Review
+* Status: American Economic Review
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC))   Media: ([The New York Times](https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0))([Bloomberg View](https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity))([Wall Street Journal](http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj))   Videos: ([1](https://www.youtube.com/watch?v=Bkxobfkrfps))   Slides: ([1](https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4uOx120tan4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p))   
 
-### Job-seekers send too many applications: experimental evidence and a partial solution  {.paper-class}
-(with [Shoshana Vasserman](https://shoshanavasserman.com/))
+### Reducing Congestion in Labor Markets: A Case Study in Simple Market Design  {.paper-class}
+(with [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/))
 
-   * Versions: ([jjh](https://john-joseph-horton.com/papers/autopause.pdf))
+   * Versions: ([jjh](https://john-joseph-horton.com/papers/autopause.pdf))([coauthor](https://www.mitchellwatt.com/files/congestion.pdf))
 
 
-* Status: Working paper
+* Status: R&R, American Economic Journal - Micro
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC))     Slides: ([1](https://docs.google.com/presentation/d/10vkIYkUGuBJR4nYitT8tyGuEJdN5crkFkzrhoW6xdMQ/edit#slide=id.p))   
 
@@ -97,7 +97,7 @@ Twitter: @johnjhoron
    * Versions: ([nber](https://www.nber.org/papers/w30351))
 
 
-* Status: R&R at Management Science
+* Status: Forthcoming Management Science
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC))   Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))     
 
@@ -107,9 +107,17 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://andreyfradkin.com/assets/jobs_authors.pdf))
 
 
-* Status: Conditional Accept, Management Science
+* Status: Forthcoming, Management Science
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view=https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC))      
+
+### Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment  {.paper-class}
+(with [Apostolos Filippas](Apostolos Filippas), Diego Urrica and [Prasanna Parasurama ](https://parasurama.github.io/))
+
+
+* Status: R&R, Management Science
+
+* Links:     Slides: ([1](https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p))   
 
 ### Labor allocation in paid crowdsourcing: experimental evidence on positioning, nudges and prices  {.paper-class}
 (with [Dana Chandler](https://www.linkedin.com/in/danachandler1/))
@@ -174,7 +182,7 @@ Twitter: @johnjhoron
    * Versions: ([jjh](https://john-joseph-horton.com/papers/uber_price.pdf))([uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber))
 
 
-* Status: Working paper
+* Status: R&R, Journal of Economics and Management Strategy
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view= https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC))   Media: ([Wall Street Journal](https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602))([Quartz](https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/))([AP News](https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c))([None](None))   Videos: ([1](https://www.youtube.com/watch?v=lJ3wbGIKaK4))   Slides: ([1](https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p))   
 
@@ -402,30 +410,40 @@ Twitter: @johnjhoron
 
 # Grants
 
-['grant: Microsoft Research', 'year: 2023']
+   Microsoft Research, 2023
 
-['grant: Schwartzman College of Computing Grant - “Using AI Agents to Simulate Social Scenarios”', 'year: 2023']
+   Schwartzman College of Computing Grant - “Using AI Agents to Simulate Social Scenarios”, 2023
 
-['grant: Upjohn Institute, Early Career Award Grant, 2016', 'year: 2016']
+   Upjohn Institute, Early Career Award Grant, 2016, 2016
 
-['grant: Lab for Economic Applications and Policy, Harvard University, Research Grant, 2010', 'year: 2010']
+   Lab for Economic Applications and Policy, Harvard University, Research Grant, 2010, 2010
 
-['grant: Institute for Quantitative Social Science, Harvard University, Travel Grant, 2010', 'year: 2010']
+   Institute for Quantitative Social Science, Harvard University, Travel Grant, 2010, 2010
 
-['grant: Amazon Research Grant, Web Services, 2010', 'year: 2010']
+   Amazon Research Grant, Web Services, 2010, 2010
 
-['grant: Berkman Center for Internet and Society, Harvard Law School, Research Grant, 2009', 'year: 2009']
+   Berkman Center for Internet and Society, Harvard Law School, Research Grant, 2009, 2009
 
 
 # Talks
 
-   CMU Workforce and Technology Mini-Conference (scheduled),    2024
+   CEPR Economics of AI Webinar,    2025
 
-   HBS Technology, Operations and Management Seminar (scheduled),    2024
+   Google DeepMind / Economics Seminar,    2025
+
+   Northwestern - Kellog,    2025
+
+   Microsoft Applied Science Seminar series,    2025
+
+   HBS Technology, Operations and Management Seminar,    2025
+
+   Stanford Digitial Economy Lab - Invited Seminar,    2024
+
+   CMU Workforce and Technology Mini-Conference,    2024
 
    Behavioral Approaches to Financial Decision Making Conference,    2024
 
-   UC Berkeley - Econ Seminar (scheduled),    2024
+   UC Berkeley - Econ Seminar,    2024
 
    ACM-EC 2024,    2024
 

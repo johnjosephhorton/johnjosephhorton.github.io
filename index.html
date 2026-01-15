@@ -1,42 +1,87 @@
 <!DOCTYPE html>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="generator" content="pandoc" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>John Horton's Academic Website</title>
-  <style>
-    code{white-space: pre-wrap;}
-    span.smallcaps{font-variant: small-caps;}
-    div.columns{display: flex; gap: min(4vw, 1.5em);}
-    div.column{flex: auto; overflow-x: auto;}
-    div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
-    ul.task-list{list-style: none;}
-    ul.task-list li input[type="checkbox"] {
-      width: 0.8em;
-      margin: 0 0.8em 0.2em -1.6em;
-      vertical-align: middle;
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .content h1 {
+        @apply text-3xl font-bold text-gray-900 mt-12 mb-6 pb-2 border-b border-gray-200;
+      }
+      .content h1:first-child {
+        @apply mt-0 text-4xl border-none pb-0 mb-2;
+      }
+      .content h2 {
+        @apply text-2xl font-semibold text-gray-800 mt-10 mb-4;
+      }
+      .content h3 {
+        @apply text-lg font-semibold text-gray-800 mt-6 mb-2;
+      }
+      .content p {
+        @apply text-gray-700 leading-relaxed mb-4;
+      }
+      .content ul {
+        @apply list-disc pl-6 mb-4 space-y-1;
+      }
+      .content li {
+        @apply text-gray-700;
+      }
+      .content li p {
+        @apply mb-1;
+      }
+      .content a {
+        @apply text-blue-600 hover:text-blue-800 hover:underline transition-colors;
+      }
+      .content img {
+        @apply rounded-full shadow-lg border-4 border-white ring-1 ring-gray-200;
+      }
+      .scrollable-section {
+        @apply max-h-96 overflow-y-auto pr-4 border-l-4 border-gray-100 pl-4 -ml-4;
+      }
+      .scrollable-section::-webkit-scrollbar {
+        width: 6px;
+      }
+      .scrollable-section::-webkit-scrollbar-track {
+        @apply bg-gray-100 rounded;
+      }
+      .scrollable-section::-webkit-scrollbar-thumb {
+        @apply bg-gray-300 rounded hover:bg-gray-400;
+      }
     }
-    .display.math{display: block; text-align: center; margin: 0.5rem auto;}
   </style>
-  <link rel="stylesheet" href="style.css" />
-  <!--[if lt IE 9]>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv-printshiv.min.js"></script>
-  <![endif]-->
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          fontFamily: {
+            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
+          },
+        }
+      }
+    }
+  </script>
 </head>
-<body>
+<body class="bg-gray-50 min-h-screen font-sans">
+  <div class="max-w-3xl mx-auto px-6 py-12 sm:py-16">
+    <main class="bg-white rounded-2xl shadow-sm border border-gray-100 px-8 py-10 sm:px-12 sm:py-12">
+      <article class="content">
 <h1 id="john-j.-horton">John J. Horton</h1>
 <p><img src="images/me.jpeg" alt="me" width="200" />
 <!-- Adjust '200' to your preferred width --></p>
 <h2 class="bio-class" id="bio">Bio</h2>
-<p>I am an economist and the Richard S. Leghorn (1939) Career
-Development Professor at the MIT Sloan School of Management and a
-Faculty Research Fellow at the NBER. My research is primarily focused on
-issues in information systems, market design, labor economics and
-organizational economics, particularly in the context of online markets.
-I am also interested in the effects of AI on labor markets and the
-potential of AI to improve social science methodology. Twitter: <span
-class="citation" data-cites="johnjhoron">@johnjhoron</span></p>
+<p>I am an economist and the Chrysler Associate Professor at the MIT
+Sloan School of Management and a Faculty Research Fellow at the NBER. My
+research is primarily focused on issues in information systems, market
+design, labor economics and organizational economics, particularly in
+the context of online markets. I am also interested in the effects of AI
+on labor markets and the potential of AI to improve social science
+methodology. Twitter: <span class="citation"
+data-cites="johnjhorton">@johnjhorton</span></p>
 <h1 id="academic-employment">Academic Employment</h1>
 <p>Associate Professor (with Tenure), MIT Sloan School of Management,
 2023—Present</p>
@@ -82,7 +127,7 @@ Tambe</a>)</p>
 <ul>
 <li><p>Versions: (<a
 href="https://john-joseph-horton.com/papers/schumpeter.pdf">jjh</a>)</p></li>
-<li><p>Status: R&amp;R at Information Systems Research</p></li>
+<li><p>Status: Forthcoming at Information Systems Research</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C">gs</a>)
 Media: (<a
@@ -103,7 +148,7 @@ and <a href="https://www.zanelemunyikwa.com/">Zanele Munyikwa</a>)</p>
 href="https://john-joseph-horton.com/papers/algo_writing_assistance.pdf">jjh</a>)(<a
 href="https://www.nber.org/system/files/working_papers/w30886/w30886.pdf">nber</a>)(<a
 href="https://arxiv.org/abs/2301.08083">arxiv</a>)</p></li>
-<li><p>Status: R&amp;R at Management Science</p></li>
+<li><p>Status: Forthcoming at Management Science</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC">gs</a>)
 Media: (<a
@@ -124,7 +169,7 @@ experiment</h3>
 <ul>
 <li><p>Versions: (<a
 href="https://www.john-joseph-horton.com/papers/minimum_wage.pdf">jjh</a>)</p></li>
-<li><p>Status: Conditional Accept, American Economic Review</p></li>
+<li><p>Status: American Economic Review</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC">gs</a>)
 Media: (<a
@@ -139,15 +184,15 @@ href="https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4u
 href="https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p">2</a>)</p></li>
 </ul>
 <h3 class="paper-class"
-id="job-seekers-send-too-many-applications-experimental-evidence-and-a-partial-solution">Job-seekers
-send too many applications: experimental evidence and a partial
-solution</h3>
-<p>(with <a href="https://shoshanavasserman.com/">Shoshana
-Vasserman</a>)</p>
+id="reducing-congestion-in-labor-markets-a-case-study-in-simple-market-design">Reducing
+Congestion in Labor Markets: A Case Study in Simple Market Design</h3>
+<p>(with <a href="https://shoshanavasserman.com/">Shoshana Vasserman</a>
+and <a href="https://www.mitchellwatt.com/">Mitchell Watt</a>)</p>
 <ul>
 <li><p>Versions: (<a
-href="https://john-joseph-horton.com/papers/autopause.pdf">jjh</a>)</p></li>
-<li><p>Status: Working paper</p></li>
+href="https://john-joseph-horton.com/papers/autopause.pdf">jjh</a>)(<a
+href="https://www.mitchellwatt.com/files/congestion.pdf">coauthor</a>)</p></li>
+<li><p>Status: R&amp;R, American Economic Journal - Micro</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC">gs</a>)
 Slides: (<a
@@ -180,7 +225,7 @@ Caoui</a>)</p>
 <ul>
 <li><p>Versions: (<a
 href="https://www.nber.org/papers/w30351">nber</a>)</p></li>
-<li><p>Status: R&amp;R at Management Science</p></li>
+<li><p>Status: Forthcoming Management Science</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC">gs</a>)
 Media: (<a
@@ -195,9 +240,21 @@ href="https://www.linkedin.com/in/mdbhole/">Monica Bhole</a>)</p>
 <ul>
 <li><p>Versions: (<a
 href="https://andreyfradkin.com/assets/jobs_authors.pdf">jjh</a>)</p></li>
-<li><p>Status: Conditional Accept, Management Science</p></li>
+<li><p>Status: Forthcoming, Management Science</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;cstart=20&amp;pagesize=80&amp;citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC">gs</a>)</p></li>
+</ul>
+<h3 class="paper-class"
+id="costly-capacity-signaling-increases-matching-efficiency-evidence-from-a-field-experiment">Costly
+Capacity Signaling Increases Matching Efficiency: Evidence from a Field
+Experiment</h3>
+<p>(with <a href="Apostolos%20Filippas">Apostolos Filippas</a>, Diego
+Urrica and <a href="https://parasurama.github.io/">Prasanna
+Parasurama</a>)</p>
+<ul>
+<li><p>Status: R&amp;R, Management Science</p></li>
+<li><p>Links: Slides: (<a
+href="https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p">1</a>)</p></li>
 </ul>
 <h3 class="paper-class"
 id="labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices">Labor
@@ -298,7 +355,8 @@ Hall</a>)</p>
 <li><p>Versions: (<a
 href="https://john-joseph-horton.com/papers/uber_price.pdf">jjh</a>)(<a
 href="https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber">uber_blog</a>)</p></li>
-<li><p>Status: Working paper</p></li>
+<li><p>Status: R&amp;R, Journal of Economics and Management
+Strategy</p></li>
 <li><p>Links: Citations: (<a
 href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&amp;citation_for_view=%20https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;user=L_O2kH0AAAAJ&amp;citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC">gs</a>)
 Media: (<a
@@ -365,7 +423,7 @@ href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=en&amp;&
 </ul>
 <h3
 id="the-dot-guessing-game-a-fruit-flyfor-human-computation-research">The
-dot-guessing game: a ’fruit fly’for human computation research</h3>
+dot-guessing game: a ‘fruit fly’for human computation research</h3>
 <ul>
 <li><p>Versions: (<a
 href="http://john-joseph-horton.com/papers/dot_guessing_game.pdf">jjh</a>)</p></li>
@@ -638,26 +696,28 @@ Mention, 2008, 2008</p>
 <p>Combat Action Badge, 2004</p>
 <p>Basic Parachutist Badge, 1999</p>
 <h1 id="grants">Grants</h1>
-<p>[‘grant: Microsoft Research’, ‘year: 2023’]</p>
-<p>[‘grant: Schwartzman College of Computing Grant - “Using AI Agents to
-Simulate Social Scenarios”’, ‘year: 2023’]</p>
-<p>[‘grant: Upjohn Institute, Early Career Award Grant, 2016’, ‘year:
-2016’]</p>
-<p>[‘grant: Lab for Economic Applications and Policy, Harvard
-University, Research Grant, 2010’, ‘year: 2010’]</p>
-<p>[‘grant: Institute for Quantitative Social Science, Harvard
-University, Travel Grant, 2010’, ‘year: 2010’]</p>
-<p>[‘grant: Amazon Research Grant, Web Services, 2010’, ‘year:
-2010’]</p>
-<p>[‘grant: Berkman Center for Internet and Society, Harvard Law School,
-Research Grant, 2009’, ‘year: 2009’]</p>
+<p>Microsoft Research, 2023</p>
+<p>Schwartzman College of Computing Grant - “Using AI Agents to Simulate
+Social Scenarios”, 2023</p>
+<p>Upjohn Institute, Early Career Award Grant, 2016, 2016</p>
+<p>Lab for Economic Applications and Policy, Harvard University,
+Research Grant, 2010, 2010</p>
+<p>Institute for Quantitative Social Science, Harvard University, Travel
+Grant, 2010, 2010</p>
+<p>Amazon Research Grant, Web Services, 2010, 2010</p>
+<p>Berkman Center for Internet and Society, Harvard Law School, Research
+Grant, 2009, 2009</p>
 <h1 id="talks">Talks</h1>
-<p>CMU Workforce and Technology Mini-Conference (scheduled), 2024</p>
-<p>HBS Technology, Operations and Management Seminar (scheduled),
-2024</p>
+<p>CEPR Economics of AI Webinar, 2025</p>
+<p>Google DeepMind / Economics Seminar, 2025</p>
+<p>Northwestern - Kellog, 2025</p>
+<p>Microsoft Applied Science Seminar series, 2025</p>
+<p>HBS Technology, Operations and Management Seminar, 2025</p>
+<p>Stanford Digitial Economy Lab - Invited Seminar, 2024</p>
+<p>CMU Workforce and Technology Mini-Conference, 2024</p>
 <p>Behavioral Approaches to Financial Decision Making Conference,
 2024</p>
-<p>UC Berkeley - Econ Seminar (scheduled), 2024</p>
+<p>UC Berkeley - Econ Seminar, 2024</p>
 <p>ACM-EC 2024, 2024</p>
 <p>NBER Summer Institute, Economics of IT and Digitization, 2024</p>
 <p>Strategy Group, Harvard Business School , 2024</p>
@@ -810,5 +870,44 @@ London, June 2010, 2010</p>
 <h1 id="education">Education</h1>
 <p>PhD, Harvard University</p>
 <p>BS, United States Military Academy at West Point</p>
+      </article>
+    </main>
+    <footer class="mt-8 text-center text-sm text-gray-500">
+      <p>&copy; John Horton's Academic Website</p>
+    </footer>
+  </div>
+  <script>
+    // Wrap section content in scrollable containers
+    document.addEventListener('DOMContentLoaded', function() {
+      const scrollableSections = ['research', 'awards', 'grants', 'talks', 'education'];
+
+      scrollableSections.forEach(function(sectionId) {
+        const heading = document.getElementById(sectionId);
+        if (!heading) return;
+
+        // Collect all elements until the next h1
+        const elements = [];
+        let sibling = heading.nextElementSibling;
+        while (sibling && sibling.tagName !== 'H1') {
+          elements.push(sibling);
+          sibling = sibling.nextElementSibling;
+        }
+
+        if (elements.length === 0) return;
+
+        // Create scrollable wrapper
+        const wrapper = document.createElement('div');
+        wrapper.className = 'scrollable-section';
+
+        // Insert wrapper after heading
+        heading.parentNode.insertBefore(wrapper, elements[0]);
+
+        // Move elements into wrapper
+        elements.forEach(function(el) {
+          wrapper.appendChild(el);
+        });
+      });
+    });
+  </script>
 </body>
 </html>

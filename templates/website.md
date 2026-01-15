@@ -36,7 +36,7 @@ Twitter: {{ basic_info.twitter_handle }}
 
 # Grants
 {% for grant in grants %}
-{{ grant }}
+   {{ grant.grant }}, {{ grant.year }}
 {% endfor %}
 
 # Talks
