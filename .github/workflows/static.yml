@@ -32,6 +32,10 @@ jobs:
         uses: actions/checkout@v4
       - name: Setup Pages
         uses: actions/configure-pages@v5
+      - name: Stamp deployment date
+        run: |
+          last_updated=$(git show -s --format=%cs "$GITHUB_SHA")
+          sed -i -E "s|(id=\"last-updated\" datetime=\")[0-9-]+(\">)[0-9-]+|\1${last_updated}\2${last_updated}|" index.html
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:

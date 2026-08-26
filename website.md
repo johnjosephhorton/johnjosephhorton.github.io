@@ -5,13 +5,15 @@
 ## Bio {.bio-class}
 
 
-I am an economist and the Chrysler Associate Professor at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER.  My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
+I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER. I was appointed to the Chrysler Professorship on August 25, 2025. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
 [\@johnjhorton](https://twitter.com/johnjhorton)
 
 # Academic Employment
 
 
-   Associate Professor (with Tenure), MIT Sloan School of Management, 2023---Present
+   Chrysler Professor of Management, MIT Sloan School of Management, August 25, 2025---Present
+
+   Associate Professor (with Tenure), MIT Sloan School of Management, 2023---2025
 
    Richard S. Leghorn Career Development Associate Professor, MIT Sloan School of Management, 2020---2023
 

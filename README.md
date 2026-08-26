@@ -45,6 +45,8 @@ The build has two stages:
 
 Both `website.md` and `index.html` are generated files, but they are committed
 so GitHub Pages can publish the repository without a server-side build.
+The HTML footer uses the latest Git commit date locally; the deployment workflow
+stamps it again from the exact commit being published.
 
 Run `make validate` after editing CSVs to catch duplicate IDs and broken
 relationships. `make build` runs this check automatically.
