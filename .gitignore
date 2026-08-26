@@ -1,1 +1,3 @@
-data/my_database.db
+.DS_Store
+__pycache__/
+cv.pdf

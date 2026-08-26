@@ -6,7 +6,7 @@
 
 
 {{ basic_info.bio }}
-Twitter: {{ basic_info.twitter_handle }}
+[\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
 # Academic Employment
 

@@ -1,12 +1,15 @@
 import jinja2
 from jinja2 import FileSystemLoader
 import collections
-import sqlite3
+import csv
+from pathlib import Path
 
 PREFERRED_VERSION_KEY = "jjh"
 
 
 def googleScholarURL(key):
+    if key.startswith("http://") or key.startswith("https://"):
+        return key
     return (
         "https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view="
         + key
@@ -165,23 +168,11 @@ class Paper(Entity):
             return names[0]
 
 
-def get_table_data(table_name, db_file="data/my_database.db"):
-    # Connect to the SQLite database
-    conn = sqlite3.connect(db_file)
-    cursor = conn.cursor()
-    try:
-        cursor.execute(f"SELECT * FROM {table_name}")
-        rows = cursor.fetchall()
-        columns = [description[0] for description in cursor.description]
-        result = [dict(zip(columns, row)) for row in rows]
-
-    except sqlite3.Error as e:
-        print(f"An error occurred: {e}")
-        result = []
-
-    conn.close()
-
-    return result
+def get_table_data(table_name, data_dir="data"):
+    """Read one of the version-controlled CSV tables."""
+    path = Path(data_dir) / f"{table_name}.csv"
+    with path.open(newline="", encoding="utf-8") as file:
+        return list(csv.DictReader(file))
 
 
 def get_csv(name):
@@ -283,5 +274,7 @@ d = {
     "grants": grants,
 }
 
-with open("website.md", "w") as f:
-    f.write(template.render(**d))
+rendered = template.render(**d)
+rendered = "\n".join(line.rstrip() for line in rendered.splitlines()) + "\n"
+with open("website.md", "w", encoding="utf-8") as f:
+    f.write(rendered)
