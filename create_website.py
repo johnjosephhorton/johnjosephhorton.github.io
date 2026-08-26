@@ -117,11 +117,37 @@ class Paper(Entity):
     @property
     def version_line(self):
         if self._versions:
-            return "".join(
-                ["(" + make_link(obj.type, obj.url) + ")" for obj in self._versions]
+            labels = {
+                "arxiv": "arXiv",
+                "nber": "NBER",
+                "jjh": "PDF",
+                "ssrn": "SSRN",
+                "acmec": "ACM EC",
+                "acm": "ACM",
+                "jole": "JOLE",
+                "mansci": "Management Science",
+                "mit": "MIT",
+                "coauthor": "Coauthor PDF",
+            }
+            return " · ".join(
+                make_link(labels.get(obj.type.lower(), obj.type), obj.url)
+                for obj in self._versions
             )
         else:
             return None
+
+    @property
+    def has_additional_links(self):
+        return any(
+            (
+                self.google_scholar_url,
+                self.media_line,
+                self.video_line,
+                self.slides_line,
+                self.twitter_thread_line,
+                self.code_line,
+            )
+        )
 
     @property
     def media_line(self):

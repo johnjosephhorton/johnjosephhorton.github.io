@@ -20,12 +20,14 @@
 ### {{ paper.title }} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line %}
-   * Versions: {{ paper.version_line }}
+* Paper: {{ paper.version_line }}
 {% endif %}
 {% if paper.status %}
 * Status: {{ paper.status }}
 {% endif %}
+{% if paper.has_additional_links %}
 * Links: {% if paper.google_scholar_url %} Citations: {{paper.google_scholar_url }} {% endif %} {% if paper.media_line %} Media: {{ paper.media_line }} {% endif %} {% if paper.video_line %} Videos: {{ paper.video_line }} {% endif %} {% if paper.slides_line %} Slides: {{ paper.slides_line }} {% endif %} {% if paper.twitter_thread_line %}Twitter Thread(s): {{ paper.twitter_thread_line }} {% endif %} {% if paper.code_line %} Replication: {{ paper.code_line }} {% endif %}
+{% endif %}
 {% endfor %}
 
 

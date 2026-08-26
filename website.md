@@ -28,130 +28,152 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Generative AI and Labor Market Matching Efficiency  {.paper-class}
 (with [Emma Wiles](https://sites.google.com/view/emmavaninwegen/home))
 
-   * Versions: ([coauthor](https://www.emmawiles.com/storage/jobot.pdf))
+* Paper: [Coauthor PDF](https://www.emmawiles.com/storage/jobot.pdf)
 
 
 * Status: R&R, Management Science
 
-* Links:
+
 
 ### Coasean Sinularity: The Coasean Singularity? Demand, Supply, and Market Design with AI Agents  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Gili Rusak](https://gilirusak.github.io/))
 
-   * Versions: ([nber](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents))
+* Paper: [NBER](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
 
 
 * Status: Working paper
 
+
 * Links:   Media: ([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))
+
 
 ### General Social Agents  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/))
 
-   * Versions: ([arxiv](https://arxiv.org/abs/2508.17407))([nber](https://www.nber.org/papers/w34937))
+* Paper: [arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
 
 
 * Status: R&R at Econometrica
 
-* Links:
+
 
 ### Automated social science: Language models as scientist and subject  {.paper-class}
 (with [Kehang Zhu](https://scholar.harvard.edu/kehang/home) and [Benjamin Manning](https://www.benjaminmanning.com/))
 
-   * Versions: ([arxiv](https://arxiv.org/abs/2404.11794))([nber](https://www.nber.org/papers/w32381))
+* Paper: [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
 
 
 * Status: Working paper
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC))
+
 
 ### Large language models as economic agents: what can we learn from homo silicus?
 
-   * Versions: ([jjh](papers/llm_ask.pdf))([arxiv](https://arxiv.org/abs/2301.07543))
+* Paper: [PDF](papers/llm_ask.pdf) · [arXiv](https://arxiv.org/abs/2301.07543)
 
 
 * Status: R&R at Review of Economics and Statistics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:YlPif8NxrbYC))    Videos: ([1](https://youtu.be/cMWUnQdPM9A))   Slides: ([1](https://docs.google.com/presentation/d/1927RDjVnDD0kRelfFc9EdvH5zo68KMNdFDD0GSSLFKI/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1606364947335741453?s=20&t=wfQLuu-9ibxQQZ6uTCG7tw))
+
 
 ### The death of a technical skill  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
-   * Versions: ([jjh](https://john-joseph-horton.com/papers/schumpeter.pdf))
+* Paper: [PDF](https://john-joseph-horton.com/papers/schumpeter.pdf)
 
 
 * Status: Information Systems Research
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://sg.news.yahoo.com/happens-tech-workers-skills-become-090302581.html))([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))
+
 
 ### Algorithmic writing assistance on jobseekers resumes increases hires  {.paper-class}
 (with [Emma Wiles](https://sites.google.com/view/emmavaninwegen/home) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
-   * Versions: ([jjh](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf))([nber](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf))([arxiv](https://arxiv.org/abs/2301.08083))
+* Paper: [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC))   Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    Slides: ([1](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p))
+
 
 ### Price floors and employer preferences: evidence from a minimum wage experiment
 
-   * Versions: ([jjh](https://www.john-joseph-horton.com/papers/minimum_wage.pdf))
+* Paper: [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
 
 
 * Status: American Economic Review
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC))   Media: ([The New York Times](https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0))([Bloomberg View](https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity))([Wall Street Journal](http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj))   Videos: ([1](https://www.youtube.com/watch?v=Bkxobfkrfps))   Slides: ([1](https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4uOx120tan4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p))
+
 
 ### Reducing Congestion in Labor Markets: A Case Study in Simple Market Design  {.paper-class}
 (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/))
 
-   * Versions: ([jjh](https://john-joseph-horton.com/papers/autopause.pdf))([coauthor](https://www.mitchellwatt.com/files/congestion.pdf))
+* Paper: [PDF](https://john-joseph-horton.com/papers/autopause.pdf) · [Coauthor PDF](https://www.mitchellwatt.com/files/congestion.pdf)
 
 
 * Status: R&R, American Economic Journal - Micro
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC))     Slides: ([1](https://docs.google.com/presentation/d/10vkIYkUGuBJR4nYitT8tyGuEJdN5crkFkzrhoW6xdMQ/edit#slide=id.p))
+
 
 ### The tragedy of your upstairs neighbors  {.paper-class}
 (with [Apostolos Filippas](Apostolos Filippas))
 
-   * Versions: ([ssrn](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343))([arxiv](https://arxiv.org/abs/1611.05688))([acmec](https://dl.acm.org/doi/10.1145/3033274.3085097))
+* Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343) · [arXiv](https://arxiv.org/abs/1611.05688) · [ACM EC](https://dl.acm.org/doi/10.1145/3033274.3085097)
 
 
 * Status: R&R at Journal of Public Economics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:XUvXOeBm_78C))   Media: ([The Guardian](https://www.theguardian.com/technology/2019/aug/07/emoji-house-airbnb-california-manhattan-beach))   Videos: ([1](https://www.youtube.com/watch?v=Mp02sfw4Nhc))   Slides: ([1](https://docs.google.com/presentation/d/1ndTX27BG7EZazc5AqQ9WaeGI5oG0guj2K78NQj_YEsI/edit#slide=id.p))
+
 
 ### Consumer demand with social influences: evidence from an e-commerce platform  {.paper-class}
 (with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [El Hadi Caoui](https://elhadicaoui.github.io/))
 
-   * Versions: ([nber](https://www.nber.org/papers/w30351))
+* Paper: [NBER](https://www.nber.org/papers/w30351)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC))   Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))
+
 
 ### Information about vacancy congestion redirects job search  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/))
 
-   * Versions: ([jjh](https://andreyfradkin.com/assets/jobs_authors.pdf))
+* Paper: [PDF](https://andreyfradkin.com/assets/jobs_authors.pdf)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC))
+
 
 ### The production and consumption of social media  {.paper-class}
 (with [Apostolos Filippas](Apostolos Filippas) and [Elliot  Lipnowski](https://elliotlipnowski.com/))
 
-   * Versions: ([jjh](https://www.john-joseph-horton.com/papers/twitter.pdf))([nber](https://www.nber.org/papers/w28666))
+* Paper: [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:F2UWTTQJPOcC))    Videos: ([1](https://youtu.be/HsnbHy9FQek))   Slides: ([1](https://docs.google.com/presentation/d/18keJdH-7MJtQ4gyd1LxfKMkDiRiL5kEkGq_4rgFNMtw/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1aJTQiAMAKxaQI4f6fhe4g2yHMXWgkwTeBltW1p_hdJk/edit#slide=id.p))
+
 
 ### Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment  {.paper-class}
 (with [Apostolos Filippas](Apostolos Filippas), Diego Urrica and [Prasanna Parasurama ](https://parasurama.github.io/))
@@ -159,56 +181,68 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 * Status: Management Science
 
+
 * Links:     Slides: ([1](https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p))
+
 
 ### Buyer signaling improves matching: evidence from a field experiment  {.paper-class}
 (with [Philipp  Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
 
-   * Versions: ([nber](https://www.nber.org/papers/w29445))
+* Paper: [NBER](https://www.nber.org/papers/w29445)
 
 
 * Status: R&R, AEJ Micro
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fhLHgd8AAAAJ&cstart=20&pagesize=80&citation_for_view=fhLHgd8AAAAJ:8AbLer7MMksC))    Videos: ([1](https://youtu.be/pAeJ8bFhc6w))   Slides: ([1](https://docs.google.com/presentation/d/1kxIRUQM_la1qOEjHHy1LA8P7x9qmoaOO0CGUPPT-3Zc/edit))
+
 
 ### Ride-sharing markets re-equilibrate  {.paper-class}
 (with [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle) and [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552))
 
-   * Versions: ([jjh](https://john-joseph-horton.com/papers/uber_price.pdf))([uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber))
+* Paper: [PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
 
 
 * Status: R&R, Journal of Economics and Management Strategy
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view= https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC))   Media: ([Wall Street Journal](https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602))([Quartz](https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/))([AP News](https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c))   Videos: ([1](https://www.youtube.com/watch?v=lJ3wbGIKaK4))   Slides: ([1](https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p))
+
 
 ### The effects of algorithmic labor market recommendations: evidence from a field experiment
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/algo_labor_rec.pdf))([jole](https://www.journals.uchicago.edu/doi/abs/10.1086/689213))
+* Paper: [PDF](http://john-joseph-horton.com/papers/algo_labor_rec.pdf) · [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/689213)
 
 
 * Status: Journal of Labor Economics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC))     Slides: ([1](https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3))
+
 
 ### Labor allocation in paid crowdsourcing: experimental evidence on positioning, nudges and prices  {.paper-class}
 (with [Dana Chandler](https://www.linkedin.com/in/danachandler1/))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf)
 
 
 * Status: HCOMP
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:roLk4NBRz8UC))     Slides: ([1](https://docs.google.com/presentation/d/1lmlrDEaBTAXwbb-1Q6XjsfYH2aR0Gk82zK6TRznqmNM/edit#slide=id.i0))
+
 
 ### Covid-19 and remote work: an early look at us data  {.paper-class}
 (with [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Erik  Brynjolfsson](https://www.brynjolfsson.com/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi  TuYe](https://www.linkedin.com/in/hytuye))
 
-   * Versions: ([nber](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf))
+* Paper: [NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
 
 
 * Status: Working paper
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:w1MjKQ0l0TYC))       Replication: ([1](https://github.com/johnjosephhorton/remote_work))
+
 
 ### Wielding peer effects in online production: evidence from a series of field experiments  {.paper-class}
 (with [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
@@ -216,199 +250,241 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 * Status: Working paper
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-95Q15plzcUC))
+
 
 ### The ruble collapse in an online marketplace: some lessons for market designers
 
-   * Versions: ([jjh](https://www.nber.org/papers/w28702))
+* Paper: [PDF](https://www.nber.org/papers/w28702)
 
 
 * Status: R&R, Journal of Labor Economics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:U_HPUtbDl20C))     Slides: ([1](https://docs.google.com/presentation/d/1WaMdyBtUU1Occ_nEKBYE5ArE9mS11-nWCDvWUIDXEY0/edit#slide=id.g1020c983594_0_61))
+
 
 ### Steering in online markets: the role of platform incentives and credibility  {.paper-class}
 (with [Moshe Barach](Moshe A. Barach) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-   * Versions: ([jjh](https://www.john-joseph-horton.com/papers/badging.pdf))([mansci](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412))([nber](https://www.nber.org/papers/w25917))
+* Paper: [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:OBSaB-F7qqsC))     Slides: ([1](https://docs.google.com/presentation/d/1Y_BpStm65Sj-hTymEwGF4MLvg5Uh25-vxMtFDw3eCcI/edit#slide=id.p))
+
 
 ### The future of crowd work  {.paper-class}
 (with [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Aaron  Shaw](http://aaronshaw.org/), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [John  Zimmerman](https://hcii.cmu.edu/people/john-zimmerman), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein) and [Matt Lease](https://www.ischool.utexas.edu/~ml/))
 
-   * Versions: ([stanford](https://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf))
+* Paper: [stanford](https://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf)
 
 
 * Status: ACM-CSCW 2013
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:KlAtU1dfN6UC))
+
 
 ### Digital labor markets and global talent flows  {.paper-class}
 (with [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452) and [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265))
 
-   * Versions: ([nber](https://www.nber.org/papers/w23398))
+* Paper: [NBER](https://www.nber.org/papers/w23398)
 
 
 * Status: Book Chapter
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:PyEswDtIyv0C))
+
 
 ### The dot-guessing game: a ‘fruit fly’for human computation research
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/dot_guessing_game.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/dot_guessing_game.pdf)
 
 
 * Status: Working paper
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:_FxGoFyzp5QC))
+
 
 ### Head in the clouds: challenges and opportunities in crowdsourcing
 
 
 * Status: ACM Crossroads
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:0EnyYjriUFMC))
+
 
 ### Reputation inflation  {.paper-class}
 (with [Apostolos Filippas](Apostolos Filippas) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-   * Versions: ([jjh](https://www.apostolos-filippas.com/papers/inflation.pdf))([mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350))([nber](https://www.nber.org/papers/w25857))([acmec](https://dl.acm.org/doi/abs/10.1145/3219166.3219222))([repec](https://ideas.repec.org/p/nbr/nberwo/25857.html))([ssrn](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473))
+* Paper: [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
 
 
 * Status: Marketing Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:yxmsSjX2EkcC))   Media: ([Financial Times](https://www.ft.com/content/a72f7e56-3724-11e8-8b98-2f31af407cc8))([Quartz](https://qz.com/1244155/good-luck-leaving-your-uber-driver-less-than-five-stars/))([Fortune](https://fortune.com/2018/04/05/uber-negative-ratings-stars/))([EurekAlert](https://www.eurekalert.org/news-releases/954537))   Videos: ([1](https://www.youtube.com/watch?v=s1Nb_iw1Uqw))([2](https://www.youtube.com/watch?v=Ezz1LR3Wpnw))   Slides: ([1](https://docs.google.com/presentation/d/1619lqGG_aaU3tls0lYesrxhIqQVM72hJk01FAX-rsZU/edit#slide=id.g392b584c36_0_0))
+
 
 ### Labor economists get their microscope: big data and labor market analysis  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/labor_econ_microscope.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/labor_econ_microscope.pdf)
 
 
 * Status: Big Data
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:LPtt_HFRSbwC))
+
 
 ### Online labor markets
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/online_labor_markets.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/online_labor_markets.pdf)
 
 
 * Status: WINE
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:qjMakFHDy7sC))       Replication: ([1](https://bitbucket.org/johnjosephhorton/olm_wine/src/master/))
+
 
 ### The online laboratory: conducting experiments in a real labor market  {.paper-class}
 (with [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-   * Versions: ([expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9))([nber](https://www.nber.org/papers/w15961))([harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf))
+* Paper: [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
 
 
 * Status: Experimental Economics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC))     Slides: ([1](https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1))    Replication: ([1](https://bitbucket.org/johnjosephhorton/online_laboratory/wiki/Home))
+
 
 ### The labor economics of paid crowdsourcing  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/labor_economics_of_paid_crowdsourcing.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/labor_economics_of_paid_crowdsourcing.pdf)
 
 
 * Status: ACM-EC
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u5HHmVD_uO8C))     Slides: ([1](https://docs.google.com/presentation/d/1cbX5ynnP42uRTDq5qKVtATceqOOcGtAd/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true))    Replication: ([1](https://bitbucket.org/johnjosephhorton/labor_economics_paid_crowdsourcing))
+
 
 ### Designing incentives for inexpert raters  {.paper-class}
 (with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) and [Aaron  Shaw](http://aaronshaw.org/))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/designing_incentives_for_inexpert_human_raters.pdf))([acm](https://dl.acm.org/doi/10.1145/1958824.1958865))
+* Paper: [PDF](http://john-joseph-horton.com/papers/designing_incentives_for_inexpert_human_raters.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1958824.1958865)
 
 
 * Status: ACM-CSCW 2011
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:UeHWp8X0CEIC))       Replication: ([1](https://github.com/aaronshaw/inexpert_raters))
+
 
 ### Buyer uncertainty about seller capacity: causes, consequences, and a partial solution
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/scs.pdf))([mansci](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116))([ssrn](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526))
+* Paper: [PDF](http://john-joseph-horton.com/papers/scs.pdf) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC))     Slides: ([1](https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA))
+
 
 ### The effects of search advertising on competitors: an experiment before a merger  {.paper-class}
 (with [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/search_ad_exp.pdf))([mansci](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534))
+* Paper: [PDF](http://john-joseph-horton.com/papers/search_ad_exp.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:RoXSNcbkSzsC))   Media: ([Freakanomics Radio](https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/))   Videos: ([1](https://www.youtube.com/watch?v=sX7u5i9UXRM))   Slides: ([1](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p))
+
 
 ### Owning, using and renting: some simple economics of the sharing economy  {.paper-class}
 (with [Apostolos Filippas](Apostolos Filippas) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-   * Versions: ([mansci](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396))([mit](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554))([nber](https://www.nber.org/papers/w22029))
+* Paper: [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
 
 
 * Status: Management Science
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:rHJHxKgnXwkC))   Media: ([The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/01/06/sorry-you-wont-be-sharing-your-toothbrush-for-money/))    Slides: ([1](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p))    Replication: ([1](https://github.com/johnjosephhorton/sharing))
+
 
 ### Are online labor markets spot markets for tasks?  {.paper-class}
 (with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/wages_of_paycuts.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/wages_of_paycuts.pdf)
 
 
 * Status: Information Systems Research
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:AXkvAH5U_nMC))       Replication: ([1](https://github.com/johnjosephhorton/wages_of_paycuts))
+
 
 ### The need for standardization in crowdsourcing  {.paper-class}
 (with [Panos Ipeirotis](https://ipeirotis.org/))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/the_need_for_standardization_in_crowdsourcing.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/the_need_for_standardization_in_crowdsourcing.pdf)
 
 
 * Status: Proceedings of the workshop on crowdsourcing and human computation at CHI
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Tyk-4Ss8FVUC))
+
 
 ### Task search in a human computation market  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/) and [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/))
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/task_search_in_a_human_computation_market.pdf))([acm](https://dl.acm.org/doi/10.1145/1837885.1837889))
+* Paper: [PDF](http://john-joseph-horton.com/papers/task_search_in_a_human_computation_market.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1837885.1837889)
 
 
 * Status: HCOMP 2010
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C))     Slides: ([1](https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42))    Replication: ([1](https://bitbucket.org/johnjosephhorton/mturk_search_behavior/wiki/Home))
+
 
 ### The condition of the turking class: are online employers fair and honest?
 
-   * Versions: ([jjh](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf))
+* Paper: [PDF](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf)
 
 
 * Status: Economic Letters
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:2osOgNQ5qMEC))       Replication: ([1](https://bitbucket.org/johnjosephhorton/condition_of_turking_class/src/master/))
+
 
 ### How do employers use compensation history: evidence from a field experiment  {.paper-class}
 (with [Moshe Barach](Moshe A. Barach))
 
-   * Versions: ([jole](https://www.journals.uchicago.edu/doi/abs/10.1086/709277?journalCode=jole))
+* Paper: [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/709277?journalCode=jole)
 
 
 * Status: Journal of Labor Economics
 
+
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Dem6FJhTUoYC))   Media: ([The New York Times](https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html))([MarketWatch](https://www.marketwatch.com/story/when-employers-cant-ask-about-salary-history-workers-can-see-double-digit-jumps-in-pay-2020-01-14))    Slides: ([1](https://docs.google.com/presentation/d/1C6W2SSpBj0y8g-R48MXsKrHKivoXeN7b/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true))
+
 
 
 
