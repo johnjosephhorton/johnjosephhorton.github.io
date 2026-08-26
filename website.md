@@ -36,7 +36,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:
 
 ### Coasean Sinularity: The Coasean Singularity? Demand, Supply, and Market Design with AI Agents  {.paper-class}
-(with [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://benjaminmanning.io/) and [Gili Rusak](https://gilirusak.github.io/))
+(with [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Gili Rusak](https://gilirusak.github.io/))
 
    * Versions: ([nber](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents))
 
@@ -46,9 +46,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:   Media: ([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))
 
 ### General Social Agents  {.paper-class}
-(with [Benjamin Manning](https://benjaminmanning.io/))
+(with [Benjamin Manning](https://www.benjaminmanning.com/))
 
-   * Versions: ([arxiv](https://benjaminmanning.io/files/optimize.pdf))
+   * Versions: ([arxiv](https://arxiv.org/abs/2508.17407))([nber](https://www.nber.org/papers/w34937))
 
 
 * Status: R&R at Econometrica
@@ -56,7 +56,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:
 
 ### Automated social science: Language models as scientist and subject  {.paper-class}
-(with [Kehang Zhu](https://scholar.harvard.edu/kehang/home) and [Benjamin Manning](https://benjaminmanning.io/))
+(with [Kehang Zhu](https://scholar.harvard.edu/kehang/home) and [Benjamin Manning](https://www.benjaminmanning.com/))
 
    * Versions: ([arxiv](https://arxiv.org/abs/2404.11794))([nber](https://www.nber.org/papers/w32381))
 
@@ -413,6 +413,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Awards
+
+   ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects),    2026
 
    WISE 2025 - Best Paper Award,    2025
 
