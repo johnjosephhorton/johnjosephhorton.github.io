@@ -2,6 +2,7 @@ import jinja2
 from jinja2 import FileSystemLoader
 import collections
 import csv
+import json
 from pathlib import Path
 
 PREFERRED_VERSION_KEY = "jjh"
@@ -66,6 +67,26 @@ class Paper(Entity):
         if has_preferred_version:
             self._versions.appendleft(preferred_version)
 
+    def add_publications(self, publications):
+        self.publications = [p for p in publications if p.paper_id == self.id]
+
+    @property
+    def primary_publication(self):
+        return self.publications[0] if self.publications else None
+
+    @property
+    def publication_label(self):
+        publication_type = self.primary_publication.publication_type
+        return "Forthcoming" if publication_type.startswith("forthcoming-") else "Published"
+
+    @property
+    def show_status(self):
+        """Keep active statuses, but do not repeat a primary publication venue."""
+        is_primary_publication = self.published not in ("", "0", "0.0")
+        return bool(self.status) and not (
+            self.primary_publication and is_primary_publication
+        )
+
     @property
     def slides_line(self):
         if self._slides:
@@ -125,9 +146,10 @@ class Paper(Entity):
                 "acmec": "ACM EC",
                 "acm": "ACM",
                 "jole": "JOLE",
+                "isr": "ISR",
                 "mansci": "Management Science",
                 "mit": "MIT",
-                "coauthor": "Coauthor PDF",
+                "coauthor": "PDF",
             }
             return " · ".join(
                 make_link(labels.get(obj.type.lower(), obj.type), obj.url)
@@ -231,6 +253,22 @@ class Media(Entity):
         return make_link(self.publication, self.url)
 
 
+class Publication(Entity):
+    @property
+    def citation(self):
+        details = self.venue
+        if self.volume:
+            details += f" {self.volume}"
+            if self.issue:
+                details += f"({self.issue})"
+        if self.pages:
+            details += f": {self.pages}"
+        year = self.publication_date[:4]
+        if year:
+            details += f" ({year})"
+        return make_link(details, self.url) if self.url else details
+
+
 class Collection:
     def __init__(self, ObjectType, filename):
         self.items = collections.deque()
@@ -272,6 +310,7 @@ twitter_threads = Collection(Entity, "twitter_threads")
 code = Collection(Entity, "code")
 video = Collection(Entity, "video")
 grants = Collection(Entity, "grants")
+publications = Collection(Publication, "publication_info")
 
 people = {p["id"]: Person(p) for p in get_csv("people.csv")}
 papers = {p["id"]: Paper(p) for p in get_csv("papers.csv")}
@@ -286,6 +325,7 @@ for id, paper in papers.items():
     paper.add_slides(slides)
     paper.add_twitter_thread(twitter_threads)
     paper.add_code(code)
+    paper.add_publications(publications)
 
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("website.md")
@@ -304,3 +344,8 @@ rendered = template.render(**d)
 rendered = "\n".join(line.rstrip() for line in rendered.splitlines()) + "\n"
 with open("website.md", "w", encoding="utf-8") as f:
     f.write(rendered)
+
+# Keep an exact copy available to the static page's copy button. Loading a
+# JavaScript asset works both on GitHub Pages and in a local file:// preview.
+with open("page-markdown.js", "w", encoding="utf-8") as f:
+    f.write("window.PAGE_MARKDOWN = " + json.dumps(rendered, ensure_ascii=False) + ";\n")

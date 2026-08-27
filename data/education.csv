@@ -1,3 +1,4 @@
-institution,degree,field,start,finish,thesis,notes,type
+institution,degree,field,start,finish,thesis,notes,type,url
+"Y Combinator","Fall 2025",,,,,,accelerator,https://www.ycombinator.com/companies/expected-parrot
 "Harvard University",PhD,"Public Policy",2006,2011,"""Online Labor Markets""","Committee: Richard Zeckhauser (chair), Lawrence Katz and Jeffrey Liebman",graduate
-"United States Military Academy at West Point",BS,"Mathematics & Computer Science (minor)",1997,2001,,,undergraduate
+"United States Military Academy at West Point",BS,"Mathematics, minor in Computer Science",1997,2001,,,undergraduate

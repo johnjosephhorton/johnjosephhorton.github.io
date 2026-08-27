@@ -8,12 +8,16 @@
 I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
 [\@johnjhorton](https://twitter.com/johnjhorton)
 
-# Academic Employment
+# Employment
 
+
+   Co-founder, [Expected Parrot](https://www.expectedparrot.com), 2024---Present
 
    Chrysler Professor of Management, MIT Sloan School of Management, August 25, 2025---Present
 
    Associate Professor (with Tenure), MIT Sloan School of Management, 2023---2025
+
+   Consulting Researcher, [Microsoft Research New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), 2024---Present
 
    Richard S. Leghorn Career Development Associate Professor, MIT Sloan School of Management, 2020---2023
 
@@ -21,57 +25,74 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    Assistant Professor of Information Systems, Stern School of Business, New York University, 2013---2019
 
+   Visiting Economist, [Uber Technologies](https://www.uber.com/), Summer 2015---2015
+
+   Tank Platoon Leader & Executive Officer, [US Army](https://www.army.mil/), 2001---2006
+
 
 # Research {.paper-class}
 
 
-### Generative AI and Labor Market Matching Efficiency  {.paper-class}
-(with [Emma Wiles](https://sites.google.com/view/emmavaninwegen/home))
+### Generative AI and labor market matching efficiency  {.paper-class}
+(with [Emma Wiles](https://www.emmawiles.com/))
 
-* Paper: [Coauthor PDF](https://www.emmawiles.com/storage/jobot.pdf)
-
-
-* Status: R&R, Management Science
+* Paper: [PDF](https://www.emmawiles.com/storage/jobot.pdf)
 
 
 
-### Coasean Sinularity: The Coasean Singularity? Demand, Supply, and Market Design with AI Agents  {.paper-class}
+* Status: R&R at Management Science
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Generative+AI+and+Labor+Market+Matching+Efficiency%22))
+
+
+### The Coasean singularity? Demand, supply, and market design with AI agents  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Gili Rusak](https://gilirusak.github.io/))
 
-* Paper: [NBER](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
+* Paper: [NBER](https://www.nber.org/papers/w34468)
 
 
-* Status: Working paper
+* Forthcoming: [The Economics of Transformative AI (2026)](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
 
 
-* Links:   Media: ([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22))   Media: ([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))    Twitter Thread(s): ([1](https://x.com/Peyman_Shahidi/status/1980257133493981219))
 
 
-### General Social Agents  {.paper-class}
+### General social agents  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/))
 
 * Paper: [arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
 
 
+
 * Status: R&R at Econometrica
 
 
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22General+Social+Agents%22))
 
-### Automated social science: Language models as scientist and subject  {.paper-class}
+
+### Automated social science: Language models as scientist and subjects  {.paper-class}
 (with [Kehang Zhu](https://scholar.harvard.edu/kehang/home) and [Benjamin Manning](https://www.benjaminmanning.com/))
 
 * Paper: [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
 
 
-* Status: Working paper
+* Published: [Proceedings of the 27th ACM Conference on Economics and Computation (2026)](https://ec26.sigecom.org/program/accepted-papers/)
+
+
+* Status: R&R at Quarterly Journal of Economics
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC))
 
 
-### Large language models as economic agents: what can we learn from homo silicus?
+### Large language models as economic agents: What can we learn from Homo silicus?
 
 * Paper: [PDF](papers/llm_ask.pdf) · [arXiv](https://arxiv.org/abs/2301.07543)
+
+
+* Published: [Proceedings of the 25th ACM Conference on Economics and Computation: 614-615 (2024)](https://doi.org/10.1145/3670865.3673513)
 
 
 * Status: R&R at Review of Economics and Statistics
@@ -86,51 +107,58 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](https://john-joseph-horton.com/papers/schumpeter.pdf)
 
 
-* Status: Information Systems Research
+* Published: [Information Systems Research 36(3): 1799-1820 (2025)](https://doi.org/10.1287/isre.2022.0709)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://sg.news.yahoo.com/happens-tech-workers-skills-become-090302581.html))([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))
 
 
-### Algorithmic writing assistance on jobseekers resumes increases hires  {.paper-class}
-(with [Emma Wiles](https://sites.google.com/view/emmavaninwegen/home) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
+### Algorithmic writing assistance on jobseekers’ resumes increases hires  {.paper-class}
+(with [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
 * Paper: [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
 
 
-* Status: Management Science
+* Published: [Management Science 71(12): 10144-10164 (2025)](https://doi.org/10.1287/mnsc.2024.04528)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC))   Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    Slides: ([1](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p))
 
 
-### Price floors and employer preferences: evidence from a minimum wage experiment
+### Price floors and employer preferences: Evidence from a minimum wage experiment
 
 * Paper: [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
 
 
-* Status: American Economic Review
+* Published: [American Economic Review 115(1): 117-146 (2025)](https://doi.org/10.1257/aer.20170637)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC))   Media: ([The New York Times](https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0))([Bloomberg View](https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity))([Wall Street Journal](http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj))   Videos: ([1](https://www.youtube.com/watch?v=Bkxobfkrfps))   Slides: ([1](https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4uOx120tan4/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p))
 
 
-### Reducing Congestion in Labor Markets: A Case Study in Simple Market Design  {.paper-class}
+### Reducing congestion in labor markets: A case study in simple market design  {.paper-class}
 (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/))
 
-* Paper: [PDF](https://john-joseph-horton.com/papers/autopause.pdf) · [Coauthor PDF](https://www.mitchellwatt.com/files/congestion.pdf)
+* Paper: [PDF](https://john-joseph-horton.com/papers/autopause.pdf) · [PDF](https://www.mitchellwatt.com/files/congestion.pdf)
 
 
-* Status: R&R, American Economic Journal - Micro
+
+* Status: R&R at American Economic Journal: Microeconomics
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC))     Slides: ([1](https://docs.google.com/presentation/d/10vkIYkUGuBJR4nYitT8tyGuEJdN5crkFkzrhoW6xdMQ/edit#slide=id.p))
 
 
 ### The tragedy of your upstairs neighbors  {.paper-class}
-(with [Apostolos Filippas](Apostolos Filippas))
+(with [Apostolos Filippas](https://www.apostolos-filippas.com/))
 
 * Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343) · [arXiv](https://arxiv.org/abs/1611.05688) · [ACM EC](https://dl.acm.org/doi/10.1145/3033274.3085097)
+
+
+* Published: [Proceedings of the 2017 ACM Conference on Economics and Computation: 537-538 (2017)](https://doi.org/10.1145/3033274.3085097)
 
 
 * Status: R&R at Journal of Public Economics
@@ -139,13 +167,14 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:XUvXOeBm_78C))   Media: ([The Guardian](https://www.theguardian.com/technology/2019/aug/07/emoji-house-airbnb-california-manhattan-beach))   Videos: ([1](https://www.youtube.com/watch?v=Mp02sfw4Nhc))   Slides: ([1](https://docs.google.com/presentation/d/1ndTX27BG7EZazc5AqQ9WaeGI5oG0guj2K78NQj_YEsI/edit#slide=id.p))
 
 
-### Consumer demand with social influences: evidence from an e-commerce platform  {.paper-class}
+### Consumer demand with social influences: Evidence from an e-commerce platform  {.paper-class}
 (with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [El Hadi Caoui](https://elhadicaoui.github.io/))
 
 * Paper: [NBER](https://www.nber.org/papers/w30351)
 
 
-* Status: Management Science
+* Published: [Management Science 72(4): 3550-3570 (2026)](https://doi.org/10.1287/mnsc.2024.04995)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC))   Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))
@@ -157,41 +186,47 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](https://andreyfradkin.com/assets/jobs_authors.pdf)
 
 
-* Status: Management Science
+* Published: [Management Science 72(2): 1305-1323 (2026)](https://doi.org/10.1287/mnsc.2023.02483)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC))
 
 
 ### The production and consumption of social media  {.paper-class}
-(with [Apostolos Filippas](Apostolos Filippas) and [Elliot  Lipnowski](https://elliotlipnowski.com/))
+(with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Elliot Lipnowski](https://elliotlipnowski.com/))
 
 * Paper: [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
 
 
-* Status: Management Science
+* Published: [Management Science 72(7): 6368-6388 (2026)](https://doi.org/10.1287/mnsc.2023.00060)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:F2UWTTQJPOcC))    Videos: ([1](https://youtu.be/HsnbHy9FQek))   Slides: ([1](https://docs.google.com/presentation/d/18keJdH-7MJtQ4gyd1LxfKMkDiRiL5kEkGq_4rgFNMtw/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1aJTQiAMAKxaQI4f6fhe4g2yHMXWgkwTeBltW1p_hdJk/edit#slide=id.p))
 
 
-### Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment  {.paper-class}
-(with [Apostolos Filippas](Apostolos Filippas), Diego Urrica and [Prasanna Parasurama ](https://parasurama.github.io/))
+### Costly capacity signaling increases matching efficiency: Evidence from a field experiment  {.paper-class}
+(with [Apostolos Filippas](https://www.apostolos-filippas.com/), Diego Urraca and [Prasanna Parasurama](https://parasurama.github.io/))
 
 
-* Status: Management Science
+* Published: [Proceedings of the 25th ACM Conference on Economics and Computation: 414-415 (2024)](https://doi.org/10.1145/3670865.3673511)
 
 
-* Links:     Slides: ([1](https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p))
+* Status: Forthcoming at Management Science
 
 
-### Buyer signaling improves matching: evidence from a field experiment  {.paper-class}
-(with [Philipp  Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Costly+Capacity+Signaling+Increases+Matching+Efficiency%3A+Evidence+from+a+Field+Experiment%22))     Slides: ([1](https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p))
+
+
+### Buyer signaling improves matching: Evidence from a field experiment  {.paper-class}
+(with [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
 
 * Paper: [NBER](https://www.nber.org/papers/w29445)
 
 
-* Status: R&R, AEJ Micro
+
+* Status: R&R at American Economic Journal: Microeconomics
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fhLHgd8AAAAJ&cstart=20&pagesize=80&citation_for_view=fhLHgd8AAAAJ:8AbLer7MMksC))    Videos: ([1](https://youtu.be/pAeJ8bFhc6w))   Slides: ([1](https://docs.google.com/presentation/d/1kxIRUQM_la1qOEjHHy1LA8P7x9qmoaOO0CGUPPT-3Zc/edit))
@@ -203,39 +238,43 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
 
 
-* Status: R&R, Journal of Economics and Management Strategy
+
+* Status: R&R at Journal of Economics & Management Strategy
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&&citation_for_view= https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC))   Media: ([Wall Street Journal](https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602))([Quartz](https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/))([AP News](https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c))   Videos: ([1](https://www.youtube.com/watch?v=lJ3wbGIKaK4))   Slides: ([1](https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p))
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC))   Media: ([Wall Street Journal](https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602))([Quartz](https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/))([AP News](https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c))   Videos: ([1](https://www.youtube.com/watch?v=lJ3wbGIKaK4))   Slides: ([1](https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p))
 
 
-### The effects of algorithmic labor market recommendations: evidence from a field experiment
+### The effects of algorithmic labor market recommendations: Evidence from a field experiment
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/algo_labor_rec.pdf) · [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/689213)
 
 
-* Status: Journal of Labor Economics
+* Published: [Journal of Labor Economics 35(2): 345-385 (2017)](https://doi.org/10.1086/689213)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC))     Slides: ([1](https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3))
 
 
-### Labor allocation in paid crowdsourcing: experimental evidence on positioning, nudges and prices  {.paper-class}
+### Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices  {.paper-class}
 (with [Dana Chandler](https://www.linkedin.com/in/danachandler1/))
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf)
 
 
-* Status: HCOMP
+* Published: [Human Computation: Papers from the 2011 AAAI Workshop: 14-19 (2011)](https://aaai.org/papers/ws11-11-003-labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices/)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:roLk4NBRz8UC))     Slides: ([1](https://docs.google.com/presentation/d/1lmlrDEaBTAXwbb-1Q6XjsfYH2aR0Gk82zK6TRznqmNM/edit#slide=id.i0))
 
 
-### Covid-19 and remote work: an early look at us data  {.paper-class}
-(with [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Erik  Brynjolfsson](https://www.brynjolfsson.com/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi  TuYe](https://www.linkedin.com/in/hytuye))
+### COVID-19 and remote work: An early look at US data  {.paper-class}
+(with [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye))
 
 * Paper: [NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
+
 
 
 * Status: Working paper
@@ -244,8 +283,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:w1MjKQ0l0TYC))       Replication: ([1](https://github.com/johnjosephhorton/remote_work))
 
 
-### Wielding peer effects in online production: evidence from a series of field experiments  {.paper-class}
+### Wielding peer effects in online production: Evidence from a series of field experiments  {.paper-class}
 (with [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
+
 
 
 * Status: Working paper
@@ -254,36 +294,39 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-95Q15plzcUC))
 
 
-### The ruble collapse in an online marketplace: some lessons for market designers
+### The ruble collapse in an online marketplace: Some lessons for market designers
 
 * Paper: [PDF](https://www.nber.org/papers/w28702)
 
 
-* Status: R&R, Journal of Labor Economics
+
+* Status: R&R at Journal of Labor Economics
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:U_HPUtbDl20C))     Slides: ([1](https://docs.google.com/presentation/d/1WaMdyBtUU1Occ_nEKBYE5ArE9mS11-nWCDvWUIDXEY0/edit#slide=id.g1020c983594_0_61))
 
 
-### Steering in online markets: the role of platform incentives and credibility  {.paper-class}
-(with [Moshe Barach](Moshe A. Barach) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
+### Steering in online markets: The role of platform incentives and credibility  {.paper-class}
+(with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
 * Paper: [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
 
 
-* Status: Management Science
+* Published: [Management Science 66(9): 4047-4070 (2020)](https://doi.org/10.1287/mnsc.2019.3412)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:OBSaB-F7qqsC))     Slides: ([1](https://docs.google.com/presentation/d/1Y_BpStm65Sj-hTymEwGF4MLvg5Uh25-vxMtFDw3eCcI/edit#slide=id.p))
 
 
 ### The future of crowd work  {.paper-class}
-(with [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Aaron  Shaw](http://aaronshaw.org/), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [John  Zimmerman](https://hcii.cmu.edu/people/john-zimmerman), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein) and [Matt Lease](https://www.ischool.utexas.edu/~ml/))
+(with [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Aaron Shaw](http://aaronshaw.org/), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein) and [Matt Lease](https://www.ischool.utexas.edu/~ml/))
 
 * Paper: [stanford](https://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf)
 
 
-* Status: ACM-CSCW 2013
+* Published: [Proceedings of the 2013 Conference on Computer Supported Cooperative Work: 1301-1318 (2013)](https://doi.org/10.1145/2441776.2441923)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:KlAtU1dfN6UC))
@@ -295,15 +338,17 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [NBER](https://www.nber.org/papers/w23398)
 
 
-* Status: Book Chapter
+* Published: [High-Skilled Migration to the United States and Its Economic Consequences: 71-108 (2018)](https://doi.org/10.7208/9780226525662-004)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:PyEswDtIyv0C))
 
 
-### The dot-guessing game: a ‘fruit fly’for human computation research
+### The dot-guessing game: A ‘fruit fly’ for human computation research
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/dot_guessing_game.pdf)
+
 
 
 * Status: Working paper
@@ -312,34 +357,37 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:_FxGoFyzp5QC))
 
 
-### Head in the clouds: challenges and opportunities in crowdsourcing
+### Heads in the cloud: Challenges and opportunities in crowdsourcing
 
 
-* Status: ACM Crossroads
+* Published: [XRDS: Crossroads, The ACM Magazine for Students 17(2): 27-31 (2010)](https://doi.org/10.1145/1869086.1869095)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:0EnyYjriUFMC))
 
 
 ### Reputation inflation  {.paper-class}
-(with [Apostolos Filippas](Apostolos Filippas) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
+(with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
 * Paper: [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
 
 
-* Status: Marketing Science
+* Published: [Marketing Science 41(4): 733-745 (2022)](https://doi.org/10.1287/mksc.2022.1350)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:yxmsSjX2EkcC))   Media: ([Financial Times](https://www.ft.com/content/a72f7e56-3724-11e8-8b98-2f31af407cc8))([Quartz](https://qz.com/1244155/good-luck-leaving-your-uber-driver-less-than-five-stars/))([Fortune](https://fortune.com/2018/04/05/uber-negative-ratings-stars/))([EurekAlert](https://www.eurekalert.org/news-releases/954537))   Videos: ([1](https://www.youtube.com/watch?v=s1Nb_iw1Uqw))([2](https://www.youtube.com/watch?v=Ezz1LR3Wpnw))   Slides: ([1](https://docs.google.com/presentation/d/1619lqGG_aaU3tls0lYesrxhIqQVM72hJk01FAX-rsZU/edit#slide=id.g392b584c36_0_0))
 
 
-### Labor economists get their microscope: big data and labor market analysis  {.paper-class}
+### Labor economists get their microscope: Big data and labor market analysis  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/labor_econ_microscope.pdf)
 
 
-* Status: Big Data
+* Published: [Big Data 3(3): 130-137 (2015)](https://doi.org/10.1089/big.2015.0017)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:LPtt_HFRSbwC))
@@ -350,19 +398,21 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/online_labor_markets.pdf)
 
 
-* Status: WINE
+* Published: [Internet and Network Economics: 6th International Workshop (WINE 2010) 6484: 515-522 (2010)](https://doi.org/10.1007/978-3-642-17572-5_45)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:qjMakFHDy7sC))       Replication: ([1](https://bitbucket.org/johnjosephhorton/olm_wine/src/master/))
 
 
-### The online laboratory: conducting experiments in a real labor market  {.paper-class}
+### The online laboratory: Conducting experiments in a real labor market  {.paper-class}
 (with [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
 * Paper: [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
 
 
-* Status: Experimental Economics
+* Published: [Experimental Economics 14(3): 399-425 (2011)](https://doi.org/10.1007/s10683-011-9273-9)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC))     Slides: ([1](https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1))    Replication: ([1](https://bitbucket.org/johnjosephhorton/online_laboratory/wiki/Home))
@@ -374,57 +424,62 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/labor_economics_of_paid_crowdsourcing.pdf)
 
 
-* Status: ACM-EC
+* Published: [Proceedings of the 11th ACM Conference on Electronic Commerce: 209-218 (2010)](https://doi.org/10.1145/1807342.1807376)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u5HHmVD_uO8C))     Slides: ([1](https://docs.google.com/presentation/d/1cbX5ynnP42uRTDq5qKVtATceqOOcGtAd/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true))    Replication: ([1](https://bitbucket.org/johnjosephhorton/labor_economics_paid_crowdsourcing))
 
 
 ### Designing incentives for inexpert raters  {.paper-class}
-(with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) and [Aaron  Shaw](http://aaronshaw.org/))
+(with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) and [Aaron Shaw](http://aaronshaw.org/))
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/designing_incentives_for_inexpert_human_raters.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1958824.1958865)
 
 
-* Status: ACM-CSCW 2011
+* Published: [Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work: 275-284 (2011)](https://doi.org/10.1145/1958824.1958865)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:UeHWp8X0CEIC))       Replication: ([1](https://github.com/aaronshaw/inexpert_raters))
 
 
-### Buyer uncertainty about seller capacity: causes, consequences, and a partial solution
+### Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/scs.pdf) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526)
 
 
-* Status: Management Science
+* Published: [Management Science 65(8): 3518-3540 (2019)](https://doi.org/10.1287/mnsc.2018.3116)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC))     Slides: ([1](https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA))
 
 
-### The effects of search advertising on competitors: an experiment before a merger  {.paper-class}
+### The effects of search advertising on competitors: An experiment before a merger  {.paper-class}
 (with [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/search_ad_exp.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534)
 
 
-* Status: Management Science
+* Published: [Management Science 67(1): 342-362 (2021)](https://doi.org/10.1287/mnsc.2019.3534)
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:RoXSNcbkSzsC))   Media: ([Freakanomics Radio](https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/))   Videos: ([1](https://www.youtube.com/watch?v=sX7u5i9UXRM))   Slides: ([1](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p))
+
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:RoXSNcbkSzsC))   Media: ([Freakanomics Radio](https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/))   Videos: ([1](https://www.youtube.com/watch?v=sX7u5i9UXRM))   Slides: ([1](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p))
 
 
-### Owning, using and renting: some simple economics of the sharing economy  {.paper-class}
-(with [Apostolos Filippas](Apostolos Filippas) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
+### Owning, using, and renting: Some simple economics of the sharing economy  {.paper-class}
+(with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
 * Paper: [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
 
 
-* Status: Management Science
+* Published: [Management Science 66(9): 4152-4172 (2020)](https://doi.org/10.1287/mnsc.2019.3396)
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:rHJHxKgnXwkC))   Media: ([The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/01/06/sorry-you-wont-be-sharing-your-toothbrush-for-money/))    Slides: ([1](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p))([2](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p))    Replication: ([1](https://github.com/johnjosephhorton/sharing))
+
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:rHJHxKgnXwkC))   Media: ([The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/01/06/sorry-you-wont-be-sharing-your-toothbrush-for-money/))    Slides: ([1](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p))    Replication: ([1](https://github.com/johnjosephhorton/sharing))
 
 
 ### Are online labor markets spot markets for tasks?  {.paper-class}
@@ -433,7 +488,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/wages_of_paycuts.pdf)
 
 
-* Status: Information Systems Research
+* Published: [Information Systems Research 27(2): 403-423 (2016)](https://doi.org/10.1287/isre.2016.0633)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:AXkvAH5U_nMC))       Replication: ([1](https://github.com/johnjosephhorton/wages_of_paycuts))
@@ -445,7 +501,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/the_need_for_standardization_in_crowdsourcing.pdf)
 
 
-* Status: Proceedings of the workshop on crowdsourcing and human computation at CHI
+* Published: [Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI (2011)](https://www.humancomputation.com/crowdcamp/chi2011/papers/horton.pdf)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Tyk-4Ss8FVUC))
@@ -457,30 +514,33 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/task_search_in_a_human_computation_market.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1837885.1837889)
 
 
-* Status: HCOMP 2010
+* Published: [Proceedings of the ACM SIGKDD Workshop on Human Computation: 1-9 (2010)](https://doi.org/10.1145/1837885.1837889)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C))     Slides: ([1](https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42))    Replication: ([1](https://bitbucket.org/johnjosephhorton/mturk_search_behavior/wiki/Home))
 
 
-### The condition of the turking class: are online employers fair and honest?
+### The condition of the Turking class: Are online employers fair and honest?
 
 * Paper: [PDF](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf)
 
 
-* Status: Economic Letters
+* Published: [Economics Letters 111(1): 10-12 (2011)](https://doi.org/10.1016/j.econlet.2010.12.007)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:2osOgNQ5qMEC))       Replication: ([1](https://bitbucket.org/johnjosephhorton/condition_of_turking_class/src/master/))
 
 
-### How do employers use compensation history: evidence from a field experiment  {.paper-class}
-(with [Moshe Barach](Moshe A. Barach))
+### How do employers use compensation history? Evidence from a field experiment  {.paper-class}
+(with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/))
 
 * Paper: [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/709277?journalCode=jole)
 
 
-* Status: Journal of Labor Economics
+* Published: [Journal of Labor Economics 39(1): 193-218 (2021)](https://doi.org/10.1086/709277)
+
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Dem6FJhTUoYC))   Media: ([The New York Times](https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html))([MarketWatch](https://www.marketwatch.com/story/when-employers-cant-ask-about-salary-history-workers-can-see-double-digit-jumps-in-pay-2020-01-14))    Slides: ([1](https://docs.google.com/presentation/d/1C6W2SSpBj0y8g-R48MXsKrHKivoXeN7b/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true))
@@ -489,6 +549,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Awards
+
+   Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill),    2026
 
    ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects),    2026
 
@@ -540,252 +602,254 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 # Talks
 
-   CEPR Economics of AI Webinar,    2025
+   [CEPR Economics of AI Webinar](https://cepr.org/events/event-series/cepr-webinar-series-economics-artificial-intelligence), 2025
 
-   Google DeepMind / Economics Seminar,    2025
+   Google DeepMind / Economics Seminar, 2025
 
-   Northwestern - Kellog,    2025
+   [Northwestern - Kellogg](https://www.kellogg.northwestern.edu/academics-research/events/ryan-institute/5-20-25-horton/), 2025
 
-   Microsoft Applied Science Seminar series,    2025
+   Microsoft Applied Science Seminar series, 2025
 
-   HBS Technology, Operations and Management Seminar,    2025
+   HBS Technology, Operations and Management Seminar, 2025
 
-   Stanford Digitial Economy Lab - Invited Seminar,    2024
+   Stanford Digitial Economy Lab - Invited Seminar, 2024
 
-   CMU Workforce and Technology Mini-Conference,    2024
+   [CMU Workforce and Technology Mini-Conference](https://www.cmu.edu/block-center/news-events/block-events/labor-conference-2024.html), 2024
 
-   Behavioral Approaches to Financial Decision Making Conference,    2024
+   Behavioral Approaches to Financial Decision Making Conference, 2024
 
-   UC Berkeley - Econ Seminar,    2024
+   UC Berkeley - Econ Seminar, 2024
 
-   ACM-EC 2024,    2024
+   [ACM-EC 2024](https://sigecom.org/proceedings24.html), 2024
 
-   NBER Summer Institute, Economics of IT and Digitization,    2024
+   [NBER Summer Institute, Economics of IT and Digitization](https://www.nber.org/conferences/si-2024-digital-economics-and-artificial-intelligence), 2024
 
-   Strategy Group, Harvard Business School ,    2024
+   Strategy Group, Harvard Business School , 2024
 
-   Paris Economics of Digitization seminar (remote),    2024
+   Paris Economics of Digitization seminar (remote), 2024
 
-   Stanford GSB - Marketing,    2024
+   Stanford GSB - Marketing, 2024
 
-   Workshop on the Economics of Social Media, SSRC,    2023
+   [Workshop on the Economics of Social Media, SSRC](https://www.ssrc.org/programs/digital-platforms-initiative/2023-ssrc-workshop-on-the-economics-of-social-media/), 2023
 
-   NBER Summer Institute - Personnel Economics,    2023
+   [NBER Summer Institute - Personnel Economics](https://www.nber.org/conferences/si-2023-personnel-economics), 2023
 
-   NBER Summer Insitute - Industrial Organization & Digitzation,    2023
+   [NBER Summer Institute - Industrial Organization & Digitization](https://www.nber.org/conferences/summer-institute-2023), 2023
 
-   SERC Panel at MIT,    2023
+   SERC Panel at MIT, 2023
 
-   Paris Economics of Digitization seminar (invited but declined for health reasons),    2023
+   Paris Economics of Digitization seminar (invited but declined for health reasons), 2023
 
-   Walmart Economics Team,    2023
+   Walmart Economics Team, 2023
 
-   LinkedIn - Tech Talk,    2023
+   LinkedIn - Tech Talk, 2023
 
-   Yale Economics - Labor and Public Seminar (invited),    2023
+   Yale Economics - Labor and Public Seminar (invited), 2023
 
-   Microsoft Research New England - EconCS Seminar,    2023
+   Microsoft Research New England - EconCS Seminar, 2023
 
-   University of Nottingham - Centre for Decision Research and Experimental Economics,    2023
+   [University of Nottingham - Centre for Decision Research and Experimental Economics](https://www.nottingham.ac.uk/cedex/events/2022/john-horton.aspx), 2023
 
-   Tsinghua-HKUST DEEP Seminar,    2023
+   Tsinghua-HKUST DEEP Seminar, 2023
 
-   Hong Kong University,    2023
+   [Hong Kong University](https://www.hkubs.hku.hk/event/large-language-models-as-simulated-economic-agents-what-can-we-learn-from-homo-silicus/), 2023
 
-   Workshop on Information Systems and Economics (2 papers),    2022
+   [Workshop on Information Systems and Economics (2 papers)](https://sites.temple.edu/wise2022/), 2022
 
-   Singapore Management University,    2022
+   [Singapore Management University](https://economics.smu.edu.sg/seminar-series/2022-2023-T1), 2022
 
-   Toronto Rotman Strategy Seminar,    2022
+   Toronto Rotman Strategy Seminar, 2022
 
-   Boston University - Information Systems,    2022
+   Boston University - Information Systems, 2022
 
-   Purdue,    2022
+   Purdue, 2022
 
-   UC Irvine,    2022
+   UC Irvine, 2022
 
-   Keynote Address, 2021 Conference on AI, ML and Business Analytics,    2021
+   [Keynote Address, 2021 Conference on AI, ML and Business Analytics](https://www.fox.temple.edu/institutes-centers/global-center-for-big-data-and-mobile-analytics/conferences/2021-conference-on-artificial-intelligence-machine-learning-and-business-analytics), 2021
 
-   GMU Economics Seminar,    2021
+   GMU Economics Seminar, 2021
 
-   UMD Economics Seminar,    2021
+   UMD Economics Seminar, 2021
 
-   Council of Economic Advisors,    2021
+   Council of Economic Advisors, 2021
 
-   University of Bocconi,    2021
+   University of Bocconi, 2021
 
-   Frankfurt School of Finance and Management,    2021
+   Frankfurt School of Finance and Management, 2021
 
-   Mannheim Unversity,    2021
+   Mannheim Unversity, 2021
 
-   Columbia Business School, Management Dept.,    2021
+   Columbia Business School, Management Dept., 2021
 
-   CESifo panel, "Firm-Academic Research Collaborations in Economics",    2021
+   [CESifo panel, "Firm-Academic Research Collaborations in Economics"](https://www.ifo.de/sites/default/files/2022-06/JB-2021-b.pdf), 2021
 
-   Keynote Address, 3rd Crowdworking Symposium,    2021
+   [Keynote Address, 3rd Crowdworking Symposium](https://www.uni-bremen.de/en/wiwi/news/details/3rd-crowdworking-symposium), 2021
 
-   Digital Economics Seminar (video),    2021
+   [Digital Economics Seminar (video)](https://www.digitalecon.org/seminar/spring-2021), 2021
 
-   Toulouse Seminar in Platform Economics,    2021
+   [Toulouse Seminar in Platform Economics](https://www.tse-fr.eu/talks-2020-2023-academic-year), 2021
 
-   NBER Labor Studies Meeting,    2021
+   NBER Labor Studies Meeting, 2021
 
-   MIT Org econ Seminar (remote),    2020
+   MIT Org econ Seminar (remote), 2020
 
-   MIT Sloan, TIES Group (remote),    2020
+   MIT Sloan, TIES Group (remote), 2020
 
-   University of Washington - Olin School of Business (remote),    2020
+   University of Washington - Olin School of Business (remote), 2020
 
-   CMU Heinz School,    2020
+   CMU Heinz School, 2020
 
-   University of Chicago, Booth School of Business,    2019
+   University of Chicago, Booth School of Business, 2019
 
-   Stanford University Economics Dept. Labor Seminar,    2019
+   Stanford University Economics Dept. Labor Seminar, 2019
 
-   Temple University, Big Data & Mobile Analytics Workshop,    2018
+   Temple University, Big Data & Mobile Analytics Workshop, 2018
 
-   Keynote speaker, IZA Workshop on 'Matching Workers and Jobs Online',    2018
+   [Keynote speaker, IZA Workshop on 'Matching Workers and Jobs Online'](https://conference.iza.org/DATA_2018/viewProgram?conf_id=3146), 2018
 
-   Society of Labor Economists Annual Meeting (Toronto),    2018
+   [Society of Labor Economists Annual Meeting (Toronto)](https://www.sole-jole.org/2018FullProgram), 2018
 
-   Kellogg School at Northwestern (invited seminar; declined for health reasons (broken foot)),    2018
+   Kellogg School at Northwestern (invited seminar; declined for health reasons (broken foot)), 2018
 
-   Booth School, University of Chicago (invited seminar; declined for scheduling reasons),    2018
+   Booth School, University of Chicago (invited seminar; declined for scheduling reasons), 2018
 
-   Princeton CITP (invited seminar),    2018
+   Princeton CITP (invited seminar), 2018
 
-   Columbia Business School (invited seminar; declined - health),    2018
+   Columbia Business School (invited seminar; declined - health), 2018
 
-   17th ZEW Conference on Economics of Information & Communications Technology,    2018
+   [16th ZEW Conference on Economics of Information & Communications Technology](https://www.zew.de/en/events-and-professional-training/detail/16th-zew-conference-on-the-economics-of-information-and-communication-technologies/2452), 2018
 
-   NBER Summer Institute (3 papers - 2 at IT & Digitization, 1 at Labor Studies),    2018
+   [NBER Summer Institute (3 papers - 2 at IT & Digitization, 1 at Labor Studies)](https://www.nber.org/conferences/summer-institute-2018), 2018
 
-   MIT Economics Dept (invited seminar),    2018
+   MIT Economics Dept (invited seminar), 2018
 
-   Stanford SIEPR (invited seminar; declined due to scheduling reasons),    2018
+   Stanford SIEPR (invited seminar; declined due to scheduling reasons), 2018
 
-   AEA Annual Meeting (two papers),    2018
+   [AEA Annual Meeting (two papers)](https://www.aeaweb.org/conference/2018), 2018
 
-   Workshop at MIT on AI, Cities and the Future of Work,    2017
+   Workshop at MIT on AI, Cities and the Future of Work, 2017
 
-   "Field Days" at University of Copenhagen,    2017
+   "Field Days" at University of Copenhagen, 2017
 
-   Advances in Field Experiments, University of Chicago,    2017
+   Advances in Field Experiments, University of Chicago, 2017
 
-   Platform Strategy at BU,    2017
+   Platform Strategy at BU, 2017
 
-   15th ZEW Conference on Economics of Information & Communications Technology,    2017
+   [15th ZEW Conference on Economics of Information & Communications Technology](https://www.zew.de/en/events-and-professional-training/detail/15th-zew-conference-on-the-economics-of-information-and-communication-technologies/2185), 2017
 
-   NBER Summer Institute (Economics of Digitization - 2 papers),    2017
+   [NBER Summer Institute (Economics of Digitization - 2 papers)](https://www.nber.org/conferences/si-2017-it-and-digitization), 2017
 
-   Federal Communications Commission (turned down),    2017
+   Federal Communications Commission (turned down), 2017
 
-   ASU Information Systems Workshop,    2017
+   ASU Information Systems Workshop, 2017
 
-   Temple University,    2017
+   Temple University, 2017
 
-   HBS Entrepreneurial Management Unit,    2017
+   HBS Entrepreneurial Management Unit, 2017
 
-   AEA Annual Meeting, "Inequality in the Evolving Labor Market",    2017
+   AEA Annual Meeting, "Inequality in the Evolving Labor Market", 2017
 
-   Speaker, Collective Intelligence, NYU Stern,    2016
+   Speaker, Collective Intelligence, NYU Stern, 2016
 
-   Sharing Economy Symposium, Keynote Speaker, University of Minnesota,    2016
+   [Sharing Economy Symposium, Keynote Speaker, University of Minnesota](https://www.cts.umn.edu/events/cts-other/symposium-sharing-economy), 2016
 
-   SOLE/EALE Conference, Seattle,    2016
+   [SOLE/EALE Conference, Seattle](https://www.sole-jole.org/2016ProgramOutline), 2016
 
-   Creativity and Innovation Research Initiative (CIRI), NYU Stern,    2016
+   Creativity and Innovation Research Initiative (CIRI), NYU Stern, 2016
 
-   The On-Demand Economy Conference, MIT Sloan,    2016
+   [The On-Demand Economy Conference, MIT Sloan](https://www.aspeninstitute.org/events/mit-roundtable-demand-economy/), 2016
 
-   Frontiers in Digital Data, HBS,    2016
+   Frontiers in Digital Data, HBS, 2016
 
-   AEA Annual Meeting, Organizer: “The Economics of Peer-to-Peer Markets”,    2016
+   [AEA Annual Meeting, Organizer: “The Economics of Peer-to-Peer Markets”](https://www.aeaweb.org/conference/2016/preliminary.php?search=Search&search_string=replication&search_type=session), 2016
 
-   WIN Conference (conference presentation),    2015
+   WIN Conference (conference presentation), 2015
 
-   INFORMS, “Empirical Market Design”,    2015
+   INFORMS, “Empirical Market Design”, 2015
 
-   NBER Productivity & Innovation,    2015
+   NBER Productivity & Innovation, 2015
 
-   CMU, Tepper School of Business, Business and Technology, Bus. & Society,    2015
+   CMU, Tepper School of Business, Business and Technology, Bus. & Society, 2015
 
-   eBay Research,    2015
+   eBay Research, 2015
 
-   Facebook Data Science,    2015
+   Facebook Data Science, 2015
 
-   Uber Technologies,    2015
+   Uber Technologies, 2015
 
-   NBER Summer Institute, Economics of IT and Digitization,    2015
+   [NBER Summer Institute, Economics of IT and Digitization](https://www.nber.org/conferences/si-2015-economics-it-and-digitization-workshop), 2015
 
-   ACM-Electronic Commerce, Portland,    2015
+   ACM-Electronic Commerce, Portland, 2015
 
-   SOLE/EALE Conference, Montreal,    2015
+   [SOLE/EALE Conference, Montreal](https://www.sole-jole.org/2015CompleteProgram), 2015
 
-   13th ZEW Conference on the Economics of Information & Communications Technology,    2015
+   [13th ZEW Conference on the Economics of Information & Communications Technology](https://www.zew.de/en/events-and-professional-training/detail/13th-zew-conference-on-the-economics-of-information-and-communication-technologies/695), 2015
 
-   Chapman University, ESI/IFREE Lecture,    2015
+   Chapman University, ESI/IFREE Lecture, 2015
 
-   CODE (Conference on Digital Experimentation),    2015
+   CODE (Conference on Digital Experimentation), 2015
 
-   Microsoft Research, NYC,    2015
+   Microsoft Research, NYC, 2015
 
-   Texas A&M - MEER Conference,    2015
+   Texas A&M - MEER Conference, 2015
 
-   Carnegie Mellon University, School of Computing,    2015
+   Carnegie Mellon University, School of Computing, 2015
 
-   Texas A&M University, Economics Dept, Economic Theory & Experimentation Seminar,    2015
+   [Texas A&M University, Economics Dept, Economic Theory & Experimentation Seminar](http://squash.tamu.edu/workshops/list.htm?type=Theory_and_Experimental_Economics), 2015
 
-   UMN, Carlson School of Management, Work & Organizations Dept. Seminar,    2015
+   UMN, Carlson School of Management, Work & Organizations Dept. Seminar, 2015
 
-   AEA Annual Meeting, “Empirical Market Design”,    2015
+   [AEA Annual Meeting, “Empirical Market Design”](https://www.aeaweb.org/aea/2015conference/program/preliminary.php), 2015
 
-   MIT Sloan, Operations Management Seminar,    2014
+   MIT Sloan, Operations Management Seminar, 2014
 
-   NBER Summer Institute 2014, Economics of IT and Digitization,    2014
+   [NBER Summer Institute 2014, Economics of IT and Digitization](https://www.nber.org/conferences/si-2014-economics-it-and-digitization-workshop), 2014
 
-   University of Chicago, Harris School, Public Policy and Economics Seminar,    2014
+   University of Chicago, Harris School, Public Policy and Economics Seminar, 2014
 
-   University of Nuremburg,    2014
+   University of Nuremburg, 2014
 
-   Xiamen University, International Symposium on Contemporary Labor Economics,    2013
+   Xiamen University, International Symposium on Contemporary Labor Economics, 2013
 
-   INSEAD, Technology and Operations Management Seminar,    2013
+   INSEAD, Technology and Operations Management Seminar, 2013
 
-   MIT Roundtable on the Digital Economy,    2013
+   MIT Roundtable on the Digital Economy, 2013
 
-   SOLE/EALE, Society of Labor Economics Annual Meeting,    2013
+   SOLE/EALE, Society of Labor Economics Annual Meeting, 2013
 
-   The Bernard L. Schwartz Globalization Initiative at SAIS Distinguished Lecture Series, Johns Hopkins University, November 2012,    2012
+   The Bernard L. Schwartz Globalization Initiative at SAIS Distinguished Lecture Series, Johns Hopkins University, November 2012, 2012
 
-   Experimental Economics Lunch Seminar, University of Chicago,    2011
+   Experimental Economics Lunch Seminar, University of Chicago, 2011
 
-   Networked Business Seminar, Harvard Business School,    2011
+   Networked Business Seminar, Harvard Business School, 2011
 
-   Neural Information Processing Systems (NIPS) 24th Annual Conference, Vancouver, British Columbia, Invited Speaker on “Social Science and the Wisdom of Crowds,” December 2010,    2010
+   [Neural Information Processing Systems (NIPS) 24th Annual Conference, Vancouver, British Columbia, Invited Speaker on “Social Science and the Wisdom of Crowds,” December 2010](https://media.nips.cc/Conferences/2010/NIPS-2010-Workshop-Book.pdf), 2010
 
-   The 6th Workshop on Internet and Network Economics (WINE 2010), Stanford University,    2010
+   [The 6th Workshop on Internet and Network Economics (WINE 2010), Stanford University](https://doi.org/10.1007/978-3-642-17572-5_45), 2010
 
-   Christakis Lab Group Seminar Series, Harvard Medical School, November 2010,    2010
+   Christakis Lab Group Seminar Series, Harvard Medical School, November 2010, 2010
 
-   CrowdConf 2010, San Francisco, CA, October 2010,    2010
+   CrowdConf 2010, San Francisco, CA, October 2010, 2010
 
-   Advances with Field Experiments, Wharton School of Business, University of Pennsylvania,,    2010
+   Advances with Field Experiments, Wharton School of Business, University of Pennsylvania,, 2010
 
-   Crowdsourcing Applications Seminar, University of Massachusetts,    2010
+   Crowdsourcing Applications Seminar, University of Massachusetts, 2010
 
-   European Association of Labour Economists (EALE) / Society of Labor Economists (SOLE) 3rd International Conference, University College London, June 2010,    2010
+   European Association of Labour Economists (EALE) / Society of Labor Economists (SOLE) 3rd International Conference, University College London, June 2010, 2010
 
-   ACM-Conference on Electronic Commerce (ACM-EC), Cambridge, MA,    2010
+   [ACM-Conference on Electronic Commerce (ACM-EC), Cambridge, MA](https://doi.org/10.1145/1807342.1807376), 2010
 
-   EconCS Seminar, Harvard School of Engineering and Applied Science,    2010
+   EconCS Seminar, Harvard School of Engineering and Applied Science, 2010
 
-   SJDM Annual Conference, Boston, MA,    2009
+   SJDM Annual Conference, Boston, MA, 2009
 
 
 # Education
 
 
-PhD, Harvard University
+[Y Combinator](https://www.ycombinator.com/companies/expected-parrot), Fall 2025
 
-BS, United States Military Academy at West Point
+Harvard University, PhD in Public Policy, 2011
+
+United States Military Academy at West Point, BS in Mathematics, minor in Computer Science, 2001

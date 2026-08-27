@@ -1,22 +1,34 @@
-paper_id,journal,volume,issue,number,year,month
-WageHistory,"Journal of Labor Economics",39.0,,1.0,2021.0,January
-search_ad_exp,"Mangement Science",67.0,1.0,,2021.0,January
-longrun,"Marketing Science",41.0,4.0,,2022.0,July-August
-badging,"Management Science",66.0,9.0,,2020.0,September
-scs,"Management Science",65.0,8.0,,2019.0,August
-online_laboratory,"Experimental Economics",14.0,,,2011.0,September
-crowdwork,ACM-CSCW,,,,2013.0,February
-spot,"Information Systems Research",27.0,2.0,,2016.0,June
-sharing,"Management Science",66.0,9.0,,2020.0,September
-flows,"Book chapter",,,,,
-microscope,"Big Data",,,,,
-turking,"Economic Letters",,,,,
-task,"HCOMP KDD",,,,,
-paid_crowdsourcing,ACM-EC,,,,,
-raters,ACM-CSCW,,,,,
-olm,"International Workshop on Internet and Network Economics, WINE",,,,,
-employer_search,"Journal of Labor Economics",35.0,,2.0,2017.0,April
-fruitfly,,,,,,
-head_in_clouds,"ACM Crossroads ",,,,,
-standardization,"Proceedings of the workshop on crowdsourcing and human computation at CHI",,,,,
-allocation,,,,,,
+publication_id,paper_id,publication_type,title,venue,publication_date,volume,issue,pages,doi,url
+cs-transformative-ai-2026,cs,forthcoming-book-chapter,"The Coasean Singularity? Demand, Supply, and Market Design with AI Agents","The Economics of Transformative AI",2026-09,,,,,https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents
+ass-ec2026,ass,conference-paper,"Automated Social Science: Language Models as Scientist and Subjects","Proceedings of the 27th ACM Conference on Economics and Computation",2026-07,,,,,https://ec26.sigecom.org/program/accepted-papers/
+llm-ask-ec2024,llm_ask,conference-paper,"Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?","Proceedings of the 25th ACM Conference on Economics and Computation",2024-07,,,614-615,10.1145/3670865.3673513,https://doi.org/10.1145/3670865.3673513
+schumpeter-isr-2025,schumpeter,journal-article,"The Death of a Technical Skill","Information Systems Research",2025-09,36,3,1799-1820,10.1287/isre.2022.0709,https://doi.org/10.1287/isre.2022.0709
+grammarly-ms-2025,grammarly,journal-article,"Algorithmic Writing Assistance on Jobseekers’ Resumes Increases Hires","Management Science",2025-12,71,12,10144-10164,10.1287/mnsc.2024.04528,https://doi.org/10.1287/mnsc.2024.04528
+minimum-wage-aer-2025,minimum_wage,journal-article,"Price Floors and Employer Preferences: Evidence from a Minimum Wage Experiment","American Economic Review",2025-01-01,115,1,117-146,10.1257/aer.20170637,https://doi.org/10.1257/aer.20170637
+airbnb-ec2017,airbnb,conference-paper,"The Tragedy of Your Upstairs Neighbors: Is the Airbnb Negative Externality Internalized?","Proceedings of the 2017 ACM Conference on Economics and Computation",2017-06-26,,,537-538,10.1145/3033274.3085097,https://doi.org/10.1145/3033274.3085097
+baller-ms-2026,baller,journal-article,"Consumer Demand with Social Influences: Evidence from an E-Commerce Platform","Management Science",2026-04,72,4,3550-3570,10.1287/mnsc.2024.04995,https://doi.org/10.1287/mnsc.2024.04995
+facebook-ms-2026,facebook,journal-article,"Competition Avoidance vs. Herding in Job Search: Evidence from Large-Scale Field Experiments on an Online Job Board","Management Science",2026-02,72,2,1305-1323,10.1287/mnsc.2023.02483,https://doi.org/10.1287/mnsc.2023.02483
+twitter-ms-2026,twitter,journal-article,"The Production and Consumption of Social Media","Management Science",2026-07,72,7,6368-6388,10.1287/mnsc.2023.00060,https://doi.org/10.1287/mnsc.2023.00060
+twitter-ec2022,twitter,conference-paper,"The Production and Consumption of Social Media","Proceedings of the 23rd ACM Conference on Economics and Computation",2022-07-11,,,287-288,10.1145/3490486.3538372,https://doi.org/10.1145/3490486.3538372
+coy-ec2024,coy,conference-paper,"Costly Capacity Signaling Increases Matching Efficiency: Evidence from a Field Experiment","Proceedings of the 25th ACM Conference on Economics and Computation",2024-07,,,414-415,10.1145/3670865.3673511,https://doi.org/10.1145/3670865.3673511
+employer-search-jole-2017,employer_search,journal-article,"The Effects of Algorithmic Labor Market Recommendations: Evidence from a Field Experiment","Journal of Labor Economics",2017-04,35,2,345-385,10.1086/689213,https://doi.org/10.1086/689213
+allocation-hcomp-2011,allocation,workshop-paper,"Labor Allocation in Paid Crowdsourcing: Experimental Evidence on Positioning, Nudges and Prices","Human Computation: Papers from the 2011 AAAI Workshop",2011-08-08,,,14-19,,https://aaai.org/papers/ws11-11-003-labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices/
+badging-ms-2020,badging,journal-article,"Steering in Online Markets: The Role of Platform Incentives and Credibility","Management Science",2020-09,66,9,4047-4070,10.1287/mnsc.2019.3412,https://doi.org/10.1287/mnsc.2019.3412
+crowdwork-cscw-2013,crowdwork,conference-paper,"The Future of Crowd Work","Proceedings of the 2013 Conference on Computer Supported Cooperative Work",2013-02-23,,,1301-1318,10.1145/2441776.2441923,https://doi.org/10.1145/2441776.2441923
+flows-book-2018,flows,book-chapter,"Digital Labor Markets and Global Talent Flows","High-Skilled Migration to the United States and Its Economic Consequences",2018,,,71-108,10.7208/9780226525662-004,https://doi.org/10.7208/9780226525662-004
+head-in-clouds-xrds-2010,head_in_clouds,journal-article,"Heads in the Cloud","XRDS: Crossroads, The ACM Magazine for Students",2010-12,17,2,27-31,10.1145/1869086.1869095,https://doi.org/10.1145/1869086.1869095
+longrun-ms-2022,longrun,journal-article,"Reputation Inflation","Marketing Science",2022-07,41,4,733-745,10.1287/mksc.2022.1350,https://doi.org/10.1287/mksc.2022.1350
+longrun-ec2018,longrun,conference-paper,"Reputation Inflation","Proceedings of the 2018 ACM Conference on Economics and Computation",2018-06-18,,,483-484,10.1145/3219166.3219222,https://doi.org/10.1145/3219166.3219222
+microscope-big-data-2015,microscope,journal-article,"Labor Economists Get Their Microscope: Big Data and Labor Market Analysis","Big Data",2015-09-01,3,3,130-137,10.1089/big.2015.0017,https://doi.org/10.1089/big.2015.0017
+olm-wine-2010,olm,conference-paper,"Online Labor Markets","Internet and Network Economics: 6th International Workshop (WINE 2010)",2010-12,6484,,515-522,10.1007/978-3-642-17572-5_45,https://doi.org/10.1007/978-3-642-17572-5_45
+online-laboratory-ee-2011,online_laboratory,journal-article,"The Online Laboratory: Conducting Experiments in a Real Labor Market","Experimental Economics",2011-09,14,3,399-425,10.1007/s10683-011-9273-9,https://doi.org/10.1007/s10683-011-9273-9
+paid-crowdsourcing-ec2010,paid_crowdsourcing,conference-paper,"The Labor Economics of Paid Crowdsourcing","Proceedings of the 11th ACM Conference on Electronic Commerce",2010-06-07,,,209-218,10.1145/1807342.1807376,https://doi.org/10.1145/1807342.1807376
+raters-cscw-2011,raters,conference-paper,"Designing Incentives for Inexpert Human Raters","Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work",2011-03-19,,,275-284,10.1145/1958824.1958865,https://doi.org/10.1145/1958824.1958865
+scs-ms-2019,scs,journal-article,"Buyer Uncertainty About Seller Capacity: Causes, Consequences, and a Partial Solution","Management Science",2019-08,65,8,3518-3540,10.1287/mnsc.2018.3116,https://doi.org/10.1287/mnsc.2018.3116
+search-ad-ms-2021,search_ad_exp,journal-article,"The Effects of Search Advertising on Competitors: An Experiment Before a Merger","Management Science",2021-01,67,1,342-362,10.1287/mnsc.2019.3534,https://doi.org/10.1287/mnsc.2019.3534
+sharing-ms-2020,sharing,journal-article,"Owning, Using, and Renting: Some Simple Economics of the “Sharing Economy”","Management Science",2020-09,66,9,4152-4172,10.1287/mnsc.2019.3396,https://doi.org/10.1287/mnsc.2019.3396
+spot-isr-2016,spot,journal-article,"Research Note—Are Online Labor Markets Spot Markets for Tasks? A Field Experiment on the Behavioral Response to Wage Cuts","Information Systems Research",2016-06,27,2,403-423,10.1287/isre.2016.0633,https://doi.org/10.1287/isre.2016.0633
+standardization-chi-2011,standardization,workshop-paper,"The Need for Standardization in Crowdsourcing","Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI",2011-05,,,,,https://www.humancomputation.com/crowdcamp/chi2011/papers/horton.pdf
+task-hcomp-2010,task,workshop-paper,"Task Search in a Human Computation Market","Proceedings of the ACM SIGKDD Workshop on Human Computation",2010-07-25,,,1-9,10.1145/1837885.1837889,https://doi.org/10.1145/1837885.1837889
+turking-el-2011,turking,journal-article,"The Condition of the Turking Class: Are Online Employers Fair and Honest?","Economics Letters",2011-04,111,1,10-12,10.1016/j.econlet.2010.12.007,https://doi.org/10.1016/j.econlet.2010.12.007
+wage-history-jole-2021,WageHistory,journal-article,"How Do Employers Use Compensation History? Evidence from a Field Experiment","Journal of Labor Economics",2021-01-02,39,1,193-218,10.1086/709277,https://doi.org/10.1086/709277

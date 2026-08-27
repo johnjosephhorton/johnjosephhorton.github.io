@@ -14,8 +14,14 @@ of record:
 - `coauthors.csv` connects papers to people using `paper_id` and `people_id`.
 - `versions.csv`, `media.csv`, `slides.csv`, `video.csv`,
   `twitter_threads.csv`, and `code.csv` connect resources to a `paper_id`.
+- `publication_info.csv` contains one row per formal publication, keyed by
+  `publication_id` and connected to a paper by `paper_id`. It records the
+  official title, publication type, venue, date, volume, issue, pages, DOI,
+  and canonical URL. A paper may have multiple publication rows.
 - `jobs.csv`, `awards.csv`, `grants.csv`, `talks.csv`, and `education.csv`
   populate the other visible sections.
+- Google Scholar links live in the `google_scholar` column of `papers.csv`;
+  keeping them with their papers avoids a second, conflicting citation table.
 - The remaining CSV files preserve local CV data that is not currently shown
   on the homepage.
 
@@ -45,6 +51,8 @@ The build has two stages:
 
 Both `website.md` and `index.html` are generated files, but they are committed
 so GitHub Pages can publish the repository without a server-side build.
+`page-markdown.js` packages the same Markdown for the page's copy button and
+also works when `index.html` is opened directly from the filesystem.
 The HTML footer uses the latest Git commit date locally; the deployment workflow
 stamps it again from the exact commit being published.
 

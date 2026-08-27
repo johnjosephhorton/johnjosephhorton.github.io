@@ -8,10 +8,10 @@
 {{ basic_info.bio }}
 [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
-# Academic Employment
+# Employment
 
 {% for job in jobs %}
-   {{ job.title }}, {{ job.institution }}, {{ job.start}}---{{ job.end }} 
+   {{ job.title }}, {% if job.url %}[{{ job.institution }}]({{ job.url }}){% else %}{{ job.institution }}{% endif %}, {{ job.start}}---{{ job.end }}
 {% endfor %} 
 
 # Research {.paper-class}
@@ -22,7 +22,10 @@
 {% if paper.version_line %}
 * Paper: {{ paper.version_line }}
 {% endif %}
-{% if paper.status %}
+{% if paper.primary_publication %}
+* {{ paper.publication_label }}: {{ paper.primary_publication.citation }}
+{% endif %}
+{% if paper.show_status %}
 * Status: {{ paper.status }}
 {% endif %}
 {% if paper.has_additional_links %}
@@ -43,11 +46,11 @@
 
 # Talks
 {% for talk in talks %}
-   {{ talk.event }},    {{ talk.year }}
+   {% if talk.url %}[{{ talk.event }}]({{ talk.url }}), {{ talk.year }}{% else %}{{ talk.event }}, {{ talk.year }}{% endif %}
 {% endfor %}
 
 # Education
 
 {% for school in education %}
-{{ school.degree}}, {{ school.institution }} 
+{% if school.url %}[{{ school.institution }}]({{ school.url }}){% else %}{{ school.institution }}{% endif %}, {{ school.degree}}{% if school.field %} in {{ school.field }}{% endif %}{% if school.finish %}, {{ school.finish }}{% endif %}
 {% endfor %}
