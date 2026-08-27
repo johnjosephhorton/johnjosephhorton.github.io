@@ -1,7 +1,7 @@
-award,year
-"Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)",2026
-"ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects)",2026
-"WISE 2025 - Best Paper Award",2025
+award,year,url
+"Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)",2026,https://doi.org/10.1287/isre.2022.0709
+"ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects)",2026,https://ec26.sigecom.org/program/accepted-papers/
+"WISE Best Paper Award (General Social Agents)",2025,https://www.nber.org/papers/w34937
 "INFORMS ISS Cluster Best Paper Award, Runner-up (Production & Consumption of Social Media)",2022
 "Conference on Artificial Intelligence, Machine Learning, and Business Analytics, AI/ML ""Rising Star"" Award, 2021",2021
 "ISS Sandra A. Slaughter Early Career Award, 2021",2021
@@ -11,7 +11,7 @@ award,year
 "Institute for Humane Studies Graduate Fellowship, 2009",2009
 "National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008",2008
 "Bronze Star Medal",2004
-"Army Acheivement Medal (for budgeting & spreadsheet work)",2005
+"Army Achievement Medal (for budgeting and spreadsheet work)",2005
 "Army Commendation Medal",2004
 "Combat Action Badge",2004
 "Basic Parachutist Badge",1999

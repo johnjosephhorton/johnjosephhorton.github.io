@@ -77,14 +77,23 @@ class Paper(Entity):
     @property
     def publication_label(self):
         publication_type = self.primary_publication.publication_type
-        return "Forthcoming" if publication_type.startswith("forthcoming-") else "Published"
+        if publication_type.startswith("forthcoming-"):
+            return "Forthcoming"
+        if publication_type == "working-paper":
+            return "Working paper"
+        return "Published"
 
     @property
     def show_status(self):
         """Keep active statuses, but do not repeat a primary publication venue."""
         is_primary_publication = self.published not in ("", "0", "0.0")
+        generic_working_status = self.status in {
+            "Working paper",
+            self.primary_publication.venue if self.primary_publication else "",
+        }
         return bool(self.status) and not (
-            self.primary_publication and is_primary_publication
+            self.primary_publication
+            and (is_primary_publication or generic_working_status)
         )
 
     @property
@@ -301,6 +310,7 @@ fields = [
 coauthors = Collection(Entity, "coauthors")
 awards = Collection(Entity, "awards")
 jobs = Collection(Entity, "jobs")
+affiliations = Collection(Entity, "affiliations")
 media = Collection(Media, "media")
 education = Collection(Entity, "education")
 talks = Collection(Entity, "talks")
@@ -310,7 +320,28 @@ twitter_threads = Collection(Entity, "twitter_threads")
 code = Collection(Entity, "code")
 video = Collection(Entity, "video")
 grants = Collection(Entity, "grants")
+projects = Collection(Entity, "projects")
+service = Collection(Entity, "service")
+reviewing = Collection(Entity, "reviewing")
 publications = Collection(Publication, "publication_info")
+
+course_by_id = {course["id"]: course for course in get_csv("courses.csv")}
+teaching_by_term = collections.OrderedDict()
+for row in get_csv("teaching.csv"):
+    key = (row["year"], row["semester"], row["id"])
+    if key in teaching_by_term:
+        teaching_by_term[key]["sections"] = str(
+            int(teaching_by_term[key]["sections"]) + int(row["sections"])
+        )
+        continue
+    course = course_by_id[row["id"]]
+    teaching_by_term[key] = {
+        **row,
+        "course_title": course["course_title"],
+        "institution": course["institution"],
+        "role": course["role"],
+    }
+teaching_rows = [Entity(row) for row in teaching_by_term.values()]
 
 people = {p["id"]: Person(p) for p in get_csv("people.csv")}
 papers = {p["id"]: Paper(p) for p in get_csv("papers.csv")}
@@ -332,12 +363,17 @@ template = environment.get_template("website.md")
 
 d = {
     "jobs": jobs,
+    "affiliations": affiliations,
     "basic_info": basic_info,
     "talks": talks,
     "awards": awards,
     "education": education,
     "papers": list(papers.values()),
     "grants": grants,
+    "projects": projects,
+    "service": service,
+    "reviewing": reviewing,
+    "teaching": teaching_rows,
 }
 
 rendered = template.render(**d)

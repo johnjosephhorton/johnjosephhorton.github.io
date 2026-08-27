@@ -1,4 +1,10 @@
 paper_id,type,url
+chaining,nber,https://www.nber.org/papers/w34859
+chaining,arxiv,https://arxiv.org/abs/2606.15960
+spf,ssrn,https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5066286
+synthetic_labs,arxiv,https://arxiv.org/abs/2507.09083
+ai_bargaining,arxiv,https://arxiv.org/abs/2509.09071
+program_choices,coauthor,https://conference.iza.org/DATA_2025/manning_b36140.pdf
 gsa,arxiv,https://arxiv.org/abs/2508.17407
 gsa,nber,https://www.nber.org/papers/w34937
 cs,nber,https://www.nber.org/papers/w34468

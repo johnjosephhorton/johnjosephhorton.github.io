@@ -42,7 +42,7 @@ def check_reference(rows, column, valid_ids, table, allow_empty=False):
         )
 
 
-def check_urls(rows, table, column="url", allow_empty=True):
+def check_urls(rows, table, column="url", allow_empty=True, require_unique=True):
     invalid = []
     for index, row in enumerate(rows, start=2):
         value = row.get(column, "")
@@ -58,10 +58,11 @@ def check_urls(rows, table, column="url", allow_empty=True):
             + ", ".join(invalid)
         )
 
-    values = [row.get(column, "") for row in rows if row.get(column, "")]
-    duplicates = sorted({value for value in values if values.count(value) > 1})
-    if duplicates:
-        raise ValueError(f"data/{table}.csv: duplicate {column} values")
+    if require_unique:
+        values = [row.get(column, "") for row in rows if row.get(column, "")]
+        duplicates = sorted({value for value in values if values.count(value) > 1})
+        if duplicates:
+            raise ValueError(f"data/{table}.csv: duplicate {column} values")
 
 
 def main():
@@ -122,11 +123,16 @@ def main():
     check_reference(publications, "paper_id", paper_ids, "publication_info")
 
     read_table("basic_info", {"name", "bio", "twitter_handle", "twitter_url"})
-    for table in ("jobs", "talks", "education"):
+    for table in ("jobs", "talks", "education", "affiliations", "awards"):
         rows = read_table(table, {"url"})
-        check_urls(rows, table)
-    for table in ("awards", "grants"):
+        check_urls(rows, table, require_unique=table not in {"jobs", "affiliations"})
+    for table in ("grants", "service", "reviewing", "projects"):
         read_table(table, set())
+
+    courses = read_table("courses", {"id", "course_title", "institution", "role"})
+    course_ids = unique_ids(courses, "courses")
+    teaching = read_table("teaching", {"year", "semester", "id", "sections"})
+    check_reference(teaching, "id", course_ids, "teaching")
 
     print(f"Validated {len(papers)} papers and {len(people)} people.")
 

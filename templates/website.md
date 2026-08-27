@@ -6,13 +6,19 @@
 
 
 {{ basic_info.bio }}
-[\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
+[Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
 # Employment
 
 {% for job in jobs %}
-   {{ job.title }}, {% if job.url %}[{{ job.institution }}]({{ job.url }}){% else %}{{ job.institution }}{% endif %}, {{ job.start}}---{{ job.end }}
+   {{ job.title }}, {% if job.url %}[{{ job.institution }}]({{ job.url }}){% else %}{{ job.institution }}{% endif %}, {{ job.start}}{% if job.end %}---{{ job.end }}{% endif %}
 {% endfor %} 
+
+## Affiliations
+
+{% for affiliation in affiliations %}
+   {{ affiliation.role }}, {% if affiliation.url %}[{{ affiliation.organization }}]({{ affiliation.url }}){% else %}{{ affiliation.organization }}{% endif %}, {{ affiliation.start }}---{{ affiliation.end }}
+{% endfor %}
 
 # Research {.paper-class}
 
@@ -34,9 +40,20 @@
 {% endfor %}
 
 
+# Projects
+
+{% for project in projects %}
+### {{ project.title }}
+
+(with {{ project.collaborators }})
+
+{{ project.description }}{% if project.url %} [Project page]({{ project.url }}){% endif %}
+{% endfor %}
+
+
 # Awards
 {% for award in awards %}
-   {{ award.award }},    {{ award.year }}
+   {% if award.url %}[{{ award.award }}]({{ award.url }}){% else %}{{ award.award }}{% endif %}, {{ award.year }}
 {% endfor %}
 
 # Grants
@@ -54,3 +71,21 @@
 {% for school in education %}
 {% if school.url %}[{{ school.institution }}]({{ school.url }}){% else %}{{ school.institution }}{% endif %}, {{ school.degree}}{% if school.field %} in {{ school.field }}{% endif %}{% if school.finish %}, {{ school.finish }}{% endif %}
 {% endfor %}
+
+# Teaching & Service
+
+## Teaching
+
+{% for item in teaching %}
+   {{ item.course_title }}, {{ item.institution }}, {{ item.semester }} {{ item.year }}{% if item.sections and item.sections != "1" %} ({{ item.sections }} sections){% endif %}
+{% endfor %}
+
+## Service
+
+{% for item in service %}
+   {{ item.role }}, {{ item.organization }}, {{ item.start }}---{{ item.end }}
+{% endfor %}
+
+## Reviewing
+
+{{ reviewing | map(attribute='journal') | join(' · ') }}

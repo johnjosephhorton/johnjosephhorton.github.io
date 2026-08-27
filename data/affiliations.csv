@@ -1,8 +1,7 @@
-organization,role,start,end
-"Microsoft Research New England","Consulting Researcher",2024,Present
-NBER,"Research Associate",2023,Present
-NBER,"Faculty Research Fellow",2019,2023
-CESifo,Affiliate,2017,Present
-"Berkman Center for Internet and Society",Affiliate,2012,2013
-"Harvard Kennedy School","Research Associate",2012,2013
-"Institute for Quantitative Social Science",Affiliate,2009,2011
+organization,role,start,end,url
+NBER,"Research Associate",2023,Present,https://www.nber.org/people/john_horton
+NBER,"Faculty Research Fellow",2019,2023,https://www.nber.org/people/john_horton
+CESifo,Affiliate,2017,Present,https://www.cesifo.org/en
+"Berkman Center for Internet and Society",Affiliate,2012,2013,https://cyber.harvard.edu/
+"Harvard Kennedy School","Research Associate",2012,2013,https://www.hks.harvard.edu/
+"Institute for Quantitative Social Science",Affiliate,2009,2011,https://www.iq.harvard.edu/

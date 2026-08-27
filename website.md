@@ -5,32 +5,121 @@
 ## Bio {.bio-class}
 
 
-I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management and a Faculty Research Fellow at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
-[\@johnjhorton](https://twitter.com/johnjhorton)
+I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
+[Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [\@johnjhorton](https://twitter.com/johnjhorton)
 
 # Employment
 
 
+   Chrysler Professor of Management, [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), August 25, 2025---Present
+
    Co-founder, [Expected Parrot](https://www.expectedparrot.com), 2024---Present
-
-   Chrysler Professor of Management, MIT Sloan School of Management, August 25, 2025---Present
-
-   Associate Professor (with Tenure), MIT Sloan School of Management, 2023---2025
 
    Consulting Researcher, [Microsoft Research New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), 2024---Present
 
-   Richard S. Leghorn Career Development Associate Professor, MIT Sloan School of Management, 2020---2023
+   Associate Professor (with Tenure), [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), 2023---2025
 
-   Assistant Professor, MIT Sloan School of Management, 2019---2020
+   Richard S. Leghorn Career Development Associate Professor, [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), 2020---2023
 
-   Assistant Professor of Information Systems, Stern School of Business, New York University, 2013---2019
+   Assistant Professor, [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), 2019---2020
 
-   Visiting Economist, [Uber Technologies](https://www.uber.com/), Summer 2015---2015
+   Visiting Economist, [Airbnb](https://www.airbnb.com/), Summer 2016
 
-   Tank Platoon Leader & Executive Officer, [US Army](https://www.army.mil/), 2001---2006
+   Visiting Economist, [Uber Technologies](https://www.uber.com/), Summer 2015
+
+   Assistant Professor of Information Systems, [Stern School of Business, New York University](https://www.stern.nyu.edu/), 2013---2019
+
+   Staff Economist, [oDesk Corporation](https://www.upwork.com/), 2011---2013
+
+   Research Intern, [London School of Economics, Centre for Economic Performance](https://cep.lse.ac.uk/), Summer 2010
+
+   Resident Tutor, [Pforzheimer House, Harvard College](https://pfoho.harvard.edu/), 2007---2011
+
+   Tank Platoon Leader and Executive Officer, [US Army](https://www.army.mil/), 2001---2006
+
+
+## Affiliations
+
+
+   Research Associate, [NBER](https://www.nber.org/people/john_horton), 2023---Present
+
+   Faculty Research Fellow, [NBER](https://www.nber.org/people/john_horton), 2019---2023
+
+   Affiliate, [CESifo](https://www.cesifo.org/en), 2017---Present
+
+   Affiliate, [Berkman Center for Internet and Society](https://cyber.harvard.edu/), 2012---2013
+
+   Research Associate, [Harvard Kennedy School](https://www.hks.harvard.edu/), 2012---2013
+
+   Affiliate, [Institute for Quantitative Social Science](https://www.iq.harvard.edu/), 2009---2011
 
 
 # Research {.paper-class}
+
+
+### Chaining tasks, redefining work: A theory of AI automation  {.paper-class}
+(with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nickle/), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
+
+* Paper: [NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
+
+
+* Working paper: [NBER Working Paper 34859 (2026)](https://doi.org/10.3386/w34859)
+
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Chaining+Tasks%2C+Redefining+Work%3A+A+Theory+of+AI+Automation%22))   Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs))
+
+
+### Simulating the Survey of Professional Forecasters  {.paper-class}
+(with [Anne Lundgaard Hansen](https://www.richmondfed.org/research/people/hansen_anne), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarifhonarvar.com/))
+
+* Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5066286)
+
+
+
+* Status: Working paper
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Simulating+the+Survey+of+Professional+Forecasters%22))
+
+
+### AI agents can enable superior market designs  {.paper-class}
+(with [Gili Rusak](https://gilirusak.github.io/) and [Benjamin Manning](https://www.benjaminmanning.com/))
+
+* Paper: [PDF](https://conference.iza.org/DATA_2025/manning_b36140.pdf)
+
+
+
+* Status: Working paper
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22AI+Agents+Can+Enable+Superior+Market+Designs%22))
+
+
+### Learning from synthetic labs: Language models as auction participants  {.paper-class}
+(with Anand Shah, [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi and [David C. Parkes](https://parkes.seas.harvard.edu/))
+
+* Paper: [arXiv](https://arxiv.org/abs/2507.09083)
+
+
+
+* Status: Working paper
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Learning+from+Synthetic+Labs%3A+Language+Models+as+Auction+Participants%22))
+
+
+### Strategic tradeoffs between humans and AI in multi-agent bargaining  {.paper-class}
+(with [Crystal Qian](https://deepmind.google/about/careers/teams/people-ai-research/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/nithumthain/))
+
+* Paper: [arXiv](https://arxiv.org/abs/2509.09071)
+
+
+* Published: [Proceedings of the 31st International Conference on Intelligent User Interfaces: 1625-1646 (2026)](https://doi.org/10.1145/3742413.3789078)
+
+
+
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Strategic+Tradeoffs+Between+Humans+and+AI+in+Multi-Agent+Bargaining%22))
 
 
 ### Generative AI and labor market matching efficiency  {.paper-class}
@@ -56,7 +145,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22))   Media: ([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))    Twitter Thread(s): ([1](https://x.com/Peyman_Shahidi/status/1980257133493981219))
+* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22))   Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained))([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))    Twitter Thread(s): ([1](https://x.com/Peyman_Shahidi/status/1980257133493981219))
 
 
 ### General social agents  {.paper-class}
@@ -180,7 +269,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC))   Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))
 
 
-### Information about vacancy congestion redirects job search  {.paper-class}
+### Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/))
 
 * Paper: [PDF](https://andreyfradkin.com/assets/jobs_authors.pdf)
@@ -548,39 +637,50 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
+# Projects
+
+
+### Mass in silico replication of social science experiments
+
+(with Benjamin S. Manning, Jacob Snyder, and Abhishek Nagaraj)
+
+Ongoing research project; no public draft is currently available.
+
+
+
 # Awards
 
-   Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill),    2026
+   [Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)](https://doi.org/10.1287/isre.2022.0709), 2026
 
-   ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects),    2026
+   [ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects)](https://ec26.sigecom.org/program/accepted-papers/), 2026
 
-   WISE 2025 - Best Paper Award,    2025
+   [WISE Best Paper Award (General Social Agents)](https://www.nber.org/papers/w34937), 2025
 
-   INFORMS ISS Cluster Best Paper Award, Runner-up (Production & Consumption of Social Media),    2022
+   INFORMS ISS Cluster Best Paper Award, Runner-up (Production & Consumption of Social Media), 2022
 
-   Conference on Artificial Intelligence, Machine Learning, and Business Analytics, AI/ML "Rising Star" Award, 2021,    2021
+   Conference on Artificial Intelligence, Machine Learning, and Business Analytics, AI/ML "Rising Star" Award, 2021, 2021
 
-   ISS Sandra A. Slaughter Early Career Award, 2021,    2021
+   ISS Sandra A. Slaughter Early Career Award, 2021, 2021
 
-   Experimental Economics, Editor’s Award Winner for 2011,    2011
+   Experimental Economics, Editor’s Award Winner for 2011, 2011
 
-   Becker-Friedman Center on Price Theory, Summer Camp, University of Chicago, 2010,    2010
+   Becker-Friedman Center on Price Theory, Summer Camp, University of Chicago, 2010, 2010
 
-   NSF-IGERT Multidisciplinary Fellowship in Inequality and Social Policy, 2008 - 2010,    2008
+   NSF-IGERT Multidisciplinary Fellowship in Inequality and Social Policy, 2008 - 2010, 2008
 
-   Institute for Humane Studies Graduate Fellowship, 2009,    2009
+   Institute for Humane Studies Graduate Fellowship, 2009, 2009
 
-   National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008,    2008
+   National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008, 2008
 
-   Bronze Star Medal,    2004
+   Bronze Star Medal, 2004
 
-   Army Acheivement Medal (for budgeting & spreadsheet work),    2005
+   Army Achievement Medal (for budgeting and spreadsheet work), 2005
 
-   Army Commendation Medal,    2004
+   Army Commendation Medal, 2004
 
-   Combat Action Badge,    2004
+   Combat Action Badge, 2004
 
-   Basic Parachutist Badge,    1999
+   Basic Parachutist Badge, 1999
 
 
 # Grants
@@ -601,6 +701,14 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Talks
+
+   [NBER Summer Institute, Economic Fluctuations and Growth](https://conference.nber.org/agenda/simple_printable?conf_id=SI26EFFE), 2026
+
+   [Business Implications of AI at MIT](https://ide.mit.edu/events/2026-the-business-implications-of-generative-ai-mit-big-aimit/), 2026
+
+   [American Economic Association Annual Meeting](https://www.aeaweb.org/conference/2026/download/ASSA_2026_by_association), 2026
+
+   [ACM Conference on Economics and Computation](https://ec26.sigecom.org/program/accepted-papers/), 2026
 
    [CEPR Economics of AI Webinar](https://cepr.org/events/event-series/cepr-webinar-series-economics-artificial-intelligence), 2025
 
@@ -853,3 +961,60 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 Harvard University, PhD in Public Policy, 2011
 
 United States Military Academy at West Point, BS in Mathematics, minor in Computer Science, 2001
+
+
+# Teaching & Service
+
+## Teaching
+
+
+   The Economics of Information: Strategy, Structure, and Pricing, MIT, Spring 2026
+
+   Foundations of Information Technology, MIT, Fall 2025
+
+   Generative AI for Managers, MIT, Spring 2024
+
+   The Economics of Information: Strategy, Structure, and Pricing, MIT, Spring 2023
+
+   Foundations of Information Technology, MIT, Spring 2023
+
+   Doctoral Seminar, Economics of Information Technology, MIT, Spring 2022
+
+   Foundations of Information Technology, MIT, Spring 2022
+
+   Foundations of Information Technology, MIT, Spring 2021
+
+   Designing, Using, and Competing with Online Marketplaces, MIT, Spring 2021
+
+   Introduction to Programming and Data Science, NYU Stern, Spring 2018 (3 sections)
+
+   Introduction to Technology in Business & Society, NYU Stern, Spring 2017 (3 sections)
+
+   Introduction to Technology in Business & Society, NYU Stern, Spring 2016 (3 sections)
+
+   Introduction to Technology in Business & Society, NYU Stern, Spring 2015 (3 sections)
+
+   Introduction to Technology in Business & Society, NYU Stern, Spring 2014 (3 sections)
+
+   EC970: Online Work, Harvard College, Fall 2010
+
+   API-302: Analytic Frameworks for Public Policy, Harvard Kennedy School, Fall 2010 (3 sections)
+
+
+## Service
+
+
+   Dean Search Committee, MIT Sloan, 2024---Present
+
+   NBER Digitization Spring 2024 Meeting, Co-organizer, NBER, 2023---2024
+
+   Faculty Search Committee, MIT Sloan IT Group, 2022---Present
+
+   PhD Program Coordinator, MIT Sloan IT Group, 2021---Present
+
+   Departmental: Organizer of IS Faculty Seminar; PhD recruiting committee, NYU Stern, 2013---2017
+
+
+## Reviewing
+
+American Economic Review · The Quarterly Journal of Economics · American Economic Review: Insights · Econometrica · Journal of Political Economy · Journal of Labor Economics · RAND Journal of Economics · Journal of Economic Geography · Journal of Economics & Management Strategy · Management Science · Information Systems Research · AEJ: Applied · MISQ · Marketing Science · Judgment and Decision Making · Clinical Psychological Science · ACM-Electronic Commerce · ACM-Computer Human Interaction · ICIS · CIST
