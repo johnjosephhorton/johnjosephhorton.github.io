@@ -15,7 +15,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    Co-founder, [Expected Parrot](https://www.expectedparrot.com), 2024---Present
 
-   Consulting Researcher, [Microsoft Research New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), 2024---Present
+   Consulting Researcher, [Microsoft Research New England](https://www.microsoft.com/en-us/research/lab/microsoft-research-new-england/), 2024---2025
 
    Associate Professor (with Tenure), [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), 2023---2025
 
@@ -57,6 +57,19 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Research {.paper-class}
+
+
+### Marginal ideas  {.paper-class}
+(with [Amir Sariri](https://amirsariri.com/))
+
+* Paper Links: [PDF](https://amirsariri.com/assets/documents/sv/marginalideas.pdf)
+
+
+
+* Status: Working paper
+
+
+* Links:  Citations: ([Google Scholar](https://scholar.google.com/scholar?q=%22Marginal+Ideas%22+%22John+Horton%22+%22Amir+Sariri%22))   Media: ([Expected Parrot](https://blog.expectedparrot.com/p/marginal-ideas))
 
 
 ### Chaining tasks, redefining work: A theory of AI automation  {.paper-class}
@@ -681,6 +694,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Talks
+
+   [NBER Summer Institute, Entrepreneurship](https://www.nber.org/conferences/si-2026-entrepreneurship), 2026
 
    [NBER Summer Institute, Economic Fluctuations and Growth](https://conference.nber.org/agenda/simple_printable?conf_id=SI26EFFE), 2026
 
