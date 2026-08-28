@@ -16,6 +16,7 @@ of record:
 - `coauthors.csv` connects papers to people using `paper_id` and `people_id`.
 - `versions.csv`, `media.csv`, `slides.csv`, `video.csv`,
   `twitter_threads.csv`, and `code.csv` connect resources to a `paper_id`.
+  The `featured` column in `video.csv` controls the Featured Talks collection.
 - `publication_info.csv` contains one row per formal publication, keyed by
   `publication_id` and connected to a paper by `paper_id`. It records the
   official title, publication type, venue, date, volume, issue, pages, DOI,
@@ -30,6 +31,13 @@ of record:
   supplies paper-specific presentation links, while `paper_updates.csv` stores
   the latest publicly verifiable revision, release, or publication date used to
   order the research list.
+- `paper_topics.csv` controls each paper's topic and the maintained “Selected
+  research” collection. The “Recently updated” collection is derived from the
+  ten newest dates in `paper_updates.csv`; publication-type labels and sorting
+  are derived from `publication_info.csv`.
+- `writing.csv` stores the three Expected Parrot posts shown on the homepage
+  and Expected Parrot page. Run `make refresh-writing` to update it from the
+  Substack RSS feed; the normal site build remains fully local and offline.
 - The remaining CSV files preserve local CV data that is not currently shown
   on the homepage.
 
@@ -55,7 +63,8 @@ The build has two stages:
 
 1. `create_website.py` renders `templates/website.md` using the local CSVs.
 2. Pandoc renders `website.md` into the published `index.html` using
-   `templates/template.html`.
+   `templates/template.html`. It also renders the generated `bio.md` and
+   `expected-parrot.md` into their standalone pages.
 
 Both `website.md` and `index.html` are generated files, but they are committed
 so GitHub Pages can publish the repository without a server-side build.

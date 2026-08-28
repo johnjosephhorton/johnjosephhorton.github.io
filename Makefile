@@ -1,5 +1,5 @@
 
-.PHONY: build validate links website serve paper-pages pdf FORCE
+.PHONY: build validate links website serve paper-pages standalone-pages refresh-writing pdf FORCE
 
 LAST_UPDATED ?= $(shell git log -1 --format=%cs 2>/dev/null || date +%F)
 
@@ -20,6 +20,13 @@ paper-pages: website.md templates/paper.html
 		pandoc "$$source" --metadata lastupdated="$(LAST_UPDATED)" -s --template=templates/paper.html -o "$${source%.md}.html"; \
 	done
 
+standalone-pages: bio.md expected-parrot.md templates/page.html
+	pandoc bio.md --metadata title="Bio & Press Materials" --metadata description="Official biographies, headshot, curriculum vitae, and profile links for John J. Horton." --metadata canonical="https://john-joseph-horton.com/bio.html" --metadata lastupdated="$(LAST_UPDATED)" -s --template=templates/page.html -o bio.html
+	pandoc expected-parrot.md --metadata title="Expected Parrot" --metadata description="John J. Horton on Expected Parrot and the open-source building blocks for automated social science." --metadata canonical="https://john-joseph-horton.com/expected-parrot.html" --metadata lastupdated="$(LAST_UPDATED)" -s --template=templates/page.html -o expected-parrot.html
+
+refresh-writing:
+	python3 scripts/update_writing_feed.py
+
 pdf:
 	pandoc website.md --pdf-engine=xelatex -o cv.pdf
 
@@ -31,6 +38,6 @@ serve: build
 	@echo "Preview: http://127.0.0.1:8000/"
 	python3 -m http.server 8000 --bind 127.0.0.1
 
-build: validate index.html paper-pages
+build: validate index.html paper-pages standalone-pages
 
 FORCE:

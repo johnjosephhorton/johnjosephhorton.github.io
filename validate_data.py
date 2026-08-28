@@ -88,7 +88,7 @@ def main():
         "versions": {"paper_id", "type", "url"},
         "media": {"paper_id", "publication", "url"},
         "slides": {"paper_id", "url"},
-        "video": {"paper_id", "url"},
+        "video": {"paper_id", "url", "featured"},
         "twitter_threads": {"paper_id", "url"},
         "code": {"paper_id", "url"},
     }
@@ -204,6 +204,16 @@ def main():
     check_urls(ventures, "ventures", column="blog_url")
     check_urls(ventures, "ventures", column="backer_url")
     check_urls(ventures, "ventures", column="backer_logo")
+
+    writing = read_table("writing", {"title", "description", "url", "date"})
+    check_urls(writing, "writing")
+    for row in writing:
+        if not row["title"] or not row["description"]:
+            raise ValueError("data/writing.csv: every post needs a title and description")
+        try:
+            __import__("datetime").date.fromisoformat(row["date"])
+        except ValueError as error:
+            raise ValueError(f"data/writing.csv: invalid date {row['date']}") from error
 
     courses = read_table("courses", {"id", "course_title", "institution", "role"})
     course_ids = unique_ids(courses, "courses")

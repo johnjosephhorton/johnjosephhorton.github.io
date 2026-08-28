@@ -11,6 +11,7 @@
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="filters.css">
+  <link rel="stylesheet" href="enhancements.css">
   <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"John J. Horton","url":"https://john-joseph-horton.com/","jobTitle":"Chrysler Professor of Management","affiliation":[{"@type":"Organization","name":"MIT Sloan School of Management"},{"@type":"Organization","name":"National Bureau of Economic Research"}],"founder":{"@type":"Organization","name":"Expected Parrot","url":"https://www.expectedparrot.com"},"sameAs":["https://orcid.org/0000-0001-5426-0156","https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en","https://www.nber.org/people/john_horton","https://www.expectedparrot.com"]}</script>
 </head>
 <body>
@@ -80,14 +81,18 @@ $body$
         const count = countId ? document.getElementById(countId) : null;
         let activeTopic = 'all';
         let activeStatus = 'all';
+        let activeType = 'all';
+        let activeView = inputId === 'research-search' ? 'selected' : 'all';
         function filter() {
           const query = input.value.trim().toLocaleLowerCase();
           let visible = 0;
           items.forEach(function(item) {
             const textMatch = !query || item.textContent.toLocaleLowerCase().includes(query) || (item.dataset.search || '').toLocaleLowerCase().includes(query);
-            const topicMatch = activeTopic === 'all' || (activeTopic === 'selected' ? item.dataset.selected === 'true' : item.dataset.topic === activeTopic);
+            const topicMatch = activeTopic === 'all' || item.dataset.topic === activeTopic;
             const statusMatch = activeStatus === 'all' || item.dataset.status === activeStatus;
-            const match = textMatch && topicMatch && statusMatch;
+            const typeMatch = activeType === 'all' || item.dataset.type === activeType;
+            const viewMatch = activeView === 'all' || (activeView === 'selected' ? item.dataset.selected === 'true' : item.dataset.recent === 'true');
+            const match = textMatch && topicMatch && statusMatch && typeMatch && viewMatch;
             item.hidden = !match;
             if (match) visible += 1;
           });
@@ -98,6 +103,13 @@ $body$
           if (count) count.textContent = visible + (visible === 1 ? ' paper' : ' papers');
         }
         input.addEventListener('input', filter);
+        if (inputId === 'research-search') document.querySelectorAll('.view-chip').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            activeView = chip.dataset.view;
+            document.querySelectorAll('.view-chip').forEach(function(other) { other.classList.toggle('active', other === chip); });
+            filter();
+          });
+        });
         if (inputId === 'research-search') document.querySelectorAll('.filter-chip').forEach(function(chip) {
           chip.addEventListener('click', function() {
             activeTopic = chip.dataset.topic;
@@ -112,6 +124,25 @@ $body$
             filter();
           });
         });
+        if (inputId === 'research-search') document.querySelectorAll('.type-chip').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            activeType = chip.dataset.type;
+            document.querySelectorAll('.type-chip').forEach(function(other) { other.classList.toggle('active', other === chip); });
+            filter();
+          });
+        });
+        if (inputId === 'research-search') {
+          const sort = document.getElementById('research-sort');
+          const results = document.getElementById('research-results');
+          sort.addEventListener('change', function() {
+            const direction = sort.value === 'oldest' ? 1 : -1;
+            items.sort(function(a, b) {
+              if (sort.value === 'updated') return a.dataset.updated === b.dataset.updated ? Number(a.dataset.order) - Number(b.dataset.order) : b.dataset.updated.localeCompare(a.dataset.updated);
+              const comparison = a.dataset.year.localeCompare(b.dataset.year);
+              return comparison === 0 ? Number(a.dataset.order) - Number(b.dataset.order) : direction * comparison;
+            }).forEach(function(item) { results.appendChild(item); });
+          });
+        }
         filter();
       }
       installFilter('research-search', '.paper-entry', null, 'research-count');

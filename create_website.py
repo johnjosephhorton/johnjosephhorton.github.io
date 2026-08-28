@@ -5,6 +5,7 @@ import csv
 import json
 import re
 import unicodedata
+from datetime import date, datetime
 from pathlib import Path
 from urllib.parse import parse_qs, urlparse
 
@@ -85,6 +86,24 @@ class Paper(Entity):
         if publication_type == "working-paper":
             return "Working paper"
         return "Published"
+
+    @property
+    def type_label(self):
+        publication_type = self.primary_publication.publication_type if self.primary_publication else "working-paper"
+        return {
+            "journal-article": "Journal article",
+            "conference-paper": "Conference paper",
+            "workshop-paper": "Workshop paper",
+            "book-chapter": "Book chapter",
+            "forthcoming-book-chapter": "Book chapter",
+            "working-paper": "Working paper",
+        }.get(publication_type, publication_type.replace("-", " ").title())
+
+    @property
+    def publication_year(self):
+        if self.primary_publication and self.primary_publication.publication_date:
+            return self.primary_publication.publication_date[:4]
+        return self.last_updated[:4]
 
     @property
     def show_status(self):
@@ -417,6 +436,9 @@ grants = Collection(Entity, "grants")
 service = Collection(Entity, "service")
 reviewing = Collection(Entity, "reviewing")
 ventures = Collection(Entity, "ventures")
+writing = [Entity(row) for row in get_csv("writing.csv")]
+for post in writing:
+    post.display_date = datetime.strptime(post.date, "%Y-%m-%d").strftime("%B %-d, %Y")
 publications = Collection(Publication, "publication_info")
 paper_page_rows = get_csv("paper_pages.csv")
 paper_abstracts = {row["paper_id"]: row for row in get_csv("paper_abstracts.csv")}
@@ -493,6 +515,13 @@ for id, paper in papers.items():
     paper.coauthors = [person for person in paper.authors if person.id != "john"]
     paper.contribution_note = paper_contributions.get(paper.id, "")
 
+ordered_papers = sorted(
+    papers.values(), key=lambda paper: paper.last_updated, reverse=True
+)
+for index, paper in enumerate(ordered_papers):
+    paper.recent = index < 10
+    paper.original_order = index
+
 def slugify(value):
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
@@ -560,16 +589,16 @@ d = {
     "talk_groups": talk_groups,
     "awards": awards,
     "education": education,
-    "papers": sorted(
-        papers.values(), key=lambda paper: paper.last_updated, reverse=True
-    ),
+    "papers": ordered_papers,
     "research_topics": sorted({paper.topic for paper in papers.values()}),
     "research_statuses": ["Published", "Forthcoming", "Active working paper"],
-    "featured_talks": [item for item in video if item.paper_id and item.topic][:6],
+    "research_types": sorted({paper.type_label for paper in papers.values()}),
+    "featured_talks": [item for item in video if item.featured == "1"],
     "grants": grants,
     "service": service,
     "reviewing": reviewing,
     "teaching": teaching_courses,
+    "writing": writing,
 }
 
 rendered = template.render(**d)
@@ -582,8 +611,19 @@ with open("website.md", "w", encoding="utf-8") as f:
 with open("page-markdown.js", "w", encoding="utf-8") as f:
     f.write("window.PAGE_MARKDOWN = " + json.dumps(rendered, ensure_ascii=False) + ";\n")
 
+for source_name, output_name in (
+    ("bio.md", "bio.md"),
+    ("expected-parrot.md", "expected-parrot.md"),
+):
+    page_template = environment.get_template(source_name)
+    page_markdown = page_template.render(**d)
+    Path(output_name).write_text(
+        "\n".join(line.rstrip() for line in page_markdown.splitlines()) + "\n",
+        encoding="utf-8",
+    )
+
 site_url = "https://john-joseph-horton.com"
-urls = [site_url + "/"] + [site_url + "/" + paper.page_url.removesuffix("index.html") for paper in papers.values()]
+urls = [site_url + "/", site_url + "/bio.html", site_url + "/expected-parrot.html"] + [site_url + "/" + paper.page_url.removesuffix("index.html") for paper in papers.values()]
 Path("sitemap.xml").write_text(
     '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
     + "".join(f"  <url><loc>{url}</loc></url>\n" for url in urls) + "</urlset>\n",

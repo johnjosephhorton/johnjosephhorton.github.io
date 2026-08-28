@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Expected Parrot · John J. Horton</title>
+  <meta name="description" content="John J. Horton on Expected Parrot
+and the open-source building blocks for automated social science.">
+  <link rel="canonical" href="https://john-joseph-horton.com/expected-parrot.html">
+  <meta property="og:type" content="website"><meta property="og:title" content="Expected
+Parrot · John J. Horton"><meta property="og:description" content="John
+J. Horton on Expected Parrot and the open-source building blocks for
+automated social
+science."><meta property="og:url" content="https://john-joseph-horton.com/expected-parrot.html"><meta property="og:image" content="https://john-joseph-horton.com/images/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="enhancements.css">
+</head>
+<body>
+  <a class="skip-link" href="#page-content">Skip to content</a>
+  <div class="site-shell">
+    <main class="site-main">
+      <article id="page-content" class="paper-content"><h1
+id="expected-parrot">Expected Parrot</h1>
+<p><a href="index.html">Back to John J. Horton’s website</a></p>
+<p><img class="detail-logo" src="images/expected-parrot.png" alt="Expected Parrot E[parrot] expectation-operator logo" /></p>
+<p>I’m excited about the potential for AI to transform the social
+sciences, which I’ve explored in <a
+href="papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/">Homo
+silicus</a>, <a
+href="papers/automated-social-science-language-models-as-scientist-and-subjects/">Automated
+social science</a>, and <a href="papers/general-social-agents/">General
+social agents</a>. But realizing that potential requires the right tools
+and infrastructure.</p>
+<p>I co-founded <a href="https://www.expectedparrot.com">Expected
+Parrot</a> with my spouse, <a
+href="https://www.linkedin.com/in/robertahorton/">Robin Horton</a>, to
+build those tools and infrastructure. We’re building the building blocks
+for automated social science, centered on <a
+href="https://github.com/expectedparrot/edsl">EDSL</a>, our open-source
+package for conducting research with AI agents and language models.</p>
+<p>We’re particularly focused on supporting researchers, both with
+credits and direct assistance. Expected Parrot is backed by <a
+href="https://www.ycombinator.com/companies/expected-parrot">Y
+Combinator</a>. <a href="mailto:founders@expectedparrot.com">Get in
+touch</a>—we’d be glad to hear what you’re working on.</p>
+<div class="page-link-grid">
+<p><a href="https://www.expectedparrot.com">Expected Parrot
+<span>Website</span></a>
+<a href="https://github.com/expectedparrot/edsl">EDSL <span>Open
+source</span></a>
+<a href="https://docs.expectedparrot.com/">Documentation
+<span>Learn</span></a>
+<a href="https://blog.expectedparrot.com/">Expected Parrot Substack
+<span>Writing</span></a></p>
+</div>
+<h2 id="recent-writing">Recent writing</h2>
+<div class="writing-list">
+<article>
+<time datetime="2026-07-31">July 31, 2026</time>
+<h3>
+<a href="https://blog.expectedparrot.com/p/nerd-stuff-research-surveys-should">[Nerd
+Stuff]: Research Surveys Should Be Version-Controlled Files</a>
+</h3>
+<p>
+And with Expected Parrot, they are!
+</p>
+</article>
+<article>
+<time datetime="2026-07-29">July 29, 2026</time>
+<h3>
+<a href="https://blog.expectedparrot.com/p/we-can-do-that-best-practices-for">We
+Can Do That! Best Practices for Dealing with Randomness in Language
+Model Outputs</a>
+</h3>
+<p>
+How Expected Parrot embodies many best practices out of the box
+</p>
+</article>
+<article>
+<time datetime="2026-07-23">July 23, 2026</time>
+<h3>
+<a href="https://blog.expectedparrot.com/p/twitter-proposes-prolific-disposes">Twitter
+Proposes; Prolific Disposes — Part I</a>
+</h3>
+<p>
+Using Expected Parrot to test promising ideas with real humans
+</p>
+</article>
+</div>
+<p><a href="https://blog.expectedparrot.com/">Read all Expected Parrot
+posts</a></p></article>
+    </main>
+    <footer class="site-footer">Last updated: 2026-08-28</footer>
+  </div>
+  <script>
+    document.querySelectorAll('[data-copy-block]').forEach(function(block) {
+      const button = block.querySelector('.copy-snippet');
+      if (!button) return;
+      button.addEventListener('click', async function() {
+        const text = Array.from(block.querySelectorAll('p')).map(function(p) { return p.textContent; }).join('\n\n');
+        const feedback = block.querySelector('.copy-feedback');
+        try {
+          await navigator.clipboard.writeText(text);
+          feedback.textContent = 'Copied';
+          setTimeout(function() { feedback.textContent = ''; }, 2000);
+        } catch (error) { feedback.textContent = 'Copy failed'; }
+      });
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>$title$ · John J. Horton</title>
+  <meta name="description" content="$description$">
+  <link rel="canonical" href="$canonical$">
+  <meta property="og:type" content="website"><meta property="og:title" content="$title$ · John J. Horton"><meta property="og:description" content="$description$"><meta property="og:url" content="$canonical$"><meta property="og:image" content="https://john-joseph-horton.com/images/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="enhancements.css">
+</head>
+<body>
+  <a class="skip-link" href="#page-content">Skip to content</a>
+  <div class="site-shell">
+    <main class="site-main">
+      <article id="page-content" class="paper-content">$body$</article>
+    </main>
+    <footer class="site-footer">Last updated: $lastupdated$</footer>
+  </div>
+  <script>
+    document.querySelectorAll('[data-copy-block]').forEach(function(block) {
+      const button = block.querySelector('.copy-snippet');
+      if (!button) return;
+      button.addEventListener('click', async function() {
+        const text = Array.from(block.querySelectorAll('p')).map(function(p) { return p.textContent; }).join('\n\n');
+        const feedback = block.querySelector('.copy-feedback');
+        try {
+          await navigator.clipboard.writeText(text);
+          feedback.textContent = 'Copied';
+          setTimeout(function() { feedback.textContent = ''; }, 2000);
+        } catch (error) { feedback.textContent = 'Copy failed'; }
+      });
+    });
+  </script>
+</body>
+</html>
