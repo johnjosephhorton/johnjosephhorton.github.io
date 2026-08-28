@@ -58,6 +58,42 @@
       .copy-markdown-button {
         @apply inline-flex items-center rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
       }
+      .venture-card {
+        @apply my-8 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4;
+      }
+      .venture-card .venture-label {
+        @apply mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500;
+      }
+      .venture-card .venture-intro {
+        @apply flex items-start gap-4;
+      }
+      .content .venture-card .venture-logo {
+        @apply mt-1 h-auto w-20 max-w-none rounded-none border-0 shadow-none ring-0;
+      }
+      .venture-card .venture-heading {
+        @apply mb-2 flex flex-wrap items-baseline gap-x-3 gap-y-1;
+      }
+      .venture-card .venture-heading a {
+        @apply text-lg font-semibold text-slate-900 hover:text-blue-700;
+      }
+      .venture-card .venture-heading span {
+        @apply text-sm text-slate-500;
+      }
+      .venture-card p {
+        @apply mb-2 text-sm text-slate-700;
+      }
+      .venture-card .venture-support {
+        @apply mb-0 font-medium text-slate-600;
+      }
+      .venture-card .venture-links {
+        @apply mt-3 flex flex-wrap gap-x-5 gap-y-2 border-t border-slate-200 pt-3;
+      }
+      .venture-card .venture-links a {
+        @apply inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-blue-700;
+      }
+      .content .venture-card .venture-backer-logo {
+        @apply h-5 w-5 rounded-none border-0 shadow-none ring-0;
+      }
     }
   </style>
   <script>
@@ -99,6 +135,42 @@ Sloan</a> · <a href="https://www.nber.org/people/john_horton">NBER</a> ·
 href="https://scholar.google.com/citations?user=L_O2kH0AAAAJ&amp;hl=en">Google
 Scholar</a> · <a href="https://orcid.org/0000-0001-5426-0156">ORCID</a>
 · <a href="https://twitter.com/johnjhorton">@johnjhorton</a></p>
+<aside class="venture-card" aria-label="Expected Parrot">
+<div class="venture-label">
+Also building
+</div>
+<div class="venture-intro">
+<a href="https://www.expectedparrot.com"><img class="venture-logo" src="images/expected-parrot.png" alt="Expected Parrot E[parrot] expectation-operator logo" /></a>
+<div>
+<div class="venture-heading">
+<a href="https://www.expectedparrot.com">Expected Parrot</a>
+</div>
+<p>
+I’m excited about the potential for AI to transform the social sciences
+(which I’ve explored in several papers
+<a href='papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/index.html'>[1]</a>,
+<a href='papers/automated-social-science-language-models-as-scientist-and-subjects/index.html'>[2]</a>,
+and <a href='papers/general-social-agents/index.html'>[3]</a>). But
+realizing that potential requires the right tools and infrastructure. I
+co-founded <a href='https://www.expectedparrot.com'>Expected Parrot</a>
+with my spouse,
+<a href='https://www.linkedin.com/in/robertahorton/'>Robin Horton</a>,
+to build those tools and infrastructure.
+</p>
+<p class="venture-support">
+We’re particularly focused on supporting researchers, both with credits
+and direct assistance. <a href='mailto:founders@expectedparrot.com'>Get
+in touch!</a>
+</p>
+</div>
+</div>
+<div class="venture-links">
+<a href="https://github.com/expectedparrot/edsl">EDSL · open-source
+package
+↗</a><a href="https://www.ycombinator.com/companies/expected-parrot"><img class="venture-backer-logo" src="images/y-combinator.svg" alt="" />Y
+Combinator · Fall 2025 ↗</a>
+</div>
+</aside>
 <h1 id="employment">Employment</h1>
 <p>Chrysler Professor of Management; jointly appointed to the TIES and
 IT groups, <a

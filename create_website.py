@@ -370,6 +370,7 @@ video = Collection(Entity, "video")
 grants = Collection(Entity, "grants")
 service = Collection(Entity, "service")
 reviewing = Collection(Entity, "reviewing")
+ventures = Collection(Entity, "ventures")
 publications = Collection(Publication, "publication_info")
 paper_page_rows = get_csv("paper_pages.csv")
 paper_presentations = Collection(Entity, "paper_presentations")
@@ -485,6 +486,7 @@ d = {
     "jobs": jobs,
     "affiliations": affiliations,
     "basic_info": basic_info,
+    "ventures": ventures,
     "talks": talks,
     "awards": awards,
     "education": education,

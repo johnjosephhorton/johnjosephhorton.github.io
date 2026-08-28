@@ -8,6 +8,18 @@
 I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management, jointly appointed to the Technological Innovation, Entrepreneurship, and Strategic Management (TIES) and Information Technology (IT) groups, and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
 [Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [\@johnjhorton](https://twitter.com/johnjhorton)
 
+<aside class="venture-card" aria-label="Expected Parrot">
+<div class="venture-label">Also building</div>
+<div class="venture-intro">
+<a href="https://www.expectedparrot.com"><img class="venture-logo" src="images/expected-parrot.png" alt="Expected Parrot E[parrot] expectation-operator logo" /></a>
+<div><div class="venture-heading"><a href="https://www.expectedparrot.com">Expected Parrot</a></div>
+<p>I'm excited about the potential for AI to transform the social sciences (which I've explored in several papers <a href='papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/index.html'>[1]</a>, <a href='papers/automated-social-science-language-models-as-scientist-and-subjects/index.html'>[2]</a>, and <a href='papers/general-social-agents/index.html'>[3]</a>). But realizing that potential requires the right tools and infrastructure. I co-founded <a href='https://www.expectedparrot.com'>Expected Parrot</a> with my spouse, <a href='https://www.linkedin.com/in/robertahorton/'>Robin Horton</a>, to build those tools and infrastructure.</p>
+<p class="venture-support">We're particularly focused on supporting researchers, both with credits and direct assistance. <a href='mailto:founders@expectedparrot.com'>Get in touch!</a></p></div>
+</div>
+<div class="venture-links"><a href="https://github.com/expectedparrot/edsl">EDSL · open-source package ↗</a><a href="https://www.ycombinator.com/companies/expected-parrot"><img class="venture-backer-logo" src="images/y-combinator.svg" alt="" />Y Combinator · Fall 2025 ↗</a></div>
+</aside>
+
+
 # Employment
 
 

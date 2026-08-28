@@ -158,6 +158,27 @@ def main():
     for table in ("grants", "service", "reviewing"):
         read_table(table, set())
 
+    ventures = read_table(
+        "ventures",
+        {
+            "name",
+            "description",
+            "url",
+            "logo",
+            "package",
+            "package_url",
+            "backer",
+            "backer_url",
+            "backer_logo",
+            "support",
+        },
+    )
+    check_urls(ventures, "ventures")
+    check_urls(ventures, "ventures", column="logo")
+    check_urls(ventures, "ventures", column="package_url")
+    check_urls(ventures, "ventures", column="backer_url")
+    check_urls(ventures, "ventures", column="backer_logo")
+
     courses = read_table("courses", {"id", "course_title", "institution", "role"})
     course_ids = unique_ids(courses, "courses")
     teaching = read_table("teaching", {"year", "semester", "id", "sections"})

@@ -8,6 +8,18 @@
 {{ basic_info.bio }}
 [Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
+{% for venture in ventures %}<aside class="venture-card" aria-label="{{ venture.name }}">
+<div class="venture-label">Also building</div>
+<div class="venture-intro">
+<a href="{{ venture.url }}"><img class="venture-logo" src="{{ venture.logo }}" alt="Expected Parrot E[parrot] expectation-operator logo" /></a>
+<div><div class="venture-heading"><a href="{{ venture.url }}">{{ venture.name }}</a></div>
+<p>{{ venture.description }}</p>
+<p class="venture-support">{{ venture.support }}</p></div>
+</div>
+<div class="venture-links"><a href="{{ venture.package_url }}">{{ venture.package }} · open-source package ↗</a><a href="{{ venture.backer_url }}"><img class="venture-backer-logo" src="{{ venture.backer_logo }}" alt="" />{{ venture.backer }} ↗</a></div>
+</aside>
+{% endfor %}
+
 # Employment
 
 {% for job in jobs %}

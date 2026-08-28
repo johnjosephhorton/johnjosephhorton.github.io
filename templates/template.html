@@ -58,6 +58,42 @@
       .copy-markdown-button {
         @apply inline-flex items-center rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
       }
+      .venture-card {
+        @apply my-8 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4;
+      }
+      .venture-card .venture-label {
+        @apply mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500;
+      }
+      .venture-card .venture-intro {
+        @apply flex items-start gap-4;
+      }
+      .content .venture-card .venture-logo {
+        @apply mt-1 h-auto w-20 max-w-none rounded-none border-0 shadow-none ring-0;
+      }
+      .venture-card .venture-heading {
+        @apply mb-2 flex flex-wrap items-baseline gap-x-3 gap-y-1;
+      }
+      .venture-card .venture-heading a {
+        @apply text-lg font-semibold text-slate-900 hover:text-blue-700;
+      }
+      .venture-card .venture-heading span {
+        @apply text-sm text-slate-500;
+      }
+      .venture-card p {
+        @apply mb-2 text-sm text-slate-700;
+      }
+      .venture-card .venture-support {
+        @apply mb-0 font-medium text-slate-600;
+      }
+      .venture-card .venture-links {
+        @apply mt-3 flex flex-wrap gap-x-5 gap-y-2 border-t border-slate-200 pt-3;
+      }
+      .venture-card .venture-links a {
+        @apply inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-blue-700;
+      }
+      .content .venture-card .venture-backer-logo {
+        @apply h-5 w-5 rounded-none border-0 shadow-none ring-0;
+      }
     }
   </style>
   <script>

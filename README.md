@@ -18,7 +18,7 @@ of record:
   `publication_id` and connected to a paper by `paper_id`. It records the
   official title, publication type, venue, date, volume, issue, pages, DOI,
   and canonical URL. A paper may have multiple publication rows.
-- `jobs.csv`, `awards.csv`, `grants.csv`, `talks.csv`, and `education.csv`
+- `jobs.csv`, `ventures.csv`, `awards.csv`, `grants.csv`, `talks.csv`, and `education.csv`
   populate the other visible sections.
 - Google Scholar links live in the `google_scholar` column of `papers.csv`;
   keeping them with their papers avoids a second, conflicting citation table.
