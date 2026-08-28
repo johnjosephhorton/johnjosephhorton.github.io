@@ -26,7 +26,7 @@
 ### {{ paper.title }} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line %}
-* Paper: {{ paper.version_line }}
+* Paper Links: {{ paper.version_line }}
 {% endif %}
 {% if paper.primary_publication %}
 * {{ paper.publication_label }}: {{ paper.primary_publication.citation }}

@@ -62,7 +62,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Chaining tasks, redefining work: A theory of AI automation  {.paper-class}
 (with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
 
-* Paper: [NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
+* Paper Links: [NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
 
 
 * Working paper: [NBER Working Paper 34859 (2026)](https://doi.org/10.3386/w34859)
@@ -75,7 +75,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Simulating the Survey of Professional Forecasters  {.paper-class}
 (with [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarif.github.io/))
 
-* Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5066286)
+* Paper Links: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5066286)
 
 
 
@@ -85,23 +85,10 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22Simulating+the+Survey+of+Professional+Forecasters%22))
 
 
-### AI agents can enable superior market designs  {.paper-class}
-(with [Gili Rusak](https://gilirusak.github.io/) and [Benjamin Manning](https://www.benjaminmanning.com/))
-
-* Paper: [PDF](https://conference.iza.org/DATA_2025/manning_b36140.pdf)
-
-
-
-* Status: Working paper
-
-
-* Links:  Citations: ([gs](https://scholar.google.com/scholar?q=%22AI+Agents+Can+Enable+Superior+Market+Designs%22))
-
-
 ### Learning from synthetic labs: Language models as auction participants  {.paper-class}
 (with Anand Shah, [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi and [David C. Parkes](https://parkes.seas.harvard.edu/))
 
-* Paper: [arXiv](https://arxiv.org/abs/2507.09083)
+* Paper Links: [arXiv](https://arxiv.org/abs/2507.09083)
 
 
 
@@ -114,7 +101,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Strategic tradeoffs between humans and AI in multi-agent bargaining  {.paper-class}
 (with [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/105662/))
 
-* Paper: [arXiv](https://arxiv.org/abs/2509.09071)
+* Paper Links: [arXiv](https://arxiv.org/abs/2509.09071)
 
 
 * Published: [Proceedings of the 31st International Conference on Intelligent User Interfaces: 1625-1646 (2026)](https://doi.org/10.1145/3742413.3789078)
@@ -127,7 +114,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Generative AI and labor market matching efficiency  {.paper-class}
 (with [Emma Wiles](https://www.emmawiles.com/))
 
-* Paper: [PDF](https://www.emmawiles.com/storage/jobot.pdf)
+* Paper Links: [PDF](https://www.emmawiles.com/storage/jobot.pdf)
 
 
 
@@ -140,7 +127,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The Coasean singularity? Demand, supply, and market design with AI agents  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Gili Rusak](https://gilirusak.github.io/))
 
-* Paper: [NBER](https://www.nber.org/papers/w34468)
+* Paper Links: [NBER](https://www.nber.org/papers/w34468)
 
 
 * Forthcoming: [The Economics of Transformative AI (2026)](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
@@ -153,7 +140,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### General social agents  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/))
 
-* Paper: [arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
+* Paper Links: [arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
 
 
 
@@ -166,13 +153,13 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Automated social science: Language models as scientist and subjects  {.paper-class}
 (with [Kehang Zhu](https://scholar.harvard.edu/kehang/home) and [Benjamin Manning](https://www.benjaminmanning.com/))
 
-* Paper: [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
+* Paper Links: [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
 
 
 * Published: [Proceedings of the 27th ACM Conference on Economics and Computation (2026)](https://ec26.sigecom.org/program/accepted-papers/)
 
 
-* Status: R&R at Quarterly Journal of Economics
+* Status: Reject and Resubmit at Quarterly Journal of Economics
 
 
 * Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC))
@@ -180,7 +167,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### Large language models as economic agents: What can we learn from Homo silicus?
 
-* Paper: [PDF](papers/llm_ask.pdf) · [arXiv](https://arxiv.org/abs/2301.07543)
+* Paper Links: [PDF](papers/llm_ask.pdf) · [arXiv](https://arxiv.org/abs/2301.07543)
 
 
 * Published: [Proceedings of the 25th ACM Conference on Economics and Computation: 614-615 (2024)](https://doi.org/10.1145/3670865.3673513)
@@ -195,7 +182,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The death of a technical skill  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
-* Paper: [PDF](https://john-joseph-horton.com/papers/schumpeter.pdf)
+* Paper Links: [PDF](https://john-joseph-horton.com/papers/schumpeter.pdf)
 
 
 * Published: [Information Systems Research 36(3): 1799-1820 (2025)](https://doi.org/10.1287/isre.2022.0709)
@@ -208,7 +195,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Algorithmic writing assistance on jobseekers’ resumes increases hires  {.paper-class}
 (with [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
-* Paper: [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
+* Paper Links: [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
 
 
 * Published: [Management Science 71(12): 10144-10164 (2025)](https://doi.org/10.1287/mnsc.2024.04528)
@@ -220,7 +207,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### Price floors and employer preferences: Evidence from a minimum wage experiment
 
-* Paper: [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
+* Paper Links: [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
 
 
 * Published: [American Economic Review 115(1): 117-146 (2025)](https://doi.org/10.1257/aer.20170637)
@@ -233,7 +220,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Reducing congestion in labor markets: A case study in simple market design  {.paper-class}
 (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/))
 
-* Paper: [PDF](https://john-joseph-horton.com/papers/autopause.pdf) · [PDF](https://www.mitchellwatt.com/files/congestion.pdf)
+* Paper Links: [PDF](https://john-joseph-horton.com/papers/autopause.pdf) · [PDF](https://www.mitchellwatt.com/files/congestion.pdf)
 
 
 
@@ -246,7 +233,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The tragedy of your upstairs neighbors  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/))
 
-* Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343) · [arXiv](https://arxiv.org/abs/1611.05688) · [ACM EC](https://dl.acm.org/doi/10.1145/3033274.3085097)
+* Paper Links: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343) · [arXiv](https://arxiv.org/abs/1611.05688) · [ACM EC](https://dl.acm.org/doi/10.1145/3033274.3085097)
 
 
 * Published: [Proceedings of the 2017 ACM Conference on Economics and Computation: 537-538 (2017)](https://doi.org/10.1145/3033274.3085097)
@@ -261,7 +248,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Consumer demand with social influences: Evidence from an e-commerce platform  {.paper-class}
 (with [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [El Hadi Caoui](https://elhadicaoui.github.io/))
 
-* Paper: [NBER](https://www.nber.org/papers/w30351)
+* Paper Links: [NBER](https://www.nber.org/papers/w30351)
 
 
 * Published: [Management Science 72(4): 3550-3570 (2026)](https://doi.org/10.1287/mnsc.2024.04995)
@@ -274,7 +261,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/))
 
-* Paper: [PDF](https://andreyfradkin.com/assets/jobs_authors.pdf)
+* Paper Links: [PDF](https://andreyfradkin.com/assets/jobs_authors.pdf)
 
 
 * Published: [Management Science 72(2): 1305-1323 (2026)](https://doi.org/10.1287/mnsc.2023.02483)
@@ -287,7 +274,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The production and consumption of social media  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Elliot Lipnowski](https://elliotlipnowski.com/))
 
-* Paper: [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
+* Paper Links: [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
 
 
 * Published: [Management Science 72(7): 6368-6388 (2026)](https://doi.org/10.1287/mnsc.2023.00060)
@@ -313,7 +300,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Buyer signaling improves matching: Evidence from a field experiment  {.paper-class}
 (with [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
 
-* Paper: [NBER](https://www.nber.org/papers/w29445)
+* Paper Links: [NBER](https://www.nber.org/papers/w29445)
 
 
 
@@ -326,7 +313,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Ride-sharing markets re-equilibrate  {.paper-class}
 (with [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle) and [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552))
 
-* Paper: [PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
+* Paper Links: [PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
 
 
 
@@ -338,7 +325,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### The effects of algorithmic labor market recommendations: Evidence from a field experiment
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/algo_labor_rec.pdf) · [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/689213)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/algo_labor_rec.pdf) · [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/689213)
 
 
 * Published: [Journal of Labor Economics 35(2): 345-385 (2017)](https://doi.org/10.1086/689213)
@@ -351,7 +338,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices  {.paper-class}
 (with [Dana Chandler](https://www.linkedin.com/in/danachandler1/))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf)
 
 
 * Published: [Human Computation: Papers from the 2011 AAAI Workshop: 14-19 (2011)](https://john-joseph-horton.com/papers/combined_paper_packet.pdf)
@@ -364,7 +351,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### COVID-19 and remote work: An early look at US data  {.paper-class}
 (with [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye))
 
-* Paper: [NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
+* Paper Links: [NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
 
 
 
@@ -387,7 +374,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### The ruble collapse in an online marketplace: Some lessons for market designers
 
-* Paper: [PDF](https://www.nber.org/papers/w28702)
+* Paper Links: [PDF](https://www.nber.org/papers/w28702)
 
 
 
@@ -400,7 +387,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Steering in online markets: The role of platform incentives and credibility  {.paper-class}
 (with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-* Paper: [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
+* Paper Links: [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
 
 
 * Published: [Management Science 66(9): 4047-4070 (2020)](https://doi.org/10.1287/mnsc.2019.3412)
@@ -413,7 +400,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The future of crowd work  {.paper-class}
 (with [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Aaron Shaw](http://aaronshaw.org/), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein) and [Matt Lease](https://www.ischool.utexas.edu/~ml/))
 
-* Paper: [stanford](https://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf)
+* Paper Links: [stanford](https://hci.stanford.edu/publications/2013/CrowdWork/futureofcrowdwork-cscw2013.pdf)
 
 
 * Published: [Proceedings of the 2013 Conference on Computer Supported Cooperative Work: 1301-1318 (2013)](https://doi.org/10.1145/2441776.2441923)
@@ -426,7 +413,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Digital labor markets and global talent flows  {.paper-class}
 (with [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452) and [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265))
 
-* Paper: [NBER](https://www.nber.org/papers/w23398)
+* Paper Links: [NBER](https://www.nber.org/papers/w23398)
 
 
 * Published: [High-Skilled Migration to the United States and Its Economic Consequences: 71-108 (2018)](https://www.nber.org/papers/w23398)
@@ -438,7 +425,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### The dot-guessing game: A ‘fruit fly’ for human computation research
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/dot_guessing_game.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/dot_guessing_game.pdf)
 
 
 
@@ -461,7 +448,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Reputation inflation  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-* Paper: [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
+* Paper Links: [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
 
 
 * Published: [Marketing Science 41(4): 733-745 (2022)](https://doi.org/10.1287/mksc.2022.1350)
@@ -474,7 +461,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Labor economists get their microscope: Big data and labor market analysis  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/labor_econ_microscope.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/labor_econ_microscope.pdf)
 
 
 * Published: [Big Data 3(3): 130-137 (2015)](https://doi.org/10.1089/big.2015.0017)
@@ -486,7 +473,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### Online labor markets
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/online_labor_markets.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/online_labor_markets.pdf)
 
 
 * Published: [Internet and Network Economics: 6th International Workshop (WINE 2010) 6484: 515-522 (2010)](https://doi.org/10.1007/978-3-642-17572-5_45)
@@ -499,7 +486,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The online laboratory: Conducting experiments in a real labor market  {.paper-class}
 (with [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-* Paper: [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
+* Paper Links: [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
 
 
 * Published: [Experimental Economics 14(3): 399-425 (2011)](https://doi.org/10.1007/s10683-011-9273-9)
@@ -512,7 +499,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The labor economics of paid crowdsourcing  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/labor_economics_of_paid_crowdsourcing.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/labor_economics_of_paid_crowdsourcing.pdf)
 
 
 * Published: [Proceedings of the 11th ACM Conference on Electronic Commerce: 209-218 (2010)](https://doi.org/10.1145/1807342.1807376)
@@ -525,7 +512,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Designing incentives for inexpert raters  {.paper-class}
 (with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) and [Aaron Shaw](http://aaronshaw.org/))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/designing_incentives_for_inexpert_human_raters.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1958824.1958865)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/designing_incentives_for_inexpert_human_raters.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1958824.1958865)
 
 
 * Published: [Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work: 275-284 (2011)](https://doi.org/10.1145/1958824.1958865)
@@ -537,7 +524,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/scs.pdf) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/scs.pdf) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526)
 
 
 * Published: [Management Science 65(8): 3518-3540 (2019)](https://doi.org/10.1287/mnsc.2018.3116)
@@ -550,7 +537,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The effects of search advertising on competitors: An experiment before a merger  {.paper-class}
 (with [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/search_ad_exp.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/search_ad_exp.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534)
 
 
 * Published: [Management Science 67(1): 342-362 (2021)](https://doi.org/10.1287/mnsc.2019.3534)
@@ -563,7 +550,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Owning, using, and renting: Some simple economics of the sharing economy  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-* Paper: [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
+* Paper Links: [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
 
 
 * Published: [Management Science 66(9): 4152-4172 (2020)](https://doi.org/10.1287/mnsc.2019.3396)
@@ -576,7 +563,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Are online labor markets spot markets for tasks?  {.paper-class}
 (with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/wages_of_paycuts.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/wages_of_paycuts.pdf)
 
 
 * Published: [Information Systems Research 27(2): 403-423 (2016)](https://doi.org/10.1287/isre.2016.0633)
@@ -589,7 +576,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### The need for standardization in crowdsourcing  {.paper-class}
 (with [Panos Ipeirotis](https://ipeirotis.org/))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/the_need_for_standardization_in_crowdsourcing.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/the_need_for_standardization_in_crowdsourcing.pdf)
 
 
 * Published: [Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI (2011)](https://www.humancomputation.com/crowdcamp/chi2011/papers/horton.pdf)
@@ -602,7 +589,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### Task search in a human computation market  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/) and [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/))
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/task_search_in_a_human_computation_market.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1837885.1837889)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/task_search_in_a_human_computation_market.pdf) · [ACM](https://dl.acm.org/doi/10.1145/1837885.1837889)
 
 
 * Published: [Proceedings of the ACM SIGKDD Workshop on Human Computation: 1-9 (2010)](https://doi.org/10.1145/1837885.1837889)
@@ -614,7 +601,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ### The condition of the Turking class: Are online employers fair and honest?
 
-* Paper: [PDF](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf)
+* Paper Links: [PDF](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf)
 
 
 * Published: [Economics Letters 111(1): 10-12 (2011)](https://doi.org/10.1016/j.econlet.2010.12.007)
@@ -627,7 +614,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### How do employers use compensation history? Evidence from a field experiment  {.paper-class}
 (with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/))
 
-* Paper: [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/709277?journalCode=jole)
+* Paper Links: [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/709277?journalCode=jole)
 
 
 * Published: [Journal of Labor Economics 39(1): 193-218 (2021)](https://doi.org/10.1086/709277)
