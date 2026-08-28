@@ -246,7 +246,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 ### [Learning from synthetic labs: Language models as auction participants](papers/learning-from-synthetic-labs-language-models-as-auction-participants/index.html)  {.paper-class}
-(with Anand Shah, [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi and [David C. Parkes](https://parkes.seas.harvard.edu/))
+(with [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi and [David C. Parkes](https://parkes.seas.harvard.edu/))
 
 * Paper Links: [Details](papers/learning-from-synthetic-labs-language-models-as-auction-participants/index.html) · [arXiv](https://arxiv.org/abs/2507.09083)
 

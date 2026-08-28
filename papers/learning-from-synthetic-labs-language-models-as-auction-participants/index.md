@@ -8,7 +8,7 @@ canonical: "https://john-joseph-horton.com/papers/learning-from-synthetic-labs-l
 
 # Learning from synthetic labs: Language models as auction participants
 
-John J. Horton, Anand Shah, [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi, [David C. Parkes](https://parkes.seas.harvard.edu/)
+John J. Horton, [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi, [David C. Parkes](https://parkes.seas.harvard.edu/)
 
 **Status:** Working paper
 
