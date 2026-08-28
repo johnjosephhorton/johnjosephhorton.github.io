@@ -200,7 +200,7 @@ class Paper(Entity):
     @property
     def google_scholar_url(self):
         if self.gs_url:
-            return "(" + make_link("gs", self.gs_url) + ")"
+            return "(" + make_link("Google Scholar", self.gs_url) + ")"
         else:
             return None
 
