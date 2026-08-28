@@ -167,6 +167,8 @@ def main():
             "logo",
             "package",
             "package_url",
+            "blog",
+            "blog_url",
             "backer",
             "backer_url",
             "backer_logo",
@@ -176,6 +178,7 @@ def main():
     check_urls(ventures, "ventures")
     check_urls(ventures, "ventures", column="logo")
     check_urls(ventures, "ventures", column="package_url")
+    check_urls(ventures, "ventures", column="blog_url")
     check_urls(ventures, "ventures", column="backer_url")
     check_urls(ventures, "ventures", column="backer_logo")
 

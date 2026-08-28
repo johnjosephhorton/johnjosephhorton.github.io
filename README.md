@@ -1,5 +1,7 @@
 # John Horton's academic website
 
+[View the website](https://john-joseph-horton.com/)
+
 This repository contains both the source data and the generated static website.
 It does not require Google Sheets, a database, or network access to build.
 

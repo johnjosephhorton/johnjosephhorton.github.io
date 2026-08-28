@@ -16,7 +16,7 @@
 <p>{{ venture.description }}</p>
 <p class="venture-support">{{ venture.support }}</p></div>
 </div>
-<div class="venture-links"><a href="{{ venture.package_url }}">{{ venture.package }} · open-source package ↗</a><a href="{{ venture.backer_url }}"><img class="venture-backer-logo" src="{{ venture.backer_logo }}" alt="" />{{ venture.backer }} ↗</a></div>
+<div class="venture-links"><a href="{{ venture.package_url }}">{{ venture.package }} · open-source package ↗</a><a href="{{ venture.blog_url }}">{{ venture.blog }} ↗</a><a href="{{ venture.backer_url }}"><img class="venture-backer-logo" src="{{ venture.backer_logo }}" alt="" />{{ venture.backer }} ↗</a></div>
 </aside>
 {% endfor %}
 
