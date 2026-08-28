@@ -68,7 +68,9 @@
 ## Teaching
 
 {% for item in teaching %}
-   {{ item.course_title }}, {{ item.institution }}, {{ item.semester }} {{ item.year }}{% if item.sections and item.sections != "1" %} ({{ item.sections }} sections){% endif %}
+### {{ item.course_title }}
+
+{{ item.institution }} — {{ item.terms | join(' · ') }}
 {% endfor %}
 
 ## Service

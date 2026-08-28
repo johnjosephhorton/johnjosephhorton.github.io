@@ -340,7 +340,21 @@ for row in get_csv("teaching.csv"):
         "institution": course["institution"],
         "role": course["role"],
     }
-teaching_rows = [Entity(row) for row in teaching_by_term.values()]
+teaching_by_course = collections.OrderedDict()
+for row in teaching_by_term.values():
+    course_id = row["id"]
+    if course_id not in teaching_by_course:
+        teaching_by_course[course_id] = {
+            "course_title": row["course_title"],
+            "institution": row["institution"],
+            "role": row["role"],
+            "terms": [],
+        }
+    term = f'{row["semester"]} {row["year"]}'
+    if row["sections"] != "1":
+        term += f' ({row["sections"]} sections)'
+    teaching_by_course[course_id]["terms"].append(term)
+teaching_courses = [Entity(row) for row in teaching_by_course.values()]
 
 people = {p["id"]: Person(p) for p in get_csv("people.csv")}
 papers = {p["id"]: Paper(p) for p in get_csv("papers.csv")}
@@ -371,7 +385,7 @@ d = {
     "grants": grants,
     "service": service,
     "reviewing": reviewing,
-    "teaching": teaching_rows,
+    "teaching": teaching_courses,
 }
 
 rendered = template.render(**d)

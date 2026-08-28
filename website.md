@@ -961,37 +961,41 @@ United States Military Academy at West Point, BS in Mathematics, minor in Comput
 ## Teaching
 
 
-   The Economics of Information: Strategy, Structure, and Pricing, MIT, Spring 2026
+### Generative AI for Managers
 
-   Foundations of Information Technology, MIT, Fall 2025
+MIT — Spring 2024
 
-   Generative AI for Managers, MIT, Spring 2024
+### The Economics of Information: Strategy, Structure, and Pricing
 
-   The Economics of Information: Strategy, Structure, and Pricing, MIT, Spring 2023
+MIT — Spring 2023
 
-   Foundations of Information Technology, MIT, Spring 2023
+### Foundations of Information Technology
 
-   Doctoral Seminar, Economics of Information Technology, MIT, Spring 2022
+MIT — Spring 2023 · Spring 2022 · Spring 2021
 
-   Foundations of Information Technology, MIT, Spring 2022
+### Doctoral Seminar, Economics of Information Technology
 
-   Foundations of Information Technology, MIT, Spring 2021
+MIT — Spring 2022
 
-   Designing, Using, and Competing with Online Marketplaces, MIT, Spring 2021
+### Designing, Using, and Competing with Online Marketplaces
 
-   Introduction to Programming and Data Science, NYU Stern, Spring 2018 (3 sections)
+MIT — Spring 2021
 
-   Introduction to Technology in Business & Society, NYU Stern, Spring 2017 (3 sections)
+### Introduction to Programming and Data Science
 
-   Introduction to Technology in Business & Society, NYU Stern, Spring 2016 (3 sections)
+NYU Stern — Spring 2018 (3 sections)
 
-   Introduction to Technology in Business & Society, NYU Stern, Spring 2015 (3 sections)
+### Introduction to Technology in Business & Society
 
-   Introduction to Technology in Business & Society, NYU Stern, Spring 2014 (3 sections)
+NYU Stern — Spring 2017 (3 sections) · Spring 2016 (3 sections) · Spring 2015 (3 sections) · Spring 2014 (3 sections)
 
-   EC970: Online Work, Harvard College, Fall 2010
+### EC970: Online Work
 
-   API-302: Analytic Frameworks for Public Policy, Harvard Kennedy School, Fall 2010 (3 sections)
+Harvard College — Fall 2010
+
+### API-302: Analytic Frameworks for Public Policy
+
+Harvard Kennedy School — Fall 2010 (3 sections)
 
 
 ## Service
