@@ -3,6 +3,7 @@ title: "{{ paper.title }}"
 description: >-
   {{ page.description | replace('\n', ' ') }}
 canonical: "https://john-joseph-horton.com/papers/{{ page.slug }}/"
+socialimage: "{{ page.social_image }}"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/{{ page.slug }}/"
 # {{ paper.title }}
 
 {% for author in paper.authors %}{% if not loop.first %}, {% endif %}{{ author.full_name }}{% endfor %}
+
+{% if paper.contribution_note %}*{{ paper.contribution_note }}*{% endif %}
 
 {% if paper.show_status %}**Status:** {{ paper.status }}{% endif %}
 

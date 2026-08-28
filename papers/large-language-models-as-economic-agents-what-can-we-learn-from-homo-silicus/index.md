@@ -1,8 +1,9 @@
 ---
 title: "Large language models as economic agents: What can we learn from Homo silicus?"
 description: >-
-  Research paper by Apostolos Filippas, John J. Horton, Benjamin Manning.
+  Newly-developed large language models (LLM)—because of how they are trained and designed—are implicit computational models of humans—a homo silicus. LLMs can be used like economists use homo economicus: they can be given endowments, information, preferences, and so on, and then their behavior can be explored in scenarios via simulation. Experiments using this approach, derived from Charness and Rabin (2002), Kahneman, Knetsch and Thaler (1986), and Samuelson and Zeckhauser (1988) show qualitatively similar results to the original, but it is also easy to try variations for fresh insights. LLMs could allow researchers to pilot studies via simulation first, searching for novel social science insights to test in the real world.
 canonical: "https://john-joseph-horton.com/papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/"
+socialimage: "https://john-joseph-horton.com/images/papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -11,6 +12,8 @@ canonical: "https://john-joseph-horton.com/papers/large-language-models-as-econo
 
 [Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Benjamin Manning](https://www.benjaminmanning.com/)
 
+*John J. Horton, Apostolos Filippas, and Benjamin S. Manning contributed equally.*
+
 **Status:** R&R at Review of Economics and Statistics
 
 **Published:** [Proceedings of the 25th ACM Conference on Economics and Computation: 614-615 (2024)](https://doi.org/10.1145/3670865.3673513)
@@ -18,6 +21,10 @@ canonical: "https://john-joseph-horton.com/papers/large-language-models-as-econo
 
 **Last updated:** 2026-02
 
+
+## Summary
+
+Newly-developed large language models (LLM)—because of how they are trained and designed—are implicit computational models of humans—a homo silicus. LLMs can be used like economists use homo economicus: they can be given endowments, information, preferences, and so on, and then their behavior can be explored in scenarios via simulation. Experiments using this approach, derived from Charness and Rabin (2002), Kahneman, Knetsch and Thaler (1986), and Samuelson and Zeckhauser (1988) show qualitatively similar results to the original, but it is also easy to try variations for fresh insights. LLMs could allow researchers to pilot studies via simulation first, searching for novel social science insights to test in the real world.
 
 
 ## Paper links

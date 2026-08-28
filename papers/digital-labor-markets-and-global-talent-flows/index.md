@@ -3,6 +3,7 @@ title: "Digital labor markets and global talent flows"
 description: >-
   Digital labor markets are rapidly expanding and connecting companies and contractors on a global basis. We review the environment in which these markets take root, the micro- and macro-level studies of their operations, their ongoing evolution and recent trends, and perspectives for undertaking research with micro-data from these labor platforms. We undertake new empirical analyses of Upwork data regarding 1) the alignment of micro- and macro-level approaches to disproportionate ethnic-connected exchanges on digital platforms, 2) gravity model analyses of global outsourcing contract flows and their determinants for digital labor markets, and 3) quantification of own- and cross-country elasticities for contract work by wage rate. Digital labor markets are an exciting frontier for global talent flows and growing rapidly in importance.
 canonical: "https://john-joseph-horton.com/papers/digital-labor-markets-and-global-talent-flows/"
+socialimage: "https://john-joseph-horton.com/images/papers/digital-labor-markets-and-global-talent-flows.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/digital-labor-markets-and-glob
 # Digital labor markets and global talent flows
 
 [John J. Horton](../../index.html), [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265), [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
+
+
 
 
 

@@ -1,8 +1,9 @@
 ---
 title: "How do employers use compensation history? Evidence from a field experiment"
 description: >-
-  Research paper by Moshe Barach, John J. Horton.
+  We report the results of a field experiment in which treated employers could not observe the compensation history of their job applicants. Treated employers responded by evaluating more applicants, and evaluating those applicants more intensively. They also responded by changing what kind of workers they evaluated: treated employers evaluated workers with 5% lower past average wages and hired workers with 13% lower past average wages. Conditional upon bargaining, workers hired by treated employers struck better wage bargains for themselves.
 canonical: "https://john-joseph-horton.com/papers/how-do-employers-use-compensation-history-evidence-from-a-field-experiment/"
+socialimage: "https://john-joseph-horton.com/images/papers/how-do-employers-use-compensation-history-evidence-from-a-field-experiment.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/how-do-employers-use-compensat
 
 
 
+
+
 **Published:** [Journal of Labor Economics 39(1): 193-218 (2021)](https://doi.org/10.1086/709277)
 
 
 **Last updated:** 2021-01-02
 
+
+## Summary
+
+We report the results of a field experiment in which treated employers could not observe the compensation history of their job applicants. Treated employers responded by evaluating more applicants, and evaluating those applicants more intensively. They also responded by changing what kind of workers they evaluated: treated employers evaluated workers with 5% lower past average wages and hired workers with 13% lower past average wages. Conditional upon bargaining, workers hired by treated employers struck better wage bargains for themselves.
 
 
 ## Paper links

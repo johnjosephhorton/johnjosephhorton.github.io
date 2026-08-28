@@ -1,8 +1,9 @@
 ---
 title: "The Coasean singularity? Demand, supply, and market design with AI agents"
 description: >-
-  Research paper by Peyman Shahidi, Gili Rusak, Benjamin Manning, Andrey Fradkin, John J. Horton.
+  AI agents—autonomous systems that perceive, reason, and act on behalf of human principals—are poised to transform digital markets by dramatically reducing transaction costs. This chapter evaluates the economic implications from demand, supply, and market-design perspectives. Users trade off decision quality against effort reduction; firms choose how to design, integrate, and monetize agents; and markets gain from lower search, communication, and contracting costs while facing congestion and price-obfuscation risks. By lowering the costs of preference elicitation, contract enforcement, and identity verification, agents expand the feasible set of market designs but also raise novel regulatory challenges.
 canonical: "https://john-joseph-horton.com/papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -11,6 +12,8 @@ canonical: "https://john-joseph-horton.com/papers/the-coasean-singularity-demand
 
 [Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/), [Andrey Fradkin](https://andreyfradkin.com/), [John J. Horton](../../index.html)
 
+*All authors contributed equally; Andrey Fradkin and John J. Horton use seniority-based ordering.*
+
 
 
 **Forthcoming:** [The Economics of Transformative AI (2026)](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
@@ -18,6 +21,10 @@ canonical: "https://john-joseph-horton.com/papers/the-coasean-singularity-demand
 
 **Last updated:** 2026-08
 
+
+## Summary
+
+AI agents—autonomous systems that perceive, reason, and act on behalf of human principals—are poised to transform digital markets by dramatically reducing transaction costs. This chapter evaluates the economic implications from demand, supply, and market-design perspectives. Users trade off decision quality against effort reduction; firms choose how to design, integrate, and monetize agents; and markets gain from lower search, communication, and contracting costs while facing congestion and price-obfuscation risks. By lowering the costs of preference elicitation, contract enforcement, and identity verification, agents expand the feasible set of market designs but also raise novel regulatory challenges.
 
 
 ## Paper links

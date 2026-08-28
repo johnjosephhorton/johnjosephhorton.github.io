@@ -1,8 +1,9 @@
 ---
 title: "Owning, using, and renting: Some simple economics of the sharing economy"
 description: >-
-  Research paper by Apostolos Filippas, John J. Horton, Richard Zeckhauser.
+  New Internet-based “sharing economy” markets enable consumer-owners to rent out their durable goods to non-owners. We model such markets, and explore their equilibria both in the short-run, in which ownership decisions are fixed, and in the long-run, in which ownership decisions can be changed. We find that “sharing economy” markets always expand consumption and increase surplus, but may increase or decrease ownership. Regardless, ownership is decoupled from individual preferences in the long-run, as the rental rates and the purchase prices of goods become equal. If there are costs of bringing unused capacity to the market, they are partially passed through, creating a bias towards ownership. To test our theoretical work empirically, we conduct a survey of consumers, finding broad support for our modeling assumptions. The survey also allows us to offer a partial decomposition of the bring-to-market costs, based on attributes that make a good more or less amenable to being shared.
 canonical: "https://john-joseph-horton.com/papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/"
+socialimage: "https://john-joseph-horton.com/images/papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/owning-using-and-renting-some-
 
 
 
+
+
 **Published:** [Management Science 66(9): 4152-4172 (2020)](https://doi.org/10.1287/mnsc.2019.3396)
 
 
 **Last updated:** 2020-09
 
+
+## Summary
+
+New Internet-based “sharing economy” markets enable consumer-owners to rent out their durable goods to non-owners. We model such markets, and explore their equilibria both in the short-run, in which ownership decisions are fixed, and in the long-run, in which ownership decisions can be changed. We find that “sharing economy” markets always expand consumption and increase surplus, but may increase or decrease ownership. Regardless, ownership is decoupled from individual preferences in the long-run, as the rental rates and the purchase prices of goods become equal. If there are costs of bringing unused capacity to the market, they are partially passed through, creating a bias towards ownership. To test our theoretical work empirically, we conduct a survey of consumers, finding broad support for our modeling assumptions. The survey also allows us to offer a partial decomposition of the bring-to-market costs, based on attributes that make a good more or less amenable to being shared.
 
 
 ## Paper links

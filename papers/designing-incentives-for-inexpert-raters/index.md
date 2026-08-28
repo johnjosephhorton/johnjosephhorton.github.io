@@ -1,8 +1,9 @@
 ---
 title: "Designing incentives for inexpert raters"
 description: >-
-  Research paper by Aaron Shaw, John J. Horton, Daniel Chen.
+  The emergence of online labor markets makes it far easier to use individual human raters to evaluate materials for data collection and analysis in the social sciences. In this paper, we report the results of an experiment — conducted in an online labor market — that measured the effectiveness of a collection of social and financial incentive schemes for motivating workers to conduct a qualitative, content analysis task. Overall, workers performed better than chance, but results varied considerably depending on task difficulty. We find that treatment conditions which asked workers to prospectively think about the responses of their peers — when combined with financial incentives — produced more accurate performance. Other treatments generally had weak effects on quality. Workers in India performed significantly worse than US workers, regardless of treatment group.
 canonical: "https://john-joseph-horton.com/papers/designing-incentives-for-inexpert-raters/"
+socialimage: "https://john-joseph-horton.com/images/papers/designing-incentives-for-inexpert-raters.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/designing-incentives-for-inexp
 
 
 
+
+
 **Published:** [Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work: 275-284 (2011)](https://doi.org/10.1145/1958824.1958865)
 
 
 **Last updated:** 2011-03-19
 
+
+## Summary
+
+The emergence of online labor markets makes it far easier to use individual human raters to evaluate materials for data collection and analysis in the social sciences. In this paper, we report the results of an experiment — conducted in an online labor market — that measured the effectiveness of a collection of social and financial incentive schemes for motivating workers to conduct a qualitative, content analysis task. Overall, workers performed better than chance, but results varied considerably depending on task difficulty. We find that treatment conditions which asked workers to prospectively think about the responses of their peers — when combined with financial incentives — produced more accurate performance. Other treatments generally had weak effects on quality. Workers in India performed significantly worse than US workers, regardless of treatment group.
 
 
 ## Paper links

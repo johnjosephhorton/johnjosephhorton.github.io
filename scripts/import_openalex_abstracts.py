@@ -32,7 +32,7 @@ with Path("data/papers.csv").open(newline="", encoding="utf-8") as handle:
             "source_url": work["id"],
         })
 with Path("data/paper_abstracts.csv").open("w", newline="", encoding="utf-8") as handle:
-    writer = csv.DictWriter(handle, fieldnames=["paper_id", "abstract", "source_url"])
+    writer = csv.DictWriter(handle, fieldnames=["paper_id", "abstract", "source_url"], lineterminator="\n")
     writer.writeheader()
     writer.writerows(rows)
 print(f"Imported {len(rows)} exact-title abstracts")

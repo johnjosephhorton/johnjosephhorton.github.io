@@ -1,8 +1,9 @@
 ---
 title: "The effects of algorithmic labor market recommendations: Evidence from a field experiment"
 description: >-
-  Research paper by John J. Horton.
+  Algorithmically recommending workers to employers for the purpose of recruiting can substantially increase hiring: in an experiment conducted in an online labor market, employers with technical job vacancies that received recruiting recommendations had a 20% higher fill rate compared to the control. There is no evidence that the treatment crowded-out hiring of non-recommended candidates. The experimentally induced recruits were highly positively selected and were statistically indistinguishable from the kinds of workers employers recruit “on their own.” Recommendations were most effective for job openings that were likely to receive a smaller applicant pool.
 canonical: "https://john-joseph-horton.com/papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/the-effects-of-algorithmic-lab
 
 
 
+
+
 **Published:** [Journal of Labor Economics 35(2): 345-385 (2017)](https://doi.org/10.1086/689213)
 
 
 **Last updated:** 2017-04
 
+
+## Summary
+
+Algorithmically recommending workers to employers for the purpose of recruiting can substantially increase hiring: in an experiment conducted in an online labor market, employers with technical job vacancies that received recruiting recommendations had a 20% higher fill rate compared to the control. There is no evidence that the treatment crowded-out hiring of non-recommended candidates. The experimentally induced recruits were highly positively selected and were statistically indistinguishable from the kinds of workers employers recruit “on their own.” Recommendations were most effective for job openings that were likely to receive a smaller applicant pool.
 
 
 ## Paper links

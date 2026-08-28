@@ -3,6 +3,7 @@ title: "Labor allocation in paid crowdsourcing: Experimental evidence on positio
 description: >-
   This paper reports the results of a natural field experiment where workers from a paid crowdsourcing environment selfselect into tasks and are presumed to have limited attention. In our experiment, workers labeled any of six pictures from a 2 × 3 grid of thumbnail images. In the absence of any incentives, workers exhibit a strong default bias and tend to select images from the top-left (focal) position; the bottomright (non-focal) position, was the least preferred. We attempted to overcome this bias and increase the rate at which workers selected the least preferred task, by using a combination of monetary and non-monetary incentives. We also varied the saliency of these incentives by placing them in either the focal or non-focal position. Although both types caused workers to re-allocate their labor, monetary incentives were more effective. Most interestingly, both types worked better when they were placed in the focal position and made more salient. In fact, salient non-monetary incentives worked about as well as non-salient monetary ones. Our evidence suggests that user interface and cognitive biases play an important role in online labor markets and that salience can be used by employers as a kind of incentive multiplier.
 canonical: "https://john-joseph-horton.com/papers/labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices/"
+socialimage: "https://john-joseph-horton.com/images/papers/labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/labor-allocation-in-paid-crowd
 # Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices
 
 [Dana Chandler](https://www.linkedin.com/in/danachandler1/), [John J. Horton](../../index.html)
+
+
 
 
 

@@ -39,9 +39,10 @@
 <input id="research-search" type="search" placeholder="Search titles, authors, venues, or status…" autocomplete="off" />
 <span id="research-count" aria-live="polite"></span>
 </div>
-<div class="filter-chips" aria-label="Research filters"><button class="filter-chip active" type="button" data-topic="all">All</button><button class="filter-chip" type="button" data-topic="selected">Selected</button>{% for topic in research_topics %}<button class="filter-chip" type="button" data-topic="{{ topic }}">{{ topic }}</button>{% endfor %}</div>
+<div class="filter-chips" aria-label="Research topic filters"><button class="filter-chip active" type="button" data-topic="all">All</button><button class="filter-chip" type="button" data-topic="selected">Selected</button>{% for topic in research_topics %}<button class="filter-chip" type="button" data-topic="{{ topic }}">{{ topic }}</button>{% endfor %}</div>
+<div class="filter-chips status-chips" aria-label="Research status filters"><button class="status-chip active" type="button" data-status="all">Any status</button>{% for status in research_statuses %}<button class="status-chip" type="button" data-status="{{ status }}">{{ status }}</button>{% endfor %}</div>
 
-{% for paper in papers %}<article class="paper-entry" data-topic="{{ paper.topic }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
+{% for paper in papers %}<article class="paper-entry" data-topic="{{ paper.topic }}" data-status="{{ paper.status_group }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
 ### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line or paper.page_url %}
@@ -54,7 +55,7 @@
 * Status: {{ paper.status }}
 {% endif %}
 {% if paper.has_additional_links %}
-* Links: {% if paper.google_scholar_url %}{{paper.google_scholar_url }}{% endif %} {% if paper.media_line %} · Media: {{ paper.media_line }} {% endif %} {% if paper.video_line %} · {{ paper.video_line }} {% endif %} {% if paper.slides_line %} · {{ paper.slides_line }} {% endif %} {% if paper.twitter_thread_line %} · {{ paper.twitter_thread_line }} {% endif %} {% if paper.code_line %} · {{ paper.code_line }} {% endif %}
+<div class="resource-links" aria-label="Resources for {{ paper.title }}">{% for resource in paper.resource_links %}<a class="resource-chip" href="{{ resource.url }}">{{ resource.label }}</a>{% endfor %}</div>
 {% endif %}
 </article>{% endfor %}
 
@@ -72,6 +73,10 @@
 {% endfor %}
 
 # Talks
+## Featured talks
+<div class="featured-talks">{% for talk in featured_talks %}<a class="resource-chip" href="{{ talk.url }}">{{ talk.topic }} <span>Video</span></a>{% endfor %}</div>
+
+## Complete talk archive
 <div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
 {% for year, year_talks in talk_groups.items() %}<details class="talk-year" {% if loop.index <= 2 %}open{% endif %}><summary>{{ year }} <span>({{ year_talks|length }})</span></summary>
 {% for talk in year_talks %}

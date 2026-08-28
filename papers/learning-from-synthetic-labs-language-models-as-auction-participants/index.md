@@ -1,21 +1,28 @@
 ---
 title: "Learning from synthetic labs: Language models as auction participants"
 description: >-
-  Research paper by Anand Shah, Kehang Zhu, Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi, John J. Horton, David C. Parkes.
+  This paper investigates the behavior of simulated AI agents (large language models, or LLMs) in auctions, introducing a novel synthetic data-generating process to help facilitate the study and design of auctions. We find that LLMs—when endowed with chain-of-thought reasoning capacity—agree with the experimental literature in auctions across a variety of classic auction formats. In particular, LLM bidders produce results consistent with risk-averse human bidders; perform closer to theoretical predictions in obviously strategy-proof auctions; and succumb to the winner's curse in common-value settings. LLMs are not very sensitive to naive prompt changes but can improve dramatically toward theoretical predictions with the right mental model. We run more than 1,000 auctions for less than $400 and develop a flexible framework for further experimental study.
 canonical: "https://john-joseph-horton.com/papers/learning-from-synthetic-labs-language-models-as-auction-participants/"
+socialimage: "https://john-joseph-horton.com/images/papers/learning-from-synthetic-labs-language-models-as-auction-participants.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
 
 # Learning from synthetic labs: Language models as auction participants
 
-[Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), Jeffrey G. Wang, [Arif K. Dayi](https://keremdayi.com/), [John J. Horton](../../index.html), [David C. Parkes](https://parkes.seas.harvard.edu/)
+[Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), [Jeffrey G. Wang](https://adscientificindex.com/scientist/jeffrey-g-wang/5696153/), [Arif K. Dayi](https://keremdayi.com/), [John J. Horton](../../index.html), [David C. Parkes](https://parkes.seas.harvard.edu/)
+
+*Anand Shah and Kehang Zhu contributed equally.*
 
 **Status:** Working paper
 
 
 **Last updated:** 2025-07
 
+
+## Summary
+
+This paper investigates the behavior of simulated AI agents (large language models, or LLMs) in auctions, introducing a novel synthetic data-generating process to help facilitate the study and design of auctions. We find that LLMs—when endowed with chain-of-thought reasoning capacity—agree with the experimental literature in auctions across a variety of classic auction formats. In particular, LLM bidders produce results consistent with risk-averse human bidders; perform closer to theoretical predictions in obviously strategy-proof auctions; and succumb to the winner's curse in common-value settings. LLMs are not very sensitive to naive prompt changes but can improve dramatically toward theoretical predictions with the right mental model. We run more than 1,000 auctions for less than $400 and develop a flexible framework for further experimental study.
 
 
 ## Paper links

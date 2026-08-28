@@ -126,6 +126,29 @@ def main():
     check_reference(paper_pages, "paper_id", paper_ids, "paper_pages")
     unique_ids(paper_pages, "paper_pages", column="paper_id")
     unique_ids(paper_pages, "paper_pages", column="slug")
+    abstracts = read_table("paper_abstracts", {"paper_id", "abstract", "source_url"})
+    abstract_ids = unique_ids(abstracts, "paper_abstracts", column="paper_id")
+    check_reference(abstracts, "paper_id", paper_ids, "paper_abstracts")
+    check_urls(abstracts, "paper_abstracts", column="source_url", require_unique=False)
+    summary_ids = {row["paper_id"] for row in paper_pages if row["summary"]}
+    missing_summaries = sorted(paper_ids - abstract_ids - summary_ids)
+    if missing_summaries:
+        raise ValueError("Missing paper abstracts/summaries: " + ", ".join(missing_summaries))
+    author_orders = read_table("paper_author_order", {"paper_id", "author_ids"})
+    order_ids = unique_ids(author_orders, "paper_author_order", column="paper_id")
+    check_reference(author_orders, "paper_id", paper_ids, "paper_author_order")
+    valid_author_ids = people_ids | {"john"}
+    for row in author_orders:
+        unknown = set(row["author_ids"].split(";")) - valid_author_ids
+        if unknown:
+            raise ValueError(f"data/paper_author_order.csv: unknown authors for {row['paper_id']}: {', '.join(sorted(unknown))}")
+    if paper_ids != order_ids:
+        raise ValueError("data/paper_author_order.csv must cover every paper")
+    topics = read_table("paper_topics", {"paper_id", "topic", "selected"})
+    topic_ids = unique_ids(topics, "paper_topics", column="paper_id")
+    check_reference(topics, "paper_id", paper_ids, "paper_topics")
+    if paper_ids != topic_ids:
+        raise ValueError("data/paper_topics.csv must cover every paper")
     paper_presentations = read_table(
         "paper_presentations", {"paper_id", "event", "year", "url"}
     )

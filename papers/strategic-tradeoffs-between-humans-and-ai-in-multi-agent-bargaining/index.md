@@ -1,15 +1,18 @@
 ---
 title: "Strategic tradeoffs between humans and AI in multi-agent bargaining"
 description: >-
-  Research paper by Crystal Qian, Kehang Zhu, John J. Horton, Benjamin Manning, Vivian Tsai, James Wexler, Nithum Thain.
+  Markets increasingly accommodate large language models (LLMs) as autonomous decision-making agents. We present an empirical study comparing humans, multiple frontier LLMs, and customized Bayesian agents in dynamic multiplayer bargaining games under identical conditions. Bayesian agents extract the highest surplus with aggressive proposals that are frequently rejected. Humans and LLMs achieve comparable aggregate surplus but exhibit different trading strategies: LLMs favor conservative, concessionary proposals, while humans propose trades consistent with fairness norms that are more likely to be rejected. These findings show that performance parity can mask substantive procedural differences in complex multi-agent interactions.
 canonical: "https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/"
+socialimage: "https://john-joseph-horton.com/images/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
 
 # Strategic tradeoffs between humans and AI in multi-agent bargaining
 
-[Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [John J. Horton](../../index.html), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler, [Nithum Thain](https://research.google/people/105662/)
+[Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [John J. Horton](../../index.html), [Benjamin Manning](https://www.benjaminmanning.com/), [Vivian Tsai](https://viviantsai.com/), [James Wexler](https://research.google/people/105507/), [Nithum Thain](https://research.google/people/105662/)
+
+*Crystal Qian and Kehang Zhu contributed equally.*
 
 
 
@@ -18,6 +21,10 @@ canonical: "https://john-joseph-horton.com/papers/strategic-tradeoffs-between-hu
 
 **Last updated:** 2026-03
 
+
+## Summary
+
+Markets increasingly accommodate large language models (LLMs) as autonomous decision-making agents. We present an empirical study comparing humans, multiple frontier LLMs, and customized Bayesian agents in dynamic multiplayer bargaining games under identical conditions. Bayesian agents extract the highest surplus with aggressive proposals that are frequently rejected. Humans and LLMs achieve comparable aggregate surplus but exhibit different trading strategies: LLMs favor conservative, concessionary proposals, while humans propose trades consistent with fairness norms that are more likely to be rejected. These findings show that performance parity can mask substantive procedural differences in complex multi-agent interactions.
 
 
 ## Paper links

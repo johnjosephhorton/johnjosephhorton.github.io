@@ -3,6 +3,7 @@ title: "Costly capacity signaling increases matching efficiency: Evidence from a
 description: >-
   Buyers pursuing unavailable sellers is a common source of inefficiency in matching markets. We report the results of a field experiment in a large online marketplace where sellers could pay to signal higher capacity via a badge that simply said "available now." All sellers could rent this signal but only randomly treated buyers could see it. We find that sellers who rented this signal were positively selected, treated buyers sought them out more, and as a result matching efficiency increased. We discuss why costly signaling is necessary to facilitate this coordination, and show that mere statements about seller capacity had become uninformative in this marketplace. Two years after the experiment, we show that sellers renting this signal continue receiving substantially higher buyer attention. The full version of the paper can be accessed at https://apostolos-filippas.com/papers/costly-capacity-signalling.pdf.
 canonical: "https://john-joseph-horton.com/papers/costly-capacity-signaling-increases-matching-efficiency-evidence-from-a-field-experiment/"
+socialimage: "https://john-joseph-horton.com/images/papers/costly-capacity-signaling-increases-matching-efficiency-evidence-from-a-field-experiment.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/costly-capacity-signaling-incr
 # Costly capacity signaling increases matching efficiency: Evidence from a field experiment
 
 [Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Prasanna Parasurama](https://parasurama.github.io/), Diego Urraca
+
+
 
 **Status:** Forthcoming at Management Science
 

@@ -104,7 +104,7 @@ class Paper(Entity):
         if self._slides:
             return "".join(
                 [
-                    make_link("Slides" if index == 0 else f"Slides {index + 1}", obj.url)
+                    make_link(obj.topic or ("Slides" if index == 0 else f"Slides {index + 1}"), obj.url)
                     for index, obj in enumerate(self._slides)
                 ]
             )
@@ -116,7 +116,7 @@ class Paper(Entity):
         if self._videos:
             return "".join(
                 [
-                    make_link("Video" if index == 0 else f"Video {index + 1}", obj.url)
+                    make_link(obj.topic or ("Video" if index == 0 else f"Video {index + 1}"), obj.url)
                     for index, obj in enumerate(self._videos)
                 ]
             )
@@ -227,6 +227,18 @@ class Paper(Entity):
                 self.code_line,
             )
         )
+
+    @property
+    def resource_links(self):
+        links = []
+        if self.gs_url:
+            links.append(Entity({"label": "Google Scholar", "url": self.gs_url}))
+        links.extend(Entity({"label": m.publication or "Coverage", "url": m.url}) for m in self._media)
+        links.extend(Entity({"label": v.topic or ("Video" if i == 0 else f"Video {i + 1}"), "url": v.url}) for i, v in enumerate(self._videos))
+        links.extend(Entity({"label": s.topic or ("Slides" if i == 0 else f"Slides {i + 1}"), "url": s.url}) for i, s in enumerate(self._slides))
+        links.extend(Entity({"label": "Thread" if i == 0 else f"Thread {i + 1}", "url": t.url}) for i, t in enumerate(self._twitter_thread))
+        links.extend(Entity({"label": "Code" if i == 0 else f"Code {i + 1}", "url": c.url}) for i, c in enumerate(self._code))
+        return links
 
     @property
     def media_line(self):
@@ -348,6 +360,9 @@ class Publication(Entity):
             fields.append(("booktitle", self.venue))
         elif self.bibtex_type == "techreport":
             fields.append(("institution", "National Bureau of Economic Research" if "NBER" in self.venue else self.venue))
+            match = re.search(r"(?:Working Paper|Paper)\s+(\d+)", self.venue, re.IGNORECASE)
+            if match:
+                fields.append(("number", match.group(1)))
         fields.append(("year", self.publication_date[:4]))
         for name, value in (("volume", self.volume), ("number", self.issue), ("pages", self.pages), ("doi", self.doi)):
             if value:
@@ -410,6 +425,7 @@ paper_author_order = {
     row["paper_id"]: row["author_ids"].split(";")
     for row in get_csv("paper_author_order.csv")
 }
+paper_contributions = {row["paper_id"]: row["note"] for row in get_csv("paper_contributions.csv")}
 paper_presentations = Collection(Entity, "paper_presentations")
 paper_updates = {
     row["paper_id"]: row["last_updated"] for row in get_csv("paper_updates.csv")
@@ -466,9 +482,16 @@ for id, paper in papers.items():
     paper.add_publications(publications)
     paper.topic = paper_topics[paper.id]["topic"]
     paper.selected = paper_topics[paper.id]["selected"] == "1"
+    if "forthcoming" in paper.status.lower() or any(p.publication_type.startswith("forthcoming-") for p in paper.publications):
+        paper.status_group = "Forthcoming"
+    elif paper.show_status or not paper.primary_publication or paper.primary_publication.publication_type == "working-paper":
+        paper.status_group = "Active working paper"
+    else:
+        paper.status_group = "Published"
     ordered_ids = paper_author_order.get(paper.id, ["john"] + [p.id for p in paper.coauthors])
     paper.authors = [people[person_id] for person_id in ordered_ids]
     paper.coauthors = [person for person in paper.authors if person.id != "john"]
+    paper.contribution_note = paper_contributions.get(paper.id, "")
 
 def slugify(value):
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
@@ -488,6 +511,7 @@ for paper in papers.values():
         **paper_page_overrides.get(paper.id, {}),
     }
     row["description"] = row["summary"] or f"Research paper by {', '.join(person.plain_name for person in paper.authors)}."
+    row["social_image"] = f'https://john-joseph-horton.com/images/papers/{row["slug"]}.png'
     paper.page_url = f'papers/{row["slug"]}/index.html'
     authors = [f"{person.last}, {person.first}" for person in paper.authors]
     citation_key = f'horton{row["year"]}{row["slug"].replace("-", "")}'
@@ -540,6 +564,8 @@ d = {
         papers.values(), key=lambda paper: paper.last_updated, reverse=True
     ),
     "research_topics": sorted({paper.topic for paper in papers.values()}),
+    "research_statuses": ["Published", "Forthcoming", "Active working paper"],
+    "featured_talks": [item for item in video if item.paper_id and item.topic][:6],
     "grants": grants,
     "service": service,
     "reviewing": reviewing,

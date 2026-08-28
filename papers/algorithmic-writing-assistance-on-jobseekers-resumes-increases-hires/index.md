@@ -3,6 +3,7 @@ title: "Algorithmic writing assistance on jobseekers’ resumes increases hires"
 description: >-
   There is a strong association between the quality of the writing in a resume for new labor market entrants and whether those entrants are ultimately hired. We show that this relationship is, at least partially, causal: a field experiment in an online labor market was conducted with nearly half a million jobseekers in which a treated group received algorithmic writing assistance. Treated jobseekers experienced an 8% increase in the probability of getting hired. Contrary to concerns that the assistance is taking away a valuable signal, we find no evidence that employers were less satisfied. We present a model in which better writing is not a signal of ability but helps employers ascertain ability, which rationalizes our findings.
 canonical: "https://john-joseph-horton.com/papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/"
+socialimage: "https://john-joseph-horton.com/images/papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/algorithmic-writing-assistance
 # Algorithmic writing assistance on jobseekers’ resumes increases hires
 
 [Emma Wiles](https://www.emmawiles.com/), [Zanele Munyikwa](https://www.zanelemunyikwa.com/), [John J. Horton](../../index.html)
+
+
 
 
 

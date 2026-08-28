@@ -1,8 +1,9 @@
 ---
 title: "Price floors and employer preferences: Evidence from a minimum wage experiment"
 description: >-
-  Research paper by John J. Horton.
+  Minimum hourly wages were randomly imposed on firms posting job openings in an online labor market. A higher minimum wage raised the wages of hired workers substantially. However, there was some reduction in hiring and large reductions in hours-worked. Treated firms hired more productive workers, which can explain, in part, the reduction in hours-worked: with more productive workers, projects were completed in less time. At the conclusion of the experiment, the platform imposed a market-wide minimum wage. A difference-in-differences analysis shows that, in equilibrium, firms still substitute towards more productive workers, adversely affecting less productive workers.
 canonical: "https://john-joseph-horton.com/papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment/"
+socialimage: "https://john-joseph-horton.com/images/papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/price-floors-and-employer-pref
 
 
 
+
+
 **Published:** [American Economic Review 115(1): 117-146 (2025)](https://doi.org/10.1257/aer.20170637)
 
 
 **Last updated:** 2025-01-01
 
+
+## Summary
+
+Minimum hourly wages were randomly imposed on firms posting job openings in an online labor market. A higher minimum wage raised the wages of hired workers substantially. However, there was some reduction in hiring and large reductions in hours-worked. Treated firms hired more productive workers, which can explain, in part, the reduction in hours-worked: with more productive workers, projects were completed in less time. At the conclusion of the experiment, the platform imposed a market-wide minimum wage. A difference-in-differences analysis shows that, in equilibrium, firms still substitute towards more productive workers, adversely affecting less productive workers.
 
 
 ## Paper links

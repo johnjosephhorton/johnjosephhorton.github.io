@@ -3,6 +3,7 @@ title: "Consumer demand with social influences: Evidence from an e-commerce plat
 description: >-
   For some types of goods, rarity itself is valued: items considered “fashionable” are demanded in part because they are unique. In this paper, we explore the economics of rare goods using auctions of limited-edition shoes held by an e-commerce platform. We model endogenous entry and bidding in multiunit auctions and construct demand curves from realized bids. We find that doubling inventory reduces willingness to pay by 8%–15%. From the monopolist’s perspective, ignoring the value of rarity leads to substantial overproduction: Auctioned quantities are 88% above the profit-maximizing level. From the consumers’ perspective, however, the negative spillovers from quantity restriction more than offset the benefits of rarer goods. This paper was accepted by Omar Besbes, revenue management and market analytics. Supplemental Material: The online appendices and data files are available at https://doi.org/10.1287/mnsc.2024.04995 .
 canonical: "https://john-joseph-horton.com/papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/"
+socialimage: "https://john-joseph-horton.com/images/papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/consumer-demand-with-social-in
 # Consumer demand with social influences: Evidence from an e-commerce platform
 
 [El Hadi Caoui](https://elhadicaoui.github.io/), [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022), [John J. Horton](../../index.html), [Robert Schultz](https://equitablegrowth.org/people/robert-schultz/)
+
+
 
 
 

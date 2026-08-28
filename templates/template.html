@@ -11,10 +11,7 @@
   <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
   <link rel="stylesheet" href="site.css">
   <link rel="stylesheet" href="filters.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"John J. Horton","url":"https://john-joseph-horton.com/","jobTitle":"Chrysler Professor of Management","affiliation":{"@type":"Organization","name":"MIT Sloan School of Management"},"sameAs":["https://orcid.org/0000-0001-5426-0156","https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en","https://www.nber.org/people/john_horton"]}</script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"John J. Horton","url":"https://john-joseph-horton.com/","jobTitle":"Chrysler Professor of Management","affiliation":[{"@type":"Organization","name":"MIT Sloan School of Management"},{"@type":"Organization","name":"National Bureau of Economic Research"}],"founder":{"@type":"Organization","name":"Expected Parrot","url":"https://www.expectedparrot.com"},"sameAs":["https://orcid.org/0000-0001-5426-0156","https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en","https://www.nber.org/people/john_horton","https://www.expectedparrot.com"]}</script>
 </head>
 <body>
   <a class="skip-link" href="#main-content">Skip to content</a>
@@ -82,13 +79,15 @@ $body$
         const items = Array.from(document.querySelectorAll(selector));
         const count = countId ? document.getElementById(countId) : null;
         let activeTopic = 'all';
+        let activeStatus = 'all';
         function filter() {
           const query = input.value.trim().toLocaleLowerCase();
           let visible = 0;
           items.forEach(function(item) {
             const textMatch = !query || item.textContent.toLocaleLowerCase().includes(query) || (item.dataset.search || '').toLocaleLowerCase().includes(query);
             const topicMatch = activeTopic === 'all' || (activeTopic === 'selected' ? item.dataset.selected === 'true' : item.dataset.topic === activeTopic);
-            const match = textMatch && topicMatch;
+            const statusMatch = activeStatus === 'all' || item.dataset.status === activeStatus;
+            const match = textMatch && topicMatch && statusMatch;
             item.hidden = !match;
             if (match) visible += 1;
           });
@@ -103,6 +102,13 @@ $body$
           chip.addEventListener('click', function() {
             activeTopic = chip.dataset.topic;
             document.querySelectorAll('.filter-chip').forEach(function(other) { other.classList.toggle('active', other === chip); });
+            filter();
+          });
+        });
+        if (inputId === 'research-search') document.querySelectorAll('.status-chip').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            activeStatus = chip.dataset.status;
+            document.querySelectorAll('.status-chip').forEach(function(other) { other.classList.toggle('active', other === chip); });
             filter();
           });
         });

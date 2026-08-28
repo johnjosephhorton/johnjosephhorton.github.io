@@ -1,8 +1,9 @@
 ---
 title: "Ride-sharing markets re-equilibrate"
 description: >-
-  Research paper by Jonathan Hall, John J. Horton, Dan Knoepfle.
+  Following Uber-initiated fare increases, drivers make more money per trip and, initially, more per hour-worked. Drivers begin to work more hours. However, this increase in hours-worked—combined with a reduction in demand from a higher fare—has a business stealing effect, with drivers spending a smaller fraction of working hours transporting passengers. This market adjustment brings the hourly earnings rate back to about the rate that prevailed before the fare increase, in roughly two months. Passengers are partially compensated for higher prices by shorter wait times, but during the period covered by our data, fare increases likely reduced passenger welfare.
 canonical: "https://john-joseph-horton.com/papers/ride-sharing-markets-re-equilibrate/"
+socialimage: "https://john-joseph-horton.com/images/papers/ride-sharing-markets-re-equilibrate.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -11,11 +12,17 @@ canonical: "https://john-joseph-horton.com/papers/ride-sharing-markets-re-equili
 
 [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552), [John J. Horton](../../index.html), [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle)
 
+
+
 **Status:** R&R at Journal of Economics & Management Strategy
 
 
 **Last updated:** 2023-01
 
+
+## Summary
+
+Following Uber-initiated fare increases, drivers make more money per trip and, initially, more per hour-worked. Drivers begin to work more hours. However, this increase in hours-worked—combined with a reduction in demand from a higher fare—has a business stealing effect, with drivers spending a smaller fraction of working hours transporting passengers. This market adjustment brings the hourly earnings rate back to about the rate that prevailed before the fare increase, in roughly two months. Passengers are partially compensated for higher prices by shorter wait times, but during the period covered by our data, fare increases likely reduced passenger welfare.
 
 
 ## Paper links

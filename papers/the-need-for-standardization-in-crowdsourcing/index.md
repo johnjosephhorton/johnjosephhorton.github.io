@@ -1,8 +1,9 @@
 ---
 title: "The need for standardization in crowdsourcing"
 description: >-
-  Research paper by John J. Horton, Panos Ipeirotis.
+  Crowdsourcing has shown itself to be well-suited for the accomplishment of certain kinds of small tasks, yet many crowdsourceable tasks still require extensive structuring and managerial effort before using a crowd is feasible. We argue that this overhead could be substantially reduced via standardization. In the same way that task standardization enabled the mass production of physical goods, standardization of basic “building block” tasks would make crowdsourcing more scalable. Standardization would make it easier to set prices, spread best practices, build meaningful reputation systems and track quality. All of this would increase the demand for paid crowdsourcing—a development we argue is positive on both efficiency and welfare grounds. Standardization would also allow more complex processes to be built out of simpler tasks while still being able to predict quality, cost and time to completion. Realizing this vision will require interdisciplinary research effort as well as buy-in from online labor platforms.
 canonical: "https://john-joseph-horton.com/papers/the-need-for-standardization-in-crowdsourcing/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-need-for-standardization-in-crowdsourcing.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/the-need-for-standardization-i
 
 
 
+
+
 **Published:** [Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI (2011)](https://www.humancomputation.com/crowdcamp/chi2011/papers/horton.pdf)
 
 
 **Last updated:** 2011-05
 
+
+## Summary
+
+Crowdsourcing has shown itself to be well-suited for the accomplishment of certain kinds of small tasks, yet many crowdsourceable tasks still require extensive structuring and managerial effort before using a crowd is feasible. We argue that this overhead could be substantially reduced via standardization. In the same way that task standardization enabled the mass production of physical goods, standardization of basic “building block” tasks would make crowdsourcing more scalable. Standardization would make it easier to set prices, spread best practices, build meaningful reputation systems and track quality. All of this would increase the demand for paid crowdsourcing—a development we argue is positive on both efficiency and welfare grounds. Standardization would also allow more complex processes to be built out of simpler tasks while still being able to predict quality, cost and time to completion. Realizing this vision will require interdisciplinary research effort as well as buy-in from online labor platforms.
 
 
 ## Paper links

@@ -1,8 +1,9 @@
 ---
 title: "Chaining tasks, redefining work: A theory of AI automation"
 description: >-
-  Research paper by Mert Demirer, John J. Horton, Nicole Immorlica, Brendan Lucier, Peyman Shahidi.
+  Production is a sequence of steps that can be executed (1) manually, (2) augmented with AI, or (3) fully automated within contiguous AI-executed steps called “chains.” Firms optimally bundle steps into tasks and then jobs, trading off specialization gains against coordination costs. We characterize the optimal assignment of humans and AI to steps and the firm's resulting job structure, showing that comparative advantage logic can fail with AI chaining. The model implies non-linear productivity gains from AI quality improvements and admits a CES representation at the macro level. Empirical evidence supports the model's key predictions that (1) AI-executed steps co-occur in chains, (2) dispersion of AI-exposed steps lowers AI execution at the job level, and (3) adjacency to AI-executed steps increases the likelihood that a step is AI-executed.
 canonical: "https://john-joseph-horton.com/papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/"
+socialimage: "https://john-joseph-horton.com/images/papers/chaining-tasks-redefining-work-a-theory-of-ai-automation.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/chaining-tasks-redefining-work
 
 
 
+
+
 **Working paper:** [NBER Working Paper 34859 (2026)](https://doi.org/10.3386/w34859)
 
 
 **Last updated:** 2026-06
 
+
+## Summary
+
+Production is a sequence of steps that can be executed (1) manually, (2) augmented with AI, or (3) fully automated within contiguous AI-executed steps called “chains.” Firms optimally bundle steps into tasks and then jobs, trading off specialization gains against coordination costs. We characterize the optimal assignment of humans and AI to steps and the firm's resulting job structure, showing that comparative advantage logic can fail with AI chaining. The model implies non-linear productivity gains from AI quality improvements and admits a CES representation at the macro level. Empirical evidence supports the model's key predictions that (1) AI-executed steps co-occur in chains, (2) dispersion of AI-exposed steps lowers AI execution at the job level, and (3) adjacency to AI-executed steps increases the likelihood that a step is AI-executed.
 
 
 ## Paper links
@@ -46,6 +53,7 @@ canonical: "https://john-joseph-horton.com/papers/chaining-tasks-redefining-work
   title = {{Chaining Tasks, Redefining Work: A Theory of AI Automation}},
   author = {Demirer, Mert and Horton, John J. and Immorlica, Nicole and Lucier, Brendan and Shahidi, Peyman},
   institution = {National Bureau of Economic Research},
+  number = {34859},
   year = {2026},
   doi = {10.3386/w34859},
   url = {https://doi.org/10.3386/w34859}

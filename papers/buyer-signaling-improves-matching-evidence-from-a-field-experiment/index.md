@@ -1,8 +1,9 @@
 ---
 title: "Buyer signaling improves matching: Evidence from a field experiment"
 description: >-
-  Research paper by John J. Horton, Philipp Kircher, Ramesh Johari.
+  In a model with cheap talk, employers can send messages about their willingness to pay for higher ability workers, which job-seekers can use to direct their search and tailor their wage bid. Introducing such messages leads—under certain conditions—to an informative separating equilibrium which affects the number of applications, types of applications, and wage bids across firms. This model is used to interpret an experiment conducted in a large online labor market: employers were given the opportunity to state their relative willingness to pay for more experienced workers, and workers can easily condition their search on this information. Preferences were collected for all employers, but only treated employers had their signal revealed to job-seekers. In response to revelation of the cheap talk signal, job-seekers targeted their applications to employers of the right “type” and they tailored their wage bids, affecting who was matched to whom and at what wage. The treatment increased measures of match quality through better sorting, illustrating the power of cheap talk to improve market outcomes.
 canonical: "https://john-joseph-horton.com/papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/"
+socialimage: "https://john-joseph-horton.com/images/papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -11,11 +12,17 @@ canonical: "https://john-joseph-horton.com/papers/buyer-signaling-improves-match
 
 [John J. Horton](../../index.html), [Philipp Kircher](https://philippkircher.com/), [Ramesh Johari](http://web.stanford.edu/~rjohari/)
 
+
+
 **Status:** R&R at American Economic Journal: Microeconomics
 
 
 **Last updated:** 2024-03
 
+
+## Summary
+
+In a model with cheap talk, employers can send messages about their willingness to pay for higher ability workers, which job-seekers can use to direct their search and tailor their wage bid. Introducing such messages leads—under certain conditions—to an informative separating equilibrium which affects the number of applications, types of applications, and wage bids across firms. This model is used to interpret an experiment conducted in a large online labor market: employers were given the opportunity to state their relative willingness to pay for more experienced workers, and workers can easily condition their search on this information. Preferences were collected for all employers, but only treated employers had their signal revealed to job-seekers. In response to revelation of the cheap talk signal, job-seekers targeted their applications to employers of the right “type” and they tailored their wage bids, affecting who was matched to whom and at what wage. The treatment increased measures of match quality through better sorting, illustrating the power of cheap talk to improve market outcomes.
 
 
 ## Paper links

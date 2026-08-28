@@ -3,6 +3,7 @@ title: "The future of crowd work"
 description: >-
   Paid crowd work offers remarkable opportunities for improving productivity, social mobility, and the global economy by engaging a geographically distributed workforce to complete complex tasks on demand and at scale. But it is also possible that crowd work will fail to achieve its potential, focusing on assembly-line piecework. Can we foresee a future crowd workplace in which we would want our children to participate? This paper frames the major challenges that stand in the way of this goal. Drawing on theory from organizational behavior and distributed computing, as well as direct feedback from workers, we outline a framework that will enable crowd work that is complex, collaborative, and sustainable. The framework lays out research challenges in twelve major areas: workflow, task assignment, hierarchy, real-time response, synchronous collaboration, quality control, crowds guiding AIs, AIs guiding crowds, platforms, job design, reputation, and motivation.
 canonical: "https://john-joseph-horton.com/papers/the-future-of-crowd-work/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-future-of-crowd-work.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/the-future-of-crowd-work/"
 # The future of crowd work
 
 [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Aaron Shaw](http://aaronshaw.org/), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman), [Matt Lease](https://www.ischool.utexas.edu/~ml/), [John J. Horton](../../index.html)
+
+
 
 
 

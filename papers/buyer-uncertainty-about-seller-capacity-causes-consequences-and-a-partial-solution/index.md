@@ -1,8 +1,9 @@
 ---
 title: "Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution"
 description: >-
-  Research paper by John J. Horton.
+  Employers in an online labor market often pursue workers with little capacity to take on more work. The pursuit of low-capacity workers is consequential, as these workers are more likely to reject employer inquires, causing a reduction in the probability a job opening is ultimately filled. In an attempt to shift more employer attention to workers with greater capacity, the market-designing platform introduced a new signaling feature into the market. It was effective, in that when a worker signaled having high capacity, he or she received more invitations from employers, rejected a smaller fraction of those invitations, quoted a lower price to do the work, and was more likely to be hired. A back-of-the-envelope calculation suggests the signaling feature alone could increase market surplus by as much as 6%, both by increasing the number of matches formed and by helping to allocate projects to workers with lower costs.
 canonical: "https://john-joseph-horton.com/papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution/"
+socialimage: "https://john-joseph-horton.com/images/papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -13,11 +14,17 @@ canonical: "https://john-joseph-horton.com/papers/buyer-uncertainty-about-seller
 
 
 
+
+
 **Published:** [Management Science 65(8): 3518-3540 (2019)](https://doi.org/10.1287/mnsc.2018.3116)
 
 
 **Last updated:** 2019-08
 
+
+## Summary
+
+Employers in an online labor market often pursue workers with little capacity to take on more work. The pursuit of low-capacity workers is consequential, as these workers are more likely to reject employer inquires, causing a reduction in the probability a job opening is ultimately filled. In an attempt to shift more employer attention to workers with greater capacity, the market-designing platform introduced a new signaling feature into the market. It was effective, in that when a worker signaled having high capacity, he or she received more invitations from employers, rejected a smaller fraction of those invitations, quoted a lower price to do the work, and was more likely to be hired. A back-of-the-envelope calculation suggests the signaling feature alone could increase market surplus by as much as 6%, both by increasing the number of matches formed and by helping to allocate projects to workers with lower costs.
 
 
 ## Paper links

@@ -1,15 +1,18 @@
 ---
 title: "Heads in the cloud: Challenges and opportunities in crowdsourcing"
 description: >-
-  Research paper by Robert Miller, Greg Little, Michael Bernstein, Jeffrey Bigham, Lydia Chilton, Max Goldman, John J. Horton, Rajeev Nayak.
+  Crowd computing is the human analogue to cloud computing: where the cloud provides elastic, highly available computation and storage, the crowd provides elastic, highly available human perception and intelligence. This article introduces human computation, surveys the challenges of recruiting and coordinating crowds, and describes opportunities for combining software with human common sense to solve problems that software cannot solve alone.
 canonical: "https://john-joseph-horton.com/papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing/"
+socialimage: "https://john-joseph-horton.com/images/papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
 
 # Heads in the cloud: Challenges and opportunities in crowdsourcing
 
-[Robert Miller](https://people.csail.mit.edu/rcm/), Greg Little, [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/), [John J. Horton](../../index.html), Rajeev Nayak
+[Robert Miller](https://people.csail.mit.edu/rcm/), [Greg Little](https://dblp.org/pid/26/3925), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/), [John J. Horton](../../index.html), [Rajeev Nayak](https://dblp.org/pid/87/8927)
+
+
 
 
 
@@ -18,6 +21,10 @@ canonical: "https://john-joseph-horton.com/papers/heads-in-the-cloud-challenges-
 
 **Last updated:** 2010-12
 
+
+## Summary
+
+Crowd computing is the human analogue to cloud computing: where the cloud provides elastic, highly available computation and storage, the crowd provides elastic, highly available human perception and intelligence. This article introduces human computation, surveys the challenges of recruiting and coordinating crowds, and describes opportunities for combining software with human common sense to solve problems that software cannot solve alone.
 
 
 

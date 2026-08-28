@@ -3,6 +3,7 @@ title: "The production and consumption of social media"
 description: >-
   We model social media as collections of users producing and consuming content. Users value consuming content but due to scarce attention they may not value all content from other users. Users also value receiving attention, creating the incentive to attract an audience by producing valuable content but also through attention bartering—users mutually becoming each others’ audience. Attention bartering shapes substantially the patterns of production and consumption on social media, explains key features of social media behavior and platform decision-making, and yields sharp predictions that are consistent with data we collect from #EconTwitter. We conduct Twitter and Instagram user surveys that yield additional direct evidence in support of attention bartering, and we discuss the implications of attention bartering for the design of social media platforms.
 canonical: "https://john-joseph-horton.com/papers/the-production-and-consumption-of-social-media/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-production-and-consumption-of-social-media.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/the-production-and-consumption
 # The production and consumption of social media
 
 [Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Elliot Lipnowski](https://elliotlipnowski.com/), [Prasanna Parasurama](https://parasurama.github.io/)
+
+
 
 
 

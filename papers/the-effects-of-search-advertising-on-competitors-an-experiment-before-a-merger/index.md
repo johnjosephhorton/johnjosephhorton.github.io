@@ -3,6 +3,7 @@ title: "The effects of search advertising on competitors: An experiment before a
 description: >-
   We report the results of an experiment in which a company, Firm Vary, temporarily suspended its sponsored search advertising campaign on Google in randomly selected advertising markets in the United States. By shutting off its ads, Firm Vary lost customers, but only 63% as many as a nonexperimental estimate would have suggested. Following the experiment, Firm Vary merged with its closest competitor, Firm Fixed. Using combined data from both companies, the experiment revealed that spillover effects of Firm Vary’s search advertising on Firm Fixed’s business and its marketing campaigns were surprisingly small, even in the market for Firm Vary’s brand name as a keyword search term, where the two firms were effectively duopsonists. This paper was accepted by Eric Anderson, marketing.
 canonical: "https://john-joseph-horton.com/papers/the-effects-of-search-advertising-on-competitors-an-experiment-before-a-merger/"
+socialimage: "https://john-joseph-horton.com/images/papers/the-effects-of-search-advertising-on-competitors-an-experiment-before-a-merger.png"
 ---
 
 [← John J. Horton’s research](../../index.html#research)
@@ -10,6 +11,8 @@ canonical: "https://john-joseph-horton.com/papers/the-effects-of-search-advertis
 # The effects of search advertising on competitors: An experiment before a merger
 
 [Joseph Golden](https://www.linkedin.com/in/jgolden9), [John J. Horton](../../index.html)
+
+
 
 
 

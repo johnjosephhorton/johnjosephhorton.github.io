@@ -75,9 +75,10 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 <input id="research-search" type="search" placeholder="Search titles, authors, venues, or status…" autocomplete="off" />
 <span id="research-count" aria-live="polite"></span>
 </div>
-<div class="filter-chips" aria-label="Research filters"><button class="filter-chip active" type="button" data-topic="all">All</button><button class="filter-chip" type="button" data-topic="selected">Selected</button><button class="filter-chip" type="button" data-topic="AI & Markets">AI & Markets</button><button class="filter-chip" type="button" data-topic="AI & Methods">AI & Methods</button><button class="filter-chip" type="button" data-topic="AI & Work">AI & Work</button><button class="filter-chip" type="button" data-topic="Digital Markets">Digital Markets</button><button class="filter-chip" type="button" data-topic="Entrepreneurship">Entrepreneurship</button><button class="filter-chip" type="button" data-topic="Labor Markets">Labor Markets</button><button class="filter-chip" type="button" data-topic="Market Design">Market Design</button><button class="filter-chip" type="button" data-topic="Online Work">Online Work</button><button class="filter-chip" type="button" data-topic="Platforms">Platforms</button><button class="filter-chip" type="button" data-topic="Technology & Work">Technology & Work</button></div>
+<div class="filter-chips" aria-label="Research topic filters"><button class="filter-chip active" type="button" data-topic="all">All</button><button class="filter-chip" type="button" data-topic="selected">Selected</button><button class="filter-chip" type="button" data-topic="AI & Markets">AI & Markets</button><button class="filter-chip" type="button" data-topic="AI & Methods">AI & Methods</button><button class="filter-chip" type="button" data-topic="AI & Work">AI & Work</button><button class="filter-chip" type="button" data-topic="Digital Markets">Digital Markets</button><button class="filter-chip" type="button" data-topic="Entrepreneurship">Entrepreneurship</button><button class="filter-chip" type="button" data-topic="Labor Markets">Labor Markets</button><button class="filter-chip" type="button" data-topic="Market Design">Market Design</button><button class="filter-chip" type="button" data-topic="Online Work">Online Work</button><button class="filter-chip" type="button" data-topic="Platforms">Platforms</button><button class="filter-chip" type="button" data-topic="Technology & Work">Technology & Work</button></div>
+<div class="filter-chips status-chips" aria-label="Research status filters"><button class="status-chip active" type="button" data-status="all">Any status</button><button class="status-chip" type="button" data-status="Published">Published</button><button class="status-chip" type="button" data-status="Forthcoming">Forthcoming</button><button class="status-chip" type="button" data-status="Active working paper">Active working paper</button></div>
 
-<article class="paper-entry" data-topic="AI & Markets" data-selected="true" data-search="The Coasean singularity? Demand, supply, and market design with AI agents [Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Andrey Fradkin](https://andreyfradkin.com/) Forthcoming book chapter The Economics of Transformative AI">
+<article class="paper-entry" data-topic="AI & Markets" data-status="Forthcoming" data-selected="true" data-search="The Coasean singularity? Demand, supply, and market design with AI agents [Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Andrey Fradkin](https://andreyfradkin.com/) Forthcoming book chapter The Economics of Transformative AI">
 ### [The Coasean singularity? Demand, supply, and market design with AI agents](papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/index.html)  {.paper-class}
 (with [Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Andrey Fradkin](https://andreyfradkin.com/))
 
@@ -88,9 +89,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22)  · Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained))([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))   · [Video](https://www.youtube.com/watch?v=9VJ4oFWk1SE)    · [Thread](https://x.com/Peyman_Shahidi/status/1980257133493981219)
+<div class="resource-links" aria-label="Resources for The Coasean singularity? Demand, supply, and market design with AI agents"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22">Google Scholar</a><a class="resource-chip" href="https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained">MIT Sloan</a><a class="resource-chip" href="https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html">Marginal Revolution</a><a class="resource-chip" href="https://www.youtube.com/watch?v=9VJ4oFWk1SE">2025 NBER Economics of Transformative AI Workshop</a><a class="resource-chip" href="https://x.com/Peyman_Shahidi/status/1980257133493981219">Thread</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="Automated social science: Language models as scientist and subjects [Benjamin Manning](https://www.benjaminmanning.com/) and [Kehang Zhu](https://scholar.harvard.edu/kehang/home) Reject and Resubmit at Quarterly Journal of Economics Proceedings of the 27th ACM Conference on Economics and Computation">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="true" data-search="Automated social science: Language models as scientist and subjects [Benjamin Manning](https://www.benjaminmanning.com/) and [Kehang Zhu](https://scholar.harvard.edu/kehang/home) Reject and Resubmit at Quarterly Journal of Economics Proceedings of the 27th ACM Conference on Economics and Computation">
 ### [Automated social science: Language models as scientist and subjects](papers/automated-social-science-language-models-as-scientist-and-subjects/index.html)  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/) and [Kehang Zhu](https://scholar.harvard.edu/kehang/home))
 
@@ -103,9 +104,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Reject and Resubmit at Quarterly Journal of Economics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC)   · [Video](https://www.youtube.com/watch?v=fr_zUWaKDF8)
+<div class="resource-links" aria-label="Resources for Automated social science: Language models as scientist and subjects"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC">Google Scholar</a><a class="resource-chip" href="https://www.youtube.com/watch?v=fr_zUWaKDF8">Stanford Digital Economy Lab</a></div>
 
-</article><article class="paper-entry" data-topic="Digital Markets" data-selected="true" data-search="The production and consumption of social media [Apostolos Filippas](https://www.apostolos-filippas.com/), [Elliot Lipnowski](https://elliotlipnowski.com/) and [Prasanna Parasurama](https://parasurama.github.io/) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Digital Markets" data-status="Published" data-selected="true" data-search="The production and consumption of social media [Apostolos Filippas](https://www.apostolos-filippas.com/), [Elliot Lipnowski](https://elliotlipnowski.com/) and [Prasanna Parasurama](https://parasurama.github.io/) Management Science Management Science">
 ### [The production and consumption of social media](papers/the-production-and-consumption-of-social-media/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/), [Elliot Lipnowski](https://elliotlipnowski.com/) and [Prasanna Parasurama](https://parasurama.github.io/))
 
@@ -116,9 +117,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:F2UWTTQJPOcC)   · [Video](https://youtu.be/HsnbHy9FQek)   · [Slides](https://docs.google.com/presentation/d/18keJdH-7MJtQ4gyd1LxfKMkDiRiL5kEkGq_4rgFNMtw/edit#slide=id.p)[Slides 2](https://docs.google.com/presentation/d/1aJTQiAMAKxaQI4f6fhe4g2yHMXWgkwTeBltW1p_hdJk/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for The production and consumption of social media"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:F2UWTTQJPOcC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/HsnbHy9FQek">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/18keJdH-7MJtQ4gyd1LxfKMkDiRiL5kEkGq_4rgFNMtw/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1aJTQiAMAKxaQI4f6fhe4g2yHMXWgkwTeBltW1p_hdJk/edit#slide=id.p">Slides 2</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Work" data-selected="true" data-search="Chaining tasks, redefining work: A theory of AI automation [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/) NBER Working Paper 34859 NBER Working Paper 34859">
+</article><article class="paper-entry" data-topic="AI & Work" data-status="Active working paper" data-selected="true" data-search="Chaining tasks, redefining work: A theory of AI automation [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/) NBER Working Paper 34859 NBER Working Paper 34859">
 ### [Chaining tasks, redefining work: A theory of AI automation](papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/index.html)  {.paper-class}
 (with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
 
@@ -129,9 +130,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Chaining+Tasks%2C+Redefining+Work%3A+A+Theory+of+AI+Automation%22)  · Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs))
+<div class="resource-links" aria-label="Resources for Chaining tasks, redefining work: A theory of AI automation"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Chaining+Tasks%2C+Redefining+Work%3A+A+Theory+of+AI+Automation%22">Google Scholar</a><a class="resource-chip" href="https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs">MIT Sloan</a></div>
 
-</article><article class="paper-entry" data-topic="Entrepreneurship" data-selected="true" data-search="Marginal ideas [Amir Sariri](https://amirsariri.com/) Working paper ">
+</article><article class="paper-entry" data-topic="Entrepreneurship" data-status="Active working paper" data-selected="true" data-search="Marginal ideas [Amir Sariri](https://amirsariri.com/) Working paper ">
 ### [Marginal ideas](papers/marginal-ideas/index.html)  {.paper-class}
 (with [Amir Sariri](https://amirsariri.com/))
 
@@ -142,9 +143,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Marginal+Ideas%22+%22John+Horton%22+%22Amir+Sariri%22)  · Media: ([Expected Parrot](https://blog.expectedparrot.com/p/marginal-ideas))   · [Video](https://www.youtube.com/watch?v=3_exm-tsQ_4&t=20818s)
+<div class="resource-links" aria-label="Resources for Marginal ideas"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Marginal+Ideas%22+%22John+Horton%22+%22Amir+Sariri%22">Google Scholar</a><a class="resource-chip" href="https://blog.expectedparrot.com/p/marginal-ideas">Expected Parrot</a><a class="resource-chip" href="https://www.youtube.com/watch?v=3_exm-tsQ_4&t=20818s">Amir Sariri at the 2026 NBER Summer Institute Entrepreneurship workshop</a></div>
 
-</article><article class="paper-entry" data-topic="Digital Markets" data-selected="true" data-search="Consumer demand with social influences: Evidence from an e-commerce platform [El Hadi Caoui](https://elhadicaoui.github.io/), [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [Robert Schultz](https://equitablegrowth.org/people/robert-schultz/) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Digital Markets" data-status="Published" data-selected="true" data-search="Consumer demand with social influences: Evidence from an e-commerce platform [El Hadi Caoui](https://elhadicaoui.github.io/), [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [Robert Schultz](https://equitablegrowth.org/people/robert-schultz/) Management Science Management Science">
 ### [Consumer demand with social influences: Evidence from an e-commerce platform](papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/index.html)  {.paper-class}
 (with [El Hadi Caoui](https://elhadicaoui.github.io/), [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [Robert Schultz](https://equitablegrowth.org/people/robert-schultz/))
 
@@ -155,11 +156,11 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC)  · Media: ([HBS Working Knowledge](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare))
+<div class="resource-links" aria-label="Resources for Consumer demand with social influences: Evidence from an e-commerce platform"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:zdjWy_NXXwUC">Google Scholar</a><a class="resource-chip" href="https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare">HBS Working Knowledge</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Markets" data-selected="true" data-search="Strategic tradeoffs between humans and AI in multi-agent bargaining [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/105662/) ACM IUI 2026 Proceedings of the 31st International Conference on Intelligent User Interfaces">
+</article><article class="paper-entry" data-topic="AI & Markets" data-status="Published" data-selected="true" data-search="Strategic tradeoffs between humans and AI in multi-agent bargaining [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), [Vivian Tsai](https://viviantsai.com/), [James Wexler](https://research.google/people/105507/) and [Nithum Thain](https://research.google/people/105662/) ACM IUI 2026 Proceedings of the 31st International Conference on Intelligent User Interfaces">
 ### [Strategic tradeoffs between humans and AI in multi-agent bargaining](papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/index.html)  {.paper-class}
-(with [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/105662/))
+(with [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), [Vivian Tsai](https://viviantsai.com/), [James Wexler](https://research.google/people/105507/) and [Nithum Thain](https://research.google/people/105662/))
 
 * Paper Links: [Details](papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/index.html) · [arXiv](https://arxiv.org/abs/2509.09071)
 
@@ -168,9 +169,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Strategic+Tradeoffs+Between+Humans+and+AI+in+Multi-Agent+Bargaining%22)
+<div class="resource-links" aria-label="Resources for Strategic tradeoffs between humans and AI in multi-agent bargaining"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Strategic+Tradeoffs+Between+Humans+and+AI+in+Multi-Agent+Bargaining%22">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="Large language models as economic agents: What can we learn from Homo silicus? [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Benjamin Manning](https://www.benjaminmanning.com/) R&R at Review of Economics and Statistics Proceedings of the 25th ACM Conference on Economics and Computation">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="true" data-search="Large language models as economic agents: What can we learn from Homo silicus? [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Benjamin Manning](https://www.benjaminmanning.com/) R&R at Review of Economics and Statistics Proceedings of the 25th ACM Conference on Economics and Computation">
 ### [Large language models as economic agents: What can we learn from Homo silicus?](papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Benjamin Manning](https://www.benjaminmanning.com/))
 
@@ -183,9 +184,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Review of Economics and Statistics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:YlPif8NxrbYC)   · [Video](https://youtu.be/cMWUnQdPM9A)   · [Slides](https://docs.google.com/presentation/d/1927RDjVnDD0kRelfFc9EdvH5zo68KMNdFDD0GSSLFKI/edit#slide=id.p)   · [Thread](https://twitter.com/johnjhorton/status/1606364947335741453?s=20&t=wfQLuu-9ibxQQZ6uTCG7tw)
+<div class="resource-links" aria-label="Resources for Large language models as economic agents: What can we learn from Homo silicus?"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:YlPif8NxrbYC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/cMWUnQdPM9A">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1927RDjVnDD0kRelfFc9EdvH5zo68KMNdFDD0GSSLFKI/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/1606364947335741453?s=20&t=wfQLuu-9ibxQQZ6uTCG7tw">Thread</a></div>
 
-</article><article class="paper-entry" data-topic="Digital Markets" data-selected="true" data-search="Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Digital Markets" data-status="Published" data-selected="true" data-search="Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/) Management Science Management Science">
 ### [Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board](papers/competition-avoidance-vs-herding-in-job-search-evidence-from-large-scale-field-experiments-on-an-online-job-board/index.html)  {.paper-class}
 (with [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/))
 
@@ -196,9 +197,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC)
+<div class="resource-links" aria-label="Resources for Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:2ywjKiB__4kC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="General social agents [Benjamin Manning](https://www.benjaminmanning.com/) R&R at Econometrica ">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="true" data-search="General social agents [Benjamin Manning](https://www.benjaminmanning.com/) R&R at Econometrica ">
 ### [General social agents](papers/general-social-agents/index.html)  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/))
 
@@ -209,9 +210,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Econometrica
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22General+Social+Agents%22)
+<div class="resource-links" aria-label="Resources for General social agents"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22General+Social+Agents%22">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Market Design" data-selected="true" data-search="Costly capacity signaling increases matching efficiency: Evidence from a field experiment [Apostolos Filippas](https://www.apostolos-filippas.com/), [Prasanna Parasurama](https://parasurama.github.io/) and Diego Urraca Forthcoming at Management Science Proceedings of the 25th ACM Conference on Economics and Computation">
+</article><article class="paper-entry" data-topic="Market Design" data-status="Forthcoming" data-selected="true" data-search="Costly capacity signaling increases matching efficiency: Evidence from a field experiment [Apostolos Filippas](https://www.apostolos-filippas.com/), [Prasanna Parasurama](https://parasurama.github.io/) and Diego Urraca Forthcoming at Management Science Proceedings of the 25th ACM Conference on Economics and Computation">
 ### [Costly capacity signaling increases matching efficiency: Evidence from a field experiment](papers/costly-capacity-signaling-increases-matching-efficiency-evidence-from-a-field-experiment/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/), [Prasanna Parasurama](https://parasurama.github.io/) and Diego Urraca)
 
@@ -224,9 +225,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Forthcoming at Management Science
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Costly+Capacity+Signaling+Increases+Matching+Efficiency%3A+Evidence+from+a+Field+Experiment%22)    · [Slides](https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Costly capacity signaling increases matching efficiency: Evidence from a field experiment"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Costly+Capacity+Signaling+Increases+Matching+Efficiency%3A+Evidence+from+a+Field+Experiment%22">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/142PzmF5d_65UKZmikf72MsjntE80iJVLMjkLFDksfY0/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Work" data-selected="true" data-search="Algorithmic writing assistance on jobseekers’ resumes increases hires [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/) Management Science Management Science">
+</article><article class="paper-entry" data-topic="AI & Work" data-status="Published" data-selected="true" data-search="Algorithmic writing assistance on jobseekers’ resumes increases hires [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/) Management Science Management Science">
 ### [Algorithmic writing assistance on jobseekers’ resumes increases hires](papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/index.html)  {.paper-class}
 (with [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
@@ -237,9 +238,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC)  · Media: ([MarketWatch](https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09))([Business Insider](https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2))([The Observer](https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/))([Quartz](https://qz.com/should-chatgpt-write-your-resume-1850170319))    · [Slides](https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p)[Slides 2](https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Algorithmic writing assistance on jobseekers’ resumes increases hires"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:wE-fMHVdjMkC">Google Scholar</a><a class="resource-chip" href="https://www.marketwatch.com/story/looking-for-a-new-job-brush-up-your-resume-with-a-computer-algorithm-seriously-it-could-pay-off-d063ae09">MarketWatch</a><a class="resource-chip" href="https://www.businessinsider.com/using-ai-write-resume-chatgpt-job-search-cover-letter-2023-2">Business Insider</a><a class="resource-chip" href="https://observer.com/2023/02/ai-generated-resumes-lead-to-more-job-offers-and-higher-wages-study-finds/">The Observer</a><a class="resource-chip" href="https://qz.com/should-chatgpt-write-your-resume-1850170319">Quartz</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1iAcGstCO0LuO8WRmjybzCzUPOGOUxb5equnNGbkmNv4/edit#slide=id.p">HKUST</a><a class="resource-chip" href="https://docs.google.com/presentation/d/138Rd_LZ6Ivl_Axy-qQlIGGvHP794ijekeBFHoZHnn_w/edit#slide=id.p">Slides 2</a></div>
 
-</article><article class="paper-entry" data-topic="Technology & Work" data-selected="true" data-search="The death of a technical skill [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/) Information Systems Research 36(3): 1799–1820 (2025) Information Systems Research">
+</article><article class="paper-entry" data-topic="Technology & Work" data-status="Published" data-selected="true" data-search="The death of a technical skill [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/) Information Systems Research 36(3): 1799–1820 (2025) Information Systems Research">
 ### [The death of a technical skill](papers/the-death-of-a-technical-skill/index.html)  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
@@ -250,11 +251,11 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C)  · Media: ([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    · [Slides](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p)   · [Thread](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ)
+<div class="resource-links" aria-label="Resources for The death of a technical skill"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C">Google Scholar</a><a class="resource-chip" href="https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/">Quartz</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ">Thread</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="Learning from synthetic labs: Language models as auction participants [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), Jeffrey G. Wang, [Arif K. Dayi](https://keremdayi.com/) and [David C. Parkes](https://parkes.seas.harvard.edu/) Working paper ">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="true" data-search="Learning from synthetic labs: Language models as auction participants [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), [Jeffrey G. Wang](https://adscientificindex.com/scientist/jeffrey-g-wang/5696153/), [Arif K. Dayi](https://keremdayi.com/) and [David C. Parkes](https://parkes.seas.harvard.edu/) Working paper ">
 ### [Learning from synthetic labs: Language models as auction participants](papers/learning-from-synthetic-labs-language-models-as-auction-participants/index.html)  {.paper-class}
-(with [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), Jeffrey G. Wang, [Arif K. Dayi](https://keremdayi.com/) and [David C. Parkes](https://parkes.seas.harvard.edu/))
+(with [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), [Jeffrey G. Wang](https://adscientificindex.com/scientist/jeffrey-g-wang/5696153/), [Arif K. Dayi](https://keremdayi.com/) and [David C. Parkes](https://parkes.seas.harvard.edu/))
 
 * Paper Links: [Details](papers/learning-from-synthetic-labs-language-models-as-auction-participants/index.html) · [arXiv](https://arxiv.org/abs/2507.09083)
 
@@ -263,9 +264,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Learning+from+Synthetic+Labs%3A+Language+Models+as+Auction+Participants%22)
+<div class="resource-links" aria-label="Resources for Learning from synthetic labs: Language models as auction participants"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Learning+from+Synthetic+Labs%3A+Language+Models+as+Auction+Participants%22">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Labor Markets" data-selected="true" data-search="Price floors and employer preferences: Evidence from a minimum wage experiment  American Economic Review American Economic Review">
+</article><article class="paper-entry" data-topic="Labor Markets" data-status="Published" data-selected="true" data-search="Price floors and employer preferences: Evidence from a minimum wage experiment  American Economic Review American Economic Review">
 ### [Price floors and employer preferences: Evidence from a minimum wage experiment](papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment/index.html)
 
 * Paper Links: [Details](papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment/index.html) · [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
@@ -275,9 +276,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC)  · Media: ([The New York Times](https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0))([Bloomberg View](https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity))([Wall Street Journal](http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj))   · [Video](https://www.youtube.com/watch?v=Bkxobfkrfps)   · [Slides](https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4uOx120tan4/edit#slide=id.p)[Slides 2](https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Price floors and employer preferences: Evidence from a minimum wage experiment"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-7ulzOJl1JYC">Google Scholar</a><a class="resource-chip" href="https://www.nytimes.com/2017/01/10/business/economy/national-minimum-wage-.html?_r=0">The New York Times</a><a class="resource-chip" href="https://www.bloomberg.com/opinion/articles/2017-04-26/minimum-wage-warriors-see-certainty-in-ambiguity">Bloomberg View</a><a class="resource-chip" href="http://www.wsj.com/articles/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment-1484953328?mg=id-wsj">Wall Street Journal</a><a class="resource-chip" href="https://www.youtube.com/watch?v=Bkxobfkrfps">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1PmgeHEmW2ahn12Bfm9wDJ5pRGJErpHYc4uOx120tan4/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1QXSFxwJQDJBO5QKsE4mpLHyV6iu59_PNV7vOZOHkHlE/edit#slide=id.p">Slides 2</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Work" data-selected="true" data-search="Generative AI and labor market matching efficiency [Emma Wiles](https://www.emmawiles.com/) R&R at Management Science ">
+</article><article class="paper-entry" data-topic="AI & Work" data-status="Active working paper" data-selected="true" data-search="Generative AI and labor market matching efficiency [Emma Wiles](https://www.emmawiles.com/) R&R at Management Science ">
 ### [Generative AI and labor market matching efficiency](papers/generative-ai-and-labor-market-matching-efficiency/index.html)  {.paper-class}
 (with [Emma Wiles](https://www.emmawiles.com/))
 
@@ -288,9 +289,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Management Science
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Generative+AI+and+Labor+Market+Matching+Efficiency%22)
+<div class="resource-links" aria-label="Resources for Generative AI and labor market matching efficiency"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Generative+AI+and+Labor+Market+Matching+Efficiency%22">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="Simulating the Survey of Professional Forecasters [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarif.github.io/) Working paper ">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="true" data-search="Simulating the Survey of Professional Forecasters [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarif.github.io/) Working paper ">
 ### [Simulating the Survey of Professional Forecasters](papers/simulating-the-survey-of-professional-forecasters/index.html)  {.paper-class}
 (with [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarif.github.io/))
 
@@ -301,9 +302,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/scholar?q=%22Simulating+the+Survey+of+Professional+Forecasters%22)
+<div class="resource-links" aria-label="Resources for Simulating the Survey of Professional Forecasters"><a class="resource-chip" href="https://scholar.google.com/scholar?q=%22Simulating+the+Survey+of+Professional+Forecasters%22">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Market Design" data-selected="true" data-search="Buyer signaling improves matching: Evidence from a field experiment [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/) R&R at American Economic Journal: Microeconomics ">
+</article><article class="paper-entry" data-topic="Market Design" data-status="Active working paper" data-selected="true" data-search="Buyer signaling improves matching: Evidence from a field experiment [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/) R&R at American Economic Journal: Microeconomics ">
 ### [Buyer signaling improves matching: Evidence from a field experiment](papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/index.html)  {.paper-class}
 (with [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
 
@@ -314,9 +315,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at American Economic Journal: Microeconomics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fhLHgd8AAAAJ&cstart=20&pagesize=80&citation_for_view=fhLHgd8AAAAJ:8AbLer7MMksC)   · [Video](https://youtu.be/pAeJ8bFhc6w)   · [Slides](https://docs.google.com/presentation/d/1kxIRUQM_la1qOEjHHy1LA8P7x9qmoaOO0CGUPPT-3Zc/edit)
+<div class="resource-links" aria-label="Resources for Buyer signaling improves matching: Evidence from a field experiment"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=fhLHgd8AAAAJ&cstart=20&pagesize=80&citation_for_view=fhLHgd8AAAAJ:8AbLer7MMksC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/pAeJ8bFhc6w">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1kxIRUQM_la1qOEjHHy1LA8P7x9qmoaOO0CGUPPT-3Zc/edit">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Market Design" data-selected="true" data-search="Reducing congestion in labor markets: A case study in simple market design [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/) R&R at American Economic Journal: Microeconomics ">
+</article><article class="paper-entry" data-topic="Market Design" data-status="Active working paper" data-selected="true" data-search="Reducing congestion in labor markets: A case study in simple market design [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/) R&R at American Economic Journal: Microeconomics ">
 ### [Reducing congestion in labor markets: A case study in simple market design](papers/reducing-congestion-in-labor-markets-a-case-study-in-simple-market-design/index.html)  {.paper-class}
 (with [Shoshana Vasserman](https://shoshanavasserman.com/) and [Mitchell Watt](https://www.mitchellwatt.com/))
 
@@ -327,9 +328,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at American Economic Journal: Microeconomics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC)    · [Slides](https://docs.google.com/presentation/d/10vkIYkUGuBJR4nYitT8tyGuEJdN5crkFkzrhoW6xdMQ/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Reducing congestion in labor markets: A case study in simple market design"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:kJDgFkosVoMC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/10vkIYkUGuBJR4nYitT8tyGuEJdN5crkFkzrhoW6xdMQ/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Platforms" data-selected="true" data-search="Ride-sharing markets re-equilibrate [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552) and [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle) R&R at Journal of Economics & Management Strategy ">
+</article><article class="paper-entry" data-topic="Platforms" data-status="Active working paper" data-selected="true" data-search="Ride-sharing markets re-equilibrate [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552) and [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle) R&R at Journal of Economics & Management Strategy ">
 ### [Ride-sharing markets re-equilibrate](papers/ride-sharing-markets-re-equilibrate/index.html)  {.paper-class}
 (with [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552) and [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle))
 
@@ -340,9 +341,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Journal of Economics & Management Strategy
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC)  · Media: ([Wall Street Journal](https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602))([Quartz](https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/))([AP News](https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c))   · [Video](https://www.youtube.com/watch?v=lJ3wbGIKaK4)   · [Slides](https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Ride-sharing markets re-equilibrate"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:oi2SiIJ9l4AC">Google Scholar</a><a class="resource-chip" href="https://www.wsj.com/articles/ubers-driver-dilemma-fare-hikes-and-cuts-dont-change-pay-1510491602">Wall Street Journal</a><a class="resource-chip" href="https://qz.com/1129367/driving-for-uber-will-never-be-a-great-job-thanks-to-these-simple-economics/">Quartz</a><a class="resource-chip" href="https://apnews.com/article/north-america-financial-markets-technology-us-news-business-dee67b607a034699abf4ec14bab5cb1c">AP News</a><a class="resource-chip" href="https://www.youtube.com/watch?v=lJ3wbGIKaK4">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1KkosssLaFX0n6VWiEwg0JsZs0RD0sKAIs2GhbCyzkf8/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Platforms" data-selected="true" data-search="Reputation inflation [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9) Marketing Science Marketing Science">
+</article><article class="paper-entry" data-topic="Platforms" data-status="Published" data-selected="true" data-search="Reputation inflation [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9) Marketing Science Marketing Science">
 ### [Reputation inflation](papers/reputation-inflation/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
@@ -353,9 +354,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:yxmsSjX2EkcC)  · Media: ([Financial Times](https://www.ft.com/content/a72f7e56-3724-11e8-8b98-2f31af407cc8))([Quartz](https://qz.com/1244155/good-luck-leaving-your-uber-driver-less-than-five-stars/))([Fortune](https://fortune.com/2018/04/05/uber-negative-ratings-stars/))([EurekAlert](https://www.eurekalert.org/news-releases/954537))   · [Video](https://www.youtube.com/watch?v=s1Nb_iw1Uqw)[Video 2](https://www.youtube.com/watch?v=Ezz1LR3Wpnw)   · [Slides](https://docs.google.com/presentation/d/1619lqGG_aaU3tls0lYesrxhIqQVM72hJk01FAX-rsZU/edit#slide=id.g392b584c36_0_0)
+<div class="resource-links" aria-label="Resources for Reputation inflation"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:yxmsSjX2EkcC">Google Scholar</a><a class="resource-chip" href="https://www.ft.com/content/a72f7e56-3724-11e8-8b98-2f31af407cc8">Financial Times</a><a class="resource-chip" href="https://qz.com/1244155/good-luck-leaving-your-uber-driver-less-than-five-stars/">Quartz</a><a class="resource-chip" href="https://fortune.com/2018/04/05/uber-negative-ratings-stars/">Fortune</a><a class="resource-chip" href="https://www.eurekalert.org/news-releases/954537">EurekAlert</a><a class="resource-chip" href="https://www.youtube.com/watch?v=s1Nb_iw1Uqw">Video</a><a class="resource-chip" href="https://www.youtube.com/watch?v=Ezz1LR3Wpnw">Video 2</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1619lqGG_aaU3tls0lYesrxhIqQVM72hJk01FAX-rsZU/edit#slide=id.g392b584c36_0_0">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Market Design" data-selected="true" data-search="The ruble collapse in an online marketplace: Some lessons for market designers [Anand Shah](https://avshah1.github.io/) and [Peyman Shahidi](https://peymanshahidi.github.io/) R&R at Journal of Labor Economics ">
+</article><article class="paper-entry" data-topic="Market Design" data-status="Active working paper" data-selected="true" data-search="The ruble collapse in an online marketplace: Some lessons for market designers [Anand Shah](https://avshah1.github.io/) and [Peyman Shahidi](https://peymanshahidi.github.io/) R&R at Journal of Labor Economics ">
 ### [The ruble collapse in an online marketplace: Some lessons for market designers](papers/the-ruble-collapse-in-an-online-marketplace-some-lessons-for-market-designers/index.html)  {.paper-class}
 (with [Anand Shah](https://avshah1.github.io/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
 
@@ -366,9 +367,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Journal of Labor Economics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:U_HPUtbDl20C)    · [Slides](https://docs.google.com/presentation/d/1WaMdyBtUU1Occ_nEKBYE5ArE9mS11-nWCDvWUIDXEY0/edit#slide=id.g1020c983594_0_61)
+<div class="resource-links" aria-label="Resources for The ruble collapse in an online marketplace: Some lessons for market designers"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:U_HPUtbDl20C">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1WaMdyBtUU1Occ_nEKBYE5ArE9mS11-nWCDvWUIDXEY0/edit#slide=id.g1020c983594_0_61">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Labor Markets" data-selected="true" data-search="How do employers use compensation history? Evidence from a field experiment [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) Journal of Labor Economics Journal of Labor Economics">
+</article><article class="paper-entry" data-topic="Labor Markets" data-status="Published" data-selected="true" data-search="How do employers use compensation history? Evidence from a field experiment [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) Journal of Labor Economics Journal of Labor Economics">
 ### [How do employers use compensation history? Evidence from a field experiment](papers/how-do-employers-use-compensation-history-evidence-from-a-field-experiment/index.html)  {.paper-class}
 (with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/))
 
@@ -379,9 +380,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Dem6FJhTUoYC)  · Media: ([The New York Times](https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html))([MarketWatch](https://www.marketwatch.com/story/when-employers-cant-ask-about-salary-history-workers-can-see-double-digit-jumps-in-pay-2020-01-14))    · [Slides](https://docs.google.com/presentation/d/1C6W2SSpBj0y8g-R48MXsKrHKivoXeN7b/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true)
+<div class="resource-links" aria-label="Resources for How do employers use compensation history? Evidence from a field experiment"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Dem6FJhTUoYC">Google Scholar</a><a class="resource-chip" href="https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html">The New York Times</a><a class="resource-chip" href="https://www.marketwatch.com/story/when-employers-cant-ask-about-salary-history-workers-can-see-double-digit-jumps-in-pay-2020-01-14">MarketWatch</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1C6W2SSpBj0y8g-R48MXsKrHKivoXeN7b/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Digital Markets" data-selected="true" data-search="The effects of search advertising on competitors: An experiment before a merger [Joseph Golden](https://www.linkedin.com/in/jgolden9) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Digital Markets" data-status="Published" data-selected="true" data-search="The effects of search advertising on competitors: An experiment before a merger [Joseph Golden](https://www.linkedin.com/in/jgolden9) Management Science Management Science">
 ### [The effects of search advertising on competitors: An experiment before a merger](papers/the-effects-of-search-advertising-on-competitors-an-experiment-before-a-merger/index.html)  {.paper-class}
 (with [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
@@ -392,9 +393,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:RoXSNcbkSzsC)  · Media: ([Freakanomics Radio](https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/))   · [Video](https://www.youtube.com/watch?v=sX7u5i9UXRM)   · [Slides](https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for The effects of search advertising on competitors: An experiment before a merger"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:RoXSNcbkSzsC">Google Scholar</a><a class="resource-chip" href="https://freakonomics.com/podcast/does-advertising-actually-work-part-2-digital-ep-441/">Freakanomics Radio</a><a class="resource-chip" href="https://www.youtube.com/watch?v=sX7u5i9UXRM">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1u_XUh5aQV47GSifhlX06kkztaNFatCK2b0wgPL9RYnc/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Platforms" data-selected="true" data-search="Steering in online markets: The role of platform incentives and credibility [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Platforms" data-status="Published" data-selected="true" data-search="Steering in online markets: The role of platform incentives and credibility [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9) Management Science Management Science">
 ### [Steering in online markets: The role of platform incentives and credibility](papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/index.html)  {.paper-class}
 (with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
@@ -405,9 +406,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:OBSaB-F7qqsC)    · [Slides](https://docs.google.com/presentation/d/1Y_BpStm65Sj-hTymEwGF4MLvg5Uh25-vxMtFDw3eCcI/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for Steering in online markets: The role of platform incentives and credibility"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:OBSaB-F7qqsC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1Y_BpStm65Sj-hTymEwGF4MLvg5Uh25-vxMtFDw3eCcI/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Platforms" data-selected="true" data-search="Owning, using, and renting: Some simple economics of the sharing economy [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Management Science Management Science">
+</article><article class="paper-entry" data-topic="Platforms" data-status="Published" data-selected="true" data-search="Owning, using, and renting: Some simple economics of the sharing economy [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Management Science Management Science">
 ### [Owning, using, and renting: Some simple economics of the sharing economy](papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
@@ -418,9 +419,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:rHJHxKgnXwkC)  · Media: ([The Washington Post](https://www.washingtonpost.com/news/wonk/wp/2016/01/06/sorry-you-wont-be-sharing-your-toothbrush-for-money/))    · [Slides](https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p)    · [Code](https://github.com/johnjosephhorton/sharing)
+<div class="resource-links" aria-label="Resources for Owning, using, and renting: Some simple economics of the sharing economy"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:rHJHxKgnXwkC">Google Scholar</a><a class="resource-chip" href="https://www.washingtonpost.com/news/wonk/wp/2016/01/06/sorry-you-wont-be-sharing-your-toothbrush-for-money/">The Washington Post</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1jrfduBX5Gczccre9xERGrv1gg60AdVyZu4wFnNySI90/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://github.com/johnjosephhorton/sharing">Code</a></div>
 
-</article><article class="paper-entry" data-topic="Technology & Work" data-selected="false" data-search="COVID-19 and remote work: An early look at US data [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye) Working paper ">
+</article><article class="paper-entry" data-topic="Technology & Work" data-status="Active working paper" data-selected="false" data-search="COVID-19 and remote work: An early look at US data [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye) Working paper ">
 ### [COVID-19 and remote work: An early look at US data](papers/covid-19-and-remote-work-an-early-look-at-us-data/index.html)  {.paper-class}
 (with [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye))
 
@@ -431,9 +432,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:w1MjKQ0l0TYC)      · [Code](https://github.com/johnjosephhorton/remote_work)
+<div class="resource-links" aria-label="Resources for COVID-19 and remote work: An early look at US data"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:w1MjKQ0l0TYC">Google Scholar</a><a class="resource-chip" href="https://github.com/johnjosephhorton/remote_work">Code</a></div>
 
-</article><article class="paper-entry" data-topic="Market Design" data-selected="true" data-search="Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution  Management Science Management Science">
+</article><article class="paper-entry" data-topic="Market Design" data-status="Published" data-selected="true" data-search="Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution  Management Science Management Science">
 ### [Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution](papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution/index.html)
 
 * Paper Links: [Details](papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution/index.html) · [PDF](http://john-joseph-horton.com/papers/scs.pdf) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2018.3116) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3155526)
@@ -443,9 +444,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC)    · [Slides](https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p)[Slides 2](https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026)   · [Thread](https://twitter.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA)
+<div class="resource-links" aria-label="Resources for Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026">Slides 2</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA">Thread</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Digital labor markets and global talent flows [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265) and [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452) Book chapter High-Skilled Migration to the United States and Its Economic Consequences">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Digital labor markets and global talent flows [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265) and [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452) Book chapter High-Skilled Migration to the United States and Its Economic Consequences">
 ### [Digital labor markets and global talent flows](papers/digital-labor-markets-and-global-talent-flows/index.html)  {.paper-class}
 (with [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265) and [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452))
 
@@ -456,9 +457,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:PyEswDtIyv0C)
+<div class="resource-links" aria-label="Resources for Digital labor markets and global talent flows"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:PyEswDtIyv0C">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Platforms" data-selected="false" data-search="The tragedy of your upstairs neighbors [Apostolos Filippas](https://www.apostolos-filippas.com/) R&R at Journal of Public Economics Proceedings of the 2017 ACM Conference on Economics and Computation">
+</article><article class="paper-entry" data-topic="Platforms" data-status="Active working paper" data-selected="false" data-search="The tragedy of your upstairs neighbors [Apostolos Filippas](https://www.apostolos-filippas.com/) R&R at Journal of Public Economics Proceedings of the 2017 ACM Conference on Economics and Computation">
 ### [The tragedy of your upstairs neighbors](papers/the-tragedy-of-your-upstairs-neighbors/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/))
 
@@ -471,9 +472,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Journal of Public Economics
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:XUvXOeBm_78C)  · Media: ([The Guardian](https://www.theguardian.com/technology/2019/aug/07/emoji-house-airbnb-california-manhattan-beach))   · [Video](https://www.youtube.com/watch?v=Mp02sfw4Nhc)   · [Slides](https://docs.google.com/presentation/d/1ndTX27BG7EZazc5AqQ9WaeGI5oG0guj2K78NQj_YEsI/edit#slide=id.p)
+<div class="resource-links" aria-label="Resources for The tragedy of your upstairs neighbors"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:XUvXOeBm_78C">Google Scholar</a><a class="resource-chip" href="https://www.theguardian.com/technology/2019/aug/07/emoji-house-airbnb-california-manhattan-beach">The Guardian</a><a class="resource-chip" href="https://www.youtube.com/watch?v=Mp02sfw4Nhc">ACM-EC</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1ndTX27BG7EZazc5AqQ9WaeGI5oG0guj2K78NQj_YEsI/edit#slide=id.p">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Labor Markets" data-selected="true" data-search="The effects of algorithmic labor market recommendations: Evidence from a field experiment  Journal of Labor Economics Journal of Labor Economics">
+</article><article class="paper-entry" data-topic="Labor Markets" data-status="Published" data-selected="true" data-search="The effects of algorithmic labor market recommendations: Evidence from a field experiment  Journal of Labor Economics Journal of Labor Economics">
 ### [The effects of algorithmic labor market recommendations: Evidence from a field experiment](papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment/index.html)
 
 * Paper Links: [Details](papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment/index.html) · [PDF](http://john-joseph-horton.com/papers/algo_labor_rec.pdf) · [JOLE](https://www.journals.uchicago.edu/doi/abs/10.1086/689213)
@@ -483,9 +484,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC)   · [Video](https://youtu.be/kMDflFAkwuc)   · [Slides](https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3)
+<div class="resource-links" aria-label="Resources for The effects of algorithmic labor market recommendations: Evidence from a field experiment"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/kMDflFAkwuc">Improving Matching in Crowdsourcing Markets</a><a class="resource-chip" href="https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Wielding peer effects in online production: Evidence from a series of field experiments [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Working paper ">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Active working paper" data-selected="false" data-search="Wielding peer effects in online production: Evidence from a series of field experiments [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Working paper ">
 ### [Wielding peer effects in online production: Evidence from a series of field experiments](papers/wielding-peer-effects-in-online-production-evidence-from-a-series-of-field-experiments/index.html)  {.paper-class}
 (with [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
@@ -496,9 +497,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-95Q15plzcUC)
+<div class="resource-links" aria-label="Resources for Wielding peer effects in online production: Evidence from a series of field experiments"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:-95Q15plzcUC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Are online labor markets spot markets for tasks? [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) Information Systems Research Information Systems Research">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Are online labor markets spot markets for tasks? [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) Information Systems Research Information Systems Research">
 ### [Are online labor markets spot markets for tasks?](papers/are-online-labor-markets-spot-markets-for-tasks/index.html)  {.paper-class}
 (with [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen))
 
@@ -509,9 +510,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:AXkvAH5U_nMC)      · [Code](https://github.com/johnjosephhorton/wages_of_paycuts)
+<div class="resource-links" aria-label="Resources for Are online labor markets spot markets for tasks?"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:AXkvAH5U_nMC">Google Scholar</a><a class="resource-chip" href="https://github.com/johnjosephhorton/wages_of_paycuts">Code</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="false" data-search="Labor economists get their microscope: Big data and labor market analysis [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/) Big Data Big Data">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Published" data-selected="false" data-search="Labor economists get their microscope: Big data and labor market analysis [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/) Big Data Big Data">
 ### [Labor economists get their microscope: Big data and labor market analysis](papers/labor-economists-get-their-microscope-big-data-and-labor-market-analysis/index.html)  {.paper-class}
 (with [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/))
 
@@ -522,9 +523,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:LPtt_HFRSbwC)
+<div class="resource-links" aria-label="Resources for Labor economists get their microscope: Big data and labor market analysis"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:LPtt_HFRSbwC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="The future of crowd work [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Aaron Shaw](http://aaronshaw.org/), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman) and [Matt Lease](https://www.ischool.utexas.edu/~ml/) ACM-CSCW 2013 Proceedings of the 2013 Conference on Computer Supported Cooperative Work">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="The future of crowd work [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Aaron Shaw](http://aaronshaw.org/), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman) and [Matt Lease](https://www.ischool.utexas.edu/~ml/) ACM-CSCW 2013 Proceedings of the 2013 Conference on Computer Supported Cooperative Work">
 ### [The future of crowd work](papers/the-future-of-crowd-work/index.html)  {.paper-class}
 (with [Aniket Kittur](https://www.hcii.cmu.edu/people/aniket-kittur), [Jeffrey Nickerson](https://www.stevens.edu/profile/jnickers), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Elizabeth Gerber](https://www.mccormick.northwestern.edu/research-faculty/directory/profiles/gerber-elizabeth.html), [Aaron Shaw](http://aaronshaw.org/), [John Zimmerman](https://hcii.cmu.edu/people/john-zimmerman) and [Matt Lease](https://www.ischool.utexas.edu/~ml/))
 
@@ -535,9 +536,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:KlAtU1dfN6UC)
+<div class="resource-links" aria-label="Resources for The future of crowd work"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:KlAtU1dfN6UC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="false" data-search="The dot-guessing game: A ‘fruit fly’ for human computation research  Working paper ">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Active working paper" data-selected="false" data-search="The dot-guessing game: A ‘fruit fly’ for human computation research  Working paper ">
 ### [The dot-guessing game: A ‘fruit fly’ for human computation research](papers/the-dot-guessing-game-a-fruit-fly-for-human-computation-research/index.html)
 
 * Paper Links: [Details](papers/the-dot-guessing-game-a-fruit-fly-for-human-computation-research/index.html) · [PDF](http://john-joseph-horton.com/papers/dot_guessing_game.pdf)
@@ -547,9 +548,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:_FxGoFyzp5QC)
+<div class="resource-links" aria-label="Resources for The dot-guessing game: A ‘fruit fly’ for human computation research"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:_FxGoFyzp5QC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="true" data-search="The online laboratory: Conducting experiments in a real labor market [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Experimental Economics Experimental Economics">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Published" data-selected="true" data-search="The online laboratory: Conducting experiments in a real labor market [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser) Experimental Economics Experimental Economics">
 ### [The online laboratory: Conducting experiments in a real labor market](papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/index.html)  {.paper-class}
 (with [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
@@ -560,9 +561,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC)    · [Slides](https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1)
+<div class="resource-links" aria-label="Resources for The online laboratory: Conducting experiments in a real labor market"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices [Dana Chandler](https://www.linkedin.com/in/danachandler1/) HCOMP Human Computation: Papers from the 2011 AAAI Workshop">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices [Dana Chandler](https://www.linkedin.com/in/danachandler1/) HCOMP Human Computation: Papers from the 2011 AAAI Workshop">
 ### [Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices](papers/labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices/index.html)  {.paper-class}
 (with [Dana Chandler](https://www.linkedin.com/in/danachandler1/))
 
@@ -573,9 +574,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:roLk4NBRz8UC)    · [Slides](https://docs.google.com/presentation/d/1lmlrDEaBTAXwbb-1Q6XjsfYH2aR0Gk82zK6TRznqmNM/edit#slide=id.i0)
+<div class="resource-links" aria-label="Resources for Labor allocation in paid crowdsourcing: Experimental evidence on positioning, nudges, and prices"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:roLk4NBRz8UC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1lmlrDEaBTAXwbb-1Q6XjsfYH2aR0Gk82zK6TRznqmNM/edit#slide=id.i0">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="The need for standardization in crowdsourcing [Panos Ipeirotis](https://ipeirotis.org/) Proceedings of the workshop on crowdsourcing and human computation at CHI Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="The need for standardization in crowdsourcing [Panos Ipeirotis](https://ipeirotis.org/) Proceedings of the workshop on crowdsourcing and human computation at CHI Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI">
 ### [The need for standardization in crowdsourcing](papers/the-need-for-standardization-in-crowdsourcing/index.html)  {.paper-class}
 (with [Panos Ipeirotis](https://ipeirotis.org/))
 
@@ -586,9 +587,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Tyk-4Ss8FVUC)
+<div class="resource-links" aria-label="Resources for The need for standardization in crowdsourcing"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:Tyk-4Ss8FVUC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="The condition of the Turking class: Are online employers fair and honest?  Economics Letters Economics Letters">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="The condition of the Turking class: Are online employers fair and honest?  Economics Letters Economics Letters">
 ### [The condition of the Turking class: Are online employers fair and honest?](papers/the-condition-of-the-turking-class-are-online-employers-fair-and-honest/index.html)
 
 * Paper Links: [Details](papers/the-condition-of-the-turking-class-are-online-employers-fair-and-honest/index.html) · [PDF](http://john-joseph-horton.com/papers/condition_of_the_turking_class.pdf)
@@ -598,9 +599,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:2osOgNQ5qMEC)      · [Code](https://bitbucket.org/johnjosephhorton/condition_of_turking_class/src/master/)
+<div class="resource-links" aria-label="Resources for The condition of the Turking class: Are online employers fair and honest?"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:2osOgNQ5qMEC">Google Scholar</a><a class="resource-chip" href="https://bitbucket.org/johnjosephhorton/condition_of_turking_class/src/master/">Code</a></div>
 
-</article><article class="paper-entry" data-topic="AI & Methods" data-selected="false" data-search="Designing incentives for inexpert raters [Aaron Shaw](http://aaronshaw.org/) and [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) ACM-CSCW 2011 Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work">
+</article><article class="paper-entry" data-topic="AI & Methods" data-status="Published" data-selected="false" data-search="Designing incentives for inexpert raters [Aaron Shaw](http://aaronshaw.org/) and [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen) ACM-CSCW 2011 Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work">
 ### [Designing incentives for inexpert raters](papers/designing-incentives-for-inexpert-raters/index.html)  {.paper-class}
 (with [Aaron Shaw](http://aaronshaw.org/) and [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen))
 
@@ -611,11 +612,11 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:UeHWp8X0CEIC)      · [Code](https://github.com/aaronshaw/inexpert_raters)
+<div class="resource-links" aria-label="Resources for Designing incentives for inexpert raters"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:UeHWp8X0CEIC">Google Scholar</a><a class="resource-chip" href="https://github.com/aaronshaw/inexpert_raters">Code</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Heads in the cloud: Challenges and opportunities in crowdsourcing [Robert Miller](https://people.csail.mit.edu/rcm/), Greg Little, [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/) and Rajeev Nayak ACM Crossroads XRDS: Crossroads, The ACM Magazine for Students">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Heads in the cloud: Challenges and opportunities in crowdsourcing [Robert Miller](https://people.csail.mit.edu/rcm/), [Greg Little](https://dblp.org/pid/26/3925), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/) and [Rajeev Nayak](https://dblp.org/pid/87/8927) ACM Crossroads XRDS: Crossroads, The ACM Magazine for Students">
 ### [Heads in the cloud: Challenges and opportunities in crowdsourcing](papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing/index.html)  {.paper-class}
-(with [Robert Miller](https://people.csail.mit.edu/rcm/), Greg Little, [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/) and Rajeev Nayak)
+(with [Robert Miller](https://people.csail.mit.edu/rcm/), [Greg Little](https://dblp.org/pid/26/3925), [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/) and [Rajeev Nayak](https://dblp.org/pid/87/8927))
 
 * Paper Links: [Details](papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing/index.html)
 
@@ -624,9 +625,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:0EnyYjriUFMC)
+<div class="resource-links" aria-label="Resources for Heads in the cloud: Challenges and opportunities in crowdsourcing"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:0EnyYjriUFMC">Google Scholar</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Online labor markets  WINE Internet and Network Economics: 6th International Workshop (WINE 2010)">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Online labor markets  WINE Internet and Network Economics: 6th International Workshop (WINE 2010)">
 ### [Online labor markets](papers/online-labor-markets/index.html)
 
 * Paper Links: [Details](papers/online-labor-markets/index.html) · [PDF](http://john-joseph-horton.com/papers/online_labor_markets.pdf)
@@ -636,9 +637,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:qjMakFHDy7sC)      · [Code](https://bitbucket.org/johnjosephhorton/olm_wine/src/master/)
+<div class="resource-links" aria-label="Resources for Online labor markets"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:qjMakFHDy7sC">Google Scholar</a><a class="resource-chip" href="https://bitbucket.org/johnjosephhorton/olm_wine/src/master/">Code</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="Task search in a human computation market [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/) and [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/) HCOMP 2010 Proceedings of the ACM SIGKDD Workshop on Human Computation">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="Task search in a human computation market [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/) and [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/) HCOMP 2010 Proceedings of the ACM SIGKDD Workshop on Human Computation">
 ### [Task search in a human computation market](papers/task-search-in-a-human-computation-market/index.html)  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/) and [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/))
 
@@ -649,9 +650,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C)    · [Slides](https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42)
+<div class="resource-links" aria-label="Resources for Task search in a human computation market"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42">Slides</a></div>
 
-</article><article class="paper-entry" data-topic="Online Work" data-selected="false" data-search="The labor economics of paid crowdsourcing [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en) ACM-EC Proceedings of the 11th ACM Conference on Electronic Commerce">
+</article><article class="paper-entry" data-topic="Online Work" data-status="Published" data-selected="false" data-search="The labor economics of paid crowdsourcing [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en) ACM-EC Proceedings of the 11th ACM Conference on Electronic Commerce">
 ### [The labor economics of paid crowdsourcing](papers/the-labor-economics-of-paid-crowdsourcing/index.html)  {.paper-class}
 (with [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en))
 
@@ -662,7 +663,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links: [Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u5HHmVD_uO8C)    · [Slides](https://docs.google.com/presentation/d/1cbX5ynnP42uRTDq5qKVtATceqOOcGtAd/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true)    · [Code](https://bitbucket.org/johnjosephhorton/labor_economics_paid_crowdsourcing)
+<div class="resource-links" aria-label="Resources for The labor economics of paid crowdsourcing"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u5HHmVD_uO8C">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1cbX5ynnP42uRTDq5qKVtATceqOOcGtAd/edit?usp=sharing&ouid=110229662068715782547&rtpof=true&sd=true">Slides</a><a class="resource-chip" href="https://bitbucket.org/johnjosephhorton/labor_economics_paid_crowdsourcing">Code</a></div>
 
 </article>
 
@@ -722,6 +723,10 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 # Talks
+## Featured talks
+<div class="featured-talks"><a class="resource-chip" href="https://www.youtube.com/watch?v=3_exm-tsQ_4&t=20818s">Amir Sariri at the 2026 NBER Summer Institute Entrepreneurship workshop <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=9VJ4oFWk1SE">2025 NBER Economics of Transformative AI Workshop <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=fr_zUWaKDF8">Stanford Digital Economy Lab <span>Video</span></a><a class="resource-chip" href="https://youtu.be/kMDflFAkwuc">Improving Matching in Crowdsourcing Markets <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=Mp02sfw4Nhc">ACM-EC <span>Video</span></a></div>
+
+## Complete talk archive
 <div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
 <details class="talk-year" open><summary>2026 <span>(5)</span></summary>
 
