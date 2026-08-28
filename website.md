@@ -673,9 +673,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    [Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)](https://doi.org/10.1287/isre.2022.0709), 2026
 
-   [ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects)](https://ec26.sigecom.org/program/accepted-papers/), 2026
+   [ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects; one of six papers selected from roughly 1,000 submissions)](https://ec26.sigecom.org/program/accepted-papers/), 2026
 
-   [WISE Best Paper Award (General Social Agents)](https://www.nber.org/papers/w34937), 2025
+   [WISE Best Paper Award (General Social Agents; selected from the full conference submission pool)](https://www.nber.org/papers/w34937), 2025
 
    INFORMS ISS Cluster Best Paper Award, Runner-up (Production & Consumption of Social Media), 2022
 
@@ -691,17 +691,17 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    Institute for Humane Studies Graduate Fellowship, 2009, 2009
 
-   National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008, 2008
+   National Science Foundation Graduate Research Fellowship, Honorable Mention, 2007
 
-   Bronze Star Medal, 2004
+   [Bronze Star Medal](https://en.wikipedia.org/wiki/Bronze_Star_Medal), 2004
 
-   Army Achievement Medal (for budgeting and spreadsheet work), 2005
+   [Army Achievement Medal (for budgeting and spreadsheet work)](https://en.wikipedia.org/wiki/Achievement_Medal), 2005
 
-   Army Commendation Medal, 2004
+   [Army Commendation Medal](https://en.wikipedia.org/wiki/Commendation_Medal), 2004
 
-   Combat Action Badge, 2004
+   [Combat Action Badge](https://en.wikipedia.org/wiki/Combat_Action_Badge), 2004
 
-   Basic Parachutist Badge, 1999
+   [Basic Parachutist Badge](https://en.wikipedia.org/wiki/Parachutist_Badge_%28United_States%29), 1999
 
 
 ## Grants
@@ -1058,7 +1058,7 @@ Harvard Kennedy School — Fall 2010 (3 sections)
 
    Committee on Curricula, MIT, 2025---Present
 
-   Dean Search Committee, MIT Sloan, 2024---Present
+   Dean Search Committee, MIT Sloan, 2024---2026
 
    NBER Digitization Spring 2024 Meeting, Co-organizer, NBER, 2023---2024
 

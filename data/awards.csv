@@ -1,7 +1,7 @@
 award,year,url
 "Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)",2026,https://doi.org/10.1287/isre.2022.0709
-"ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects)",2026,https://ec26.sigecom.org/program/accepted-papers/
-"WISE Best Paper Award (General Social Agents)",2025,https://www.nber.org/papers/w34937
+"ACM EC Exemplary Paper Award (Automated Social Science: Language Models as Scientist and Subjects; one of six papers selected from roughly 1,000 submissions)",2026,https://ec26.sigecom.org/program/accepted-papers/
+"WISE Best Paper Award (General Social Agents; selected from the full conference submission pool)",2025,https://www.nber.org/papers/w34937
 "INFORMS ISS Cluster Best Paper Award, Runner-up (Production & Consumption of Social Media)",2022
 "Conference on Artificial Intelligence, Machine Learning, and Business Analytics, AI/ML ""Rising Star"" Award, 2021",2021
 "ISS Sandra A. Slaughter Early Career Award, 2021",2021
@@ -9,9 +9,9 @@ award,year,url
 "Becker-Friedman Center on Price Theory, Summer Camp, University of Chicago, 2010",2010
 "NSF-IGERT Multidisciplinary Fellowship in Inequality and Social Policy, 2008 - 2010",2008
 "Institute for Humane Studies Graduate Fellowship, 2009",2009
-"National Science Foundation Graduate Research Fellowship, Honorable Mention, 2008",2008
-"Bronze Star Medal",2004
-"Army Achievement Medal (for budgeting and spreadsheet work)",2005
-"Army Commendation Medal",2004
-"Combat Action Badge",2004
-"Basic Parachutist Badge",1999
+"National Science Foundation Graduate Research Fellowship, Honorable Mention",2007
+"Bronze Star Medal",2004,https://en.wikipedia.org/wiki/Bronze_Star_Medal
+"Army Achievement Medal (for budgeting and spreadsheet work)",2005,https://en.wikipedia.org/wiki/Achievement_Medal
+"Army Commendation Medal",2004,https://en.wikipedia.org/wiki/Commendation_Medal
+"Combat Action Badge",2004,https://en.wikipedia.org/wiki/Combat_Action_Badge
+"Basic Parachutist Badge",1999,https://en.wikipedia.org/wiki/Parachutist_Badge_%28United_States%29
