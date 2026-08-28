@@ -1058,7 +1058,7 @@ Harvard Kennedy School — Fall 2010 (3 sections)
 
    Committee on Curricula, MIT, 2025---Present
 
-   Dean Search Committee, MIT Sloan, 2024---2026
+   Dean Search Committee, MIT Sloan, 2024---2025
 
    NBER Digitization Spring 2024 Meeting, Co-organizer, NBER, 2023---2024
 
