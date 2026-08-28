@@ -5,13 +5,13 @@
 ## Bio {.bio-class}
 
 
-I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
+I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management, jointly appointed to the Technological Innovation, Entrepreneurship, and Strategic Management (TIES) and Information Technology (IT) groups, and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
 [Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [\@johnjhorton](https://twitter.com/johnjhorton)
 
 # Employment
 
 
-   Chrysler Professor of Management, [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), August 25, 2025---Present
+   Chrysler Professor of Management; jointly appointed to the TIES and IT groups, [MIT Sloan School of Management](https://mitsloan.mit.edu/faculty/directory/john-j-horton), August 25, 2025---Present
 
    Co-founder, [Expected Parrot](https://www.expectedparrot.com), 2024---Present
 
@@ -40,6 +40,8 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ## Affiliations
 
+
+   Member, [Anthropic Economic Advisory Council](https://www.anthropic.com/news/introducing-the-anthropic-economic-advisory-council), 2025---Present
 
    Research Associate, [NBER](https://www.nber.org/people/john_horton), 2023---Present
 
@@ -961,9 +963,13 @@ United States Military Academy at West Point, BS in Mathematics, minor in Comput
 ## Teaching
 
 
+### Generative AI Action Learning Lab
+
+MIT — Spring 2026 · Spring 2025
+
 ### Generative AI for Managers
 
-MIT — Spring 2024
+MIT — Spring 2026 · Spring 2025 · Fall 2024 · Spring 2024
 
 ### The Economics of Information: Strategy, Structure, and Pricing
 
@@ -1001,13 +1007,15 @@ Harvard Kennedy School — Fall 2010 (3 sections)
 ## Service
 
 
+   Committee on Curricula, MIT, 2025---Present
+
    Dean Search Committee, MIT Sloan, 2024---Present
 
    NBER Digitization Spring 2024 Meeting, Co-organizer, NBER, 2023---2024
 
    Faculty Search Committee, MIT Sloan IT Group, 2022---Present
 
-   PhD Program Coordinator, MIT Sloan IT Group, 2021---Present
+   PhD Program Coordinator, MIT Sloan IT Group, 2021---2025
 
    Departmental: Organizer of IS Faculty Seminar; PhD recruiting committee, NYU Stern, 2013---2017
 
