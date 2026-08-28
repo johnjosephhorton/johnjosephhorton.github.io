@@ -22,6 +22,12 @@ of record:
   populate the other visible sections.
 - Google Scholar links live in the `google_scholar` column of `papers.csv`;
   keeping them with their papers avoids a second, conflicting citation table.
+- `paper_pages.csv` opts papers into standalone shareable pages and stores their
+  custom slugs and short summaries. All papers receive standalone pages;
+  `paper_pages.csv` provides optional enhancements. `paper_presentations.csv`
+  supplies paper-specific presentation links, while `paper_updates.csv` stores
+  the latest publicly verifiable revision, release, or publication date used to
+  order the research list.
 - The remaining CSV files preserve local CV data that is not currently shown
   on the homepage.
 

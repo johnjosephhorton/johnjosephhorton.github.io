@@ -1,5 +1,5 @@
 
-.PHONY: build validate links website pdf FORCE
+.PHONY: build validate links website paper-pages pdf FORCE
 
 LAST_UPDATED ?= $(shell git log -1 --format=%cs 2>/dev/null || date +%F)
 
@@ -9,11 +9,16 @@ validate:
 links:
 	python3 check_links.py
 
-website.md: templates/website.md create_website.py $(wildcard data/*.csv)
+website.md: templates/website.md templates/paper.md create_website.py $(wildcard data/*.csv)
 	python3 create_website.py
 
 index.html: website.md templates/template.html FORCE
 	pandoc website.md --metadata pagetitle="John Horton's Academic Website" --metadata lastupdated="$(LAST_UPDATED)" -s --template=templates/template.html -o index.html
+
+paper-pages: website.md templates/paper.html
+	@for source in papers/*/index.md; do \
+		pandoc "$$source" --metadata lastupdated="$(LAST_UPDATED)" -s --template=templates/paper.html -o "$${source%.md}.html"; \
+	done
 
 pdf:
 	pandoc website.md -o cv.pdf
@@ -21,6 +26,6 @@ pdf:
 website: index.html
 	open index.html
 
-build: validate index.html
+build: validate index.html paper-pages
 
 FORCE:

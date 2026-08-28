@@ -122,6 +122,35 @@ def main():
     unique_ids(publications, "publication_info", "publication_id")
     check_reference(publications, "paper_id", paper_ids, "publication_info")
 
+    paper_pages = read_table("paper_pages", {"paper_id", "slug", "year", "summary"})
+    check_reference(paper_pages, "paper_id", paper_ids, "paper_pages")
+    unique_ids(paper_pages, "paper_pages", column="paper_id")
+    unique_ids(paper_pages, "paper_pages", column="slug")
+    paper_presentations = read_table(
+        "paper_presentations", {"paper_id", "event", "year", "url"}
+    )
+    check_reference(paper_presentations, "paper_id", paper_ids, "paper_presentations")
+    check_urls(paper_presentations, "paper_presentations")
+
+    paper_updates = read_table("paper_updates", {"paper_id", "last_updated"})
+    update_ids = unique_ids(paper_updates, "paper_updates", column="paper_id")
+    check_reference(paper_updates, "paper_id", paper_ids, "paper_updates")
+    missing_updates = sorted(paper_ids - update_ids)
+    if missing_updates:
+        raise ValueError(
+            "data/paper_updates.csv: missing papers: " + ", ".join(missing_updates)
+        )
+    invalid_updates = [
+        row["paper_id"]
+        for row in paper_updates
+        if len(row["last_updated"]) not in {4, 7, 10}
+        or not all(part.isdigit() for part in row["last_updated"].split("-"))
+    ]
+    if invalid_updates:
+        raise ValueError(
+            "data/paper_updates.csv: invalid dates: " + ", ".join(invalid_updates)
+        )
+
     read_table("basic_info", {"name", "bio", "twitter_handle", "twitter_url"})
     for table in ("jobs", "talks", "education", "affiliations", "awards"):
         rows = read_table(table, {"url"})

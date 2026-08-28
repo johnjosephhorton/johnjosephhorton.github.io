@@ -3,6 +3,8 @@ from jinja2 import FileSystemLoader
 import collections
 import csv
 import json
+import re
+import unicodedata
 from pathlib import Path
 
 PREFERRED_VERSION_KEY = "jjh"
@@ -146,6 +148,13 @@ class Paper(Entity):
 
     @property
     def version_line(self):
+        return self._format_version_line()
+
+    @property
+    def detail_version_line(self):
+        return self._format_version_line(local_prefix="../../")
+
+    def _format_version_line(self, local_prefix=""):
         if self._versions:
             labels = {
                 "arxiv": "arXiv",
@@ -161,7 +170,12 @@ class Paper(Entity):
                 "coauthor": "PDF",
             }
             return " · ".join(
-                make_link(labels.get(obj.type.lower(), obj.type), obj.url)
+                make_link(
+                    labels.get(obj.type.lower(), obj.type),
+                    obj.url
+                    if obj.url.startswith(("http://", "https://"))
+                    else local_prefix + obj.url,
+                )
                 for obj in self._versions
             )
         else:
@@ -247,6 +261,10 @@ class Person(Entity):
         name = self.first + " " + self.last
         return make_link(name, self.url) if self.url else name
 
+    @property
+    def plain_name(self):
+        return self.first + " " + self.last
+
 
 class Media(Entity):
     @property
@@ -323,6 +341,11 @@ grants = Collection(Entity, "grants")
 service = Collection(Entity, "service")
 reviewing = Collection(Entity, "reviewing")
 publications = Collection(Publication, "publication_info")
+paper_page_rows = get_csv("paper_pages.csv")
+paper_presentations = Collection(Entity, "paper_presentations")
+paper_updates = {
+    row["paper_id"]: row["last_updated"] for row in get_csv("paper_updates.csv")
+}
 
 course_by_id = {course["id"]: course for course in get_csv("courses.csv")}
 teaching_by_term = collections.OrderedDict()
@@ -362,6 +385,8 @@ basic_info = Entity(get_csv("basic_info.csv")[0])
 
 
 for id, paper in papers.items():
+    paper.page_url = ""
+    paper.last_updated = paper_updates[paper.id]
     paper.add_coauthors(coauthors, people)
     paper.add_media(media)
     paper.add_versions(versions)
@@ -370,6 +395,58 @@ for id, paper in papers.items():
     paper.add_twitter_thread(twitter_threads)
     paper.add_code(code)
     paper.add_publications(publications)
+
+def slugify(value):
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
+paper_page_template = jinja2.Environment(
+    loader=FileSystemLoader("templates/")
+).get_template("paper.md")
+paper_page_overrides = {row["paper_id"]: row for row in paper_page_rows}
+for paper in papers.values():
+    row = {
+        "paper_id": paper.id,
+        "slug": slugify(paper.title),
+        "year": paper.last_updated[:4],
+        "summary": "",
+        **paper_page_overrides.get(paper.id, {}),
+    }
+    paper.page_url = f'papers/{row["slug"]}/index.html'
+    authors = ["Horton, John J."] + [
+        f"{person.last}, {person.first}" for person in paper.coauthors
+    ]
+    citation_key = f'horton{row["year"]}{row["slug"].replace("-", "")}'
+    row["bibtex"] = "\n".join(
+        [
+            f"@misc{{{citation_key},",
+            f'  title = {{{{{paper.title}}}}},',
+            f'  author = {{{" and ".join(authors)}}},',
+            f'  year = {{{row["year"]}}},',
+            f'  url = {{https://john-joseph-horton.com/papers/{row["slug"]}/}}',
+            "}",
+        ]
+    )
+    page = Entity(row)
+    presentations = [
+        item for item in paper_presentations if item.paper_id == paper.id
+    ]
+    paper_markdown = paper_page_template.render(
+        paper=paper, page=page, presentations=presentations
+    )
+    paper_markdown = (
+        "\n".join(line.rstrip() for line in paper_markdown.splitlines()) + "\n"
+    )
+    output_dir = Path("papers") / row["slug"]
+    output_dir.mkdir(parents=True, exist_ok=True)
+    (output_dir / "index.md").write_text(paper_markdown, encoding="utf-8")
+    (output_dir / "paper-markdown.js").write_text(
+        "window.PAGE_MARKDOWN = "
+        + json.dumps(paper_markdown, ensure_ascii=False)
+        + ";\n",
+        encoding="utf-8",
+    )
 
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("website.md")
@@ -381,7 +458,9 @@ d = {
     "talks": talks,
     "awards": awards,
     "education": education,
-    "papers": list(papers.values()),
+    "papers": sorted(
+        papers.values(), key=lambda paper: paper.last_updated, reverse=True
+    ),
     "grants": grants,
     "service": service,
     "reviewing": reviewing,

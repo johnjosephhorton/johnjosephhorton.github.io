@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Strategic tradeoffs between humans and AI in multi-agent
+bargaining · John J. Horton</title>
+  <meta name="description" content="">
+  <link rel="canonical" href="https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/">
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Strategic tradeoffs between humans
+and AI in multi-agent bargaining">
+  <meta property="og:description" content="">
+  <meta property="og:url" content="https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/">
+  <meta name="twitter:card" content="summary">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <style type="text/tailwindcss">
+    @layer utilities {
+      .paper-content h1 { @apply mt-8 mb-4 text-4xl font-bold tracking-tight text-gray-900; }
+      .paper-content h2 { @apply mt-10 mb-3 border-b border-gray-200 pb-2 text-xl font-semibold text-gray-900; }
+      .paper-content p { @apply mb-4 leading-relaxed text-gray-700; }
+      .paper-content a { @apply text-blue-600 hover:text-blue-800 hover:underline; }
+      .paper-content pre { @apply overflow-x-auto rounded-xl bg-gray-900 p-5 text-sm text-gray-100; }
+      .copy-button { @apply rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50; }
+    }
+  </style>
+  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
+</head>
+<body class="min-h-screen bg-gray-50 font-sans">
+  <div class="mx-auto max-w-4xl px-6 py-12 sm:py-16">
+    <main class="rounded-2xl border border-gray-100 bg-white px-8 py-10 shadow-sm sm:px-14 sm:py-14">
+      <div class="mb-4 flex justify-end gap-3">
+        <span id="copy-status" class="self-center text-sm text-gray-500" aria-live="polite"></span>
+        <button id="copy-markdown" class="copy-button" type="button">Copy as Markdown</button>
+      </div>
+      <article class="paper-content"><p><a
+href="../../index.html#research">← John J. Horton’s research</a></p>
+<h1
+id="strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining">Strategic
+tradeoffs between humans and AI in multi-agent bargaining</h1>
+<p>John J. Horton, <a
+href="https://research.google/people/108114/">Crystal Qian</a>, <a
+href="https://scholar.harvard.edu/kehang/home">Kehang Zhu</a>, <a
+href="https://www.benjaminmanning.com/">Benjamin Manning</a>, Vivian
+Tsai, James Wexler, <a
+href="https://research.google/people/105662/">Nithum Thain</a></p>
+<p><strong>Published:</strong> <a
+href="https://doi.org/10.1145/3742413.3789078">Proceedings of the 31st
+International Conference on Intelligent User Interfaces: 1625-1646
+(2026)</a></p>
+<p><strong>Last updated:</strong> 2026-03</p>
+<h2 id="paper-links">Paper links</h2>
+<p><a href="https://arxiv.org/abs/2509.09071">arXiv</a></p>
+<h2 id="cite">Cite</h2>
+<div class="mb-3 flex items-center gap-3">
+<button id="copy-bibtex" class="copy-button" type="button">
+Copy BibTeX
+</button>
+<p><span id="bibtex-copy-status" class="text-sm text-gray-500"
+aria-live="polite"></span></p>
+</div>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode bibtex"><code class="sourceCode bibtex"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="va">@misc</span>{<span class="ot">horton2026strategictradeoffsbetweenhumansandaiinmultiagentbargaining</span>,</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>  <span class="dt">title</span> = {{Strategic tradeoffs between humans and AI in multi-agent bargaining}},</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>  <span class="dt">author</span> = {Horton, John J. and Qian, Crystal and Zhu, Kehang and Manning, Benjamin and Tsai, Vivian and Wexler, James and Thain, Nithum},</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  <span class="dt">year</span> = {2026},</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  <span class="dt">url</span> = {https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/}</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>}</span></code></pre></div>
+<p><a
+href="https://scholar.google.com/scholar?q=%22Strategic+Tradeoffs+Between+Humans+and+AI+in+Multi-Agent+Bargaining%22">Google
+Scholar</a></p></article>
+    </main>
+    <footer class="mt-8 text-center text-sm text-gray-500">Last updated: 2026-08-28</footer>
+  </div>
+  <script src="paper-markdown.js"></script>
+  <script>
+    function legacyCopy(text) {
+      const textArea = document.createElement('textarea');
+      textArea.value = text;
+      textArea.setAttribute('readonly', '');
+      textArea.style.position = 'fixed';
+      textArea.style.opacity = '0';
+      document.body.appendChild(textArea);
+      textArea.select();
+      const copied = document.execCommand('copy');
+      textArea.remove();
+      return copied;
+    }
+    document.getElementById('copy-markdown').addEventListener('click', async function () {
+      const status = document.getElementById('copy-status');
+      try {
+        const markdown = window.PAGE_MARKDOWN || '';
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(markdown);
+        } else if (!legacyCopy(markdown)) {
+          throw new Error('Copy command failed');
+        }
+        status.textContent = 'Copied';
+        setTimeout(function () { status.textContent = ''; }, 2000);
+      } catch (error) { status.textContent = 'Copy failed'; }
+    });
+    document.getElementById('copy-bibtex').addEventListener('click', async function () {
+      const status = document.getElementById('bibtex-copy-status');
+      const citation = document.querySelector('pre code').textContent;
+      try {
+        if (navigator.clipboard && window.isSecureContext) {
+          await navigator.clipboard.writeText(citation);
+        } else if (!legacyCopy(citation)) {
+          throw new Error('Copy command failed');
+        }
+        status.textContent = 'Copied';
+        setTimeout(function () { status.textContent = ''; }, 2000);
+      } catch (error) { status.textContent = 'Copy failed'; }
+    });
+  </script>
+</body>
+</html>

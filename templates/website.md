@@ -23,10 +23,10 @@
 # Research {.paper-class}
 
 {% for paper in papers %}
-### {{ paper.title }} {%if paper.with_line %} {.paper-class}
+### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
-{% if paper.version_line %}
-* Paper Links: {{ paper.version_line }}
+{% if paper.version_line or paper.page_url %}
+* Paper Links: {% if paper.page_url %}[Details]({{ paper.page_url }}){% if paper.version_line %} · {% endif %}{% endif %}{{ paper.version_line or '' }}
 {% endif %}
 {% if paper.primary_publication %}
 * {{ paper.publication_label }}: {{ paper.primary_publication.citation }}
