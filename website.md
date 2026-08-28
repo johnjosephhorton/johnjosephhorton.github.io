@@ -135,7 +135,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Working paper
 
 
-* Links:  Citations: ([Google Scholar](https://scholar.google.com/scholar?q=%22Marginal+Ideas%22+%22John+Horton%22+%22Amir+Sariri%22))   Media: ([Expected Parrot](https://blog.expectedparrot.com/p/marginal-ideas))
+* Links:  Citations: ([Google Scholar](https://scholar.google.com/scholar?q=%22Marginal+Ideas%22+%22John+Horton%22+%22Amir+Sariri%22))   Media: ([Expected Parrot](https://blog.expectedparrot.com/p/marginal-ideas))   Videos: ([1](https://www.youtube.com/watch?v=3_exm-tsQ_4&t=20818s))
 
 
 ### [Consumer demand with social influences: Evidence from an e-commerce platform](papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/index.html)  {.paper-class}

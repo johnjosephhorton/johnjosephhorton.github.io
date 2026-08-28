@@ -26,6 +26,11 @@ Entrepreneurs crowd into promising startup ideas without internalizing the busin
 [PDF](https://amirsariri.com/assets/documents/sv/marginalideas.pdf)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/3_exm-tsQ_4?start=20818" title="Amir Sariri at the 2026 NBER Summer Institute Entrepreneurship workshop" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
 
 
 ## Presentations

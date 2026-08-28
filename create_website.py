@@ -129,22 +129,26 @@ class Paper(Entity):
         embeds = []
         for video in self._videos:
             parsed = urlparse(video.url)
+            query = parse_qs(parsed.query)
             hostname = parsed.netloc.lower().removeprefix("www.")
             video_id = None
             if hostname == "youtu.be":
                 video_id = parsed.path.strip("/").split("/")[0]
             elif hostname in {"youtube.com", "m.youtube.com"}:
                 if parsed.path == "/watch":
-                    video_id = parse_qs(parsed.query).get("v", [None])[0]
+                    video_id = query.get("v", [None])[0]
                 elif parsed.path.startswith(("/embed/", "/shorts/")):
                     video_id = parsed.path.strip("/").split("/")[1]
             if video_id and re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+                embed_url = "https://www.youtube-nocookie.com/embed/" + video_id
+                start = query.get("t", [""])[0].removesuffix("s")
+                if start.isdigit():
+                    embed_url += "?start=" + start
                 embeds.append(
                     Entity(
                         {
                             "url": video.url,
-                            "embed_url": "https://www.youtube-nocookie.com/embed/"
-                            + video_id,
+                            "embed_url": embed_url,
                             "title": video.topic
                             or f"John J. Horton presents {self.title}",
                         }
