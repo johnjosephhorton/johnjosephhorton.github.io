@@ -24,6 +24,13 @@ John J. Horton, [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin
 [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/fr_zUWaKDF8" title="Stanford Digital Economy Lab" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 

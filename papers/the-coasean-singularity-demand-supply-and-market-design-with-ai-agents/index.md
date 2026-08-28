@@ -24,6 +24,13 @@ John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](h
 [NBER](https://www.nber.org/papers/w34468)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/9VJ4oFWk1SE" title="2025 NBER Economics of Transformative AI Workshop" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 ## Coverage

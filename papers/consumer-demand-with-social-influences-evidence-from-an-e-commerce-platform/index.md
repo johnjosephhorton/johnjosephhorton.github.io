@@ -26,6 +26,8 @@ John J. Horton, [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.asp
 
 
 
+
+
 ## Coverage
 
 [How much more would people pay to wear something rare?](https://hbswk.hbs.edu/item/how-much-more-will-trendy-shoppers-pay-to-wear-something-rare), HBS Working Knowledge

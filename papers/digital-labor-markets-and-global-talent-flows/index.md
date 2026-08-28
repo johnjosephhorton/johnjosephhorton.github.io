@@ -28,6 +28,8 @@ John J. Horton, [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.
 
 
 
+
+
 ## Cite
 
 <div class="mb-3 flex items-center gap-3">

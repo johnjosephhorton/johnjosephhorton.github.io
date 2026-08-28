@@ -26,6 +26,8 @@ John J. Horton, [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/)
 
 
 
+
+
 ## Coverage
 
 [What happens to tech workers when their skills become obseolete? ](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/), Quartz

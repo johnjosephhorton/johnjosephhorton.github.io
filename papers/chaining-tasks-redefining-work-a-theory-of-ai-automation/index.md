@@ -26,6 +26,8 @@ John J. Horton, [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica]
 
 
 
+
+
 ## Coverage
 
 [How AI is reshaping workflows and redefining jobs](https://mitsloan.mit.edu/ideas-made-to-matter/how-ai-reshaping-workflows-and-redefining-jobs), MIT Sloan

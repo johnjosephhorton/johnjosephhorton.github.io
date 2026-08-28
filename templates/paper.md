@@ -28,6 +28,13 @@ John J. Horton{% for coauthor in paper.coauthors %}, {{ coauthor.full_name }}{% 
 {{ paper.detail_version_line }}
 {% endif %}
 
+{% if paper.video_embeds %}## Video
+
+{% for video in paper.video_embeds %}<div class="video-embed">
+<iframe src="{{ video.embed_url }}" title="{{ video.title }}" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+{% endfor %}{% endif %}
+
 {% if presentations %}## Presentations
 
 {% for presentation in presentations %}[{{ presentation.event }}]({{ presentation.url }}), {{ presentation.year }}

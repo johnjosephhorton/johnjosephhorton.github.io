@@ -69,7 +69,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([Google Scholar](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22))   Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained))([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))    Twitter Thread(s): ([1](https://x.com/Peyman_Shahidi/status/1980257133493981219))
+* Links:  Citations: ([Google Scholar](https://scholar.google.com/scholar?q=%22The+Coasean+Singularity%3F+Demand%2C+Supply%2C+and+Market+Design+with+AI+Agents%22))   Media: ([MIT Sloan](https://mitsloan.mit.edu/ideas-made-to-matter/agentic-ai-explained))([Marginal Revolution](https://marginalrevolution.com/marginalrevolution/2025/10/will-there-be-a-coasean-singularity.html))   Videos: ([1](https://www.youtube.com/watch?v=9VJ4oFWk1SE))   Twitter Thread(s): ([1](https://x.com/Peyman_Shahidi/status/1980257133493981219))
 
 
 ### [Automated social science: Language models as scientist and subjects](papers/automated-social-science-language-models-as-scientist-and-subjects/index.html)  {.paper-class}
@@ -84,7 +84,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: Reject and Resubmit at Quarterly Journal of Economics
 
 
-* Links:  Citations: ([Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC))
+* Links:  Citations: ([Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:NxmKEeNBbOMC))    Videos: ([1](https://www.youtube.com/watch?v=fr_zUWaKDF8))
 
 
 ### [The production and consumption of social media](papers/the-production-and-consumption-of-social-media/index.html)  {.paper-class}
@@ -462,7 +462,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC))     Slides: ([1](https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3))
+* Links:  Citations: ([Google Scholar](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:6bLC7aUMtPcC))    Videos: ([1](https://youtu.be/kMDflFAkwuc))   Slides: ([1](https://docs.google.com/presentation/d/137_yODiDmaww5UQWn_uypMZoWh8WSwySI3mLyMhqij4/edit#slide=id.p3))
 
 
 ### [Wielding peer effects in online production: Evidence from a series of field experiments](papers/wielding-peer-effects-in-online-production-evidence-from-a-series-of-field-experiments/index.html)  {.paper-class}

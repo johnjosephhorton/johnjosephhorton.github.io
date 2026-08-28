@@ -1,5 +1,5 @@
 
-.PHONY: build validate links website paper-pages pdf FORCE
+.PHONY: build validate links website serve paper-pages pdf FORCE
 
 LAST_UPDATED ?= $(shell git log -1 --format=%cs 2>/dev/null || date +%F)
 
@@ -25,6 +25,11 @@ pdf:
 
 website: index.html
 	open index.html
+
+# YouTube embeds require an HTTP Referer, which file:// previews cannot provide.
+serve: build
+	@echo "Preview: http://127.0.0.1:8000/"
+	python3 -m http.server 8000 --bind 127.0.0.1
 
 build: validate index.html paper-pages
 

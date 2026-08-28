@@ -26,6 +26,8 @@ Entrepreneurs crowd into promising startup ideas without internalizing the busin
 [PDF](https://amirsariri.com/assets/documents/sv/marginalideas.pdf)
 
 
+
+
 ## Presentations
 
 [NBER Summer Institute, Entrepreneurship](https://www.nber.org/conferences/si-2026-entrepreneurship), 2026

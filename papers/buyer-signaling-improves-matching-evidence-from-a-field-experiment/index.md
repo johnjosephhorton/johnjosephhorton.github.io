@@ -22,6 +22,13 @@ John J. Horton, [Philipp Kircher](https://philippkircher.com/), [Ramesh Johari](
 [NBER](https://www.nber.org/papers/w29445)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/pAeJ8bFhc6w" title="John J. Horton presents Buyer signaling improves matching: Evidence from a field experiment" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 

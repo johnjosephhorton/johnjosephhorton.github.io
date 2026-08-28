@@ -24,6 +24,13 @@ John J. Horton
 [PDF](https://www.john-joseph-horton.com/papers/minimum_wage.pdf)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Bkxobfkrfps" title="John J. Horton presents Price floors and employer preferences: Evidence from a minimum wage experiment" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 ## Coverage

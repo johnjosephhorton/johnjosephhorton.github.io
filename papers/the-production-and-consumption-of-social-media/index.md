@@ -24,6 +24,13 @@ John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/), [Elli
 [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HsnbHy9FQek" title="John J. Horton presents The production and consumption of social media" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 

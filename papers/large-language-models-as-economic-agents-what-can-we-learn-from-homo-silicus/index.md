@@ -24,6 +24,13 @@ John J. Horton
 [PDF](../../papers/llm_ask.pdf) · [arXiv](https://arxiv.org/abs/2301.07543)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/cMWUnQdPM9A" title="John J. Horton presents Large language models as economic agents: What can we learn from Homo silicus?" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 

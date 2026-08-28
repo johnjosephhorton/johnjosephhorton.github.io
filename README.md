@@ -69,7 +69,10 @@ Run `make links` to check every external URL stored in the CSV source files.
 GitHub Actions also runs this audit weekly and on demand; access-restricted
 responses such as HTTP 403 and 429 are reported but not treated as dead links.
 
-Run `make website` on macOS to build and open the page locally. Run
+Run `make website` on macOS for a quick filesystem preview. For the complete
+preview, including embedded YouTube presentations, run `make serve` and open
+<http://127.0.0.1:8000/>. YouTube requires an HTTP referrer and therefore does
+not play reliably when a page is opened directly with a `file://` URL. Run
 `make pdf` to produce `cv.pdf`.
 
 ## Publishing

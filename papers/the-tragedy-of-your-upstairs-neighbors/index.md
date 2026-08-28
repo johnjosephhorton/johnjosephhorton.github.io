@@ -24,6 +24,13 @@ John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/)
 [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2443343) · [arXiv](https://arxiv.org/abs/1611.05688) · [ACM EC](https://dl.acm.org/doi/10.1145/3033274.3085097)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/Mp02sfw4Nhc" title="ACM-EC" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 ## Coverage

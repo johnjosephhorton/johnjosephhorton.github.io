@@ -25,6 +25,8 @@ social media">
       .paper-content a { @apply text-blue-600 hover:text-blue-800 hover:underline; }
       .paper-content pre { @apply overflow-x-auto rounded-xl bg-gray-900 p-5 text-sm text-gray-100; }
       .copy-button { @apply rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50; }
+      .video-embed { @apply my-5 overflow-hidden rounded-xl bg-black shadow-sm; aspect-ratio: 16 / 9; }
+      .video-embed iframe { @apply h-full w-full border-0; }
     }
   </style>
   <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
@@ -51,6 +53,11 @@ href="https://doi.org/10.1287/mnsc.2023.00060">Management Science 72(7):
 <p><a
 href="https://www.john-joseph-horton.com/papers/twitter.pdf">PDF</a> ·
 <a href="https://www.nber.org/papers/w28666">NBER</a></p>
+<h2 id="video">Video</h2>
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/HsnbHy9FQek" title="John J. Horton presents The production and consumption of social media" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+</iframe>
+</div>
 <h2 id="cite">Cite</h2>
 <div class="mb-3 flex items-center gap-3">
 <button id="copy-bibtex" class="copy-button" type="button">

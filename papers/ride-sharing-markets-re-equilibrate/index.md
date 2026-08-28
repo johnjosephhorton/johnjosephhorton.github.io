@@ -22,6 +22,13 @@ John J. Horton, [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle), [Jo
 [PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/lJ3wbGIKaK4" title="John J. Horton presents Ride-sharing markets re-equilibrate" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 ## Coverage

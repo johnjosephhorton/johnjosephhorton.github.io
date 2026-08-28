@@ -6,6 +6,7 @@ import json
 import re
 import unicodedata
 from pathlib import Path
+from urllib.parse import parse_qs, urlparse
 
 PREFERRED_VERSION_KEY = "jjh"
 
@@ -121,6 +122,35 @@ class Paper(Entity):
             )
         else:
             return None
+
+    @property
+    def video_embeds(self):
+        """Return privacy-enhanced YouTube embed URLs for verified videos."""
+        embeds = []
+        for video in self._videos:
+            parsed = urlparse(video.url)
+            hostname = parsed.netloc.lower().removeprefix("www.")
+            video_id = None
+            if hostname == "youtu.be":
+                video_id = parsed.path.strip("/").split("/")[0]
+            elif hostname in {"youtube.com", "m.youtube.com"}:
+                if parsed.path == "/watch":
+                    video_id = parse_qs(parsed.query).get("v", [None])[0]
+                elif parsed.path.startswith(("/embed/", "/shorts/")):
+                    video_id = parsed.path.strip("/").split("/")[1]
+            if video_id and re.fullmatch(r"[A-Za-z0-9_-]{11}", video_id):
+                embeds.append(
+                    Entity(
+                        {
+                            "url": video.url,
+                            "embed_url": "https://www.youtube-nocookie.com/embed/"
+                            + video_id,
+                            "title": video.topic
+                            or f"John J. Horton presents {self.title}",
+                        }
+                    )
+                )
+        return embeds
 
     @property
     def twitter_thread_line(self):

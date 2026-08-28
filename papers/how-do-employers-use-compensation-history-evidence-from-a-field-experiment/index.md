@@ -26,6 +26,8 @@ John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/)
 
 
 
+
+
 ## Coverage
 
 [If a Law Bars Asking Your Past Salary, Does It Help or Hurt?](https://www.nytimes.com/2018/02/16/business/economy/salary-history-laws.html), The New York Times

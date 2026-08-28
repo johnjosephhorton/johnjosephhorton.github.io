@@ -28,6 +28,8 @@ John J. Horton, [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-
 
 
 
+
+
 ## Cite
 
 <div class="mb-3 flex items-center gap-3">

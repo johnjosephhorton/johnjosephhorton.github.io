@@ -24,6 +24,13 @@ John J. Horton, [Joseph Golden](https://www.linkedin.com/in/jgolden9)
 [PDF](http://john-joseph-horton.com/papers/search_ad_exp.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3534)
 
 
+## Video
+
+<div class="video-embed">
+<iframe src="https://www.youtube-nocookie.com/embed/sX7u5i9UXRM" title="John J. Horton presents The effects of search advertising on competitors: An experiment before a merger" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+</div>
+
+
 
 
 ## Coverage
