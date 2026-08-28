@@ -1,6 +1,7 @@
 ---
 title: "The need for standardization in crowdsourcing"
-description: ""
+description: >-
+  Research paper by John J. Horton, Panos Ipeirotis.
 canonical: "https://john-joseph-horton.com/papers/the-need-for-standardization-in-crowdsourcing/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-need-for-standardization-i
 
 # The need for standardization in crowdsourcing
 
-John J. Horton, [Panos Ipeirotis](https://ipeirotis.org/)
+[John J. Horton](../../index.html), [Panos Ipeirotis](https://ipeirotis.org/)
 
 
 
@@ -38,11 +39,12 @@ John J. Horton, [Panos Ipeirotis](https://ipeirotis.org/)
 </div>
 
 ```bibtex
-@misc{horton2011theneedforstandardizationincrowdsourcing,
-  title = {{The need for standardization in crowdsourcing}},
+@inproceedings{horton2011theneedforstandardizationincrowdsourcing,
+  title = {{The Need for Standardization in Crowdsourcing}},
   author = {Horton, John J. and Ipeirotis, Panos},
+  booktitle = {Proceedings of the Workshop on Crowdsourcing and Human Computation at CHI},
   year = {2011},
-  url = {https://john-joseph-horton.com/papers/the-need-for-standardization-in-crowdsourcing/}
+  url = {https://www.humancomputation.com/crowdcamp/chi2011/papers/horton.pdf}
 }
 ```
 

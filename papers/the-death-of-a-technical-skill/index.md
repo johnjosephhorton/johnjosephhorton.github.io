@@ -1,6 +1,7 @@
 ---
 title: "The death of a technical skill"
-description: ""
+description: >-
+  For managers, we show that opportunities for skill development strongly influence matching in online information technology (IT) markets. Employers cannot easily circumvent labor scarcity by adopting older technologies, as workers avoid projects with declining future skill value absent substantial wage premiums. However, older workers, having shorter career horizons, are less sensitive to declining skill value, suggesting potential benefits in matching them with legacy technologies. For policy makers, our research demonstrates that labor market tightness persists across both new and old technologies in online IT markets. This challenges the notion that employers can engage in labor arbitrage by avoiding cutting-edge technologies. Policy frameworks therefore need flexibility to address skill shortages wherever they emerge. Additionally, our findings highlight the need for more granular data collection on technical skill evolution beyond broad occupational categories. Our online context provides unique insights into how corporate decisions about technology standards cascade into labor markets. The findings underscore the importance of policies promoting continuous learning and adaptability, while suggesting that age-diverse hiring practices could help address both skill shortages and age discrimination concerns in technical fields.
 canonical: "https://john-joseph-horton.com/papers/the-death-of-a-technical-skill/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-death-of-a-technical-skill
 
 # The death of a technical skill
 
-John J. Horton, [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/)
+[John J. Horton](../../index.html), [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/)
 
 **Last updated:** 2025-09
 
+
+## Summary
+
+For managers, we show that opportunities for skill development strongly influence matching in online information technology (IT) markets. Employers cannot easily circumvent labor scarcity by adopting older technologies, as workers avoid projects with declining future skill value absent substantial wage premiums. However, older workers, having shorter career horizons, are less sensitive to declining skill value, suggesting potential benefits in matching them with legacy technologies. For policy makers, our research demonstrates that labor market tightness persists across both new and old technologies in online IT markets. This challenges the notion that employers can engage in labor arbitrage by avoiding cutting-edge technologies. Policy frameworks therefore need flexibility to address skill shortages wherever they emerge. Additionally, our findings highlight the need for more granular data collection on technical skill evolution beyond broad occupational categories. Our online context provides unique insights into how corporate decisions about technology standards cascade into labor markets. The findings underscore the importance of policies promoting continuous learning and adaptability, while suggesting that age-diverse hiring practices could help address both skill shortages and age discrimination concerns in technical fields.
 
 
 ## Paper links
@@ -41,11 +46,16 @@ John J. Horton, [Prasanna Tambe](https://oid.wharton.upenn.edu/profile/tambe/)
 </div>
 
 ```bibtex
-@misc{horton2025thedeathofatechnicalskill,
-  title = {{The death of a technical skill}},
+@article{horton2025thedeathofatechnicalskill,
+  title = {{The Death of a Technical Skill}},
   author = {Horton, John J. and Tambe, Prasanna},
+  journal = {Information Systems Research},
   year = {2025},
-  url = {https://john-joseph-horton.com/papers/the-death-of-a-technical-skill/}
+  volume = {36},
+  number = {3},
+  pages = {1799-1820},
+  doi = {10.1287/isre.2022.0709},
+  url = {https://doi.org/10.1287/isre.2022.0709}
 }
 ```
 

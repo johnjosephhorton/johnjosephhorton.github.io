@@ -1,6 +1,7 @@
 ---
 title: "Marginal ideas"
-description: "Entrepreneurs crowd into promising startup ideas without internalizing the business-stealing costs they impose on one another. The paper shows that the least promising idea that still attracts funding—the marginal idea—can therefore offer the highest social return. It develops a sufficient statistic for this congestion and estimates it using 37,818 U.S. startups grouped into 2,045 idea niches."
+description: >-
+  Entrepreneurs crowd into promising startup ideas without internalizing the business-stealing costs they impose on one another. The paper shows that the least promising idea that still attracts funding—the marginal idea—can therefore offer the highest social return. It develops a sufficient statistic for this congestion and estimates it using 37,818 U.S. startups grouped into 2,045 idea niches.
 canonical: "https://john-joseph-horton.com/papers/marginal-ideas/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/marginal-ideas/"
 
 # Marginal ideas
 
-John J. Horton, [Amir Sariri](https://amirsariri.com/)
+[Amir Sariri](https://amirsariri.com/), [John J. Horton](../../index.html)
 
 **Status:** Working paper
 
@@ -51,9 +52,9 @@ Entrepreneurs crowd into promising startup ideas without internalizing the busin
 </div>
 
 ```bibtex
-@misc{horton2026marginalideas,
+@unpublished{horton2026marginalideas,
   title = {{Marginal ideas}},
-  author = {Horton, John J. and Sariri, Amir},
+  author = {Sariri, Amir and Horton, John J.},
   year = {2026},
   url = {https://john-joseph-horton.com/papers/marginal-ideas/}
 }

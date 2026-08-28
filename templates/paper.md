@@ -1,6 +1,7 @@
 ---
 title: "{{ paper.title }}"
-description: "{{ page.summary }}"
+description: >-
+  {{ page.description | replace('\n', ' ') }}
 canonical: "https://john-joseph-horton.com/papers/{{ page.slug }}/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/{{ page.slug }}/"
 
 # {{ paper.title }}
 
-John J. Horton{% for coauthor in paper.coauthors %}, {{ coauthor.full_name }}{% endfor %}
+{% for author in paper.authors %}{% if not loop.first %}, {% endif %}{{ author.full_name }}{% endfor %}
 
 {% if paper.show_status %}**Status:** {{ paper.status }}{% endif %}
 

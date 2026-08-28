@@ -1,6 +1,7 @@
 ---
 title: "Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution"
-description: ""
+description: >-
+  Research paper by John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/buyer-uncertainty-about-seller
 
 # Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 
 
@@ -38,11 +39,16 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2019buyeruncertaintyaboutsellercapacitycausesconsequencesandapartialsolution,
-  title = {{Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution}},
+@article{horton2019buyeruncertaintyaboutsellercapacitycausesconsequencesandapartialsolution,
+  title = {{Buyer Uncertainty About Seller Capacity: Causes, Consequences, and a Partial Solution}},
   author = {Horton, John J.},
+  journal = {Management Science},
   year = {2019},
-  url = {https://john-joseph-horton.com/papers/buyer-uncertainty-about-seller-capacity-causes-consequences-and-a-partial-solution/}
+  volume = {65},
+  number = {8},
+  pages = {3518-3540},
+  doi = {10.1287/mnsc.2018.3116},
+  url = {https://doi.org/10.1287/mnsc.2018.3116}
 }
 ```
 

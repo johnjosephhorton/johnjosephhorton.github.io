@@ -1,0 +1,1 @@
+.filter-chips{display:flex;flex-wrap:wrap;gap:7px;margin:4px 0 14px}.filter-chip{border:1px solid #d0d5dd;background:#fff;border-radius:999px;padding:6px 10px;color:#475467;font:600 .78rem inherit;cursor:pointer}.filter-chip.active{background:#eff4ff;border-color:#84adff;color:#1849a9}

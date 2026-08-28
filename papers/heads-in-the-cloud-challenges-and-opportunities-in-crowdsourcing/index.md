@@ -1,6 +1,7 @@
 ---
 title: "Heads in the cloud: Challenges and opportunities in crowdsourcing"
-description: ""
+description: >-
+  Research paper by Robert Miller, Greg Little, Michael Bernstein, Jeffrey Bigham, Lydia Chilton, Max Goldman, John J. Horton, Rajeev Nayak.
 canonical: "https://john-joseph-horton.com/papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/heads-in-the-cloud-challenges-
 
 # Heads in the cloud: Challenges and opportunities in crowdsourcing
 
-John J. Horton
+[Robert Miller](https://people.csail.mit.edu/rcm/), Greg Little, [Michael Bernstein](https://profiles.stanford.edu/michael-bernstein), [Jeffrey Bigham](https://www.cs.cmu.edu/~jbigham/), [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Max Goldman](http://web.mit.edu/maxg/), [John J. Horton](../../index.html), Rajeev Nayak
 
 
 
@@ -35,11 +36,16 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2010headsinthecloudchallengesandopportunitiesincrowdsourcing,
-  title = {{Heads in the cloud: Challenges and opportunities in crowdsourcing}},
-  author = {Horton, John J.},
+@article{horton2010headsinthecloudchallengesandopportunitiesincrowdsourcing,
+  title = {{Heads in the Cloud}},
+  author = {Miller, Robert and Little, Greg and Bernstein, Michael and Bigham, Jeffrey and Chilton, Lydia and Goldman, Max and Horton, John J. and Nayak, Rajeev},
+  journal = {XRDS: Crossroads, The ACM Magazine for Students},
   year = {2010},
-  url = {https://john-joseph-horton.com/papers/heads-in-the-cloud-challenges-and-opportunities-in-crowdsourcing/}
+  volume = {17},
+  number = {2},
+  pages = {27-31},
+  doi = {10.1145/1869086.1869095},
+  url = {https://doi.org/10.1145/1869086.1869095}
 }
 ```
 

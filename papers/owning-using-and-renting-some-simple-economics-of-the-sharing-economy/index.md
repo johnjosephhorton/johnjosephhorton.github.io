@@ -1,6 +1,7 @@
 ---
 title: "Owning, using, and renting: Some simple economics of the sharing economy"
-description: ""
+description: >-
+  Research paper by Apostolos Filippas, John J. Horton, Richard Zeckhauser.
 canonical: "https://john-joseph-horton.com/papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/owning-using-and-renting-some-
 
 # Owning, using, and renting: Some simple economics of the sharing economy
 
-John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/), [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
+[Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
 
 
 
@@ -41,11 +42,16 @@ John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/), [Rich
 </div>
 
 ```bibtex
-@misc{horton2020owningusingandrentingsomesimpleeconomicsofthesharingeconomy,
-  title = {{Owning, using, and renting: Some simple economics of the sharing economy}},
-  author = {Horton, John J. and Filippas, Apostolos and Zeckhauser, Richard},
+@article{horton2020owningusingandrentingsomesimpleeconomicsofthesharingeconomy,
+  title = {{Owning, Using, and Renting: Some Simple Economics of the “Sharing Economy”}},
+  author = {Filippas, Apostolos and Horton, John J. and Zeckhauser, Richard},
+  journal = {Management Science},
   year = {2020},
-  url = {https://john-joseph-horton.com/papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/}
+  volume = {66},
+  number = {9},
+  pages = {4152-4172},
+  doi = {10.1287/mnsc.2019.3396},
+  url = {https://doi.org/10.1287/mnsc.2019.3396}
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: "Wielding peer effects in online production: Evidence from a series of field experiments"
-description: ""
+description: >-
+  Research paper by John J. Horton, Richard Zeckhauser.
 canonical: "https://john-joseph-horton.com/papers/wielding-peer-effects-in-online-production-evidence-from-a-series-of-field-experiments/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/wielding-peer-effects-in-onlin
 
 # Wielding peer effects in online production: Evidence from a series of field experiments
 
-John J. Horton, [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
+[John J. Horton](../../index.html), [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
 
 **Status:** Working paper
 
@@ -33,7 +34,7 @@ John J. Horton, [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard
 </div>
 
 ```bibtex
-@misc{horton2016wieldingpeereffectsinonlineproductionevidencefromaseriesoffieldexperiments,
+@unpublished{horton2016wieldingpeereffectsinonlineproductionevidencefromaseriesoffieldexperiments,
   title = {{Wielding peer effects in online production: Evidence from a series of field experiments}},
   author = {Horton, John J. and Zeckhauser, Richard},
   year = {2016},

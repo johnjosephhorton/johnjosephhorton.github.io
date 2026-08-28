@@ -1,6 +1,7 @@
 ---
 title: "General social agents"
-description: ""
+description: >-
+  Research paper by Benjamin Manning, John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/general-social-agents/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/general-social-agents/"
 
 # General social agents
 
-John J. Horton, [Benjamin Manning](https://www.benjaminmanning.com/)
+[Benjamin Manning](https://www.benjaminmanning.com/), [John J. Horton](../../index.html)
 
 **Status:** R&R at Econometrica
 
@@ -36,9 +37,9 @@ John J. Horton, [Benjamin Manning](https://www.benjaminmanning.com/)
 </div>
 
 ```bibtex
-@misc{horton2026generalsocialagents,
+@unpublished{horton2026generalsocialagents,
   title = {{General social agents}},
-  author = {Horton, John J. and Manning, Benjamin},
+  author = {Manning, Benjamin and Horton, John J.},
   year = {2026},
   url = {https://john-joseph-horton.com/papers/general-social-agents/}
 }

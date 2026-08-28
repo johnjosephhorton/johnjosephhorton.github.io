@@ -1,6 +1,7 @@
 ---
 title: "Reducing congestion in labor markets: A case study in simple market design"
-description: ""
+description: >-
+  Research paper by John J. Horton, Shoshana Vasserman, Mitchell Watt.
 canonical: "https://john-joseph-horton.com/papers/reducing-congestion-in-labor-markets-a-case-study-in-simple-market-design/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/reducing-congestion-in-labor-m
 
 # Reducing congestion in labor markets: A case study in simple market design
 
-John J. Horton, [Shoshana Vasserman](https://shoshanavasserman.com/), [Mitchell Watt](https://www.mitchellwatt.com/)
+[John J. Horton](../../index.html), [Shoshana Vasserman](https://shoshanavasserman.com/), [Mitchell Watt](https://www.mitchellwatt.com/)
 
 **Status:** R&R at American Economic Journal: Microeconomics
 
@@ -36,7 +37,7 @@ John J. Horton, [Shoshana Vasserman](https://shoshanavasserman.com/), [Mitchell 
 </div>
 
 ```bibtex
-@misc{horton2024reducingcongestioninlabormarketsacasestudyinsimplemarketdesign,
+@unpublished{horton2024reducingcongestioninlabormarketsacasestudyinsimplemarketdesign,
   title = {{Reducing congestion in labor markets: A case study in simple market design}},
   author = {Horton, John J. and Vasserman, Shoshana and Watt, Mitchell},
   year = {2024},

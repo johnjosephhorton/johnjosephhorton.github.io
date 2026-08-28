@@ -1,6 +1,7 @@
 ---
 title: "The effects of algorithmic labor market recommendations: Evidence from a field experiment"
-description: ""
+description: >-
+  Research paper by John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-effects-of-algorithmic-lab
 
 # The effects of algorithmic labor market recommendations: Evidence from a field experiment
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 
 
@@ -43,11 +44,16 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2017theeffectsofalgorithmiclabormarketrecommendationsevidencefromafieldexperiment,
-  title = {{The effects of algorithmic labor market recommendations: Evidence from a field experiment}},
+@article{horton2017theeffectsofalgorithmiclabormarketrecommendationsevidencefromafieldexperiment,
+  title = {{The Effects of Algorithmic Labor Market Recommendations: Evidence from a Field Experiment}},
   author = {Horton, John J.},
+  journal = {Journal of Labor Economics},
   year = {2017},
-  url = {https://john-joseph-horton.com/papers/the-effects-of-algorithmic-labor-market-recommendations-evidence-from-a-field-experiment/}
+  volume = {35},
+  number = {2},
+  pages = {345-385},
+  doi = {10.1086/689213},
+  url = {https://doi.org/10.1086/689213}
 }
 ```
 

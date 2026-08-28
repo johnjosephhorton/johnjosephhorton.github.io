@@ -1,6 +1,7 @@
 ---
 title: "Chaining tasks, redefining work: A theory of AI automation"
-description: ""
+description: >-
+  Research paper by Mert Demirer, John J. Horton, Nicole Immorlica, Brendan Lucier, Peyman Shahidi.
 canonical: "https://john-joseph-horton.com/papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/chaining-tasks-redefining-work
 
 # Chaining tasks, redefining work: A theory of AI automation
 
-John J. Horton, [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/), [Peyman Shahidi](https://peymanshahidi.github.io/)
+[Mert Demirer](https://www.mertdemirer.com/), [John J. Horton](../../index.html), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/), [Peyman Shahidi](https://peymanshahidi.github.io/)
 
 
 
@@ -41,11 +42,13 @@ John J. Horton, [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica]
 </div>
 
 ```bibtex
-@misc{horton2026chainingtasksredefiningworkatheoryofaiautomation,
-  title = {{Chaining tasks, redefining work: A theory of AI automation}},
-  author = {Horton, John J. and Demirer, Mert and Immorlica, Nicole and Lucier, Brendan and Shahidi, Peyman},
+@techreport{horton2026chainingtasksredefiningworkatheoryofaiautomation,
+  title = {{Chaining Tasks, Redefining Work: A Theory of AI Automation}},
+  author = {Demirer, Mert and Horton, John J. and Immorlica, Nicole and Lucier, Brendan and Shahidi, Peyman},
+  institution = {National Bureau of Economic Research},
   year = {2026},
-  url = {https://john-joseph-horton.com/papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/}
+  doi = {10.3386/w34859},
+  url = {https://doi.org/10.3386/w34859}
 }
 ```
 

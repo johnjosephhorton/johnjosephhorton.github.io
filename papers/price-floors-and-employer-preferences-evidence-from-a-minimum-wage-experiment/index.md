@@ -1,6 +1,7 @@
 ---
 title: "Price floors and employer preferences: Evidence from a minimum wage experiment"
-description: ""
+description: >-
+  Research paper by John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/price-floors-and-employer-pref
 
 # Price floors and employer preferences: Evidence from a minimum wage experiment
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 
 
@@ -48,11 +49,16 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2025pricefloorsandemployerpreferencesevidencefromaminimumwageexperiment,
-  title = {{Price floors and employer preferences: Evidence from a minimum wage experiment}},
+@article{horton2025pricefloorsandemployerpreferencesevidencefromaminimumwageexperiment,
+  title = {{Price Floors and Employer Preferences: Evidence from a Minimum Wage Experiment}},
   author = {Horton, John J.},
+  journal = {American Economic Review},
   year = {2025},
-  url = {https://john-joseph-horton.com/papers/price-floors-and-employer-preferences-evidence-from-a-minimum-wage-experiment/}
+  volume = {115},
+  number = {1},
+  pages = {117-146},
+  doi = {10.1257/aer.20170637},
+  url = {https://doi.org/10.1257/aer.20170637}
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: "Are online labor markets spot markets for tasks?"
-description: ""
+description: >-
+  Research paper by Daniel Chen, John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/are-online-labor-markets-spot-markets-for-tasks/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/are-online-labor-markets-spot-
 
 # Are online labor markets spot markets for tasks?
 
-John J. Horton, [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen)
+[Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen), [John J. Horton](../../index.html)
 
 
 
@@ -38,11 +39,16 @@ John J. Horton, [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen)
 </div>
 
 ```bibtex
-@misc{horton2016areonlinelabormarketsspotmarketsfortasks,
-  title = {{Are online labor markets spot markets for tasks?}},
-  author = {Horton, John J. and Chen, Daniel},
+@article{horton2016areonlinelabormarketsspotmarketsfortasks,
+  title = {{Research Note—Are Online Labor Markets Spot Markets for Tasks? A Field Experiment on the Behavioral Response to Wage Cuts}},
+  author = {Chen, Daniel and Horton, John J.},
+  journal = {Information Systems Research},
   year = {2016},
-  url = {https://john-joseph-horton.com/papers/are-online-labor-markets-spot-markets-for-tasks/}
+  volume = {27},
+  number = {2},
+  pages = {403-423},
+  doi = {10.1287/isre.2016.0633},
+  url = {https://doi.org/10.1287/isre.2016.0633}
 }
 ```
 

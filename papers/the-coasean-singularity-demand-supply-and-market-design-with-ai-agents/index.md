@@ -1,6 +1,7 @@
 ---
 title: "The Coasean singularity? Demand, supply, and market design with AI agents"
-description: ""
+description: >-
+  Research paper by Peyman Shahidi, Gili Rusak, Benjamin Manning, Andrey Fradkin, John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-coasean-singularity-demand
 
 # The Coasean singularity? Demand, supply, and market design with AI agents
 
-John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](https://peymanshahidi.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/), [Gili Rusak](https://gilirusak.github.io/)
+[Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/), [Andrey Fradkin](https://andreyfradkin.com/), [John J. Horton](../../index.html)
 
 
 
@@ -47,11 +48,12 @@ John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Peyman Shahidi](h
 </div>
 
 ```bibtex
-@misc{horton2026thecoaseansingularitydemandsupplyandmarketdesignwithaiagents,
-  title = {{The Coasean singularity? Demand, supply, and market design with AI agents}},
-  author = {Horton, John J. and Fradkin, Andrey and Shahidi, Peyman and Manning, Benjamin and Rusak, Gili},
+@incollection{horton2026thecoaseansingularitydemandsupplyandmarketdesignwithaiagents,
+  title = {{The Coasean Singularity? Demand, Supply, and Market Design with AI Agents}},
+  author = {Shahidi, Peyman and Rusak, Gili and Manning, Benjamin and Fradkin, Andrey and Horton, John J.},
+  booktitle = {The Economics of Transformative AI},
   year = {2026},
-  url = {https://john-joseph-horton.com/papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/}
+  url = {https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents}
 }
 ```
 

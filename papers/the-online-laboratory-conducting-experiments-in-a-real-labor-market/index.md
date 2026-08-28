@@ -1,6 +1,7 @@
 ---
 title: "The online laboratory: Conducting experiments in a real labor market"
-description: ""
+description: >-
+  Abstract Online labor markets have great potential as platforms for conducting experiments. They provide immediate access to a large and diverse subject pool, and allow researchers to control the experimental context. Online experiments, we show, can be just as valid—both internally and externally—as laboratory and field experiments, while often requiring far less money and time to design and conduct. To demonstrate their value, we use an online labor market to replicate three classic experiments. The first finds quantitative agreement between levels of cooperation in a prisoner's dilemma played online and in the physical laboratory. The second shows— consistent with behavior in the traditional laboratory—that online subjects respond to priming by altering their choices. The third demonstrates that when an identical decision is framed differently, individuals reverse their choice, thus replicating a famed Tversky-Kahneman result. Then we conduct a field experiment showing that workers have upward-sloping labor supply curves. Finally, we analyze the challenges to online experiments, proposing methods to cope with the unique threats to validity in an online setting, and examining the conceptual issues surrounding the external validity of online results. We conclude by presenting our views on the potential role that online experiments can play within the social sciences, and then recommend software development priorities and best practices.
 canonical: "https://john-joseph-horton.com/papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-online-laboratory-conducti
 
 # The online laboratory: Conducting experiments in a real labor market
 
-John J. Horton, [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand), [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
+[John J. Horton](../../index.html), [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand), [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-
 
 **Last updated:** 2011-09
 
+
+## Summary
+
+Abstract Online labor markets have great potential as platforms for conducting experiments. They provide immediate access to a large and diverse subject pool, and allow researchers to control the experimental context. Online experiments, we show, can be just as valid—both internally and externally—as laboratory and field experiments, while often requiring far less money and time to design and conduct. To demonstrate their value, we use an online labor market to replicate three classic experiments. The first finds quantitative agreement between levels of cooperation in a prisoner's dilemma played online and in the physical laboratory. The second shows— consistent with behavior in the traditional laboratory—that online subjects respond to priming by altering their choices. The third demonstrates that when an identical decision is framed differently, individuals reverse their choice, thus replicating a famed Tversky-Kahneman result. Then we conduct a field experiment showing that workers have upward-sloping labor supply curves. Finally, we analyze the challenges to online experiments, proposing methods to cope with the unique threats to validity in an online setting, and examining the conceptual issues surrounding the external validity of online results. We conclude by presenting our views on the potential role that online experiments can play within the social sciences, and then recommend software development priorities and best practices.
 
 
 ## Paper links
@@ -38,11 +43,16 @@ John J. Horton, [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-
 </div>
 
 ```bibtex
-@misc{horton2011theonlinelaboratoryconductingexperimentsinareallabormarket,
-  title = {{The online laboratory: Conducting experiments in a real labor market}},
+@article{horton2011theonlinelaboratoryconductingexperimentsinareallabormarket,
+  title = {{The Online Laboratory: Conducting Experiments in a Real Labor Market}},
   author = {Horton, John J. and Rand, David and Zeckhauser, Richard},
+  journal = {Experimental Economics},
   year = {2011},
-  url = {https://john-joseph-horton.com/papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/}
+  volume = {14},
+  number = {3},
+  pages = {399-425},
+  doi = {10.1007/s10683-011-9273-9},
+  url = {https://doi.org/10.1007/s10683-011-9273-9}
 }
 ```
 

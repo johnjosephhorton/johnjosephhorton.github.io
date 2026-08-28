@@ -1,6 +1,7 @@
 ---
 title: "Simulating the Survey of Professional Forecasters"
-description: ""
+description: >-
+  Research paper by Anne Lundgaard Hansen, John J. Horton, Sophia Kazinnik, Daniela Puzzello, Ali Zarifhonarvar.
 canonical: "https://john-joseph-horton.com/papers/simulating-the-survey-of-professional-forecasters/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/simulating-the-survey-of-profe
 
 # Simulating the Survey of Professional Forecasters
 
-John J. Horton, [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html), [Ali Zarifhonarvar](https://alizarif.github.io/)
+[Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [John J. Horton](../../index.html), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html), [Ali Zarifhonarvar](https://alizarif.github.io/)
 
 **Status:** Working paper
 
@@ -36,9 +37,9 @@ John J. Horton, [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/rese
 </div>
 
 ```bibtex
-@misc{horton2024simulatingthesurveyofprofessionalforecasters,
+@unpublished{horton2024simulatingthesurveyofprofessionalforecasters,
   title = {{Simulating the Survey of Professional Forecasters}},
-  author = {Horton, John J. and Hansen, Anne Lundgaard and Kazinnik, Sophia and Puzzello, Daniela and Zarifhonarvar, Ali},
+  author = {Hansen, Anne Lundgaard and Horton, John J. and Kazinnik, Sophia and Puzzello, Daniela and Zarifhonarvar, Ali},
   year = {2024},
   url = {https://john-joseph-horton.com/papers/simulating-the-survey-of-professional-forecasters/}
 }

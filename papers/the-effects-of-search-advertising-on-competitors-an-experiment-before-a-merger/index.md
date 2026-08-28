@@ -1,6 +1,7 @@
 ---
 title: "The effects of search advertising on competitors: An experiment before a merger"
-description: ""
+description: >-
+  We report the results of an experiment in which a company, Firm Vary, temporarily suspended its sponsored search advertising campaign on Google in randomly selected advertising markets in the United States. By shutting off its ads, Firm Vary lost customers, but only 63% as many as a nonexperimental estimate would have suggested. Following the experiment, Firm Vary merged with its closest competitor, Firm Fixed. Using combined data from both companies, the experiment revealed that spillover effects of Firm Vary’s search advertising on Firm Fixed’s business and its marketing campaigns were surprisingly small, even in the market for Firm Vary’s brand name as a keyword search term, where the two firms were effectively duopsonists. This paper was accepted by Eric Anderson, marketing.
 canonical: "https://john-joseph-horton.com/papers/the-effects-of-search-advertising-on-competitors-an-experiment-before-a-merger/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-effects-of-search-advertis
 
 # The effects of search advertising on competitors: An experiment before a merger
 
-John J. Horton, [Joseph Golden](https://www.linkedin.com/in/jgolden9)
+[Joseph Golden](https://www.linkedin.com/in/jgolden9), [John J. Horton](../../index.html)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Joseph Golden](https://www.linkedin.com/in/jgolden9)
 
 **Last updated:** 2021-01
 
+
+## Summary
+
+We report the results of an experiment in which a company, Firm Vary, temporarily suspended its sponsored search advertising campaign on Google in randomly selected advertising markets in the United States. By shutting off its ads, Firm Vary lost customers, but only 63% as many as a nonexperimental estimate would have suggested. Following the experiment, Firm Vary merged with its closest competitor, Firm Fixed. Using combined data from both companies, the experiment revealed that spillover effects of Firm Vary’s search advertising on Firm Fixed’s business and its marketing campaigns were surprisingly small, even in the market for Firm Vary’s brand name as a keyword search term, where the two firms were effectively duopsonists. This paper was accepted by Eric Anderson, marketing.
 
 
 ## Paper links
@@ -46,11 +51,16 @@ John J. Horton, [Joseph Golden](https://www.linkedin.com/in/jgolden9)
 </div>
 
 ```bibtex
-@misc{horton2021theeffectsofsearchadvertisingoncompetitorsanexperimentbeforeamerger,
-  title = {{The effects of search advertising on competitors: An experiment before a merger}},
-  author = {Horton, John J. and Golden, Joseph},
+@article{horton2021theeffectsofsearchadvertisingoncompetitorsanexperimentbeforeamerger,
+  title = {{The Effects of Search Advertising on Competitors: An Experiment Before a Merger}},
+  author = {Golden, Joseph and Horton, John J.},
+  journal = {Management Science},
   year = {2021},
-  url = {https://john-joseph-horton.com/papers/the-effects-of-search-advertising-on-competitors-an-experiment-before-a-merger/}
+  volume = {67},
+  number = {1},
+  pages = {342-362},
+  doi = {10.1287/mnsc.2019.3534},
+  url = {https://doi.org/10.1287/mnsc.2019.3534}
 }
 ```
 

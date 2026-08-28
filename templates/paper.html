@@ -10,35 +10,25 @@
   <meta property="og:title" content="$title$">
   <meta property="og:description" content="$description$">
   <meta property="og:url" content="$canonical$">
-  <meta name="twitter:card" content="summary">
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta property="og:image" content="https://john-joseph-horton.com/images/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../../images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="../../site.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style type="text/tailwindcss">
-    @layer utilities {
-      .paper-content h1 { @apply mt-8 mb-4 text-4xl font-bold tracking-tight text-gray-900; }
-      .paper-content h2 { @apply mt-10 mb-3 border-b border-gray-200 pb-2 text-xl font-semibold text-gray-900; }
-      .paper-content p { @apply mb-4 leading-relaxed text-gray-700; }
-      .paper-content a { @apply text-blue-600 hover:text-blue-800 hover:underline; }
-      .paper-content pre { @apply overflow-x-auto rounded-xl bg-gray-900 p-5 text-sm text-gray-100; }
-      .copy-button { @apply rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50; }
-      .video-embed { @apply my-5 overflow-hidden rounded-xl bg-black shadow-sm; aspect-ratio: 16 / 9; }
-      .video-embed iframe { @apply h-full w-full border-0; }
-    }
-  </style>
-  <script>tailwind.config={theme:{extend:{fontFamily:{sans:['Inter','system-ui','sans-serif']}}}}</script>
 </head>
-<body class="min-h-screen bg-gray-50 font-sans">
-  <div class="mx-auto max-w-4xl px-6 py-12 sm:py-16">
-    <main class="rounded-2xl border border-gray-100 bg-white px-8 py-10 shadow-sm sm:px-14 sm:py-14">
-      <div class="mb-4 flex justify-end gap-3">
-        <span id="copy-status" class="self-center text-sm text-gray-500" aria-live="polite"></span>
+<body>
+  <a class="skip-link" href="#paper-content">Skip to paper</a>
+  <div class="site-shell">
+    <main class="site-main">
+      <div class="top-actions">
+        <span id="copy-status" class="status" aria-live="polite"></span>
         <button id="copy-markdown" class="copy-button" type="button">Copy as Markdown</button>
       </div>
-      <article class="paper-content">$body$</article>
+      <article id="paper-content" class="paper-content">$body$</article>
     </main>
-    <footer class="mt-8 text-center text-sm text-gray-500">Last updated: $lastupdated$</footer>
+    <footer class="site-footer">Last updated: $lastupdated$</footer>
   </div>
   <script src="paper-markdown.js"></script>
   <script>

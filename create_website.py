@@ -104,7 +104,7 @@ class Paper(Entity):
         if self._slides:
             return "".join(
                 [
-                    "(" + make_link(index + 1, obj.url) + ")"
+                    make_link("Slides" if index == 0 else f"Slides {index + 1}", obj.url)
                     for index, obj in enumerate(self._slides)
                 ]
             )
@@ -116,7 +116,7 @@ class Paper(Entity):
         if self._videos:
             return "".join(
                 [
-                    "(" + make_link(index + 1, obj.url) + ")"
+                    make_link("Video" if index == 0 else f"Video {index + 1}", obj.url)
                     for index, obj in enumerate(self._videos)
                 ]
             )
@@ -161,7 +161,7 @@ class Paper(Entity):
         if self._twitter_thread:
             return "".join(
                 [
-                    "(" + make_link(index + 1, obj.url) + ")"
+                    make_link("Thread" if index == 0 else f"Thread {index + 1}", obj.url)
                     for index, obj in enumerate(self._twitter_thread)
                 ]
             )
@@ -173,7 +173,7 @@ class Paper(Entity):
         if self._code:
             return "".join(
                 [
-                    "(" + make_link(index + 1, obj.url) + ")"
+                    make_link("Code" if index == 0 else f"Code {index + 1}", obj.url)
                     for index, obj in enumerate(self._code)
                 ]
             )
@@ -248,7 +248,7 @@ class Paper(Entity):
     @property
     def google_scholar_url(self):
         if self.gs_url:
-            return "(" + make_link("Google Scholar", self.gs_url) + ")"
+            return make_link("Google Scholar", self.gs_url)
         else:
             return None
 
@@ -329,6 +329,33 @@ class Publication(Entity):
             details += f" ({year})"
         return make_link(details, self.url) if self.url else details
 
+    @property
+    def bibtex_type(self):
+        return {
+            "journal-article": "article",
+            "conference-paper": "inproceedings",
+            "workshop-paper": "inproceedings",
+            "book-chapter": "incollection",
+            "forthcoming-book-chapter": "incollection",
+            "working-paper": "techreport",
+        }.get(self.publication_type, "misc")
+
+    def bibtex(self, key, authors, fallback_url):
+        fields = [("title", f"{{{self.title}}}"), ("author", " and ".join(authors))]
+        if self.bibtex_type == "article":
+            fields.append(("journal", self.venue))
+        elif self.bibtex_type in {"inproceedings", "incollection"}:
+            fields.append(("booktitle", self.venue))
+        elif self.bibtex_type == "techreport":
+            fields.append(("institution", "National Bureau of Economic Research" if "NBER" in self.venue else self.venue))
+        fields.append(("year", self.publication_date[:4]))
+        for name, value in (("volume", self.volume), ("number", self.issue), ("pages", self.pages), ("doi", self.doi)):
+            if value:
+                fields.append((name, value))
+        fields.append(("url", self.url or fallback_url))
+        body = ",\n".join(f"  {name} = {{{value}}}" for name, value in fields)
+        return f"@{self.bibtex_type}{{{key},\n{body}\n}}"
+
 
 class Collection:
     def __init__(self, ObjectType, filename):
@@ -377,6 +404,12 @@ reviewing = Collection(Entity, "reviewing")
 ventures = Collection(Entity, "ventures")
 publications = Collection(Publication, "publication_info")
 paper_page_rows = get_csv("paper_pages.csv")
+paper_abstracts = {row["paper_id"]: row for row in get_csv("paper_abstracts.csv")}
+paper_topics = {row["paper_id"]: row for row in get_csv("paper_topics.csv")}
+paper_author_order = {
+    row["paper_id"]: row["author_ids"].split(";")
+    for row in get_csv("paper_author_order.csv")
+}
 paper_presentations = Collection(Entity, "paper_presentations")
 paper_updates = {
     row["paper_id"]: row["last_updated"] for row in get_csv("paper_updates.csv")
@@ -415,6 +448,7 @@ for row in teaching_by_term.values():
 teaching_courses = [Entity(row) for row in teaching_by_course.values()]
 
 people = {p["id"]: Person(p) for p in get_csv("people.csv")}
+people["john"] = Person({"first": "John J.", "last": "Horton", "id": "john", "url": "../../index.html"})
 papers = {p["id"]: Paper(p) for p in get_csv("papers.csv")}
 basic_info = Entity(get_csv("basic_info.csv")[0])
 
@@ -430,6 +464,11 @@ for id, paper in papers.items():
     paper.add_twitter_thread(twitter_threads)
     paper.add_code(code)
     paper.add_publications(publications)
+    paper.topic = paper_topics[paper.id]["topic"]
+    paper.selected = paper_topics[paper.id]["selected"] == "1"
+    ordered_ids = paper_author_order.get(paper.id, ["john"] + [p.id for p in paper.coauthors])
+    paper.authors = [people[person_id] for person_id in ordered_ids]
+    paper.coauthors = [person for person in paper.authors if person.id != "john"]
 
 def slugify(value):
     value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
@@ -445,24 +484,22 @@ for paper in papers.values():
         "paper_id": paper.id,
         "slug": slugify(paper.title),
         "year": paper.last_updated[:4],
-        "summary": "",
+        "summary": paper_abstracts.get(paper.id, {}).get("abstract", ""),
         **paper_page_overrides.get(paper.id, {}),
     }
+    row["description"] = row["summary"] or f"Research paper by {', '.join(person.plain_name for person in paper.authors)}."
     paper.page_url = f'papers/{row["slug"]}/index.html'
-    authors = ["Horton, John J."] + [
-        f"{person.last}, {person.first}" for person in paper.coauthors
-    ]
+    authors = [f"{person.last}, {person.first}" for person in paper.authors]
     citation_key = f'horton{row["year"]}{row["slug"].replace("-", "")}'
-    row["bibtex"] = "\n".join(
-        [
-            f"@misc{{{citation_key},",
-            f'  title = {{{{{paper.title}}}}},',
-            f'  author = {{{" and ".join(authors)}}},',
-            f'  year = {{{row["year"]}}},',
-            f'  url = {{https://john-joseph-horton.com/papers/{row["slug"]}/}}',
-            "}",
-        ]
-    )
+    detail_url = f'https://john-joseph-horton.com/papers/{row["slug"]}/'
+    if paper.primary_publication:
+        row["bibtex"] = paper.primary_publication.bibtex(citation_key, authors, detail_url)
+    else:
+        row["bibtex"] = "\n".join([
+            f"@unpublished{{{citation_key},", f'  title = {{{{{paper.title}}}}},',
+            f'  author = {{{" and ".join(authors)}}},', f'  year = {{{row["year"]}}},',
+            f'  url = {{{detail_url}}}', "}",
+        ])
     page = Entity(row)
     presentations = [
         item for item in paper_presentations if item.paper_id == paper.id
@@ -486,17 +523,23 @@ for paper in papers.values():
 environment = jinja2.Environment(loader=FileSystemLoader("templates/"))
 template = environment.get_template("website.md")
 
+talk_groups = collections.OrderedDict()
+for talk in talks:
+    talk_groups.setdefault(talk.year, []).append(talk)
+
 d = {
     "jobs": jobs,
     "affiliations": affiliations,
     "basic_info": basic_info,
     "ventures": ventures,
     "talks": talks,
+    "talk_groups": talk_groups,
     "awards": awards,
     "education": education,
     "papers": sorted(
         papers.values(), key=lambda paper: paper.last_updated, reverse=True
     ),
+    "research_topics": sorted({paper.topic for paper in papers.values()}),
     "grants": grants,
     "service": service,
     "reviewing": reviewing,
@@ -512,3 +555,12 @@ with open("website.md", "w", encoding="utf-8") as f:
 # JavaScript asset works both on GitHub Pages and in a local file:// preview.
 with open("page-markdown.js", "w", encoding="utf-8") as f:
     f.write("window.PAGE_MARKDOWN = " + json.dumps(rendered, ensure_ascii=False) + ";\n")
+
+site_url = "https://john-joseph-horton.com"
+urls = [site_url + "/"] + [site_url + "/" + paper.page_url.removesuffix("index.html") for paper in papers.values()]
+Path("sitemap.xml").write_text(
+    '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n'
+    + "".join(f"  <url><loc>{url}</loc></url>\n" for url in urls) + "</urlset>\n",
+    encoding="utf-8",
+)
+Path("robots.txt").write_text(f"User-agent: *\nAllow: /\nSitemap: {site_url}/sitemap.xml\n", encoding="utf-8")

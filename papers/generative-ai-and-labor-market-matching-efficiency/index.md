@@ -1,6 +1,7 @@
 ---
 title: "Generative AI and labor market matching efficiency"
-description: ""
+description: >-
+  Research paper by Emma Wiles, John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/generative-ai-and-labor-market-matching-efficiency/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/generative-ai-and-labor-market
 
 # Generative AI and labor market matching efficiency
 
-John J. Horton, [Emma Wiles](https://www.emmawiles.com/)
+[Emma Wiles](https://www.emmawiles.com/), [John J. Horton](../../index.html)
 
 **Status:** R&R at Management Science
 
@@ -36,9 +37,9 @@ John J. Horton, [Emma Wiles](https://www.emmawiles.com/)
 </div>
 
 ```bibtex
-@misc{horton2025generativeaiandlabormarketmatchingefficiency,
+@unpublished{horton2025generativeaiandlabormarketmatchingefficiency,
   title = {{Generative AI and labor market matching efficiency}},
-  author = {Horton, John J. and Wiles, Emma},
+  author = {Wiles, Emma and Horton, John J.},
   year = {2025},
   url = {https://john-joseph-horton.com/papers/generative-ai-and-labor-market-matching-efficiency/}
 }

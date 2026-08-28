@@ -1,6 +1,7 @@
 ---
 title: "Strategic tradeoffs between humans and AI in multi-agent bargaining"
-description: ""
+description: >-
+  Research paper by Crystal Qian, Kehang Zhu, John J. Horton, Benjamin Manning, Vivian Tsai, James Wexler, Nithum Thain.
 canonical: "https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/strategic-tradeoffs-between-hu
 
 # Strategic tradeoffs between humans and AI in multi-agent bargaining
 
-John J. Horton, [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler, [Nithum Thain](https://research.google/people/105662/)
+[Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [John J. Horton](../../index.html), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler, [Nithum Thain](https://research.google/people/105662/)
 
 
 
@@ -38,11 +39,14 @@ John J. Horton, [Crystal Qian](https://research.google/people/108114/), [Kehang 
 </div>
 
 ```bibtex
-@misc{horton2026strategictradeoffsbetweenhumansandaiinmultiagentbargaining,
-  title = {{Strategic tradeoffs between humans and AI in multi-agent bargaining}},
-  author = {Horton, John J. and Qian, Crystal and Zhu, Kehang and Manning, Benjamin and Tsai, Vivian and Wexler, James and Thain, Nithum},
+@inproceedings{horton2026strategictradeoffsbetweenhumansandaiinmultiagentbargaining,
+  title = {{Strategic Tradeoffs Between Humans and AI in Multi-Agent Bargaining}},
+  author = {Qian, Crystal and Zhu, Kehang and Horton, John J. and Manning, Benjamin and Tsai, Vivian and Wexler, James and Thain, Nithum},
+  booktitle = {Proceedings of the 31st International Conference on Intelligent User Interfaces},
   year = {2026},
-  url = {https://john-joseph-horton.com/papers/strategic-tradeoffs-between-humans-and-ai-in-multi-agent-bargaining/}
+  pages = {1625-1646},
+  doi = {10.1145/3742413.3789078},
+  url = {https://doi.org/10.1145/3742413.3789078}
 }
 ```
 

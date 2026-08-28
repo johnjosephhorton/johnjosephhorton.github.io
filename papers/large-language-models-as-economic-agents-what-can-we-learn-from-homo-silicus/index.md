@@ -1,6 +1,7 @@
 ---
 title: "Large language models as economic agents: What can we learn from Homo silicus?"
-description: ""
+description: >-
+  Research paper by Apostolos Filippas, John J. Horton, Benjamin Manning.
 canonical: "https://john-joseph-horton.com/papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/large-language-models-as-econo
 
 # Large language models as economic agents: What can we learn from Homo silicus?
 
-John J. Horton
+[Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Benjamin Manning](https://www.benjaminmanning.com/)
 
 **Status:** R&R at Review of Economics and Statistics
 
@@ -43,11 +44,14 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2026largelanguagemodelsaseconomicagentswhatcanwelearnfromhomosilicus,
-  title = {{Large language models as economic agents: What can we learn from Homo silicus?}},
-  author = {Horton, John J.},
-  year = {2026},
-  url = {https://john-joseph-horton.com/papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/}
+@inproceedings{horton2026largelanguagemodelsaseconomicagentswhatcanwelearnfromhomosilicus,
+  title = {{Large Language Models as Simulated Economic Agents: What Can We Learn from Homo Silicus?}},
+  author = {Filippas, Apostolos and Horton, John J. and Manning, Benjamin},
+  booktitle = {Proceedings of the 25th ACM Conference on Economics and Computation},
+  year = {2024},
+  pages = {614-615},
+  doi = {10.1145/3670865.3673513},
+  url = {https://doi.org/10.1145/3670865.3673513}
 }
 ```
 

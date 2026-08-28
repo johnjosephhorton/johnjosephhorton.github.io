@@ -1,6 +1,7 @@
 ---
 title: "Designing incentives for inexpert raters"
-description: ""
+description: >-
+  Research paper by Aaron Shaw, John J. Horton, Daniel Chen.
 canonical: "https://john-joseph-horton.com/papers/designing-incentives-for-inexpert-raters/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/designing-incentives-for-inexp
 
 # Designing incentives for inexpert raters
 
-John J. Horton, [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen), [Aaron Shaw](http://aaronshaw.org/)
+[Aaron Shaw](http://aaronshaw.org/), [John J. Horton](../../index.html), [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen)
 
 
 
@@ -38,11 +39,14 @@ John J. Horton, [Daniel Chen](https://www.tse-fr.eu/people/daniel-l-chen), [Aaro
 </div>
 
 ```bibtex
-@misc{horton2011designingincentivesforinexpertraters,
-  title = {{Designing incentives for inexpert raters}},
-  author = {Horton, John J. and Chen, Daniel and Shaw, Aaron},
+@inproceedings{horton2011designingincentivesforinexpertraters,
+  title = {{Designing Incentives for Inexpert Human Raters}},
+  author = {Shaw, Aaron and Horton, John J. and Chen, Daniel},
+  booktitle = {Proceedings of the ACM 2011 Conference on Computer Supported Cooperative Work},
   year = {2011},
-  url = {https://john-joseph-horton.com/papers/designing-incentives-for-inexpert-raters/}
+  pages = {275-284},
+  doi = {10.1145/1958824.1958865},
+  url = {https://doi.org/10.1145/1958824.1958865}
 }
 ```
 

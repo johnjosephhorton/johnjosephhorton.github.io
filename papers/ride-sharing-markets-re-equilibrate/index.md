@@ -1,6 +1,7 @@
 ---
 title: "Ride-sharing markets re-equilibrate"
-description: ""
+description: >-
+  Research paper by Jonathan Hall, John J. Horton, Dan Knoepfle.
 canonical: "https://john-joseph-horton.com/papers/ride-sharing-markets-re-equilibrate/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/ride-sharing-markets-re-equili
 
 # Ride-sharing markets re-equilibrate
 
-John J. Horton, [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle), [Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552)
+[Jonathan Hall](https://www.linkedin.com/in/jonathan-hall-451b552), [John J. Horton](../../index.html), [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle)
 
 **Status:** R&R at Journal of Economics & Management Strategy
 
@@ -46,9 +47,9 @@ John J. Horton, [Dan Knoepfle](https://www.linkedin.com/in/daniel-knoepfle), [Jo
 </div>
 
 ```bibtex
-@misc{horton2023ridesharingmarketsreequilibrate,
+@unpublished{horton2023ridesharingmarketsreequilibrate,
   title = {{Ride-sharing markets re-equilibrate}},
-  author = {Horton, John J. and Knoepfle, Dan and Hall, Jonathan},
+  author = {Hall, Jonathan and Horton, John J. and Knoepfle, Dan},
   year = {2023},
   url = {https://john-joseph-horton.com/papers/ride-sharing-markets-re-equilibrate/}
 }

@@ -1,6 +1,7 @@
 ---
 title: "Digital labor markets and global talent flows"
-description: ""
+description: >-
+  Digital labor markets are rapidly expanding and connecting companies and contractors on a global basis. We review the environment in which these markets take root, the micro- and macro-level studies of their operations, their ongoing evolution and recent trends, and perspectives for undertaking research with micro-data from these labor platforms. We undertake new empirical analyses of Upwork data regarding 1) the alignment of micro- and macro-level approaches to disproportionate ethnic-connected exchanges on digital platforms, 2) gravity model analyses of global outsourcing contract flows and their determinants for digital labor markets, and 3) quantification of own- and cross-country elasticities for contract work by wage rate. Digital labor markets are an exciting frontier for global talent flows and growing rapidly in importance.
 canonical: "https://john-joseph-horton.com/papers/digital-labor-markets-and-global-talent-flows/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/digital-labor-markets-and-glob
 
 # Digital labor markets and global talent flows
 
-John J. Horton, [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452), [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265)
+[John J. Horton](../../index.html), [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265), [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.
 
 **Last updated:** 2018
 
+
+## Summary
+
+Digital labor markets are rapidly expanding and connecting companies and contractors on a global basis. We review the environment in which these markets take root, the micro- and macro-level studies of their operations, their ongoing evolution and recent trends, and perspectives for undertaking research with micro-data from these labor platforms. We undertake new empirical analyses of Upwork data regarding 1) the alignment of micro- and macro-level approaches to disproportionate ethnic-connected exchanges on digital platforms, 2) gravity model analyses of global outsourcing contract flows and their determinants for digital labor markets, and 3) quantification of own- and cross-country elasticities for contract work by wage rate. Digital labor markets are an exciting frontier for global talent flows and growing rapidly in importance.
 
 
 ## Paper links
@@ -38,11 +43,14 @@ John J. Horton, [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.
 </div>
 
 ```bibtex
-@misc{horton2018digitallabormarketsandglobaltalentflows,
-  title = {{Digital labor markets and global talent flows}},
-  author = {Horton, John J. and Stanton, Christopher and Kerr, William},
+@incollection{horton2018digitallabormarketsandglobaltalentflows,
+  title = {{Digital Labor Markets and Global Talent Flows}},
+  author = {Horton, John J. and Kerr, William and Stanton, Christopher},
+  booktitle = {High-Skilled Migration to the United States and Its Economic Consequences},
   year = {2018},
-  url = {https://john-joseph-horton.com/papers/digital-labor-markets-and-global-talent-flows/}
+  pages = {71-108},
+  doi = {10.7208/chicago/9780226525662.003.0003},
+  url = {https://www.nber.org/papers/w23398}
 }
 ```
 

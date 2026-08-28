@@ -27,6 +27,8 @@ cs,ben_manning
 cs,gili
 ass,kehang
 ass,ben_manning
+llm_ask,apostolos
+llm_ask,ben_manning
 airbnb,apostolos
 allocation,dana
 autopause,shoshana
@@ -63,6 +65,8 @@ online_laboratory,daverand
 online_laboratory,rjz
 paid_crowdsourcing,lc
 peer_effects,rjz
+russia,anand_shah
+russia,peyman
 raters,dlc
 raters,aaron
 schumpeter,sonny
@@ -76,6 +80,7 @@ task,rm
 task,sa
 twitter,apostolos
 twitter,elliot
+twitter,prasanna
 uber_price,dk
 uber_price,jvh
 WageHistory,moshe
@@ -83,3 +88,10 @@ coy,apostolos
 coy,diego
 coy,prasanna
 jobot,ev
+head_in_clouds,gl
+head_in_clouds,mb
+head_in_clouds,jb
+head_in_clouds,lc
+head_in_clouds,mg
+head_in_clouds,rm
+head_in_clouds,rn

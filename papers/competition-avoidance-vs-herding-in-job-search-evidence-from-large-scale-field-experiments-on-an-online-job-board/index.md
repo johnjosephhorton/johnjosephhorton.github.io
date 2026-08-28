@@ -1,6 +1,7 @@
 ---
 title: "Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board"
-description: ""
+description: >-
+  We study how information that may simultaneously signal the degree of competition and vacancy quality affects job search. To do so, we conduct three experiments on a large online job platform in which the treatment varies what information is shown to job seekers. Information about the number of prior applicants to a vacancy increases the number of applications and redirects them to vacancies with few prior applications. Information about vacancy age increases application rates, especially to new vacancies. To further investigate the causal mechanisms, we conduct and analyze a survey choice experiment. We conclude that job seekers prefer to avoid competition rather than using the popularity of a vacancy as a signal of quality.
 canonical: "https://john-joseph-horton.com/papers/competition-avoidance-vs-herding-in-job-search-evidence-from-large-scale-field-experiments-on-an-online-job-board/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/competition-avoidance-vs-herdi
 
 # Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board
 
-John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Monica Bhole](https://www.linkedin.com/in/mdbhole/)
+[Andrey Fradkin](https://andreyfradkin.com/), [Monica Bhole](https://www.linkedin.com/in/mdbhole/), [John J. Horton](../../index.html)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Monica Bhole](htt
 
 **Last updated:** 2026-02
 
+
+## Summary
+
+We study how information that may simultaneously signal the degree of competition and vacancy quality affects job search. To do so, we conduct three experiments on a large online job platform in which the treatment varies what information is shown to job seekers. Information about the number of prior applicants to a vacancy increases the number of applications and redirects them to vacancies with few prior applications. Information about vacancy age increases application rates, especially to new vacancies. To further investigate the causal mechanisms, we conduct and analyze a survey choice experiment. We conclude that job seekers prefer to avoid competition rather than using the popularity of a vacancy as a signal of quality.
 
 
 ## Paper links
@@ -38,11 +43,16 @@ John J. Horton, [Andrey Fradkin](https://andreyfradkin.com/), [Monica Bhole](htt
 </div>
 
 ```bibtex
-@misc{horton2026competitionavoidancevsherdinginjobsearchevidencefromlargescalefieldexperimentsonanonlinejobboard,
-  title = {{Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board}},
-  author = {Horton, John J. and Fradkin, Andrey and Bhole, Monica},
+@article{horton2026competitionavoidancevsherdinginjobsearchevidencefromlargescalefieldexperimentsonanonlinejobboard,
+  title = {{Competition Avoidance vs. Herding in Job Search: Evidence from Large-Scale Field Experiments on an Online Job Board}},
+  author = {Fradkin, Andrey and Bhole, Monica and Horton, John J.},
+  journal = {Management Science},
   year = {2026},
-  url = {https://john-joseph-horton.com/papers/competition-avoidance-vs-herding-in-job-search-evidence-from-large-scale-field-experiments-on-an-online-job-board/}
+  volume = {72},
+  number = {2},
+  pages = {1305-1323},
+  doi = {10.1287/mnsc.2023.02483},
+  url = {https://doi.org/10.1287/mnsc.2023.02483}
 }
 ```
 

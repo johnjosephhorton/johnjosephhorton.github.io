@@ -1,6 +1,7 @@
 ---
 title: "Buyer signaling improves matching: Evidence from a field experiment"
-description: ""
+description: >-
+  Research paper by John J. Horton, Philipp Kircher, Ramesh Johari.
 canonical: "https://john-joseph-horton.com/papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/buyer-signaling-improves-match
 
 # Buyer signaling improves matching: Evidence from a field experiment
 
-John J. Horton, [Philipp Kircher](https://philippkircher.com/), [Ramesh Johari](http://web.stanford.edu/~rjohari/)
+[John J. Horton](../../index.html), [Philipp Kircher](https://philippkircher.com/), [Ramesh Johari](http://web.stanford.edu/~rjohari/)
 
 **Status:** R&R at American Economic Journal: Microeconomics
 
@@ -41,7 +42,7 @@ John J. Horton, [Philipp Kircher](https://philippkircher.com/), [Ramesh Johari](
 </div>
 
 ```bibtex
-@misc{horton2024buyersignalingimprovesmatchingevidencefromafieldexperiment,
+@unpublished{horton2024buyersignalingimprovesmatchingevidencefromafieldexperiment,
   title = {{Buyer signaling improves matching: Evidence from a field experiment}},
   author = {Horton, John J. and Kircher, Philipp and Johari, Ramesh},
   year = {2024},

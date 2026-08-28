@@ -1,6 +1,7 @@
 ---
 title: "Algorithmic writing assistance on jobseekers’ resumes increases hires"
-description: ""
+description: >-
+  There is a strong association between the quality of the writing in a resume for new labor market entrants and whether those entrants are ultimately hired. We show that this relationship is, at least partially, causal: a field experiment in an online labor market was conducted with nearly half a million jobseekers in which a treated group received algorithmic writing assistance. Treated jobseekers experienced an 8% increase in the probability of getting hired. Contrary to concerns that the assistance is taking away a valuable signal, we find no evidence that employers were less satisfied. We present a model in which better writing is not a signal of ability but helps employers ascertain ability, which rationalizes our findings.
 canonical: "https://john-joseph-horton.com/papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/algorithmic-writing-assistance
 
 # Algorithmic writing assistance on jobseekers’ resumes increases hires
 
-John J. Horton, [Emma Wiles](https://www.emmawiles.com/), [Zanele Munyikwa](https://www.zanelemunyikwa.com/)
+[Emma Wiles](https://www.emmawiles.com/), [Zanele Munyikwa](https://www.zanelemunyikwa.com/), [John J. Horton](../../index.html)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Emma Wiles](https://www.emmawiles.com/), [Zanele Munyikwa](http
 
 **Last updated:** 2025-12
 
+
+## Summary
+
+There is a strong association between the quality of the writing in a resume for new labor market entrants and whether those entrants are ultimately hired. We show that this relationship is, at least partially, causal: a field experiment in an online labor market was conducted with nearly half a million jobseekers in which a treated group received algorithmic writing assistance. Treated jobseekers experienced an 8% increase in the probability of getting hired. Contrary to concerns that the assistance is taking away a valuable signal, we find no evidence that employers were less satisfied. We present a model in which better writing is not a signal of ability but helps employers ascertain ability, which rationalizes our findings.
 
 
 ## Paper links
@@ -44,11 +49,16 @@ John J. Horton, [Emma Wiles](https://www.emmawiles.com/), [Zanele Munyikwa](http
 </div>
 
 ```bibtex
-@misc{horton2025algorithmicwritingassistanceonjobseekersresumesincreaseshires,
-  title = {{Algorithmic writing assistance on jobseekers’ resumes increases hires}},
-  author = {Horton, John J. and Wiles, Emma and Munyikwa, Zanele},
+@article{horton2025algorithmicwritingassistanceonjobseekersresumesincreaseshires,
+  title = {{Algorithmic Writing Assistance on Jobseekers’ Resumes Increases Hires}},
+  author = {Wiles, Emma and Munyikwa, Zanele and Horton, John J.},
+  journal = {Management Science},
   year = {2025},
-  url = {https://john-joseph-horton.com/papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/}
+  volume = {71},
+  number = {12},
+  pages = {10144-10164},
+  doi = {10.1287/mnsc.2024.04528},
+  url = {https://doi.org/10.1287/mnsc.2024.04528}
 }
 ```
 

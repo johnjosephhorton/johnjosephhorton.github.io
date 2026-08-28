@@ -21,7 +21,7 @@ paper-pages: website.md templates/paper.html
 	done
 
 pdf:
-	pandoc website.md -o cv.pdf
+	pandoc website.md --pdf-engine=xelatex -o cv.pdf
 
 website: index.html
 	open index.html

@@ -1,6 +1,7 @@
 ---
 title: "How do employers use compensation history? Evidence from a field experiment"
-description: ""
+description: >-
+  Research paper by Moshe Barach, John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/how-do-employers-use-compensation-history-evidence-from-a-field-experiment/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/how-do-employers-use-compensat
 
 # How do employers use compensation history? Evidence from a field experiment
 
-John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/)
+[Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/), [John J. Horton](../../index.html)
 
 
 
@@ -42,11 +43,16 @@ John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/)
 </div>
 
 ```bibtex
-@misc{horton2021howdoemployersusecompensationhistoryevidencefromafieldexperiment,
-  title = {{How do employers use compensation history? Evidence from a field experiment}},
-  author = {Horton, John J. and Barach, Moshe},
+@article{horton2021howdoemployersusecompensationhistoryevidencefromafieldexperiment,
+  title = {{How Do Employers Use Compensation History? Evidence from a Field Experiment}},
+  author = {Barach, Moshe and Horton, John J.},
+  journal = {Journal of Labor Economics},
   year = {2021},
-  url = {https://john-joseph-horton.com/papers/how-do-employers-use-compensation-history-evidence-from-a-field-experiment/}
+  volume = {39},
+  number = {1},
+  pages = {193-218},
+  doi = {10.1086/709277},
+  url = {https://doi.org/10.1086/709277}
 }
 ```
 

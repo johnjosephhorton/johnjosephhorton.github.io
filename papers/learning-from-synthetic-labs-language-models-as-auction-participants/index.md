@@ -1,6 +1,7 @@
 ---
 title: "Learning from synthetic labs: Language models as auction participants"
-description: ""
+description: >-
+  Research paper by Anand Shah, Kehang Zhu, Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi, John J. Horton, David C. Parkes.
 canonical: "https://john-joseph-horton.com/papers/learning-from-synthetic-labs-language-models-as-auction-participants/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/learning-from-synthetic-labs-l
 
 # Learning from synthetic labs: Language models as auction participants
 
-John J. Horton, [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), Yanchen Jiang, Jeffrey G. Wang, Arif K. Dayi, [David C. Parkes](https://parkes.seas.harvard.edu/)
+[Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), Jeffrey G. Wang, [Arif K. Dayi](https://keremdayi.com/), [John J. Horton](../../index.html), [David C. Parkes](https://parkes.seas.harvard.edu/)
 
 **Status:** Working paper
 
@@ -36,9 +37,9 @@ John J. Horton, [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://s
 </div>
 
 ```bibtex
-@misc{horton2025learningfromsyntheticlabslanguagemodelsasauctionparticipants,
+@unpublished{horton2025learningfromsyntheticlabslanguagemodelsasauctionparticipants,
   title = {{Learning from synthetic labs: Language models as auction participants}},
-  author = {Horton, John J. and Shah, Anand and Zhu, Kehang and Jiang, Yanchen and Wang, Jeffrey G. and Dayi, Arif K. and Parkes, David C.},
+  author = {Shah, Anand and Zhu, Kehang and Jiang, Yanchen and Wang, Jeffrey G. and Dayi, Arif K. and Horton, John J. and Parkes, David C.},
   year = {2025},
   url = {https://john-joseph-horton.com/papers/learning-from-synthetic-labs-language-models-as-auction-participants/}
 }

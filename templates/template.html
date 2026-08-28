@@ -4,122 +4,31 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>$pagetitle$</title>
-  <script src="https://cdn.tailwindcss.com"></script>
+  <meta name="description" content="John J. Horton is the Chrysler Professor of Management at MIT Sloan. Research on AI, market design, labor economics, and online markets.">
+  <link rel="canonical" href="https://john-joseph-horton.com/">
+  <meta property="og:type" content="website"><meta property="og:title" content="John J. Horton"><meta property="og:description" content="Research, teaching, talks, and writing by MIT economist John J. Horton."><meta property="og:url" content="https://john-joseph-horton.com/"><meta property="og:image" content="https://john-joseph-horton.com/images/social-card.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="images/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="filters.css">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <style type="text/tailwindcss">
-    @layer utilities {
-      .content h1 {
-        @apply text-3xl font-bold text-gray-900 mt-12 mb-6 pb-2 border-b border-gray-200;
-      }
-      .content h1:first-child {
-        @apply mt-0 text-4xl border-none pb-0 mb-2;
-      }
-      .content h2 {
-        @apply text-2xl font-semibold text-gray-800 mt-10 mb-4;
-      }
-      .content h3 {
-        @apply text-lg font-semibold text-gray-800 mt-6 mb-2;
-      }
-      .content p {
-        @apply text-gray-700 leading-relaxed mb-4;
-      }
-      .content ul {
-        @apply list-disc pl-6 mb-4 space-y-1;
-      }
-      .content li {
-        @apply text-gray-700;
-      }
-      .content li p {
-        @apply mb-1;
-      }
-      .content a {
-        @apply text-blue-600 hover:text-blue-800 hover:underline transition-colors;
-      }
-      .content img {
-        @apply rounded-full shadow-lg border-4 border-white ring-1 ring-gray-200;
-      }
-      .tab-list {
-        @apply flex gap-1 mt-10 mb-8 overflow-x-auto border-b border-gray-200;
-      }
-      .tab-button {
-        @apply whitespace-nowrap px-4 py-3 text-sm font-medium text-gray-500 border-b-2 border-transparent hover:text-gray-800 hover:border-gray-300 transition-colors;
-      }
-      .tab-button[aria-selected="true"] {
-        @apply text-blue-700 border-blue-600;
-      }
-      .tab-button:focus-visible {
-        @apply outline-none ring-2 ring-blue-500 ring-offset-2 rounded-t;
-      }
-      .tab-panel[hidden] {
-        display: none;
-      }
-      .copy-markdown-button {
-        @apply inline-flex items-center rounded-lg border border-gray-300 bg-white px-3 py-2 text-sm font-medium text-gray-700 shadow-sm hover:bg-gray-50 focus:outline-none focus:ring-2 focus:ring-blue-500 focus:ring-offset-2;
-      }
-      .venture-card {
-        @apply my-8 rounded-xl border border-slate-200 bg-slate-50 px-5 py-4;
-      }
-      .venture-card .venture-label {
-        @apply mb-2 text-xs font-semibold uppercase tracking-widest text-slate-500;
-      }
-      .venture-card .venture-intro {
-        @apply flex items-start gap-4;
-      }
-      .content .venture-card .venture-logo {
-        @apply mt-1 h-auto w-20 max-w-none rounded-none border-0 shadow-none ring-0;
-      }
-      .venture-card .venture-heading {
-        @apply mb-2 flex flex-wrap items-baseline gap-x-3 gap-y-1;
-      }
-      .venture-card .venture-heading a {
-        @apply text-lg font-semibold text-slate-900 hover:text-blue-700;
-      }
-      .venture-card .venture-heading span {
-        @apply text-sm text-slate-500;
-      }
-      .venture-card p {
-        @apply mb-2 text-sm text-slate-700;
-      }
-      .venture-card .venture-support {
-        @apply mb-0 font-medium text-slate-600;
-      }
-      .venture-card .venture-links {
-        @apply mt-3 flex flex-wrap gap-x-5 gap-y-2 border-t border-slate-200 pt-3;
-      }
-      .venture-card .venture-links a {
-        @apply inline-flex items-center gap-2 text-sm font-medium text-slate-600 hover:text-blue-700;
-      }
-      .content .venture-card .venture-backer-logo {
-        @apply h-5 w-5 rounded-none border-0 shadow-none ring-0;
-      }
-    }
-  </style>
-  <script>
-    tailwind.config = {
-      theme: {
-        extend: {
-          fontFamily: {
-            sans: ['Inter', 'system-ui', '-apple-system', 'sans-serif'],
-          },
-        }
-      }
-    }
-  </script>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"John J. Horton","url":"https://john-joseph-horton.com/","jobTitle":"Chrysler Professor of Management","affiliation":{"@type":"Organization","name":"MIT Sloan School of Management"},"sameAs":["https://orcid.org/0000-0001-5426-0156","https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en","https://www.nber.org/people/john_horton"]}</script>
 </head>
-<body class="bg-gray-50 min-h-screen font-sans">
-  <div class="max-w-5xl mx-auto px-6 py-12 sm:py-16">
-    <main class="bg-white rounded-2xl shadow-sm border border-gray-100 px-8 py-10 sm:px-12 sm:py-12">
-      <div class="mb-6 flex items-center justify-end gap-3">
-        <span id="copy-markdown-status" class="text-sm text-gray-500" aria-live="polite"></span>
-        <button id="copy-markdown" class="copy-markdown-button" type="button">Copy page as Markdown</button>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <div class="site-shell">
+    <main id="main-content" class="site-main">
+      <div class="top-actions">
+        <span id="copy-markdown-status" class="status" aria-live="polite"></span>
+        <button id="copy-markdown" class="button" type="button">Copy page as Markdown</button>
       </div>
       <article class="content">
 $body$
       </article>
     </main>
-    <footer class="mt-8 text-center text-sm text-gray-500">
+    <footer class="site-footer">
       <p>&copy; $pagetitle$</p>
       <p>Last updated: <time id="last-updated" datetime="$lastupdated$">$lastupdated$</time></p>
     </footer>
@@ -166,6 +75,41 @@ $body$
           copyStatus.textContent = 'Copy failed';
         }
       });
+
+      function installFilter(inputId, selector, groupSelector, countId) {
+        const input = document.getElementById(inputId);
+        if (!input) return;
+        const items = Array.from(document.querySelectorAll(selector));
+        const count = countId ? document.getElementById(countId) : null;
+        let activeTopic = 'all';
+        function filter() {
+          const query = input.value.trim().toLocaleLowerCase();
+          let visible = 0;
+          items.forEach(function(item) {
+            const textMatch = !query || item.textContent.toLocaleLowerCase().includes(query) || (item.dataset.search || '').toLocaleLowerCase().includes(query);
+            const topicMatch = activeTopic === 'all' || (activeTopic === 'selected' ? item.dataset.selected === 'true' : item.dataset.topic === activeTopic);
+            const match = textMatch && topicMatch;
+            item.hidden = !match;
+            if (match) visible += 1;
+          });
+          if (groupSelector) document.querySelectorAll(groupSelector).forEach(function(group) {
+            group.hidden = !Array.from(group.querySelectorAll(selector)).some(function(item) { return !item.hidden; });
+            if (query && !group.hidden) group.open = true;
+          });
+          if (count) count.textContent = visible + (visible === 1 ? ' paper' : ' papers');
+        }
+        input.addEventListener('input', filter);
+        if (inputId === 'research-search') document.querySelectorAll('.filter-chip').forEach(function(chip) {
+          chip.addEventListener('click', function() {
+            activeTopic = chip.dataset.topic;
+            document.querySelectorAll('.filter-chip').forEach(function(other) { other.classList.toggle('active', other === chip); });
+            filter();
+          });
+        });
+        filter();
+      }
+      installFilter('research-search', '.paper-entry', null, 'research-count');
+      installFilter('talk-search', '.talk-year p', '.talk-year', null);
 
       const sectionIds = [
         'employment',

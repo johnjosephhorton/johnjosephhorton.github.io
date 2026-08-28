@@ -1,6 +1,7 @@
 ---
 title: "The condition of the Turking class: Are online employers fair and honest?"
-description: ""
+description: >-
+  Online labor markets give people in poor countries direct access to buyers in rich countries. Economic theory and empirical evidence strongly suggest that this kind of access improves human welfare. However, critics claim that abuses are endemic in these markets and that employers exploit unprotected, vulnerable workers. I investigate part of this claim using a randomized, paired survey in which I ask workers in an online labor market (Amazon Mechanical Turk) how they perceive online employers and employers in their host country in terms of honesty and fairness. I find that, on average, workers perceive the collection of online employers as slightly fairer and more honest than offline employers, though the effect is not significant. Views are more polarized in the online employer case, with more respondents having very positive views of the online collection of employers.
 canonical: "https://john-joseph-horton.com/papers/the-condition-of-the-turking-class-are-online-employers-fair-and-honest/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-condition-of-the-turking-c
 
 # The condition of the Turking class: Are online employers fair and honest?
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton
 
 **Last updated:** 2011-04
 
+
+## Summary
+
+Online labor markets give people in poor countries direct access to buyers in rich countries. Economic theory and empirical evidence strongly suggest that this kind of access improves human welfare. However, critics claim that abuses are endemic in these markets and that employers exploit unprotected, vulnerable workers. I investigate part of this claim using a randomized, paired survey in which I ask workers in an online labor market (Amazon Mechanical Turk) how they perceive online employers and employers in their host country in terms of honesty and fairness. I find that, on average, workers perceive the collection of online employers as slightly fairer and more honest than offline employers, though the effect is not significant. Views are more polarized in the online employer case, with more respondents having very positive views of the online collection of employers.
 
 
 ## Paper links
@@ -38,11 +43,16 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2011theconditionoftheturkingclassareonlineemployersfairandhonest,
-  title = {{The condition of the Turking class: Are online employers fair and honest?}},
+@article{horton2011theconditionoftheturkingclassareonlineemployersfairandhonest,
+  title = {{The Condition of the Turking Class: Are Online Employers Fair and Honest?}},
   author = {Horton, John J.},
+  journal = {Economics Letters},
   year = {2011},
-  url = {https://john-joseph-horton.com/papers/the-condition-of-the-turking-class-are-online-employers-fair-and-honest/}
+  volume = {111},
+  number = {1},
+  pages = {10-12},
+  doi = {10.1016/j.econlet.2010.12.007},
+  url = {https://doi.org/10.1016/j.econlet.2010.12.007}
 }
 ```
 

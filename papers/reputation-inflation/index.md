@@ -1,6 +1,7 @@
 ---
 title: "Reputation inflation"
-description: ""
+description: >-
+  Research paper by Apostolos Filippas, John J. Horton, Joseph Golden.
 canonical: "https://john-joseph-horton.com/papers/reputation-inflation/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/reputation-inflation/"
 
 # Reputation inflation
 
-John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/), [Joseph Golden](https://www.linkedin.com/in/jgolden9)
+[Apostolos Filippas](https://www.apostolos-filippas.com/), [John J. Horton](../../index.html), [Joseph Golden](https://www.linkedin.com/in/jgolden9)
 
 
 
@@ -52,11 +53,16 @@ John J. Horton, [Apostolos Filippas](https://www.apostolos-filippas.com/), [Jose
 </div>
 
 ```bibtex
-@misc{horton2022reputationinflation,
-  title = {{Reputation inflation}},
-  author = {Horton, John J. and Filippas, Apostolos and Golden, Joseph},
+@article{horton2022reputationinflation,
+  title = {{Reputation Inflation}},
+  author = {Filippas, Apostolos and Horton, John J. and Golden, Joseph},
+  journal = {Marketing Science},
   year = {2022},
-  url = {https://john-joseph-horton.com/papers/reputation-inflation/}
+  volume = {41},
+  number = {4},
+  pages = {733-745},
+  doi = {10.1287/mksc.2022.1350},
+  url = {https://doi.org/10.1287/mksc.2022.1350}
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: "Steering in online markets: The role of platform incentives and credibility"
-description: ""
+description: >-
+  Platform marketplaces can potentially steer buyers to certain sellers by recommending or guaranteeing those sellers. Money-back guarantees—which create a direct financial stake for the platform in seller performance—might be particularly effective at steering, as they align buyer and platform interests in creating a good match. We report the results of an experiment in which a platform marketplace—an online labor market—guaranteed select sellers for treated buyers. The presence of a guarantee strongly steered buyers to these guaranteed sellers, but offering guarantees did not increase sales overall, suggesting financial risk was not determinative for the marginal buyer. This preference for guaranteed sellers was not the result of their lower financial risk, but rather because buyers viewed the platform’s decision to guarantee as informative about relative seller quality. Indeed, a follow-up experiment showed that simply recommending the sellers that the platform would have guaranteed was equally effective at steering buyers.
 canonical: "https://john-joseph-horton.com/papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/steering-in-online-markets-the
 
 # Steering in online markets: The role of platform incentives and credibility
 
-John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/), [Joseph Golden](https://www.linkedin.com/in/jgolden9)
+[Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/), [Joseph Golden](https://www.linkedin.com/in/jgolden9), [John J. Horton](../../index.html)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/)
 
 **Last updated:** 2020-09
 
+
+## Summary
+
+Platform marketplaces can potentially steer buyers to certain sellers by recommending or guaranteeing those sellers. Money-back guarantees—which create a direct financial stake for the platform in seller performance—might be particularly effective at steering, as they align buyer and platform interests in creating a good match. We report the results of an experiment in which a platform marketplace—an online labor market—guaranteed select sellers for treated buyers. The presence of a guarantee strongly steered buyers to these guaranteed sellers, but offering guarantees did not increase sales overall, suggesting financial risk was not determinative for the marginal buyer. This preference for guaranteed sellers was not the result of their lower financial risk, but rather because buyers viewed the platform’s decision to guarantee as informative about relative seller quality. Indeed, a follow-up experiment showed that simply recommending the sellers that the platform would have guaranteed was equally effective at steering buyers.
 
 
 ## Paper links
@@ -38,11 +43,16 @@ John J. Horton, [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/)
 </div>
 
 ```bibtex
-@misc{horton2020steeringinonlinemarketstheroleofplatformincentivesandcredibility,
-  title = {{Steering in online markets: The role of platform incentives and credibility}},
-  author = {Horton, John J. and Barach, Moshe and Golden, Joseph},
+@article{horton2020steeringinonlinemarketstheroleofplatformincentivesandcredibility,
+  title = {{Steering in Online Markets: The Role of Platform Incentives and Credibility}},
+  author = {Barach, Moshe and Golden, Joseph and Horton, John J.},
+  journal = {Management Science},
   year = {2020},
-  url = {https://john-joseph-horton.com/papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/}
+  volume = {66},
+  number = {9},
+  pages = {4047-4070},
+  doi = {10.1287/mnsc.2019.3412},
+  url = {https://doi.org/10.1287/mnsc.2019.3412}
 }
 ```
 

@@ -1,6 +1,7 @@
 ---
 title: "The dot-guessing game: A ‘fruit fly’ for human computation research"
-description: ""
+description: >-
+  Research paper by John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/the-dot-guessing-game-a-fruit-fly-for-human-computation-research/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/the-dot-guessing-game-a-fruit-
 
 # The dot-guessing game: A ‘fruit fly’ for human computation research
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 **Status:** Working paper
 
@@ -36,7 +37,7 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2012thedotguessinggameafruitflyforhumancomputationresearch,
+@unpublished{horton2012thedotguessinggameafruitflyforhumancomputationresearch,
   title = {{The dot-guessing game: A ‘fruit fly’ for human computation research}},
   author = {Horton, John J.},
   year = {2012},

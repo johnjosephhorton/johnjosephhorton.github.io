@@ -1,6 +1,7 @@
 ---
 title: "Task search in a human computation market"
-description: ""
+description: >-
+  In order to understand how a labor market for human computation functions, it is important to know how workers search for tasks. This paper uses two complementary methods to gain insight into how workers search for tasks on Mechanical Turk. First, we perform a high frequency scrape of 36 pages of search results and analyze it by looking at the rate of disappearance of tasks across key ways Mechanical Turk allows workers to sort tasks. Second, we present the results of a survey in which we paid workers for self-reported information about how they search for tasks. Our main findings are that on a large scale, workers sort by which tasks are most recently posted and which have the largest number of tasks available. Furthermore, we find that workers look mostly at the first page of the most recently posted tasks and the first two pages of the tasks with the most available instances but in both categories the position on the result page is unimportant to workers. We observe that at least some employers try to manipulate the position of their task in the search results to exploit the tendency to search for recently posted tasks. On an individual level, we observed workers searching by almost all the possible categories and looking more than 10 pages deep. For a task we posted to Mechanical Turk, we confirmed that a favorable position in the search results do matter: our task with favorable positioning was completed 30 times faster and for less money than when its position was unfavorable.
 canonical: "https://john-joseph-horton.com/papers/task-search-in-a-human-computation-market/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/task-search-in-a-human-computa
 
 # Task search in a human computation market
 
-John J. Horton, [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [Robert Miller](https://people.csail.mit.edu/rcm/), [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/)
+[Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7QAAAAJ&hl=en), [John J. Horton](../../index.html), [Robert Miller](https://people.csail.mit.edu/rcm/), [Shiri Azenkot](https://tech.cornell.edu/people/shiri-azenkot/)
 
 
 
@@ -17,6 +18,10 @@ John J. Horton, [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7
 
 **Last updated:** 2010-07-25
 
+
+## Summary
+
+In order to understand how a labor market for human computation functions, it is important to know how workers search for tasks. This paper uses two complementary methods to gain insight into how workers search for tasks on Mechanical Turk. First, we perform a high frequency scrape of 36 pages of search results and analyze it by looking at the rate of disappearance of tasks across key ways Mechanical Turk allows workers to sort tasks. Second, we present the results of a survey in which we paid workers for self-reported information about how they search for tasks. Our main findings are that on a large scale, workers sort by which tasks are most recently posted and which have the largest number of tasks available. Furthermore, we find that workers look mostly at the first page of the most recently posted tasks and the first two pages of the tasks with the most available instances but in both categories the position on the result page is unimportant to workers. We observe that at least some employers try to manipulate the position of their task in the search results to exploit the tendency to search for recently posted tasks. On an individual level, we observed workers searching by almost all the possible categories and looking more than 10 pages deep. For a task we posted to Mechanical Turk, we confirmed that a favorable position in the search results do matter: our task with favorable positioning was completed 30 times faster and for less money than when its position was unfavorable.
 
 
 ## Paper links
@@ -38,11 +43,14 @@ John J. Horton, [Lydia Chilton](https://scholar.google.com/citations?user=RpxD-7
 </div>
 
 ```bibtex
-@misc{horton2010tasksearchinahumancomputationmarket,
-  title = {{Task search in a human computation market}},
-  author = {Horton, John J. and Chilton, Lydia and Miller, Robert and Azenkot, Shiri},
+@inproceedings{horton2010tasksearchinahumancomputationmarket,
+  title = {{Task Search in a Human Computation Market}},
+  author = {Chilton, Lydia and Horton, John J. and Miller, Robert and Azenkot, Shiri},
+  booktitle = {Proceedings of the ACM SIGKDD Workshop on Human Computation},
   year = {2010},
-  url = {https://john-joseph-horton.com/papers/task-search-in-a-human-computation-market/}
+  pages = {1-9},
+  doi = {10.1145/1837885.1837889},
+  url = {https://doi.org/10.1145/1837885.1837889}
 }
 ```
 

@@ -1,12 +1,12 @@
 # {{ basic_info.name }}
 
-<img src="images/me.jpeg" alt="me" width="200" />  <!-- Adjust '200' to your preferred width -->
+<img src="images/me.jpeg" alt="Portrait of John J. Horton" width="200" />
 
 ## Bio {.bio-class}
 
 
 {{ basic_info.bio }}
-[Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
+[Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [CV](cv.pdf) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
 {% for venture in ventures %}<aside class="venture-card" aria-label="{{ venture.name }}">
 <div class="venture-label">Also building</div>
@@ -16,7 +16,7 @@
 <p>{{ venture.description }}</p>
 <p class="venture-support">{{ venture.support }}</p></div>
 </div>
-<div class="venture-links"><a href="{{ venture.package_url }}">{{ venture.package }} · open-source package ↗</a><a href="{{ venture.blog_url }}">{{ venture.blog }} ↗</a><a href="{{ venture.backer_url }}"><img class="venture-backer-logo" src="{{ venture.backer_logo }}" alt="" />{{ venture.backer }} ↗</a></div>
+<div class="venture-links"><a href="{{ venture.package_url }}">{{ venture.package }} · open-source package</a><a href="{{ venture.blog_url }}">{{ venture.blog }}</a><a href="{{ venture.backer_url }}"><img class="venture-backer-logo" src="{{ venture.backer_logo }}" alt="" />{{ venture.backer }}</a></div>
 </aside>
 {% endfor %}
 
@@ -34,7 +34,14 @@
 
 # Research {.paper-class}
 
-{% for paper in papers %}
+<div class="research-tools" role="search" aria-label="Filter research">
+<label for="research-search">Find a paper</label>
+<input id="research-search" type="search" placeholder="Search titles, authors, venues, or status…" autocomplete="off" />
+<span id="research-count" aria-live="polite"></span>
+</div>
+<div class="filter-chips" aria-label="Research filters"><button class="filter-chip active" type="button" data-topic="all">All</button><button class="filter-chip" type="button" data-topic="selected">Selected</button>{% for topic in research_topics %}<button class="filter-chip" type="button" data-topic="{{ topic }}">{{ topic }}</button>{% endfor %}</div>
+
+{% for paper in papers %}<article class="paper-entry" data-topic="{{ paper.topic }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
 ### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
 {% if paper.version_line or paper.page_url %}
@@ -47,9 +54,9 @@
 * Status: {{ paper.status }}
 {% endif %}
 {% if paper.has_additional_links %}
-* Links: {% if paper.google_scholar_url %} Citations: {{paper.google_scholar_url }} {% endif %} {% if paper.media_line %} Media: {{ paper.media_line }} {% endif %} {% if paper.video_line %} Videos: {{ paper.video_line }} {% endif %} {% if paper.slides_line %} Slides: {{ paper.slides_line }} {% endif %} {% if paper.twitter_thread_line %}Twitter Thread(s): {{ paper.twitter_thread_line }} {% endif %} {% if paper.code_line %} Replication: {{ paper.code_line }} {% endif %}
+* Links: {% if paper.google_scholar_url %}{{paper.google_scholar_url }}{% endif %} {% if paper.media_line %} · Media: {{ paper.media_line }} {% endif %} {% if paper.video_line %} · {{ paper.video_line }} {% endif %} {% if paper.slides_line %} · {{ paper.slides_line }} {% endif %} {% if paper.twitter_thread_line %} · {{ paper.twitter_thread_line }} {% endif %} {% if paper.code_line %} · {{ paper.code_line }} {% endif %}
 {% endif %}
-{% endfor %}
+</article>{% endfor %}
 
 
 # Awards & Grants
@@ -65,9 +72,11 @@
 {% endfor %}
 
 # Talks
-{% for talk in talks %}
+<div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
+{% for year, year_talks in talk_groups.items() %}<details class="talk-year" {% if loop.index <= 2 %}open{% endif %}><summary>{{ year }} <span>({{ year_talks|length }})</span></summary>
+{% for talk in year_talks %}
    {% if talk.url %}[{{ talk.event }}]({{ talk.url }}), {{ talk.year }}{% else %}{{ talk.event }}, {{ talk.year }}{% endif %}
-{% endfor %}
+{% endfor %}</details>{% endfor %}
 
 # Education
 

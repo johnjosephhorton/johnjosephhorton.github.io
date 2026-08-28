@@ -1,6 +1,7 @@
 ---
 title: "Online labor markets"
-description: ""
+description: >-
+  Research paper by John J. Horton.
 canonical: "https://john-joseph-horton.com/papers/online-labor-markets/"
 ---
 
@@ -8,7 +9,7 @@ canonical: "https://john-joseph-horton.com/papers/online-labor-markets/"
 
 # Online labor markets
 
-John J. Horton
+[John J. Horton](../../index.html)
 
 
 
@@ -38,11 +39,15 @@ John J. Horton
 </div>
 
 ```bibtex
-@misc{horton2010onlinelabormarkets,
-  title = {{Online labor markets}},
+@inproceedings{horton2010onlinelabormarkets,
+  title = {{Online Labor Markets}},
   author = {Horton, John J.},
+  booktitle = {Internet and Network Economics: 6th International Workshop (WINE 2010)},
   year = {2010},
-  url = {https://john-joseph-horton.com/papers/online-labor-markets/}
+  volume = {6484},
+  pages = {515-522},
+  doi = {10.1007/978-3-642-17572-5_45},
+  url = {https://doi.org/10.1007/978-3-642-17572-5_45}
 }
 ```
 
