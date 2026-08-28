@@ -31,7 +31,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    Staff Economist, [oDesk Corporation](https://www.upwork.com/), 2011---2013
 
-   Research Intern, [London School of Economics, Centre for Economic Performance](https://cep.lse.ac.uk/), Summer 2010
+   Research Intern, [London School of Economics, Centre for Economic Performance](https://www.lse.ac.uk/economics/research/research-centres), Summer 2010
 
    Resident Tutor, [Pforzheimer House, Harvard College](https://pfoho.harvard.edu/), 2007---2011
 
@@ -58,7 +58,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 ### Chaining tasks, redefining work: A theory of AI automation  {.paper-class}
-(with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nickle/), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
+(with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
 
 * Paper: [NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
 
@@ -71,7 +71,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 ### Simulating the Survey of Professional Forecasters  {.paper-class}
-(with [Anne Lundgaard Hansen](https://www.richmondfed.org/research/people/hansen_anne), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarifhonarvar.com/))
+(with [Anne Lundgaard Hansen](https://www.richmondfed.org/banking/research_analysis/qsr/hansen), [Sophia Kazinnik](https://digitaleconomy.stanford.edu/people/sophia-kazinnik/), [Daniela Puzzello](https://economics.indiana.edu/about/faculty/puzzello-daniela.html) and [Ali Zarifhonarvar](https://alizarif.github.io/))
 
 * Paper: [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5066286)
 
@@ -110,7 +110,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 ### Strategic tradeoffs between humans and AI in multi-agent bargaining  {.paper-class}
-(with [Crystal Qian](https://deepmind.google/about/careers/teams/people-ai-research/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/nithumthain/))
+(with [Crystal Qian](https://research.google/people/108114/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Benjamin Manning](https://www.benjaminmanning.com/), Vivian Tsai, James Wexler and [Nithum Thain](https://research.google/people/105662/))
 
 * Paper: [arXiv](https://arxiv.org/abs/2509.09071)
 
@@ -200,7 +200,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://sg.news.yahoo.com/happens-tech-workers-skills-become-090302581.html))([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C))   Media: ([Quartz](https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/))    Slides: ([1](https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p))  Twitter Thread(s): ([1](https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ))
 
 
 ### Algorithmic writing assistance on jobseekers’ resumes increases hires  {.paper-class}
@@ -352,7 +352,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [PDF](http://john-joseph-horton.com/papers/labor_allocation_in_paid_crowdsourcing_nudges_prices.pdf)
 
 
-* Published: [Human Computation: Papers from the 2011 AAAI Workshop: 14-19 (2011)](https://aaai.org/papers/ws11-11-003-labor-allocation-in-paid-crowdsourcing-experimental-evidence-on-positioning-nudges-and-prices/)
+* Published: [Human Computation: Papers from the 2011 AAAI Workshop: 14-19 (2011)](https://john-joseph-horton.com/papers/combined_paper_packet.pdf)
 
 
 
@@ -427,7 +427,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Paper: [NBER](https://www.nber.org/papers/w23398)
 
 
-* Published: [High-Skilled Migration to the United States and Its Economic Consequences: 71-108 (2018)](https://doi.org/10.7208/9780226525662-004)
+* Published: [High-Skilled Migration to the United States and Its Economic Consequences: 71-108 (2018)](https://www.nber.org/papers/w23398)
 
 
 
@@ -504,7 +504,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC))     Slides: ([1](https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1))    Replication: ([1](https://bitbucket.org/johnjosephhorton/online_laboratory/wiki/Home))
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:u-x6o8ySG0sC))     Slides: ([1](https://docs.google.com/presentation/d/0B4nsf4v9iDjGNE53Q3YtaTExWnc/edit?resourcekey=0-rI5UNSrXGa7DdRm6zwq_kA#slide=id.p1))
 
 
 ### The labor economics of paid crowdsourcing  {.paper-class}
@@ -607,7 +607,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C))     Slides: ([1](https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42))    Replication: ([1](https://bitbucket.org/johnjosephhorton/mturk_search_behavior/wiki/Home))
+* Links:  Citations: ([gs](https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&citation_for_view=L_O2kH0AAAAJ:d1gkVwhDpl0C))     Slides: ([1](https://docs.google.com/presentation/d/1HtcUj6f6weYk6fu6ATzWume9Iz-DJb1bwGJdSJbnxyM/edit#slide=id.gefa2d98b_2_42))
 
 
 ### The condition of the Turking class: Are online employers fair and honest?
@@ -637,18 +637,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-# Projects
+# Awards & Grants
 
-
-### Mass in silico replication of social science experiments
-
-(with Benjamin S. Manning, Jacob Snyder, and Abhishek Nagaraj)
-
-Ongoing research project; no public draft is currently available.
-
-
-
-# Awards
+## Awards
 
    [Information Systems Research Best Paper Award, Runner-up (The Death of a Technical Skill)](https://doi.org/10.1287/isre.2022.0709), 2026
 
@@ -683,7 +674,7 @@ Ongoing research project; no public draft is currently available.
    Basic Parachutist Badge, 1999
 
 
-# Grants
+## Grants
 
    Microsoft Research, 2023
 
@@ -720,9 +711,11 @@ Ongoing research project; no public draft is currently available.
 
    HBS Technology, Operations and Management Seminar, 2025
 
-   Stanford Digitial Economy Lab - Invited Seminar, 2024
+   [Stanford Digital Economy Lab - Invited Seminar](https://digitaleconomy.stanford.edu/event/john-horton-automated-social-science-language-models-as-scientist-and-subjects/), 2024
 
-   [CMU Workforce and Technology Mini-Conference](https://www.cmu.edu/block-center/news-events/block-events/labor-conference-2024.html), 2024
+   [Harvard EconCS Seminar](https://econcs.seas.harvard.edu/seminar-schedule-spring-2024), 2024
+
+   [CMU Workforce and Technology Mini-Conference](https://www.cmu.edu/block-center/news-events/building-resilient-workforces), 2024
 
    Behavioral Approaches to Financial Decision Making Conference, 2024
 
@@ -786,7 +779,7 @@ Ongoing research project; no public draft is currently available.
 
    Frankfurt School of Finance and Management, 2021
 
-   Mannheim Unversity, 2021
+   University of Mannheim, 2021
 
    Columbia Business School, Management Dept., 2021
 
@@ -798,13 +791,13 @@ Ongoing research project; no public draft is currently available.
 
    [Toulouse Seminar in Platform Economics](https://www.tse-fr.eu/talks-2020-2023-academic-year), 2021
 
-   NBER Labor Studies Meeting, 2021
+   [NBER Labor Studies Meeting](https://www.nber.org/conferences/si-2021-labor-studies), 2021
 
    MIT Org econ Seminar (remote), 2020
 
    MIT Sloan, TIES Group (remote), 2020
 
-   University of Washington - Olin School of Business (remote), 2020
+   Washington University in St. Louis - Olin Business School (remote), 2020
 
    CMU Heinz School, 2020
 
@@ -856,7 +849,7 @@ Ongoing research project; no public draft is currently available.
 
    HBS Entrepreneurial Management Unit, 2017
 
-   AEA Annual Meeting, "Inequality in the Evolving Labor Market", 2017
+   [AEA Annual Meeting, "Inequality in the Evolving Labor Market"](https://www.aeaweb.org/conference/2017/preliminary/1441?page=6&per-page=50), 2017
 
    Speaker, Collective Intelligence, NYU Stern, 2016
 
@@ -888,7 +881,7 @@ Ongoing research project; no public draft is currently available.
 
    [NBER Summer Institute, Economics of IT and Digitization](https://www.nber.org/conferences/si-2015-economics-it-and-digitization-workshop), 2015
 
-   ACM-Electronic Commerce, Portland, 2015
+   [ACM Conference on Economics and Computation, Portland](https://doi.org/10.1145/2764468), 2015
 
    [SOLE/EALE Conference, Montreal](https://www.sole-jole.org/2015CompleteProgram), 2015
 
@@ -904,7 +897,7 @@ Ongoing research project; no public draft is currently available.
 
    Carnegie Mellon University, School of Computing, 2015
 
-   [Texas A&M University, Economics Dept, Economic Theory & Experimentation Seminar](http://squash.tamu.edu/workshops/list.htm?type=Theory_and_Experimental_Economics), 2015
+   Texas A&M University, Economics Dept, Economic Theory & Experimentation Seminar, 2015
 
    UMN, Carlson School of Management, Work & Organizations Dept. Seminar, 2015
 
@@ -916,7 +909,7 @@ Ongoing research project; no public draft is currently available.
 
    University of Chicago, Harris School, Public Policy and Economics Seminar, 2014
 
-   University of Nuremburg, 2014
+   University of Nuremberg, 2014
 
    Xiamen University, International Symposium on Contemporary Labor Economics, 2013
 
@@ -924,7 +917,7 @@ Ongoing research project; no public draft is currently available.
 
    MIT Roundtable on the Digital Economy, 2013
 
-   SOLE/EALE, Society of Labor Economics Annual Meeting, 2013
+   [SOLE Annual Meeting](https://www.sole-jole.org/2013Program), 2013
 
    The Bernard L. Schwartz Globalization Initiative at SAIS Distinguished Lecture Series, Johns Hopkins University, November 2012, 2012
 

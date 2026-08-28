@@ -40,23 +40,14 @@
 {% endfor %}
 
 
-# Projects
+# Awards & Grants
 
-{% for project in projects %}
-### {{ project.title }}
-
-(with {{ project.collaborators }})
-
-{{ project.description }}{% if project.url %} [Project page]({{ project.url }}){% endif %}
-{% endfor %}
-
-
-# Awards
+## Awards
 {% for award in awards %}
    {% if award.url %}[{{ award.award }}]({{ award.url }}){% else %}{{ award.award }}{% endif %}, {{ award.year }}
 {% endfor %}
 
-# Grants
+## Grants
 {% for grant in grants %}
    {{ grant.grant }}, {{ grant.year }}
 {% endfor %}

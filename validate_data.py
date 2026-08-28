@@ -126,7 +126,7 @@ def main():
     for table in ("jobs", "talks", "education", "affiliations", "awards"):
         rows = read_table(table, {"url"})
         check_urls(rows, table, require_unique=table not in {"jobs", "affiliations"})
-    for table in ("grants", "service", "reviewing", "projects"):
+    for table in ("grants", "service", "reviewing"):
         read_table(table, set())
 
     courses = read_table("courses", {"id", "course_title", "institution", "role"})

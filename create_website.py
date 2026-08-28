@@ -320,7 +320,6 @@ twitter_threads = Collection(Entity, "twitter_threads")
 code = Collection(Entity, "code")
 video = Collection(Entity, "video")
 grants = Collection(Entity, "grants")
-projects = Collection(Entity, "projects")
 service = Collection(Entity, "service")
 reviewing = Collection(Entity, "reviewing")
 publications = Collection(Publication, "publication_info")
@@ -370,7 +369,6 @@ d = {
     "education": education,
     "papers": list(papers.values()),
     "grants": grants,
-    "projects": projects,
     "service": service,
     "reviewing": reviewing,
     "teaching": teaching_rows,

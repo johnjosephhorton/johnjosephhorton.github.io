@@ -20,8 +20,6 @@ of record:
   and canonical URL. A paper may have multiple publication rows.
 - `jobs.csv`, `awards.csv`, `grants.csv`, `talks.csv`, and `education.csv`
   populate the other visible sections.
-- `projects.csv` contains ongoing projects for which no public paper draft is
-  available yet; these appear separately from research papers.
 - Google Scholar links live in the `google_scholar` column of `papers.csv`;
   keeping them with their papers avoids a second, conflicting citation table.
 - The remaining CSV files preserve local CV data that is not currently shown
@@ -60,6 +58,10 @@ stamps it again from the exact commit being published.
 
 Run `make validate` after editing CSVs to catch duplicate IDs and broken
 relationships. `make build` runs this check automatically.
+
+Run `make links` to check every external URL stored in the CSV source files.
+GitHub Actions also runs this audit weekly and on demand; access-restricted
+responses such as HTTP 403 and 429 are reported but not treated as dead links.
 
 Run `make website` on macOS to build and open the page locally. Run
 `make pdf` to produce `cv.pdf`.
