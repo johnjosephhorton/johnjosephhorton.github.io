@@ -14,12 +14,12 @@ socialimage: "https://john-joseph-horton.com/images/papers/large-language-models
 
 *John J. Horton, Apostolos Filippas, and Benjamin S. Manning contributed equally.*
 
-**Status:** R&R at Review of Economics and Statistics
+**Status:** Conditional accept at Review of Economics and Statistics
 
 **Published:** [Proceedings of the 25th ACM Conference on Economics and Computation: 614-615 (2024)](https://doi.org/10.1145/3670865.3673513)
 
 
-**Last updated:** 2026-02
+**Last updated:** 2026-09-01
 
 
 ## Summary

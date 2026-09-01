@@ -504,7 +504,11 @@ for id, paper in papers.items():
     paper.add_publications(publications)
     paper.topic = paper_topics[paper.id]["topic"]
     paper.selected = paper_topics[paper.id]["selected"] == "1"
-    if "forthcoming" in paper.status.lower() or any(p.publication_type.startswith("forthcoming-") for p in paper.publications):
+    if (
+        "forthcoming" in paper.status.lower()
+        or "conditional accept" in paper.status.lower()
+        or any(p.publication_type.startswith("forthcoming-") for p in paper.publications)
+    ):
         paper.status_group = "Forthcoming"
     elif paper.show_status or not paper.primary_publication or paper.primary_publication.publication_type == "working-paper":
         paper.status_group = "Active working paper"
