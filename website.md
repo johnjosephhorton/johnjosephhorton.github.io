@@ -6,7 +6,7 @@
 
 
 I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management, jointly appointed to the Technological Innovation, Entrepreneurship, and Strategic Management (TIES) and Information Technology (IT) groups, and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
-[Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [CV](cv.pdf) · [Bio & press](bio.html) · [\@johnjhorton](https://twitter.com/johnjhorton)
+[Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [CV](cv.pdf) · [Bio & press](bio.html) · [\@johnjhorton](https://x.com/johnjhorton)
 
 <section class="featured-research" aria-labelledby="featured-research-heading">
 <h2 id="featured-research-heading">Featured research</h2>
@@ -207,7 +207,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 * Status: R&R at Review of Economics and Statistics
 
 
-<div class="resource-links" aria-label="Resources for Large language models as economic agents: What can we learn from Homo silicus?"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:YlPif8NxrbYC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/cMWUnQdPM9A">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1927RDjVnDD0kRelfFc9EdvH5zo68KMNdFDD0GSSLFKI/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/1606364947335741453?s=20&t=wfQLuu-9ibxQQZ6uTCG7tw">Thread</a></div>
+<div class="resource-links" aria-label="Resources for Large language models as economic agents: What can we learn from Homo silicus?"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:YlPif8NxrbYC">Google Scholar</a><a class="resource-chip" href="https://youtu.be/cMWUnQdPM9A">Video</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1927RDjVnDD0kRelfFc9EdvH5zo68KMNdFDD0GSSLFKI/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://x.com/johnjhorton/status/1606364947335741453?s=20&t=wfQLuu-9ibxQQZ6uTCG7tw">Thread</a></div>
 
 </article><article id="competition-avoidance-vs-herding-in-job-search-evidence-from-large-scale-field-experiments-on-an-online-job-board" class="paper-entry" data-topic="Digital Markets" data-type="Journal article" data-status="Published" data-selected="true" data-recent="true" data-updated="2026-02" data-year="2026" data-order="8" data-search="Competition avoidance vs. herding in job search: Evidence from large-scale field experiments on an online job board [Andrey Fradkin](https://andreyfradkin.com/) and [Monica Bhole](https://www.linkedin.com/in/mdbhole/) Management Science Journal article Management Science">
 <div class="paper-kicker">Journal article</div>
@@ -279,7 +279,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-<div class="resource-links" aria-label="Resources for The death of a technical skill"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C">Google Scholar</a><a class="resource-chip" href="https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/">Quartz</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ">Thread</a></div>
+<div class="resource-links" aria-label="Resources for The death of a technical skill"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&cstart=20&pagesize=80&citation_for_view=L_O2kH0AAAAJ:w0F2JDEymm0C">Google Scholar</a><a class="resource-chip" href="https://qz.com/work/1702462/what-happens-to-tech-workers-when-their-skills-become-obsolete/">Quartz</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1yNHuqyKfi4GcaEWhUveCtEhoRIllahcuWrhhQVY77Lg/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://x.com/johnjhorton/status/1161316745015189504?s=20&t=cDxvqdjtJ3th-TNLrAHRdQ">Thread</a></div>
 
 </article><article id="learning-from-synthetic-labs-language-models-as-auction-participants" class="paper-entry" data-topic="AI & Methods" data-type="Working paper" data-status="Active working paper" data-selected="true" data-recent="false" data-updated="2025-07" data-year="2025" data-order="13" data-search="Learning from synthetic labs: Language models as auction participants [Anand Shah](https://avshah1.github.io/), [Kehang Zhu](https://scholar.harvard.edu/kehang/home), [Yanchen Jiang](https://yanchenjiang.github.io/), [Jeffrey G. Wang](https://adscientificindex.com/scientist/jeffrey-g-wang/5696153/), [Arif K. Dayi](https://keremdayi.com/) and [David C. Parkes](https://parkes.seas.harvard.edu/) Working paper Working paper ">
 <div class="paper-kicker">Working paper</div>
@@ -487,7 +487,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 
 
-<div class="resource-links" aria-label="Resources for Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026">Slides 2</a><a class="resource-chip" href="https://twitter.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA">Thread</a></div>
+<div class="resource-links" aria-label="Resources for Buyer uncertainty about seller capacity: Causes, consequences, and a partial solution"><a class="resource-chip" href="https://scholar.google.com/citations?view_op=view_citation&hl=en&user=L_O2kH0AAAAJ&pagesize=80&citation_for_view=L_O2kH0AAAAJ:1yWc8FF-_SYC">Google Scholar</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1eADzHrjIblZOBjHc8Olxaz_mt35MqIpf-0SNjte0gug/edit#slide=id.p">Slides</a><a class="resource-chip" href="https://docs.google.com/presentation/d/1TEFWdk1ZEzyuKVFqRTZleV9gFTF_c9jGJTGqOYTpA2M/edit#slide=id.g26a3cf876_026">Slides 2</a><a class="resource-chip" href="https://x.com/johnjhorton/status/981262321044606976?s=20&t=lg_yVE4vThuH7DHCUq5EMA">Thread</a></div>
 
 </article><article id="digital-labor-markets-and-global-talent-flows" class="paper-entry" data-topic="Online Work" data-type="Book chapter" data-status="Published" data-selected="false" data-recent="false" data-updated="2018" data-year="2018" data-order="28" data-search="Digital labor markets and global talent flows [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265) and [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452) Book chapter Book chapter High-Skilled Migration to the United States and Its Economic Consequences">
 <div class="paper-kicker">Book chapter</div>
@@ -893,7 +893,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
    [Digital Economics Seminar (video)](https://www.digitalecon.org/seminar/spring-2021), 2021
 
-   [Toulouse Seminar in Platform Economics](https://www.tse-fr.eu/talks-2020-2023-academic-year), 2021
+   Toulouse Seminar in Platform Economics, 2021
 
    [NBER Labor Studies Meeting](https://www.nber.org/conferences/si-2021-labor-studies), 2021
 </details><details class="talk-year" ><summary>2020 <span>(4)</span></summary>
