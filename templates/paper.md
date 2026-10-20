@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/{{ page.slug }}/"
 socialimage: "{{ page.social_image }}"
 ---
 
+<script type="application/ld+json">{{ page.scholarly_json }}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # {{ paper.title }}

@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/general-social-agents/"
 socialimage: "https://john-joseph-horton.com/images/papers/general-social-agents.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"General social agents","author":[{"@type":"Person","name":"Benjamin Manning"},{"@type":"Person","name":"John J. Horton"}],"url":"https://john-joseph-horton.com/papers/general-social-agents/","mainEntityOfPage":"https://john-joseph-horton.com/papers/general-social-agents/","description":"Useful social science theories predict behavior across settings, but applying a theory in new settings often requires ad hoc modifications. We argue that AI agents placed in simulations offer an alternative requiring minimal or no modification. We build “general” agents using theory-grounded natural-language instructions, existing empirical data, and knowledge acquired during model training. To test predictions where no data from the target data-generating process exists, we design a heterogeneous population of 883,320 novel games and construct AI agents using human data from a small set of conceptually related but structurally distinct seed games.","inLanguage":"en"}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # General social agents

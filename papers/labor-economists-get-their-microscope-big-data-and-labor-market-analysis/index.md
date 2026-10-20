@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/labor-economists-get-their-mic
 socialimage: "https://john-joseph-horton.com/images/papers/labor-economists-get-their-microscope-big-data-and-labor-market-analysis.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Labor economists get their microscope: Big data and labor market analysis","author":[{"@type":"Person","name":"John J. Horton"},{"@type":"Person","name":"Prasanna Tambe"}],"url":"https://john-joseph-horton.com/papers/labor-economists-get-their-microscope-big-data-and-labor-market-analysis/","mainEntityOfPage":"https://john-joseph-horton.com/papers/labor-economists-get-their-microscope-big-data-and-labor-market-analysis/","description":"This article describes how the fine-grained data being collected by Internet labor market intermediaries, such as employment websites, online labor markets, and knowledge discussion boards, are providing new research opportunities and directions for the empirical analysis of labor market activity. After discussing these data sources, we examine some of the research opportunities they have created, highlight some examples of existing work that already use these new data sources, and enumerate the challenges associated with the use of these corporate data sources.","inLanguage":"en","isPartOf":{"@type":"CreativeWork","name":"Big Data"},"datePublished":"2015-09-01","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1089/big.2015.0017"}}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Labor economists get their microscope: Big data and labor market analysis

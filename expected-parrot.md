@@ -22,15 +22,15 @@ We're particularly focused on supporting researchers, both with credits and dire
 <div class="writing-list">
 <article>
 <time datetime="2026-07-31">July 31, 2026</time>
-<h3><a href="https://blog.expectedparrot.com/p/nerd-stuff-research-surveys-should">[Nerd Stuff]: Research Surveys Should Be Version-Controlled Files</a></h3>
+<h3><a href="https://blog.expectedparrot.com/nerd-stuff-research-surveys-should/">[Nerd Stuff]: Research Surveys Should Be Version-Controlled Files</a></h3>
 <p>And with Expected Parrot, they are!</p>
 </article><article>
 <time datetime="2026-07-29">July 29, 2026</time>
-<h3><a href="https://blog.expectedparrot.com/p/we-can-do-that-best-practices-for">We Can Do That! Best Practices for Dealing with Randomness in Language Model Outputs</a></h3>
+<h3><a href="https://blog.expectedparrot.com/we-can-do-that-best-practices-for/">We Can Do That! Best Practices for Dealing with Randomness in Language Model Outputs</a></h3>
 <p>How Expected Parrot embodies many best practices out of the box</p>
 </article><article>
 <time datetime="2026-07-23">July 23, 2026</time>
-<h3><a href="https://blog.expectedparrot.com/p/twitter-proposes-prolific-disposes">Twitter Proposes; Prolific Disposes — Part I</a></h3>
+<h3><a href="https://blog.expectedparrot.com/twitter-proposes-prolific-disposes/">Twitter Proposes; Prolific Disposes — Part I</a></h3>
 <p>Using Expected Parrot to test promising ideas with real humans</p>
 </article>
 </div>

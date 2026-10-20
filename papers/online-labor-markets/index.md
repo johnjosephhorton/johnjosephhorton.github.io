@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/online-labor-markets/"
 socialimage: "https://john-joseph-horton.com/images/papers/online-labor-markets.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Online labor markets","author":[{"@type":"Person","name":"John J. Horton"}],"url":"https://john-joseph-horton.com/papers/online-labor-markets/","mainEntityOfPage":"https://john-joseph-horton.com/papers/online-labor-markets/","description":"In recent years, a number of online labor markets have emerged that allow workers from around the world to sell their labor to an equally global pool of buyers. The creators of these markets play the role of labor market intermediary by providing institutional support and remedying informational asymmetries. In this paper, I explore market creators’ choices of price structure, price level and investment in platforms. I also discuss competition among markets and the business strategies employed by market creators. The paper concludes with a discussion of the productivity and welfare effects of online labor.","inLanguage":"en","isPartOf":{"@type":"CreativeWork","name":"Internet and Network Economics: 6th International Workshop (WINE 2010)"},"datePublished":"2010-12","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1007/978-3-642-17572-5_45"}}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Online labor markets

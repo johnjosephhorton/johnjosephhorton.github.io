@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/reputation-inflation/"
 socialimage: "https://john-joseph-horton.com/images/papers/reputation-inflation.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Reputation inflation","author":[{"@type":"Person","name":"Apostolos Filippas"},{"@type":"Person","name":"John J. Horton"},{"@type":"Person","name":"Joseph Golden"}],"url":"https://john-joseph-horton.com/papers/reputation-inflation/","mainEntityOfPage":"https://john-joseph-horton.com/papers/reputation-inflation/","description":"A solution to marketplace information asymmetries is to have trading partners publicly rate each other post-transaction. Many have shown that these ratings are effective; we show that their effectiveness can deteriorate over time. The problem is that ratings are prone to inflation, with raters feeling pressure to leave “above average” ratings, which in turn pushes the average higher. This pressure stems from raters’ desire to not harm the rated seller. As the potential to harm is what makes ratings effective, reputation systems, as typically designed, become less informative in the long-run.","inLanguage":"en","isPartOf":{"@type":"CreativeWork","name":"Marketing Science"},"datePublished":"2022-07","identifier":{"@type":"PropertyValue","propertyID":"DOI","value":"10.1287/mksc.2022.1350"}}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Reputation inflation

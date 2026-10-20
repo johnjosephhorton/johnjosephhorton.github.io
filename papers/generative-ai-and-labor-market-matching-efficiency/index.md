@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/generative-ai-and-labor-market
 socialimage: "https://john-joseph-horton.com/images/papers/generative-ai-and-labor-market-matching-efficiency.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Generative AI and labor market matching efficiency","author":[{"@type":"Person","name":"Emma Wiles"},{"@type":"Person","name":"John J. Horton"}],"url":"https://john-joseph-horton.com/papers/generative-ai-and-labor-market-matching-efficiency/","mainEntityOfPage":"https://john-joseph-horton.com/papers/generative-ai-and-labor-market-matching-efficiency/","description":"Reductions in private search costs due to advances in information technology can theoretically improve market efficiency, but negative externalities can reverse those gains. In a large-scale field experiment on an online labor market, employers randomly offered AI-written first drafts were 19% more likely to post a job and spent 44% less time writing. Despite the increase in postings, matches did not increase. Marginal jobs came from employers with lower hiring intent, and treated posts were more generic and less informative. The resulting dilution of employer-seriousness signals wasted jobseeker time, producing welfare losses per post six times greater than employers' time savings.","inLanguage":"en"}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Generative AI and labor market matching efficiency

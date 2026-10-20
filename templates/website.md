@@ -1,4 +1,4 @@
-# {{ basic_info.name }}
+# {{ basic_info.name }} {% raw %}{#home}{% endraw %}
 
 <img src="images/me.jpeg" alt="Portrait of John J. Horton" width="200" />
 
@@ -7,6 +7,12 @@
 
 {{ basic_info.bio }}
 [Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [CV](cv.pdf) · [Bio & press](bio.html) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
+
+<section class="featured-research" aria-labelledby="featured-research-heading">
+<h2 id="featured-research-heading">Featured research</h2>
+<ul>{% for paper in featured_papers %}<li><a href="{{ paper.page_url }}">{{ paper.title }}</a>{% if paper.primary_publication %}<span>{{ paper.primary_publication.venue }}</span>{% endif %}</li>{% endfor %}</ul>
+<a class="all-research-link" href="#research">Browse all research</a>
+</section>
 
 {% for venture in ventures %}<aside class="venture-card" aria-label="{{ venture.name }}">
 <div class="venture-label">Also building</div>
@@ -25,19 +31,19 @@
 <div class="writing-list">{% for post in writing %}<article><time datetime="{{ post.date }}">{{ post.display_date }}</time><h3><a href="{{ post.url }}">{{ post.title }}</a></h3><p>{{ post.description }}</p></article>{% endfor %}</div>
 </section>
 
-# Employment
+## Employment
 
 {% for job in jobs %}
    {{ job.title }}, {% if job.url %}[{{ job.institution }}]({{ job.url }}){% else %}{{ job.institution }}{% endif %}, {{ job.start}}{% if job.end %}---{{ job.end }}{% endif %}
 {% endfor %} 
 
-## Affiliations
+### Affiliations
 
 {% for affiliation in affiliations %}
    {{ affiliation.role }}, {% if affiliation.url %}[{{ affiliation.organization }}]({{ affiliation.url }}){% else %}{{ affiliation.organization }}{% endif %}, {{ affiliation.start }}---{{ affiliation.end }}
 {% endfor %}
 
-# Research {.paper-class}
+## Research {.paper-class}
 
 <div class="research-tools" role="search" aria-label="Filter research">
 <label for="research-search">Find a paper</label>
@@ -51,7 +57,7 @@
 <div class="filter-label">Publication type</div><div class="filter-chips type-chips" aria-label="Research publication type filters"><button class="type-chip active" type="button" data-type="all">All types</button>{% for type in research_types %}<button class="type-chip" type="button" data-type="{{ type }}">{{ type }}</button>{% endfor %}</div>
 <div class="filter-chips status-chips" aria-label="Research status filters"><button class="status-chip active" type="button" data-status="all">Any status</button>{% for status in research_statuses %}<button class="status-chip" type="button" data-status="{{ status }}">{{ status }}</button>{% endfor %}</div>
 
-<div id="research-results">{% for paper in papers %}<article class="paper-entry" data-topic="{{ paper.topic }}" data-type="{{ paper.type_label }}" data-status="{{ paper.status_group }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-recent="{{ 'true' if paper.recent else 'false' }}" data-updated="{{ paper.last_updated }}" data-year="{{ paper.publication_year }}" data-order="{{ paper.original_order }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {{ paper.type_label }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
+<div id="research-results">{% for paper in papers %}<article id="{{ paper.anchor_id }}" class="paper-entry" data-topic="{{ paper.topic }}" data-type="{{ paper.type_label }}" data-status="{{ paper.status_group }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-recent="{{ 'true' if paper.recent else 'false' }}" data-updated="{{ paper.last_updated }}" data-year="{{ paper.publication_year }}" data-order="{{ paper.original_order }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {{ paper.type_label }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
 <div class="paper-kicker">{{ paper.type_label }}</div>
 ### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {%if paper.with_line %} {.paper-class}
 (with {{ paper.with_line }}){% endif %}
@@ -70,38 +76,38 @@
 </article>{% endfor %}</div>
 
 
-# Awards & Grants
+## Awards & Grants
 
-## Awards
+### Awards
 {% for award in awards %}
    {% if award.url %}[{{ award.award }}]({{ award.url }}){% else %}{{ award.award }}{% endif %}, {{ award.year }}
 {% endfor %}
 
-## Grants
+### Grants
 {% for grant in grants %}
    {{ grant.grant }}, {{ grant.year }}
 {% endfor %}
 
-# Talks
-## Featured talks
+## Talks
+### Featured talks
 <div class="featured-talks">{% for talk in featured_talks %}<a class="resource-chip" href="{{ talk.url }}">{{ talk.topic }} <span>Video</span></a>{% endfor %}</div>
 
-## Complete talk archive
+### Complete talk archive
 <div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
 {% for year, year_talks in talk_groups.items() %}<details class="talk-year" {% if loop.index <= 2 %}open{% endif %}><summary>{{ year }} <span>({{ year_talks|length }})</span></summary>
 {% for talk in year_talks %}
    {% if talk.url %}[{{ talk.event }}]({{ talk.url }}), {{ talk.year }}{% else %}{{ talk.event }}, {{ talk.year }}{% endif %}
 {% endfor %}</details>{% endfor %}
 
-# Education
+## Education
 
 {% for school in education %}
 {% if school.url %}[{{ school.institution }}]({{ school.url }}){% else %}{{ school.institution }}{% endif %}, {{ school.degree}}{% if school.field %} in {{ school.field }}{% endif %}{% if school.finish %}, {{ school.finish }}{% endif %}
 {% endfor %}
 
-# Teaching & Service
+## Teaching & Service
 
-## Teaching
+### Teaching
 
 {% for item in teaching %}
 ### {{ item.course_title }}
@@ -109,12 +115,12 @@
 {{ item.institution }} — {{ item.terms | join(' · ') }}
 {% endfor %}
 
-## Service
+### Service
 
 {% for item in service %}
    {{ item.role }}, {{ item.organization }}, {{ item.start }}---{{ item.end }}
 {% endfor %}
 
-## Reviewing
+### Reviewing
 
 {{ reviewing | map(attribute='journal') | join(' · ') }}

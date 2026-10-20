@@ -216,6 +216,7 @@ class Paper(Entity):
                 "ssrn": "SSRN",
                 "acmec": "ACM EC",
                 "acm": "ACM",
+                "aea": "AEA Paper Page",
                 "jole": "JOLE",
                 "isr": "ISR",
                 "mansci": "Management Science",
@@ -519,17 +520,18 @@ for id, paper in papers.items():
     paper.coauthors = [person for person in paper.authors if person.id != "john"]
     paper.contribution_note = paper_contributions.get(paper.id, "")
 
+def slugify(value):
+    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
+    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
+
+
 ordered_papers = sorted(
     papers.values(), key=lambda paper: paper.last_updated, reverse=True
 )
 for index, paper in enumerate(ordered_papers):
     paper.recent = index < 10
     paper.original_order = index
-
-def slugify(value):
-    value = unicodedata.normalize("NFKD", value).encode("ascii", "ignore").decode()
-    return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
-
+    paper.anchor_id = slugify(paper.title)
 
 paper_page_template = jinja2.Environment(
     loader=FileSystemLoader("templates/")
@@ -549,6 +551,32 @@ for paper in papers.values():
     authors = [f"{person.last}, {person.first}" for person in paper.authors]
     citation_key = f'horton{row["year"]}{row["slug"].replace("-", "")}'
     detail_url = f'https://john-joseph-horton.com/papers/{row["slug"]}/'
+    scholarly_article = {
+        "@context": "https://schema.org",
+        "@type": "ScholarlyArticle",
+        "headline": paper.title,
+        "author": [{"@type": "Person", "name": person.plain_name} for person in paper.authors],
+        "url": detail_url,
+        "mainEntityOfPage": detail_url,
+        "description": row["description"],
+        "inLanguage": "en",
+    }
+    if paper.primary_publication:
+        scholarly_article["isPartOf"] = {
+            "@type": "CreativeWork",
+            "name": paper.primary_publication.venue,
+        }
+        if paper.primary_publication.publication_date and not paper.primary_publication.publication_type.startswith("forthcoming-"):
+            scholarly_article["datePublished"] = paper.primary_publication.publication_date
+        if paper.primary_publication.doi:
+            scholarly_article["identifier"] = {
+                "@type": "PropertyValue",
+                "propertyID": "DOI",
+                "value": paper.primary_publication.doi,
+            }
+    row["scholarly_json"] = json.dumps(
+        scholarly_article, ensure_ascii=False, separators=(",", ":")
+    ).replace("<", "\\u003c")
     if paper.primary_publication:
         row["bibtex"] = paper.primary_publication.bibtex(citation_key, authors, detail_url)
     else:
@@ -594,6 +622,7 @@ d = {
     "awards": awards,
     "education": education,
     "papers": ordered_papers,
+    "featured_papers": [papers[paper_id] for paper_id in ("ass", "twitter", "minimum_wage")],
     "research_topics": sorted({paper.topic for paper in papers.values()}),
     "research_statuses": ["Published", "Forthcoming", "Active working paper"],
     "research_types": sorted({paper.type_label for paper in papers.values()}),

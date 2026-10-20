@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/marginal-ideas/"
 socialimage: "https://john-joseph-horton.com/images/papers/marginal-ideas.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Marginal ideas","author":[{"@type":"Person","name":"Amir Sariri"},{"@type":"Person","name":"John J. Horton"}],"url":"https://john-joseph-horton.com/papers/marginal-ideas/","mainEntityOfPage":"https://john-joseph-horton.com/papers/marginal-ideas/","description":"Entrepreneurs crowd into promising startup ideas without internalizing the business-stealing costs they impose on one another. The paper shows that the least promising idea that still attracts funding—the marginal idea—can therefore offer the highest social return. It develops a sufficient statistic for this congestion and estimates it using 37,818 U.S. startups grouped into 2,045 idea niches.","inLanguage":"en"}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Marginal ideas
@@ -44,7 +46,7 @@ Entrepreneurs crowd into promising startup ideas without internalizing the busin
 
 ## Coverage
 
-[Marginal Ideas](https://blog.expectedparrot.com/p/marginal-ideas), Expected Parrot
+[Marginal Ideas](https://blog.expectedparrot.com/marginal-ideas/), Expected Parrot
 
 
 ## Cite

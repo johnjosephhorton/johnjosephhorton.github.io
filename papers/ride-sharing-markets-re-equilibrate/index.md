@@ -6,6 +6,8 @@ canonical: "https://john-joseph-horton.com/papers/ride-sharing-markets-re-equili
 socialimage: "https://john-joseph-horton.com/images/papers/ride-sharing-markets-re-equilibrate.png"
 ---
 
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"ScholarlyArticle","headline":"Ride-sharing markets re-equilibrate","author":[{"@type":"Person","name":"Jonathan Hall"},{"@type":"Person","name":"John J. Horton"},{"@type":"Person","name":"Dan Knoepfle"}],"url":"https://john-joseph-horton.com/papers/ride-sharing-markets-re-equilibrate/","mainEntityOfPage":"https://john-joseph-horton.com/papers/ride-sharing-markets-re-equilibrate/","description":"Following Uber-initiated fare increases, drivers make more money per trip and, initially, more per hour-worked. Drivers begin to work more hours. However, this increase in hours-worked—combined with a reduction in demand from a higher fare—has a business stealing effect, with drivers spending a smaller fraction of working hours transporting passengers. This market adjustment brings the hourly earnings rate back to about the rate that prevailed before the fare increase, in roughly two months. Passengers are partially compensated for higher prices by shorter wait times, but during the period covered by our data, fare increases likely reduced passenger welfare.","inLanguage":"en"}</script>
+
 [← John J. Horton’s research](../../index.html#research)
 
 # Ride-sharing markets re-equilibrate
@@ -27,7 +29,7 @@ Following Uber-initiated fare increases, drivers make more money per trip and, i
 
 ## Paper links
 
-[PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [uber_blog](https://www.uber.com/blog/research/labor-market-equilibration-evidence-from-uber)
+[PDF](https://john-joseph-horton.com/papers/uber_price.pdf) · [AEA Paper Page](https://www.aeaweb.org/conference/2018/preliminary/paper/7k8eEa4Z)
 
 
 ## Video
