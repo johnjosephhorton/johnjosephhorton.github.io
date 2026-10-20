@@ -29,7 +29,7 @@ In a model with cheap talk, employers can send messages about their willingness 
 
 ## Paper links
 
-[NBER](https://www.nber.org/papers/w29445)
+[NBER Working Paper](https://www.nber.org/papers/w29445)
 
 
 ## Video

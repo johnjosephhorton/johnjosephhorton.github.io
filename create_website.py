@@ -211,7 +211,7 @@ class Paper(Entity):
         if self._versions:
             labels = {
                 "arxiv": "arXiv",
-                "nber": "NBER",
+                "nber": "NBER Working Paper",
                 "jjh": "PDF",
                 "ssrn": "SSRN",
                 "acmec": "ACM EC",

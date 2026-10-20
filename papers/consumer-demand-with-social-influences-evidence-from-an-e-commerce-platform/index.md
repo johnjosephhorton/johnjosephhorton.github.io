@@ -31,7 +31,7 @@ For some types of goods, rarity itself is valued: items considered “fashionabl
 
 ## Paper links
 
-[NBER](https://www.nber.org/papers/w30351)
+[NBER Working Paper](https://www.nber.org/papers/w30351)
 
 
 

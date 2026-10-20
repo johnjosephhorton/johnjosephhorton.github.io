@@ -31,7 +31,7 @@ Production is a sequence of steps that can be executed (1) manually, (2) augment
 
 ## Paper links
 
-[NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
+[NBER Working Paper](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
 
 
 

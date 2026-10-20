@@ -6,7 +6,7 @@
 
 
 I am an economist and the Chrysler Professor of Management at the MIT Sloan School of Management, jointly appointed to the Technological Innovation, Entrepreneurship, and Strategic Management (TIES) and Information Technology (IT) groups, and a Research Associate at the NBER. My research is primarily focused on issues in information systems, market design, labor economics and organizational economics, particularly in the context of online markets. I am also interested in the effects of AI on labor markets and the potential of AI to improve social science methodology.
-[Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [CV](cv.pdf) · [Bio & press](bio.html) · [\@johnjhorton](https://x.com/johnjhorton)
+[Email](mailto:jjhorton@mit.edu) · [MIT Sloan](https://mitsloan.mit.edu/faculty/directory/john-j-horton) · [NBER profile](https://www.nber.org/people/john_horton) · [Google Scholar](https://scholar.google.com/citations?user=L_O2kH0AAAAJ&hl=en) · [ORCID](https://orcid.org/0000-0001-5426-0156) · [CV](cv.pdf) · [Bio & press](bio.html) · [\@johnjhorton](https://x.com/johnjhorton)
 
 <section class="featured-research" aria-labelledby="featured-research-heading">
 <h2 id="featured-research-heading">Featured research</h2>
@@ -98,7 +98,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [The Coasean singularity? Demand, supply, and market design with AI agents](papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/index.html)  {.paper-class}
 (with [Peyman Shahidi](https://peymanshahidi.github.io/), [Gili Rusak](https://gilirusak.github.io/), [Benjamin Manning](https://www.benjaminmanning.com/) and [Andrey Fradkin](https://andreyfradkin.com/))
 
-* Paper Links: [Details](papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/index.html) · [NBER](https://www.nber.org/papers/w34468)
+* Paper Links: [Details](papers/the-coasean-singularity-demand-supply-and-market-design-with-ai-agents/index.html) · [NBER Working Paper](https://www.nber.org/papers/w34468)
 
 
 * Forthcoming: [The Economics of Transformative AI (2026)](https://www.nber.org/books-and-chapters/economics-transformative-ai/coasean-singularity-demand-supply-and-market-design-ai-agents)
@@ -112,7 +112,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Automated social science: Language models as scientist and subjects](papers/automated-social-science-language-models-as-scientist-and-subjects/index.html)  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/) and [Kehang Zhu](https://scholar.harvard.edu/kehang/home))
 
-* Paper Links: [Details](papers/automated-social-science-language-models-as-scientist-and-subjects/index.html) · [arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
+* Paper Links: [Details](papers/automated-social-science-language-models-as-scientist-and-subjects/index.html) · [arXiv](https://arxiv.org/abs/2404.11794) · [NBER Working Paper](https://www.nber.org/papers/w32381)
 
 
 * Published: [Proceedings of the 27th ACM Conference on Economics and Computation (2026)](https://ec26.sigecom.org/program/accepted-papers/)
@@ -128,7 +128,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [The production and consumption of social media](papers/the-production-and-consumption-of-social-media/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/), [Elliot Lipnowski](https://elliotlipnowski.com/) and [Prasanna Parasurama](https://parasurama.github.io/))
 
-* Paper Links: [Details](papers/the-production-and-consumption-of-social-media/index.html) · [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
+* Paper Links: [Details](papers/the-production-and-consumption-of-social-media/index.html) · [PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER Working Paper](https://www.nber.org/papers/w28666)
 
 
 * Published: [Management Science 72(7): 6368-6388 (2026)](https://doi.org/10.1287/mnsc.2023.00060)
@@ -142,7 +142,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Chaining tasks, redefining work: A theory of AI automation](papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/index.html)  {.paper-class}
 (with [Mert Demirer](https://www.mertdemirer.com/), [Nicole Immorlica](https://www.microsoft.com/en-us/research/people/nicimm), [Brendan Lucier](https://www.microsoft.com/en-us/research/people/brlucier/) and [Peyman Shahidi](https://peymanshahidi.github.io/))
 
-* Paper Links: [Details](papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/index.html) · [NBER](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
+* Paper Links: [Details](papers/chaining-tasks-redefining-work-a-theory-of-ai-automation/index.html) · [NBER Working Paper](https://www.nber.org/papers/w34859) · [arXiv](https://arxiv.org/abs/2606.15960)
 
 
 * Working paper: [NBER Working Paper 34859 (2026)](https://doi.org/10.3386/w34859)
@@ -170,7 +170,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Consumer demand with social influences: Evidence from an e-commerce platform](papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/index.html)  {.paper-class}
 (with [El Hadi Caoui](https://elhadicaoui.github.io/), [Chiara Farronato](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=775022) and [Robert Schultz](https://equitablegrowth.org/people/robert-schultz/))
 
-* Paper Links: [Details](papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/index.html) · [NBER](https://www.nber.org/papers/w30351)
+* Paper Links: [Details](papers/consumer-demand-with-social-influences-evidence-from-an-e-commerce-platform/index.html) · [NBER Working Paper](https://www.nber.org/papers/w30351)
 
 
 * Published: [Management Science 72(4): 3550-3570 (2026)](https://doi.org/10.1287/mnsc.2024.04995)
@@ -228,7 +228,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [General social agents](papers/general-social-agents/index.html)  {.paper-class}
 (with [Benjamin Manning](https://www.benjaminmanning.com/))
 
-* Paper Links: [Details](papers/general-social-agents/index.html) · [arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
+* Paper Links: [Details](papers/general-social-agents/index.html) · [arXiv](https://arxiv.org/abs/2508.17407) · [NBER Working Paper](https://www.nber.org/papers/w34937)
 
 
 
@@ -258,7 +258,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Algorithmic writing assistance on jobseekers’ resumes increases hires](papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/index.html)  {.paper-class}
 (with [Emma Wiles](https://www.emmawiles.com/) and [Zanele Munyikwa](https://www.zanelemunyikwa.com/))
 
-* Paper Links: [Details](papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/index.html) · [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
+* Paper Links: [Details](papers/algorithmic-writing-assistance-on-jobseekers-resumes-increases-hires/index.html) · [PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER Working Paper](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
 
 
 * Published: [Management Science 71(12): 10144-10164 (2025)](https://doi.org/10.1287/mnsc.2024.04528)
@@ -341,7 +341,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Buyer signaling improves matching: Evidence from a field experiment](papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/index.html)  {.paper-class}
 (with [Philipp Kircher](https://philippkircher.com/) and [Ramesh Johari](http://web.stanford.edu/~rjohari/))
 
-* Paper Links: [Details](papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/index.html) · [NBER](https://www.nber.org/papers/w29445)
+* Paper Links: [Details](papers/buyer-signaling-improves-matching-evidence-from-a-field-experiment/index.html) · [NBER Working Paper](https://www.nber.org/papers/w29445)
 
 
 
@@ -383,7 +383,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Reputation inflation](papers/reputation-inflation/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-* Paper Links: [Details](papers/reputation-inflation/index.html) · [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
+* Paper Links: [Details](papers/reputation-inflation/index.html) · [PDF](https://www.apostolos-filippas.com/papers/inflation.pdf) · [mktscience](https://pubsonline.informs.org/doi/abs/10.1287/mksc.2022.1350) · [NBER Working Paper](https://www.nber.org/papers/w25857) · [ACM EC](https://dl.acm.org/doi/abs/10.1145/3219166.3219222) · [repec](https://ideas.repec.org/p/nbr/nberwo/25857.html) · [SSRN](https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3136473)
 
 
 * Published: [Marketing Science 41(4): 733-745 (2022)](https://doi.org/10.1287/mksc.2022.1350)
@@ -439,7 +439,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Steering in online markets: The role of platform incentives and credibility](papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/index.html)  {.paper-class}
 (with [Moshe Barach](https://experts.umn.edu/en/persons/moshe-barach/) and [Joseph Golden](https://www.linkedin.com/in/jgolden9))
 
-* Paper Links: [Details](papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/index.html) · [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
+* Paper Links: [Details](papers/steering-in-online-markets-the-role-of-platform-incentives-and-credibility/index.html) · [PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER Working Paper](https://www.nber.org/papers/w25917)
 
 
 * Published: [Management Science 66(9): 4047-4070 (2020)](https://doi.org/10.1287/mnsc.2019.3412)
@@ -453,7 +453,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Owning, using, and renting: Some simple economics of the sharing economy](papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/index.html)  {.paper-class}
 (with [Apostolos Filippas](https://www.apostolos-filippas.com/) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-* Paper Links: [Details](papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/index.html) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
+* Paper Links: [Details](papers/owning-using-and-renting-some-simple-economics-of-the-sharing-economy/index.html) · [Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER Working Paper](https://www.nber.org/papers/w22029)
 
 
 * Published: [Management Science 66(9): 4152-4172 (2020)](https://doi.org/10.1287/mnsc.2019.3396)
@@ -467,7 +467,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [COVID-19 and remote work: An early look at US data](papers/covid-19-and-remote-work-an-early-look-at-us-data/index.html)  {.paper-class}
 (with [Erik Brynjolfsson](https://www.brynjolfsson.com/), [Adam Ozimek](http://adamozimek.com/), [Daniel Rock](https://oid.wharton.upenn.edu/profile/rockdi/), [Garima Sharma](https://economics.mit.edu/people/phd-students/garima-sharma) and [Hong-Yi TuYe](https://www.linkedin.com/in/hytuye))
 
-* Paper Links: [Details](papers/covid-19-and-remote-work-an-early-look-at-us-data/index.html) · [NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
+* Paper Links: [Details](papers/covid-19-and-remote-work-an-early-look-at-us-data/index.html) · [NBER Working Paper](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
 
 
 
@@ -494,7 +494,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [Digital labor markets and global talent flows](papers/digital-labor-markets-and-global-talent-flows/index.html)  {.paper-class}
 (with [William Kerr](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=337265) and [Christopher Stanton](https://www.hbs.edu/faculty/Pages/profile.aspx?facId=602452))
 
-* Paper Links: [Details](papers/digital-labor-markets-and-global-talent-flows/index.html) · [NBER](https://www.nber.org/papers/w23398)
+* Paper Links: [Details](papers/digital-labor-markets-and-global-talent-flows/index.html) · [NBER Working Paper](https://www.nber.org/papers/w23398)
 
 
 * Published: [High-Skilled Migration to the United States and Its Economic Consequences: 71-108 (2018)](https://www.nber.org/papers/w23398)
@@ -606,7 +606,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 ### [The online laboratory: Conducting experiments in a real labor market](papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/index.html)  {.paper-class}
 (with [David Rand](https://mitsloan.mit.edu/faculty/directory/david-g-rand) and [Richard Zeckhauser](https://www.hks.harvard.edu/faculty/richard-zeckhauser))
 
-* Paper Links: [Details](papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/index.html) · [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
+* Paper Links: [Details](papers/the-online-laboratory-conducting-experiments-in-a-real-labor-market/index.html) · [expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER Working Paper](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
 
 
 * Published: [Experimental Economics 14(3): 399-425 (2011)](https://doi.org/10.1007/s10683-011-9273-9)

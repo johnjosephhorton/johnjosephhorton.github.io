@@ -29,7 +29,7 @@ We report the results of a nationally-representative sample of the US population
 
 ## Paper links
 
-[NBER](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
+[NBER Working Paper](https://www.nber.org/system/files/working_papers/w27344/w27344.pdf)
 
 
 

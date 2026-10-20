@@ -29,7 +29,7 @@ Useful social science theories predict behavior across settings, but applying a 
 
 ## Paper links
 
-[arXiv](https://arxiv.org/abs/2508.17407) · [NBER](https://www.nber.org/papers/w34937)
+[arXiv](https://arxiv.org/abs/2508.17407) · [NBER Working Paper](https://www.nber.org/papers/w34937)
 
 
 

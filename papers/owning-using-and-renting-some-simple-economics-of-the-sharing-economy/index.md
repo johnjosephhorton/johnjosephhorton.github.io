@@ -31,7 +31,7 @@ New Internet-based “sharing economy” markets enable consumer-owners to rent 
 
 ## Paper links
 
-[Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER](https://www.nber.org/papers/w22029)
+[Management Science](https://pubsonline.informs.org/doi/abs/10.1287/mnsc.2019.3396) · [MIT](http://mitsloan.mit.edu/shared/ods/documents?PublicationDocumentID=5554) · [NBER Working Paper](https://www.nber.org/papers/w22029)
 
 
 

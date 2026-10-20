@@ -31,7 +31,7 @@ We present an approach for automatically generating and testing, in silico, soci
 
 ## Paper links
 
-[arXiv](https://arxiv.org/abs/2404.11794) · [NBER](https://www.nber.org/papers/w32381)
+[arXiv](https://arxiv.org/abs/2404.11794) · [NBER Working Paper](https://www.nber.org/papers/w32381)
 
 
 ## Video

@@ -31,7 +31,7 @@ AI agents—autonomous systems that perceive, reason, and act on behalf of human
 
 ## Paper links
 
-[NBER](https://www.nber.org/papers/w34468)
+[NBER Working Paper](https://www.nber.org/papers/w34468)
 
 
 ## Video

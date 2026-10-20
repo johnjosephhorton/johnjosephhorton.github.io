@@ -6,7 +6,7 @@
 
 
 {{ basic_info.bio }}
-[Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [CV](cv.pdf) · [Bio & press](bio.html) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
+[Email](mailto:{{ basic_info.email }}) · [MIT Sloan]({{ basic_info.mit_url }}) · [NBER profile]({{ basic_info.nber_url }}) · [Google Scholar]({{ basic_info.google_scholar }}) · [ORCID]({{ basic_info.orcid_url }}) · [CV](cv.pdf) · [Bio & press](bio.html) · [\{{ basic_info.twitter_handle }}]({{ basic_info.twitter_url }})
 
 <section class="featured-research" aria-labelledby="featured-research-heading">
 <h2 id="featured-research-heading">Featured research</h2>

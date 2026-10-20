@@ -31,7 +31,7 @@ Digital labor markets are rapidly expanding and connecting companies and contrac
 
 ## Paper links
 
-[NBER](https://www.nber.org/papers/w23398)
+[NBER Working Paper](https://www.nber.org/papers/w23398)
 
 
 

@@ -31,7 +31,7 @@ Abstract Online labor markets have great potential as platforms for conducting e
 
 ## Paper links
 
-[expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
+[expecon](https://link.springer.com/article/10.1007/s10683-011-9273-9) · [NBER Working Paper](https://www.nber.org/papers/w15961) · [harvard](https://scholar.harvard.edu/files/rzeckhauser/files/online_laboratory.pdf)
 
 
 

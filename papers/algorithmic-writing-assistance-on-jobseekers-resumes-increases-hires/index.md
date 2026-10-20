@@ -31,7 +31,7 @@ There is a strong association between the quality of the writing in a resume for
 
 ## Paper links
 
-[PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
+[PDF](https://john-joseph-horton.com/papers/algo_writing_assistance.pdf) · [NBER Working Paper](https://www.nber.org/system/files/working_papers/w30886/w30886.pdf) · [arXiv](https://arxiv.org/abs/2301.08083)
 
 
 

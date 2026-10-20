@@ -31,7 +31,7 @@ Platform marketplaces can potentially steer buyers to certain sellers by recomme
 
 ## Paper links
 
-[PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER](https://www.nber.org/papers/w25917)
+[PDF](https://www.john-joseph-horton.com/papers/badging.pdf) · [Management Science](https://pubsonline.informs.org/doi/10.1287/mnsc.2019.3412) · [NBER Working Paper](https://www.nber.org/papers/w25917)
 
 
 

@@ -31,7 +31,7 @@ We model social media as collections of users producing and consuming content. U
 
 ## Paper links
 
-[PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER](https://www.nber.org/papers/w28666)
+[PDF](https://www.john-joseph-horton.com/papers/twitter.pdf) · [NBER Working Paper](https://www.nber.org/papers/w28666)
 
 
 ## Video
