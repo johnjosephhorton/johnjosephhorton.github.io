@@ -54,6 +54,7 @@
 .section-nav { display: flex; gap: 6px; min-width: 0; overflow-x: auto; scrollbar-width: thin; }
 .section-nav a { flex: 0 0 auto; padding: 5px 8px; border-radius: 7px; color: #344054; font-size: .84rem; text-decoration: none; }
 .section-nav a:hover { background: #eaecf0; color: #172033; }
+.section-nav a[aria-current="location"] { background: #eaf2ff; color: #1849a9; font-weight: 650; }
 .content [id], .site-main [id] { scroll-margin-top: 78px; }
 .site-brand:focus-visible, .section-nav a:focus-visible { outline: 3px solid #84adff; outline-offset: 2px; }
 .content h2[tabindex="-1"]:focus { outline: 3px solid #84adff; outline-offset: 4px; }

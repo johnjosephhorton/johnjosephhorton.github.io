@@ -2155,6 +2155,14 @@ Human Interaction · ICIS · CIST</p>
 
       const tabs = [];
       const panels = [];
+      const sectionNavLinks = Array.from(document.querySelectorAll('.section-nav a'));
+
+      function updateCurrentSection(hash) {
+        sectionNavLinks.forEach(function(link) {
+          if (link.hash === hash) link.setAttribute('aria-current', 'location');
+          else link.removeAttribute('aria-current');
+        });
+      }
 
       headings.forEach(function(heading) {
         const id = heading.id;
@@ -2194,6 +2202,7 @@ Human Interaction · ICIS · CIST</p>
           panels[tabIndex].hidden = !active;
         });
         if (updateHash) history.replaceState(null, '', '#' + headings[index].id);
+        updateCurrentSection('#' + headings[index].id);
       }
 
       tabs.forEach(function(tab, index) {
@@ -2211,7 +2220,7 @@ Human Interaction · ICIS · CIST</p>
         });
       });
 
-      document.querySelectorAll('.section-nav a').forEach(function(link) {
+      sectionNavLinks.forEach(function(link) {
         link.addEventListener('click', function(event) {
           const headingId = link.hash.slice(1);
           const index = headings.findIndex(function(heading) { return heading.id === headingId; });
@@ -2227,6 +2236,14 @@ Human Interaction · ICIS · CIST</p>
         });
       });
 
+      window.addEventListener('hashchange', function() {
+        const index = headings.findIndex(function(heading) {
+          return '#' + heading.id === window.location.hash;
+        });
+        if (index >= 0) activateTab(index, false);
+        updateCurrentSection(window.location.hash);
+      });
+
       const hashIndex = headings.findIndex(function(heading) {
         return '#' + heading.id === window.location.hash;
       });
@@ -2234,6 +2251,7 @@ Human Interaction · ICIS · CIST</p>
         return heading.id === 'research';
       });
       activateTab(hashIndex >= 0 ? hashIndex : researchIndex, false);
+      if (window.location.hash) updateCurrentSection(window.location.hash);
     });
   </script>
 </body>
