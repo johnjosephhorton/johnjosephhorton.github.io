@@ -57,6 +57,7 @@
 .content [id], .site-main [id] { scroll-margin-top: 78px; }
 .site-brand:focus-visible, .section-nav a:focus-visible { outline: 3px solid #84adff; outline-offset: 2px; }
 .content h2[tabindex="-1"]:focus { outline: 3px solid #84adff; outline-offset: 4px; }
+.view-chip:focus-visible, .filter-chip:focus-visible, .type-chip:focus-visible, .status-chip:focus-visible { outline: 3px solid #84adff; outline-offset: 2px; }
 .featured-research { margin: 26px 0; padding: 18px 20px; border: 1px solid #dbe5f5; border-radius: 14px; background: #f8faff; }
 .content .featured-research h2 { margin: 0 0 10px; font-size: 1.15rem; }
 .featured-research ul { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; margin: 0 0 10px; padding: 0; list-style: none; }

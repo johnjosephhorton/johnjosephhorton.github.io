@@ -93,7 +93,7 @@
 <div class="featured-talks">{% for talk in featured_talks %}<a class="resource-chip" href="{{ talk.url }}">{{ talk.topic }} <span>Video</span></a>{% endfor %}</div>
 
 ### Complete talk archive
-<div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
+<div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /><span id="talk-count" aria-live="polite"></span></div>
 {% for year, year_talks in talk_groups.items() %}<details class="talk-year" {% if loop.index <= 2 %}open{% endif %}><summary>{{ year }} <span>({{ year_talks|length }})</span></summary>
 {% for talk in year_talks %}
    {% if talk.url %}[{{ talk.event }}]({{ talk.url }}), {{ talk.year }}{% else %}{{ talk.event }}, {{ talk.year }}{% endif %}

@@ -787,7 +787,7 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 <div class="featured-talks"><a class="resource-chip" href="https://www.youtube.com/watch?v=3_exm-tsQ_4&t=20818s">Amir Sariri at the 2026 NBER Summer Institute Entrepreneurship workshop <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=9VJ4oFWk1SE">2025 NBER Economics of Transformative AI Workshop <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=fr_zUWaKDF8">Stanford Digital Economy Lab <span>Video</span></a><a class="resource-chip" href="https://www.youtube.com/watch?v=Mp02sfw4Nhc">ACM-EC <span>Video</span></a></div>
 
 ### Complete talk archive
-<div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /></div>
+<div class="talk-tools"><label for="talk-search">Find a talk</label><input id="talk-search" type="search" placeholder="Search events or years…" autocomplete="off" /><span id="talk-count" aria-live="polite"></span></div>
 <details class="talk-year" open><summary>2026 <span>(5)</span></summary>
 
    [NBER Summer Institute, Entrepreneurship](https://www.nber.org/conferences/si-2026-entrepreneurship), 2026

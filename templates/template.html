@@ -112,7 +112,10 @@ $body$
             group.hidden = !Array.from(group.querySelectorAll(selector)).some(function(item) { return !item.hidden; });
             if (query && !group.hidden) group.open = true;
           });
-          if (count) count.textContent = visible + (visible === 1 ? ' paper' : ' papers');
+        if (count) {
+          const noun = inputId === 'talk-search' ? ' talk' : ' paper';
+          count.textContent = visible + noun + (visible === 1 ? '' : 's');
+        }
         }
         input.addEventListener('input', filter);
         if (inputId === 'research-search') document.querySelectorAll('.view-chip').forEach(function(chip) {
@@ -174,7 +177,7 @@ $body$
         filter();
       }
       installFilter('research-search', '.paper-entry', null, 'research-count');
-      installFilter('talk-search', '.talk-year p', '.talk-year', null);
+      installFilter('talk-search', '.talk-year p', '.talk-year', 'talk-count');
 
       const sectionIds = [
         'employment',
