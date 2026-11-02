@@ -2177,7 +2177,7 @@ Human Interaction · ICIS · CIST</p>
         heading.parentNode.insertBefore(panel, heading);
         panel.appendChild(heading);
         let sibling = panel.nextElementSibling;
-        while (sibling && sibling.tagName !== 'H1') {
+        while (sibling && !headings.includes(sibling)) {
           const next = sibling.nextElementSibling;
           panel.appendChild(sibling);
           sibling = next;
