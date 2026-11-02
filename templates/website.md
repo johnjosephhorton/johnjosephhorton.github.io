@@ -46,29 +46,26 @@
 ## Research {.paper-class}
 
 <div class="research-tools" role="search" aria-label="Filter research">
-<label for="research-search">Find a paper</label>
-<input id="research-search" type="search" placeholder="Search titles, authors, venues, or status…" autocomplete="off" />
-<span id="research-count" aria-live="polite"></span>
-<label class="sort-label" for="research-sort">Sort</label>
-<select id="research-sort"><option value="updated">Recently updated</option><option value="newest">Newest publication</option><option value="oldest">Oldest publication</option></select>
+<input id="research-search" type="search" aria-label="Find a paper" placeholder="Search research…" autocomplete="off" />
+<select id="research-sort" aria-label="Sort research"><option value="updated">Recently updated</option><option value="newest">Newest publication</option><option value="oldest">Oldest publication</option></select>
 </div>
-<div class="research-view" role="group" aria-label="Research collection"><button class="view-chip active" type="button" aria-pressed="true" data-view="selected">Selected research</button><button class="view-chip" type="button" aria-pressed="false" data-view="recent">Recently updated</button><button class="view-chip" type="button" aria-pressed="false" data-view="all">All research</button></div>
-<div class="filter-label">Topics</div><div class="filter-chips" role="group" aria-label="Research topic filters"><button class="filter-chip active" type="button" aria-pressed="true" data-topic="all">All topics</button>{% for topic in research_topics %}<button class="filter-chip" type="button" aria-pressed="false" data-topic="{{ topic }}">{{ topic }}</button>{% endfor %}</div>
-<div class="filter-label">Publication type</div><div class="filter-chips type-chips" role="group" aria-label="Research publication type filters"><button class="type-chip active" type="button" aria-pressed="true" data-type="all">All types</button>{% for type in research_types %}<button class="type-chip" type="button" aria-pressed="false" data-type="{{ type }}">{{ type }}</button>{% endfor %}</div>
-<div class="filter-chips status-chips" role="group" aria-label="Research status filters"><button class="status-chip active" type="button" aria-pressed="true" data-status="all">Any status</button>{% for status in research_statuses %}<button class="status-chip" type="button" aria-pressed="false" data-status="{{ status }}">{{ status }}</button>{% endfor %}</div>
+<div class="research-view" role="group" aria-label="Research collection"><button class="view-chip active" type="button" aria-pressed="true" data-view="selected">Selected</button><button class="view-chip" type="button" aria-pressed="false" data-view="recent">Recent</button><button class="view-chip" type="button" aria-pressed="false" data-view="all">All research</button><span id="research-count" aria-live="polite"></span></div>
+<details class="research-filters"><summary>Filters<span id="active-filter-count"></span></summary><div class="research-filter-fields"><label>Topic<select id="research-topic"><option value="all">All topics</option>{% for topic in research_topics %}<option>{{ topic }}</option>{% endfor %}</select></label><label>Publication type<select id="research-type"><option value="all">All types</option>{% for type in research_types %}<option>{{ type }}</option>{% endfor %}</select></label><label>Status<select id="research-status"><option value="all">Any status</option>{% for status in research_statuses %}<option>{{ status }}</option>{% endfor %}</select></label><button id="reset-research-filters" type="button">Clear filters</button></div></details>
+<p id="research-empty" hidden>No papers match.</p>
 
 <div id="research-results">{% for paper in papers %}<article id="{{ paper.anchor_id }}" class="paper-entry" data-topic="{{ paper.topic }}" data-type="{{ paper.type_label }}" data-status="{{ paper.status_group }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-recent="{{ 'true' if paper.recent else 'false' }}" data-updated="{{ paper.last_updated }}" data-year="{{ paper.publication_year }}" data-order="{{ paper.original_order }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {{ paper.type_label }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
-<div class="paper-kicker">{{ paper.type_label }}</div>
-### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {%if paper.with_line %} {.paper-class}
-(with {{ paper.with_line }}){% endif %}
-{% if paper.version_line or paper.page_url %}
-* Paper Links: {% if paper.page_url %}[Details]({{ paper.page_url }}){% if paper.version_line %} · {% endif %}{% endif %}{{ paper.version_line or '' }}
+### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {.paper-class}
+{% if paper.with_line %}
+with {{ paper.with_line }}
 {% endif %}
 {% if paper.primary_publication %}
-* {{ paper.publication_label }}: {{ paper.primary_publication.citation }}
+{% if paper.publication_label == 'Forthcoming' %}Forthcoming: {% endif %}{{ paper.primary_publication.citation }}
 {% endif %}
 {% if paper.show_status %}
-* Status: {{ paper.status }}
+{{ paper.status }}
+{% endif %}
+{% if paper.version_line %}
+{{ paper.version_line }}
 {% endif %}
 {% if paper.has_additional_links %}
 <div class="resource-links" aria-label="Resources for {{ paper.title }}">{% for resource in paper.resource_links %}<a class="resource-chip" href="{{ resource.url }}">{{ resource.label }}</a>{% endfor %}</div>

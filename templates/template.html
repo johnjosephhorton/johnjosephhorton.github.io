@@ -116,6 +116,11 @@ $body$
           const noun = inputId === 'talk-search' ? ' talk' : ' paper';
           count.textContent = visible + noun + (visible === 1 ? '' : 's');
         }
+        if (inputId === 'research-search') {
+          const activeFilters = [activeTopic, activeType, activeStatus].filter(function(value) { return value !== 'all'; }).length;
+          document.getElementById('active-filter-count').textContent = activeFilters ? ' (' + activeFilters + ')' : '';
+          document.getElementById('research-empty').hidden = visible > 0;
+        }
         }
         input.addEventListener('input', filter);
         if (inputId === 'research-search') document.querySelectorAll('.view-chip').forEach(function(chip) {
@@ -129,40 +134,21 @@ $body$
             filter();
           });
         });
-        if (inputId === 'research-search') document.querySelectorAll('.filter-chip').forEach(function(chip) {
-          chip.addEventListener('click', function() {
-            activeTopic = chip.dataset.topic;
-            document.querySelectorAll('.filter-chip').forEach(function(other) {
-              const selected = other === chip;
-              other.classList.toggle('active', selected);
-              other.setAttribute('aria-pressed', String(selected));
-            });
-            filter();
-          });
-        });
-        if (inputId === 'research-search') document.querySelectorAll('.status-chip').forEach(function(chip) {
-          chip.addEventListener('click', function() {
-            activeStatus = chip.dataset.status;
-            document.querySelectorAll('.status-chip').forEach(function(other) {
-              const selected = other === chip;
-              other.classList.toggle('active', selected);
-              other.setAttribute('aria-pressed', String(selected));
-            });
-            filter();
-          });
-        });
-        if (inputId === 'research-search') document.querySelectorAll('.type-chip').forEach(function(chip) {
-          chip.addEventListener('click', function() {
-            activeType = chip.dataset.type;
-            document.querySelectorAll('.type-chip').forEach(function(other) {
-              const selected = other === chip;
-              other.classList.toggle('active', selected);
-              other.setAttribute('aria-pressed', String(selected));
-            });
-            filter();
-          });
-        });
         if (inputId === 'research-search') {
+          const topic = document.getElementById('research-topic');
+          const type = document.getElementById('research-type');
+          const status = document.getElementById('research-status');
+          function updateFilters() {
+            activeTopic = topic.value;
+            activeType = type.value;
+            activeStatus = status.value;
+            filter();
+          }
+          [topic, type, status].forEach(function(select) { select.addEventListener('change', updateFilters); });
+          document.getElementById('reset-research-filters').addEventListener('click', function() {
+            [topic, type, status].forEach(function(select) { select.value = 'all'; });
+            updateFilters();
+          });
           const sort = document.getElementById('research-sort');
           const results = document.getElementById('research-results');
           sort.addEventListener('change', function() {
