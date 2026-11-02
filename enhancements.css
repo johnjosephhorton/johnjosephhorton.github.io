@@ -36,6 +36,8 @@
 .research-tools select { border: 1px solid #d0d5dd; border-radius: 9px; padding: 10px 32px 10px 10px; background: #fff; color: #344054; font: inherit; }
 .research-tools .sort-label { margin-left: auto; }
 .research-tools span { white-space: nowrap; }
+.research-search { margin: 16px 0 8px; }
+.research-search input { width: min(480px, 100%); min-height: 44px; padding: 10px 12px; border: 1px solid #d0d5dd; border-radius: 6px; background: #fff; color: #344054; font: inherit; font-size: .9rem; }
 .research-tools { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: 12px; padding: 0; margin: 16px 0 12px; }
 .research-tools > p { display: contents; }
 .research-tools input, .research-tools select { border-radius: 6px; font-size: .9rem; min-height: 44px; }

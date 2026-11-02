@@ -206,6 +206,12 @@ Kennedy School</a>, 2012—2013</p>
 <p>Affiliate, <a href="https://www.iq.harvard.edu/">Institute for
 Quantitative Social Science</a>, 2009—2011</p>
 <h2 class="paper-class" id="research">Research</h2>
+<div class="research-search" role="search" aria-label="Search research">
+<input id="research-search" type="search" aria-label="Search papers" placeholder="Search papers…" autocomplete="off" />
+</div>
+<p id="research-empty" role="status" hidden>
+No papers match.
+</p>
 <div id="research-results">
 <article id="large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus" class="paper-entry">
 <h3 class="paper-class"
@@ -1616,6 +1622,24 @@ Human Interaction · ICIS · CIST</p>
         filter();
       }
       installTalkFilter();
+
+      const researchSearch = document.getElementById('research-search');
+      const researchEmpty = document.getElementById('research-empty');
+      const researchPapers = Array.from(document.querySelectorAll('.paper-entry')).map(function(element) {
+        return { element: element, text: element.textContent.toLocaleLowerCase().replace(/\s+/g, ' ') };
+      });
+      function searchResearch() {
+        const query = researchSearch.value.trim().toLocaleLowerCase().replace(/\s+/g, ' ');
+        let matches = 0;
+        researchPapers.forEach(function(paper) {
+          const match = !query || paper.text.includes(query);
+          paper.element.hidden = !match;
+          if (match) matches += 1;
+        });
+        researchEmpty.hidden = matches > 0;
+      }
+      researchSearch.addEventListener('input', searchResearch);
+      searchResearch();
 
       const sectionIds = [
         'employment',

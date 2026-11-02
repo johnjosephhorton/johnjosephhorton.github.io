@@ -110,6 +110,24 @@ $body$
       }
       installTalkFilter();
 
+      const researchSearch = document.getElementById('research-search');
+      const researchEmpty = document.getElementById('research-empty');
+      const researchPapers = Array.from(document.querySelectorAll('.paper-entry')).map(function(element) {
+        return { element: element, text: element.textContent.toLocaleLowerCase().replace(/\s+/g, ' ') };
+      });
+      function searchResearch() {
+        const query = researchSearch.value.trim().toLocaleLowerCase().replace(/\s+/g, ' ');
+        let matches = 0;
+        researchPapers.forEach(function(paper) {
+          const match = !query || paper.text.includes(query);
+          paper.element.hidden = !match;
+          if (match) matches += 1;
+        });
+        researchEmpty.hidden = matches > 0;
+      }
+      researchSearch.addEventListener('input', searchResearch);
+      searchResearch();
+
       const sectionIds = [
         'employment',
         'research',

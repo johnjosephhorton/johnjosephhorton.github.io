@@ -81,6 +81,9 @@ I am an economist and the Chrysler Professor of Management at the MIT Sloan Scho
 
 ## Research {.paper-class}
 
+<div class="research-search" role="search" aria-label="Search research"><input id="research-search" type="search" aria-label="Search papers" placeholder="Search papers…" autocomplete="off" /></div>
+<p id="research-empty" role="status" hidden>No papers match.</p>
+
 <div id="research-results"><article id="large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus" class="paper-entry">
 ### [Large language models as economic agents: What can we learn from Homo silicus?](papers/large-language-models-as-economic-agents-what-can-we-learn-from-homo-silicus/index.html) {.paper-class}
 

@@ -45,6 +45,9 @@
 
 ## Research {.paper-class}
 
+<div class="research-search" role="search" aria-label="Search research"><input id="research-search" type="search" aria-label="Search papers" placeholder="Search papers…" autocomplete="off" /></div>
+<p id="research-empty" role="status" hidden>No papers match.</p>
+
 <div id="research-results">{% for paper in papers %}<article id="{{ paper.anchor_id }}" class="paper-entry">
 ### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {.paper-class}
 {% if paper.with_line %}
