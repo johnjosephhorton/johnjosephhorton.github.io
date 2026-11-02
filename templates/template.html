@@ -86,84 +86,29 @@ $body$
         }
       });
 
-      function installFilter(inputId, selector, groupSelector, countId) {
-        const input = document.getElementById(inputId);
+      function installTalkFilter() {
+        const input = document.getElementById('talk-search');
         if (!input) return;
-        const items = Array.from(document.querySelectorAll(selector));
-        const count = countId ? document.getElementById(countId) : null;
-        let activeTopic = 'all';
-        let activeStatus = 'all';
-        let activeType = 'all';
-        let activeView = inputId === 'research-search' ? 'selected' : 'all';
+        const items = Array.from(document.querySelectorAll('.talk-year p'));
+        const count = document.getElementById('talk-count');
         function filter() {
           const query = input.value.trim().toLocaleLowerCase();
           let visible = 0;
           items.forEach(function(item) {
-            const textMatch = !query || item.textContent.toLocaleLowerCase().includes(query) || (item.dataset.search || '').toLocaleLowerCase().includes(query);
-            const topicMatch = activeTopic === 'all' || item.dataset.topic === activeTopic;
-            const statusMatch = activeStatus === 'all' || item.dataset.status === activeStatus;
-            const typeMatch = activeType === 'all' || item.dataset.type === activeType;
-            const viewMatch = activeView === 'all' || (activeView === 'selected' ? item.dataset.selected === 'true' : item.dataset.recent === 'true');
-            const match = textMatch && topicMatch && statusMatch && typeMatch && viewMatch;
+            const match = !query || item.textContent.toLocaleLowerCase().includes(query);
             item.hidden = !match;
             if (match) visible += 1;
           });
-          if (groupSelector) document.querySelectorAll(groupSelector).forEach(function(group) {
-            group.hidden = !Array.from(group.querySelectorAll(selector)).some(function(item) { return !item.hidden; });
+          document.querySelectorAll('.talk-year').forEach(function(group) {
+            group.hidden = !Array.from(group.querySelectorAll('p')).some(function(item) { return !item.hidden; });
             if (query && !group.hidden) group.open = true;
           });
-        if (count) {
-          const noun = inputId === 'talk-search' ? ' talk' : ' paper';
-          count.textContent = visible + noun + (visible === 1 ? '' : 's');
-        }
-        if (inputId === 'research-search') {
-          const activeFilters = [activeTopic, activeType, activeStatus].filter(function(value) { return value !== 'all'; }).length;
-          document.getElementById('active-filter-count').textContent = activeFilters ? ' (' + activeFilters + ')' : '';
-          document.getElementById('research-empty').hidden = visible > 0;
-        }
+          if (count) count.textContent = visible + (visible === 1 ? ' talk' : ' talks');
         }
         input.addEventListener('input', filter);
-        if (inputId === 'research-search') document.querySelectorAll('.view-chip').forEach(function(chip) {
-          chip.addEventListener('click', function() {
-            activeView = chip.dataset.view;
-            document.querySelectorAll('.view-chip').forEach(function(other) {
-              const selected = other === chip;
-              other.classList.toggle('active', selected);
-              other.setAttribute('aria-pressed', String(selected));
-            });
-            filter();
-          });
-        });
-        if (inputId === 'research-search') {
-          const topic = document.getElementById('research-topic');
-          const type = document.getElementById('research-type');
-          const status = document.getElementById('research-status');
-          function updateFilters() {
-            activeTopic = topic.value;
-            activeType = type.value;
-            activeStatus = status.value;
-            filter();
-          }
-          [topic, type, status].forEach(function(select) { select.addEventListener('change', updateFilters); });
-          document.getElementById('reset-research-filters').addEventListener('click', function() {
-            [topic, type, status].forEach(function(select) { select.value = 'all'; });
-            updateFilters();
-          });
-          const sort = document.getElementById('research-sort');
-          const results = document.getElementById('research-results');
-          sort.addEventListener('change', function() {
-            const direction = sort.value === 'oldest' ? 1 : -1;
-            items.sort(function(a, b) {
-              if (sort.value === 'updated') return a.dataset.updated === b.dataset.updated ? Number(a.dataset.order) - Number(b.dataset.order) : b.dataset.updated.localeCompare(a.dataset.updated);
-              const comparison = a.dataset.year.localeCompare(b.dataset.year);
-              return comparison === 0 ? Number(a.dataset.order) - Number(b.dataset.order) : direction * comparison;
-            }).forEach(function(item) { results.appendChild(item); });
-          });
-        }
         filter();
       }
-      installFilter('research-search', '.paper-entry', null, 'research-count');
-      installFilter('talk-search', '.talk-year p', '.talk-year', 'talk-count');
+      installTalkFilter();
 
       const sectionIds = [
         'employment',

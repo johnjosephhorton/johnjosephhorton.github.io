@@ -45,15 +45,7 @@
 
 ## Research {.paper-class}
 
-<div class="research-tools" role="search" aria-label="Filter research">
-<input id="research-search" type="search" aria-label="Find a paper" placeholder="Search research…" autocomplete="off" />
-<select id="research-sort" aria-label="Sort research"><option value="updated">Recently updated</option><option value="newest">Newest publication</option><option value="oldest">Oldest publication</option></select>
-</div>
-<div class="research-view" role="group" aria-label="Research collection"><button class="view-chip active" type="button" aria-pressed="true" data-view="selected">Selected</button><button class="view-chip" type="button" aria-pressed="false" data-view="recent">Recent</button><button class="view-chip" type="button" aria-pressed="false" data-view="all">All research</button><span id="research-count" aria-live="polite"></span></div>
-<details class="research-filters"><summary>Filters<span id="active-filter-count"></span></summary><div class="research-filter-fields"><label>Topic<select id="research-topic"><option value="all">All topics</option>{% for topic in research_topics %}<option>{{ topic }}</option>{% endfor %}</select></label><label>Publication type<select id="research-type"><option value="all">All types</option>{% for type in research_types %}<option>{{ type }}</option>{% endfor %}</select></label><label>Status<select id="research-status"><option value="all">Any status</option>{% for status in research_statuses %}<option>{{ status }}</option>{% endfor %}</select></label><button id="reset-research-filters" type="button">Clear filters</button></div></details>
-<p id="research-empty" hidden>No papers match.</p>
-
-<div id="research-results">{% for paper in papers %}<article id="{{ paper.anchor_id }}" class="paper-entry" data-topic="{{ paper.topic }}" data-type="{{ paper.type_label }}" data-status="{{ paper.status_group }}" data-selected="{{ 'true' if paper.selected else 'false' }}" data-recent="{{ 'true' if paper.recent else 'false' }}" data-updated="{{ paper.last_updated }}" data-year="{{ paper.publication_year }}" data-order="{{ paper.original_order }}" data-search="{{ paper.title }} {{ paper.with_line or '' }} {{ paper.status }} {{ paper.type_label }} {% if paper.primary_publication %}{{ paper.primary_publication.venue }}{% endif %}">
+<div id="research-results">{% for paper in papers %}<article id="{{ paper.anchor_id }}" class="paper-entry">
 ### {% if paper.page_url %}[{{ paper.title }}]({{ paper.page_url }}){% else %}{{ paper.title }}{% endif %} {.paper-class}
 {% if paper.with_line %}
 with {{ paper.with_line }}
